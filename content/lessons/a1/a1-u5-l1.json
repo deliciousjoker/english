@@ -1,0 +1,217 @@
+{
+  "id": "a1-u5-l1",
+  "level": "a1",
+  "unit": 5,
+  "order": 1,
+  "title": "At the market",
+  "subtitle": "Saturday morning with Maya — a, an and some",
+  "canDo": [
+    "I can name common food.",
+    "I can use a, an and some with food words.",
+    "I can buy food at a market."
+  ],
+  "teacherNotes": [
+    "Sayılabilir / sayılamaz isimler bu derste başlıyor. En sık hatalar: \"a bread\", \"breads\", \"rices\". Ekmek, peynir, süt, pirinç, su: sayılamaz.",
+    "Türkçede \"bir ekmek\" doğal olduğu için Türk öğrenciler \"a bread\" der; a loaf of bread kalıbını verin.",
+    "Arap öğrenciler \"خبز\"ı \"أخباز\" gibi çoğul düşünüp \"breads\" diyebilir; İngilizcede sayılamayan isimler çoğul olmaz.",
+    "Rol yapma: pazar yeri. Bir öğrenci satıcı, diğerleri müşteri (\"Do you have…? Some …, please.\")."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["What's your favorite food?", "Where do you buy food?", "What do you have for breakfast?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Food",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "apple", "pos": "noun", "example": "Those apples are beautiful.", "gloss": { "tr": "elma", "ar": "تفّاحة" } },
+        { "word": "banana", "pos": "noun", "example": "Omar eats a banana for breakfast.", "gloss": { "tr": "muz", "ar": "موزة" } },
+        { "word": "tomato", "pos": "noun", "example": "Some tomatoes, please.", "gloss": { "tr": "domates", "ar": "طماطم، بندورة" } },
+        { "word": "onion", "pos": "noun", "example": "I need an onion.", "gloss": { "tr": "soğan", "ar": "بصل" } },
+        { "word": "potato", "pos": "noun", "example": "Two kilos of potatoes, please.", "gloss": { "tr": "patates", "ar": "بطاطا، بطاطس" } },
+        { "word": "egg", "pos": "noun", "example": "I need some eggs for breakfast.", "gloss": { "tr": "yumurta", "ar": "بيضة" } },
+        { "word": "bread", "pos": "noun", "example": "A loaf of bread, please.", "gloss": { "tr": "ekmek", "ar": "خبز" } },
+        { "word": "cheese", "pos": "noun", "example": "Do you have white cheese?", "gloss": { "tr": "peynir", "ar": "جبن" } },
+        { "word": "milk", "pos": "noun", "example": "There's some milk in the fridge.", "gloss": { "tr": "süt", "ar": "حليب" } },
+        { "word": "rice", "pos": "noun", "example": "We need some rice.", "gloss": { "tr": "pirinç, pilav", "ar": "أرزّ" } },
+        { "word": "chicken", "pos": "noun", "example": "There isn't any chicken.", "gloss": { "tr": "tavuk", "ar": "دجاج" } },
+        { "word": "need", "pos": "verb", "example": "I need some cheese.", "gloss": { "tr": "ihtiyacı olmak, gerekmek", "ar": "يحتاج" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "The Saturday market",
+      "scene": "Saturday morning. Maya and Elif are at the market in the park.",
+      "lines": [
+        { "speaker": "maya", "text": "Here we are — the Saturday market!" },
+        { "speaker": "elif", "text": "Wow, there's a lot of fresh food. Look at those apples!" },
+        { "speaker": "maya", "text": "I always buy some apples and a loaf of bread here." },
+        { "speaker": "elif", "text": "I need some eggs and some cheese for breakfast." },
+        { "speaker": "seller", "text": "Good morning! Fresh eggs, fresh cheese!" },
+        { "speaker": "elif", "text": "Good morning. Do you have white cheese?" },
+        { "speaker": "seller", "text": "Yes, we do. This is feta — from Greece." },
+        { "speaker": "elif", "text": "Perfect! It's like Turkish cheese. Some feta and a dozen eggs, please." },
+        { "speaker": "seller", "text": "Here you are." },
+        { "speaker": "maya", "text": "Elif, don't forget the olives!" },
+        { "speaker": "elif", "text": "Ha! Of course. A Turkish breakfast needs olives!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Maya always buys apples at the market.", "answer": true },
+        { "statement": "Elif needs some milk for breakfast.", "answer": false },
+        { "statement": "The white cheese is from Turkey.", "answer": false },
+        { "statement": "Elif buys a dozen eggs.", "answer": true },
+        { "statement": "Maya says: don't forget the olives.", "answer": true }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "The market in the park",
+      "voice": "narrator",
+      "paragraphs": [
+        ["Every Saturday, there's a market in the park.", "There are a lot of stalls."],
+        ["At the fruit stall, there are apples, oranges and bananas.", "At the bread stall, there's fresh bread, and there are cookies, too."],
+        ["There's a cheese stall with cheese from Greece, France and Italy."],
+        ["Maya buys some apples, a loaf of bread and some flowers for Rose.", "The market opens at eight and closes at one."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "The market",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "Where is the market?", "options": ["in the park", "next to the school", "on Harbor Street"], "answer": 0 },
+        { "prompt": "What's at the bread stall?", "options": ["bread and cookies", "cheese", "flowers"], "answer": 0 },
+        { "prompt": "Maya buys flowers for …", "options": ["Elif", "Rose", "her mother"], "answer": 1 },
+        { "prompt": "The market closes at …", "options": ["eight", "one", "six"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: a, an, some",
+      "look": ["**an** apple · **some** apples", "**a** loaf of bread · **some** bread", "**some** cheese", "**a** dozen eggs · **some** eggs"],
+      "table": {
+        "head": ["Countable: one", "Countable: two or more", "Uncountable"],
+        "rows": [
+          ["an apple", "some apples", "some bread"],
+          ["an egg", "some eggs", "some cheese"],
+          ["a tomato", "some tomatoes", "some milk"],
+          ["a banana", "some bananas", "some rice"]
+        ]
+      },
+      "rules": [
+        "**Countable** nouns: you can count them — one apple, two apples. Use **a / an** or a number.",
+        "**Uncountable** nouns: bread, cheese, milk, rice, water, coffee. No **a / an**, no **-s**.",
+        "Use **some** with plurals and uncountable nouns: **some** eggs, **some** milk.",
+        "To count uncountable things: a **loaf** of bread, a **bottle** of water, a **cup** of coffee"
+      ],
+      "examples": ["I need an onion.", "Some bananas, please.", "There's some milk in the fridge.", "Two bottles of water, please."],
+      "support": {
+        "tr": "İngilizcede bazı isimler sayılabilir (an apple, two apples), bazıları sayılamaz (bread, cheese, milk, rice, water). Sayılamayan isimlere a / an ya da -s gelmez: \"a bread\" veya \"breads\" denmez. Bunun yerine some bread (biraz ekmek) ya da a loaf of bread (bir somun ekmek) denir.",
+        "ar": "في الإنجليزية أسماء معدودة (an apple, two apples) وأسماء غير معدودة (bread, cheese, milk, rice, water). لا نضع a / an ولا s مع غير المعدود: لا نقول «a bread» ولا «breads»، بل some bread (بعض الخبز) أو a loaf of bread (رغيف خبز). ونستخدم some مع الجمع ومع غير المعدود."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "Türkçede \"bir ekmek\" deriz, ama İngilizcede bread sayılamaz.",
+          "wrong": ["a bread, please", "two milks"],
+          "right": ["a loaf of bread, please", "two bottles of milk"]
+        },
+        "ar": {
+          "note": "لا تجمع الأسماء غير المعدودة مثل bread و rice و cheese.",
+          "wrong": ["I buy breads and cheeses.", "some rices"],
+          "right": ["I buy some bread and some cheese.", "some rice"]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with a, an or some.",
+      "support": { "tr": "a, an veya some ile tamamla.", "ar": "أكمل بـ a أو an أو some." },
+      "bank": ["a", "an", "some"],
+      "items": [
+        "I need {an} egg.",
+        "There's {some} milk in the fridge.",
+        "Elif buys {a} tomato.",
+        "We need {some} bread.",
+        "{Some} bananas, please.",
+        "Can I have {an} orange?"
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "How do we count it?",
+      "instructions": "Match the words.",
+      "support": { "tr": "Kelimeleri eşleştir.", "ar": "صِل الكلمات." },
+      "pairs": [
+        ["a loaf of", "bread"],
+        ["a bottle of", "water"],
+        ["a cup of", "coffee"],
+        ["a dozen", "eggs"],
+        ["a kilo of", "potatoes"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "support": { "tr": "Dinle ve doğru cevabı seç.", "ar": "استمع واختر الجواب الصحيح." },
+      "items": [
+        { "audio": "I need some rice, some chicken and an onion.", "voice": "omar", "prompt": "Omar needs …", "options": ["rice, chicken and an onion", "bread and cheese", "eggs and milk"], "answer": 0 },
+        { "audio": "Two bottles of water, please.", "voice": "elif", "prompt": "Elif wants …", "options": ["two bottles of water", "two cups of tea", "two loaves of bread"], "answer": 0 },
+        { "audio": "A loaf of bread and some cookies, please.", "voice": "maya", "prompt": "Maya buys …", "options": ["bread and cookies", "cheese and eggs", "apples"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["I need some eggs.", "Do you have white cheese?", "I buy a loaf of bread.", "There's some milk in the fridge."]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "I need some cheese.", "voice": "elif" },
+        { "text": "Some apples, please.", "voice": "maya" },
+        { "text": "Do you have white cheese?", "voice": "elif" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write",
+      "model": {
+        "heading": "My shopping list — Elif",
+        "text": ["Shopping list: some bread, some cheese, six eggs, an onion and some rice.", "I need some bread and some cheese for breakfast.", "I need an onion and some rice for dinner.", "I buy my food at the market on Saturdays."]
+      },
+      "frame": ["Shopping list: ___.", "I need some ___ for breakfast.", "I need a / an ___ for dinner.", "I buy my food at ___."],
+      "prompt": "Write your shopping list and 3 sentences.",
+      "support": { "tr": "Alışveriş listeni ve 3 cümle yaz.", "ar": "اكتب قائمة مشترياتك و3 جمل." },
+      "minWords": 25,
+      "checklist": ["I use some with bread, cheese, milk, rice.", "I use a or an with one thing: an onion."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "id": "a1-u2-l4",
+  "level": "a1",
+  "unit": 2,
+  "order": 4,
+  "title": "My best friend",
+  "subtitle": "Tea with Rose — have and has",
+  "canDo": [
+    "I can say what people have: I have a brother, she has a cat.",
+    "I can describe how people look: long hair, brown eyes.",
+    "I can write a short text about my best friend."
+  ],
+  "teacherNotes": [
+    "Ünitenin son dersi: \"My best friend\" yazısını ödev olarak verin ve size göndermelerini isteyin (Copy my text).",
+    "Türk öğrenciler \"var\" yüzünden \"There is a brother of me\" gibi cümleler kurabilir. Sahiplik = have / has.",
+    "hair sayılamaz: \"a long hair\" değil \"long hair\". Hem Türk hem Arap öğrencilerde çok sık görülür.",
+    "Bu derste sadece olumlu cümle var. \"Do you have…?\" sorusu Ünite 3'te (do / does) geliyor; şimdilik kalıp olarak geçin."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["Who is your best friend?", "Where is he or she now?", "Do you have a pet?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "best friend", "pos": "noun", "example": "Zeynep is my best friend.", "gloss": { "tr": "en yakın arkadaş", "ar": "أعزّ صديق / صديقة" } },
+        { "word": "hair", "pos": "noun", "example": "She has long black hair.", "gloss": { "tr": "saç", "ar": "شَعر" } },
+        { "word": "eyes", "pos": "noun", "example": "He has brown eyes.", "gloss": { "tr": "gözler", "ar": "عيون" } },
+        { "word": "long", "pos": "adjective", "example": "Her hair is long.", "gloss": { "tr": "uzun", "ar": "طويل" } },
+        { "word": "brown", "pos": "adjective", "example": "Pedro has short brown hair.", "gloss": { "tr": "kahverengi", "ar": "بنّي" } },
+        { "word": "beard", "pos": "noun", "example": "My grandfather has a white beard.", "gloss": { "tr": "sakal", "ar": "لحية" } },
+        { "word": "cat", "pos": "noun", "example": "I have a cat. His name is Tom.", "gloss": { "tr": "kedi", "ar": "قطّة، قطّ" } },
+        { "word": "dog", "pos": "noun", "example": "Sam has a dog.", "gloss": { "tr": "köpek", "ar": "كلب" } },
+        { "word": "garden", "pos": "noun", "example": "Rose has a small garden.", "gloss": { "tr": "bahçe", "ar": "حديقة" } },
+        { "word": "photo", "pos": "noun", "example": "Who's that in the photo?", "gloss": { "tr": "fotoğraf", "ar": "صورة" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Tea in 4A",
+      "scene": "Rose's apartment. Elif shows Rose a photo on her phone.",
+      "lines": [
+        { "speaker": "rose", "text": "Who's that in the photo, Elif?" },
+        { "speaker": "elif", "text": "That's Zeynep. She's my best friend. She's in Izmir." },
+        { "speaker": "rose", "text": "She has lovely hair!" },
+        { "speaker": "elif", "text": "Yes, she has long black hair and brown eyes. She has a little brother and two cats." },
+        { "speaker": "rose", "text": "Two cats! I have a cat, too. His name is Tom." },
+        { "speaker": "elif", "text": "Really? Where is he?" },
+        { "speaker": "rose", "text": "He's in the garden. I have a small garden behind the building." },
+        { "speaker": "elif", "text": "Do you have a best friend, Rose?" },
+        { "speaker": "rose", "text": "Yes, I do. Her name is Dorothy. We're friends from school — sixty years!" },
+        { "speaker": "elif", "text": "Sixty years? Wow!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Zeynep is Elif's best friend.", "answer": true },
+        { "statement": "Zeynep has short hair.", "answer": false },
+        { "statement": "Rose has a cat.", "answer": true },
+        { "statement": "Tom is in the apartment.", "answer": false },
+        { "statement": "Rose and Dorothy are friends from school.", "answer": true }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "My best friend",
+      "intro": "Lucas writes about his best friend.",
+      "voice": "lucas",
+      "paragraphs": [
+        ["My best friend is Pedro.", "He's from São Paulo, too."],
+        ["Pedro is tall and thin.", "He has short brown hair and a beard."],
+        ["Pedro has a small music shop.", "He has a lot of guitars — old guitars, new guitars, big guitars and small guitars!"],
+        ["We have a band.", "Its name is “Blue Monday”."],
+        ["Pedro isn't in Boston.", "He's in Brazil, but we have a video call every Sunday."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Pedro",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "Pedro has …", "options": ["long black hair", "short brown hair", "blonde hair"], "answer": 1 },
+        { "prompt": "Pedro's shop is …", "options": ["a café", "a music shop", "a book shop"], "answer": 1 },
+        { "prompt": "“Blue Monday” is …", "options": ["a song", "a band", "a shop"], "answer": 1 },
+        { "prompt": "Pedro is in …", "options": ["Boston", "Brazil", "London"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: have / has",
+      "look": ["I **have** a cat, too.", "She **has** long black hair.", "Pedro **has** a small music shop.", "We **have** a band."],
+      "table": {
+        "head": ["", "have / has", "Example"],
+        "rows": [
+          ["I / you / we / they", "have", "I **have** a brother."],
+          ["he / she / it", "has", "She **has** two cats."]
+        ]
+      },
+      "rules": [
+        "I, you, we, they → **have**",
+        "he, she, it → **has**",
+        "Use have / has for family, things and how people look: She **has** brown eyes.",
+        "**hair** is one thing: She has long hair. (Don't say “a long hair”.)"
+      ],
+      "examples": ["I have two sisters.", "Omar has a bike.", "They have a big family.", "Mrs. Miller has a garden."],
+      "support": {
+        "tr": "Türkçede sahip olmayı \"-im var\" ile söyleriz: Bir kardeşim var. İngilizcede have / has kullanılır: I have a brother. he / she / it ile has olur: She has a cat = Onun bir kedisi var. Görünüş için de kullanılır: She has long hair = Uzun saçları var.",
+        "ar": "في العربية نقول: «عندي أخ» أو «لديّ أخ». في الإنجليزية نستخدم الفعل have: I have a brother. ومع he / she / it نقول has: She has a cat = عندها قطّة. ونستخدمه أيضًا للوصف: She has long hair = شعرها طويل."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "\"Var\" deyince there is'e kaçma; sahiplik için have / has kullan. Saç (hair) sayılamaz, a almaz.",
+          "wrong": ["There is a brother of me.", "She has a long hair."],
+          "right": ["I have a brother.", "She has long hair."]
+        },
+        "ar": {
+          "note": "مع he / she / it استخدم has وليس have، ولا تضع a قبل hair.",
+          "wrong": ["He have a car.", "She has a long hair."],
+          "right": ["He has a car.", "She has long hair."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with have or has.",
+      "support": { "tr": "have veya has ile tamamla.", "ar": "أكمل بـ have أو has." },
+      "bank": ["have", "has"],
+      "items": [
+        "I {have} a best friend.",
+        "Zeynep {has} long black hair.",
+        "We {have} a lot of photos.",
+        "Rose {has} a garden.",
+        "Omar and Lina {have} a big family.",
+        "Lucas {has} a band."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Who has it?",
+      "instructions": "Match the person and what he or she has.",
+      "support": { "tr": "Kişiyi, sahip olduğu şeyle eşleştir.", "ar": "صِل الشخص بما عنده." },
+      "pairs": [
+        ["Zeynep", "long black hair and two cats"],
+        ["Pedro", "a beard and a music shop"],
+        ["Rose", "a garden and a cat"],
+        ["Sam", "a café and a dog"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "support": { "tr": "Dinle ve doğru cevabı seç.", "ar": "استمع واختر الجواب الصحيح." },
+      "items": [
+        { "audio": "I have a dog. His name is Biscuit.", "voice": "sam", "prompt": "Sam has …", "options": ["a cat", "a dog", "a bike"], "answer": 1 },
+        { "audio": "My best friend has short blonde hair and blue eyes.", "voice": "maya", "prompt": "Her eyes are …", "options": ["brown", "green", "blue"], "answer": 2 },
+        { "audio": "My brother has a car, but I have a bike.", "voice": "omar", "prompt": "Omar has …", "options": ["a car", "a bike", "a dog"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["She has long black hair.", "I have a best friend.", "Rose has a small garden.", "We have a band."]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "I have a cat.", "voice": "rose" },
+        { "text": "She has brown eyes.", "voice": "elif" },
+        { "text": "They have a big family.", "voice": "maya" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: My best friend",
+      "model": {
+        "heading": "My best friend — Elif",
+        "text": [
+          "My best friend is Zeynep.",
+          "She's twenty, and she's from Izmir.",
+          "She has long black hair and brown eyes.",
+          "She's funny and very kind.",
+          "She has a little brother and two cats."
+        ]
+      },
+      "frame": [
+        "My best friend is ___.",
+        "He's / She's ___ years old. He's / She's from ___.",
+        "He / She has ___ hair and ___ eyes.",
+        "He's / She's ___ and ___.",
+        "He / She has ___."
+      ],
+      "prompt": "Write about your best friend (5 or 6 sentences). Send your text to your teacher.",
+      "support": { "tr": "En yakın arkadaşını anlat (5–6 cümle). Metnini öğretmenine gönder.", "ar": "اكتب عن أعزّ أصدقائك (5 أو 6 جمل). أرسل نصّك إلى معلّمك." },
+      "minWords": 35,
+      "checklist": ["I use has with he / she.", "I use two adjectives.", "I write long hair, not a long hair."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

@@ -1,0 +1,86 @@
+/*
+  Tasarım değişkenleri. Varsayılan = "Notebook" (açık).
+  Diğer görünümler ve koyu mod themes.css içinde bu değişkenleri ezer.
+*/
+
+:root {
+  color-scheme: light;
+
+  /* Kağıt ve mürekkep */
+  --bg: #f4efe4;
+  --bg-band: #ece5d6;
+  --surface: #fbf8f1;
+  --surface-2: #efe8d8;
+  --ink: #1d2230;
+  --ink-2: #474c59;
+  --ink-3: #7a7667;
+  --line: #ddd3bf;
+  --line-strong: #bfb298;
+
+  --accent: #24408e; /* dolma kalem mavisi */
+  --accent-ink: #ffffff;
+  --accent-soft: #dfe5f4;
+  --good: #2c7447;
+  --good-soft: #dcefe1;
+  --bad: #bd3a2c; /* öğretmenin kırmızı kalemi */
+  --bad-soft: #f6dfda;
+  --marker: #ffe07a;
+  --marker-soft: #fff3c4;
+  --focus: #24408e;
+
+  --rule: rgba(36, 64, 142, 0.1); /* defter çizgisi */
+  --margin-line: rgba(189, 58, 44, 0.35);
+
+  /* Yazı tipleri */
+  --font-display: 'Fraunces Variable', 'Iowan Old Style', Georgia, serif;
+  --font-body: 'Literata Variable', Georgia, serif;
+  --font-read: 'Literata Variable', Georgia, serif;
+  --font-ui: 'Literata Variable', Georgia, serif;
+  --font-num: 'Fraunces Variable', Georgia, serif;
+  --font-ar: 'Noto Naskh Arabic Variable', 'Noto Naskh Arabic', 'Traditional Arabic', serif;
+
+  --display-weight: 600;
+  --display-tracking: -0.015em;
+  --label-transform: uppercase;
+  --label-tracking: 0.12em;
+  --num-style: italic;
+
+  /* Şekiller */
+  --radius: 4px;
+  --radius-lg: 6px;
+  --radius-btn: 4px;
+  --radius-chip: 999px;
+  --bw: 1px;
+  --card-border: 1px solid var(--line);
+  --card-shadow: 0 1px 0 rgba(29, 34, 48, 0.05), 0 10px 24px -18px rgba(29, 34, 48, 0.35);
+  --pop-shadow: 0 18px 40px -12px rgba(29, 34, 48, 0.35), 0 2px 6px rgba(29, 34, 48, 0.08);
+  --btn-shadow: none;
+  --btn-press: translateY(1px);
+
+  /* Bölümler */
+  --sec-bg: transparent;
+  --sec-border: none;
+  --sec-top: 1px solid var(--line-strong);
+  --sec-pad: 0;
+  --sec-shadow: none;
+
+  /* Seviye renkleri (kitap sırtları) */
+  --lv-starter: #8b7b63;
+  --lv-a1: #c97a1e;
+  --lv-a2: #b8432f;
+  --lv-b1: #3a7f55;
+  --lv-b2: #2f58a3;
+  --lv-c1: #694a98;
+  --lv: var(--accent);
+
+  --topbar-h: 60px;
+  --maxw: 1140px;
+  --readw: 44rem;
+}
+
+.lv-starter { --lv: var(--lv-starter); }
+.lv-a1 { --lv: var(--lv-a1); }
+.lv-a2 { --lv: var(--lv-a2); }
+.lv-b1 { --lv: var(--lv-b1); }
+.lv-b2 { --lv: var(--lv-b2); }
+.lv-c1 { --lv: var(--lv-c1); }

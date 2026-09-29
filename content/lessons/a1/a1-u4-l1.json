@@ -1,0 +1,223 @@
+{
+  "id": "a1-u4-l1",
+  "level": "a1",
+  "unit": 4,
+  "order": 1,
+  "title": "My new room",
+  "subtitle": "Elif shows her mom her room — there is / there are",
+  "canDo": [
+    "I can name rooms and things in a home.",
+    "I can use there is and there are.",
+    "I can describe my room."
+  ],
+  "teacherNotes": [
+    "Warm-up: Öğrencilerden kameralarıyla odalarının bir köşesini göstermelerini ve 2 şey söylemelerini isteyin (\"There's a desk. There are two lamps.\").",
+    "Türk öğrenciler \"var\" yüzünden have kullanabilir (\"In my room have a bed\"). Kural: bir yerde bir şey varsa there is / there are; sahiplik ise have.",
+    "Arap öğrenciler \"يوجد\"u \"is\" ile çevirebilir (\"Is a window in the room?\"). Soruda there'yi unutmasınlar: Is there…?",
+    "any bu derste sadece kalıp olarak (There aren't any…, Are there any…?). some / any Ünite 5'te ayrıntılı."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["Is your home big or small?", "What's in your bedroom?", "What's your favorite room at home?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Home",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "room", "pos": "noun", "example": "My room is small.", "gloss": { "tr": "oda", "ar": "غرفة" } },
+        { "word": "bedroom", "pos": "noun", "example": "There's a bed in the bedroom.", "gloss": { "tr": "yatak odası", "ar": "غرفة النوم" } },
+        { "word": "kitchen", "pos": "noun", "example": "There's a table in the kitchen.", "gloss": { "tr": "mutfak", "ar": "مطبخ" } },
+        { "word": "bathroom", "pos": "noun", "example": "The bathroom is small.", "gloss": { "tr": "banyo", "ar": "حمّام" } },
+        { "word": "living room", "pos": "noun", "example": "There isn't a living room.", "gloss": { "tr": "oturma odası, salon", "ar": "غرفة المعيشة" } },
+        { "word": "bed", "pos": "noun", "example": "The bed is next to the window.", "gloss": { "tr": "yatak", "ar": "سرير" } },
+        { "word": "desk", "pos": "noun", "example": "There's a lamp on the desk.", "gloss": { "tr": "çalışma masası", "ar": "مكتب (طاولة)" } },
+        { "word": "chair", "pos": "noun", "example": "There are two chairs.", "gloss": { "tr": "sandalye", "ar": "كرسي" } },
+        { "word": "window", "pos": "noun", "example": "There are two big windows.", "gloss": { "tr": "pencere", "ar": "نافذة" } },
+        { "word": "closet", "pos": "noun", "example": "My clothes are in the closet.", "gloss": { "tr": "gömme dolap, gardırop", "ar": "خزانة ملابس" } },
+        { "word": "lamp", "pos": "noun", "example": "The lamp is from Rose.", "gloss": { "tr": "lamba, abajur", "ar": "مصباح" } },
+        { "word": "wall", "pos": "noun", "example": "The walls are white.", "gloss": { "tr": "duvar", "ar": "جدار، حائط" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Show me your room!",
+      "scene": "A video call. Elif's mom, Ayşe, is in Izmir. She's an English teacher.",
+      "lines": [
+        { "speaker": "ayse", "text": "Hi, sweetheart! Show me your new room!" },
+        { "speaker": "elif", "text": "OK, Mom. Look! This is my bedroom. There's a bed, a desk and a chair." },
+        { "speaker": "ayse", "text": "It's nice! Is there a window?" },
+        { "speaker": "elif", "text": "Yes, there are two big windows. There's a park outside." },
+        { "speaker": "ayse", "text": "Lovely. And is there a closet for your clothes?" },
+        { "speaker": "elif", "text": "Yes, there is. It's small, but it's OK." },
+        { "speaker": "ayse", "text": "Are there any pictures on the walls?" },
+        { "speaker": "elif", "text": "No, there aren't. The walls are white and empty." },
+        { "speaker": "ayse", "text": "Put some family photos on the walls!" },
+        { "speaker": "elif", "text": "Good idea, Mom. And look — there's a lamp from Rose." },
+        { "speaker": "ayse", "text": "Who's Rose?" },
+        { "speaker": "elif", "text": "My neighbor. She's very kind." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "There's a bed in Elif's room.", "answer": true },
+        { "statement": "There's one window.", "answer": false },
+        { "statement": "There's a closet.", "answer": true },
+        { "statement": "There are pictures on the walls.", "answer": false },
+        { "statement": "The lamp is from Rose.", "answer": true }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "My apartment",
+      "intro": "Elif writes about her apartment in Boston.",
+      "voice": "elif",
+      "paragraphs": [
+        ["My apartment is small, but I love it."],
+        ["There's a kitchen, a bathroom and a bedroom.", "There isn't a living room, so my bedroom is my living room, too!"],
+        ["In the kitchen, there's a small table and two chairs.", "There are three plants from Rose."],
+        ["In my bedroom, there's a bed, a desk and a small closet.", "There are two big windows, and there's a park outside."],
+        ["There isn't a TV, but there are a lot of books!"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Elif's apartment",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "Elif's apartment is …", "options": ["big", "small"], "answer": 1 },
+        { "prompt": "Is there a living room?", "options": ["Yes, there is.", "No, there isn't."], "answer": 1 },
+        { "prompt": "How many plants are there?", "options": ["two", "three", "four"], "answer": 1 },
+        { "prompt": "There isn't a …", "options": ["TV", "bed", "closet"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: there is / there are",
+      "look": [
+        "**There's** a bed, a desk and a chair.",
+        "**There are** two big windows.",
+        "**Is there** a closet? — Yes, **there is**.",
+        "**There aren't** any pictures."
+      ],
+      "table": {
+        "head": ["", "one", "two or more"],
+        "rows": [
+          ["+", "There's (There is) a desk.", "There are two windows."],
+          ["–", "There isn't a TV.", "There aren't any pictures."],
+          ["?", "Is there a closet?", "Are there any plants?"],
+          ["Short answers", "Yes, there is. / No, there isn't.", "Yes, there are. / No, there aren't."]
+        ]
+      },
+      "rules": [
+        "Use **there is / there are** to say what is in a place.",
+        "**There's** + one thing · **There are** + two or more things",
+        "With plurals in negatives and questions, use **any**: There aren't **any** pictures. Are there **any** plants?"
+      ],
+      "examples": ["There's a lamp on the desk.", "There are three chairs in the kitchen.", "Is there a park near here?", "There isn't a TV in my room."],
+      "support": {
+        "tr": "Türkçedeki \"var / yok\" İngilizcede there is / there are ile söylenir: Odada bir yatak var = There's a bed in the room. Birden fazla şey için there are: İki pencere var = There are two windows. Yok: there isn't / there aren't. Soru: Is there …? Are there …? Dikkat: sahiplik anlamındaki \"var\" (Bir kardeşim var) have ile söylenir, there is ile değil.",
+        "ar": "نستخدم there is / there are لنقول «يوجد / هناك»: There's a bed in the room = يوجد سرير في الغرفة. للمفرد there is، وللجمع there are: There are two windows = توجد نافذتان. للنفي: there isn't / there aren't، وللسؤال: Is there …? Are there …?"
+      },
+      "watchOut": {
+        "tr": {
+          "note": "Bir yerde bir şey \"var\"sa have değil there is / there are kullan.",
+          "wrong": ["In my room have a bed.", "There is two windows."],
+          "right": ["There's a bed in my room.", "There are two windows."]
+        },
+        "ar": {
+          "note": "لا تترجم «يوجد» بـ have أو بـ is وحدها.",
+          "wrong": ["In the kitchen have a table.", "Is a window in your room?"],
+          "right": ["There's a table in the kitchen.", "Is there a window in your room?"]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete the sentences.",
+      "support": { "tr": "Cümleleri tamamla.", "ar": "أكمل الجمل." },
+      "bank": ["There's", "There are", "There isn't", "There aren't", "Is there", "Are there"],
+      "items": [
+        "{There's|There is} a desk in my room.",
+        "{There are} two windows.",
+        "{There isn't|There is not} a TV. (–)",
+        "{Are there} any plants in the kitchen?",
+        "{Is there} a closet? — Yes, there is.",
+        "{There aren't|There are not} any pictures on the walls. (–)"
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Rooms",
+      "instructions": "Match the room and the things.",
+      "support": { "tr": "Odayı ve içindeki eşyaları eşleştir.", "ar": "صِل الغرفة بما فيها." },
+      "pairs": [
+        ["kitchen", "a table and two chairs"],
+        ["bathroom", "a shower"],
+        ["bedroom", "a bed and a closet"],
+        ["living room", "a sofa and a TV"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "support": { "tr": "Dinle ve doğru cevabı seç.", "ar": "استمع واختر الجواب الصحيح." },
+      "items": [
+        { "audio": "Is there a park near your apartment?", "voice": "ayse", "prompt": "Best answer:", "options": ["Yes, there is.", "Yes, it is.", "Yes, there are."], "answer": 0 },
+        { "audio": "There are two cats in the garden.", "voice": "rose", "prompt": "How many cats?", "options": ["one", "two", "three"], "answer": 1 },
+        { "audio": "There isn't a table in my kitchen!", "voice": "lucas", "prompt": "Lucas's kitchen:", "options": ["There's a table.", "There isn't a table."], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["There's a lamp on the desk.", "Are there any plants?", "There isn't a TV.", "There are two big windows."]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "There's a bed and a desk.", "voice": "elif" },
+        { "text": "Is there a window?", "voice": "ayse" },
+        { "text": "There are two chairs.", "voice": "maya" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write",
+      "model": {
+        "heading": "My room — Elif",
+        "text": ["My room is small.", "There's a bed, a desk and a chair.", "There are two big windows.", "There isn't a TV.", "There are a lot of books!"]
+      },
+      "frame": ["My room is ___.", "There's a ___ and a ___.", "There are ___.", "There isn't a ___.", "There aren't any ___."],
+      "prompt": "Describe your room or your home (5 sentences).",
+      "support": { "tr": "Odanı ya da evini anlat (5 cümle).", "ar": "صِف غرفتك أو بيتك (5 جمل)." },
+      "minWords": 25,
+      "checklist": ["I use there's with one thing.", "I use there are with two or more things."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

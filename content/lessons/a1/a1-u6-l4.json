@@ -1,0 +1,234 @@
+{
+  "id": "a1-u6-l4",
+  "level": "a1",
+  "unit": 6,
+  "order": 4,
+  "title": "Sam's weekend",
+  "subtitle": "An interview for the school newsletter — question words",
+  "canDo": [
+    "I can ask questions with what, where, when, who, how often and why.",
+    "I can answer why-questions with because.",
+    "I can write about my weekend."
+  ],
+  "teacherNotes": [
+    "Ünitenin son dersi: \"My weekend\" yazısını ödev verin (Copy my text ile gönderilecek).",
+    "Soru sırası formülünü tahtada tutun: Soru kelimesi + do / does + kişi + fiil? (Where do you live?). be fiilinde do yok (Where are you from?).",
+    "Röportaj etkinliği: öğrenciler ikişerli olup birbirine 5 soru sorsun, sonra cevapları okuma metnindeki gibi he / she ile anlatsın.",
+    "Why / because: Türkçede \"çünkü\" cümle başında da olabilir; İngilizcede konuşmada Because… ile tek başına cevap vermek doğaldır."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["What do you usually do on Sundays?", "Who do you spend your weekends with?", "What's a good question for a new neighbor?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "interview", "pos": "noun", "example": "Elif has an interview with Sam.", "gloss": { "tr": "röportaj; mülakat", "ar": "مقابلة" } },
+        { "word": "newsletter", "pos": "noun", "example": "It's for the school newsletter.", "gloss": { "tr": "bülten", "ar": "نشرة" } },
+        { "word": "who", "pos": "question word", "example": "Who makes the cookies?", "gloss": { "tr": "kim", "ar": "مَن" } },
+        { "word": "when", "pos": "question word", "example": "When do you go to London?", "gloss": { "tr": "ne zaman", "ar": "متى" } },
+        { "word": "why", "pos": "question word", "example": "Why do you love Boston?", "gloss": { "tr": "neden, niçin", "ar": "لماذا" } },
+        { "word": "because", "pos": "conjunction", "example": "Because the people are friendly.", "gloss": { "tr": "çünkü", "ar": "لأنّ" } },
+        { "word": "beach", "pos": "noun", "example": "We walk on the beach.", "gloss": { "tr": "plaj, sahil", "ar": "شاطئ" } },
+        { "word": "sleep late", "pos": "phrase", "example": "On Sundays, I sleep late.", "gloss": { "tr": "geç saate kadar uyumak", "ar": "ينام حتى وقت متأخّر" } },
+        { "word": "miss", "pos": "verb", "example": "I miss my mum's cooking.", "gloss": { "tr": "özlemek", "ar": "يشتاق إلى" } },
+        { "word": "once a year", "pos": "phrase", "example": "I go to London once a year.", "gloss": { "tr": "yılda bir", "ar": "مرّة في السنة" } },
+        { "word": "secret", "pos": "noun", "example": "Shh — it's a secret!", "gloss": { "tr": "sır", "ar": "سرّ" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "An interview with Sam",
+      "scene": "Sam's café. Elif writes for the school newsletter.",
+      "lines": [
+        { "speaker": "elif", "text": "Sam, can I ask you some questions for the school newsletter?" },
+        { "speaker": "sam", "text": "Of course! Go ahead." },
+        { "speaker": "elif", "text": "Where are you from?" },
+        { "speaker": "sam", "text": "I'm from London." },
+        { "speaker": "elif", "text": "What time do you open the café?" },
+        { "speaker": "sam", "text": "At seven, from Monday to Friday. On Saturdays, at eight." },
+        { "speaker": "elif", "text": "What do you do on Sundays?" },
+        { "speaker": "sam", "text": "I sleep late, and then I take Biscuit to the beach. We walk for two hours." },
+        { "speaker": "elif", "text": "How often do you go to London?" },
+        { "speaker": "sam", "text": "Once a year, in the summer. I miss my mum's cooking!" },
+        { "speaker": "elif", "text": "Why do you love Boston?" },
+        { "speaker": "sam", "text": "Because the people are friendly … and they drink a lot of coffee!" },
+        { "speaker": "elif", "text": "Last question: who makes the cookies?" },
+        { "speaker": "sam", "text": "My wife, Emma. Shh — it's a secret!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Sam opens the café at seven on Saturdays.", "answer": false },
+        { "statement": "On Sundays, Sam takes Biscuit to the beach.", "answer": true },
+        { "statement": "Sam goes to London twice a year.", "answer": false },
+        { "statement": "Sam loves Boston because the people are friendly.", "answer": true },
+        { "statement": "Sam makes the cookies.", "answer": false }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Meet our neighbor: Sam Taylor",
+      "intro": "Elif's article in the school newsletter.",
+      "voice": "elif",
+      "paragraphs": [
+        ["Sam Taylor is from London, but he lives in Boston now.", "He opens his café at seven every weekday."],
+        ["On Sundays, he sleeps late and walks on the beach with his dog, Biscuit.", "He goes to London once a year, in the summer, and he always visits his mum."],
+        ["Why does he love Boston?", "“Because the people are friendly,” he says."],
+        ["And who makes the famous cookies?", "His wife, Emma! But that's a secret."],
+        ["By Elif Kaya"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "The article",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "Where does Sam live now?", "options": ["in London", "in Boston", "in Izmir"], "answer": 1 },
+        { "prompt": "When does Sam go to London?", "options": ["in the summer", "in the winter", "every month"], "answer": 0 },
+        { "prompt": "Who does he visit in London?", "options": ["his mum", "his brother", "Emma"], "answer": 0 },
+        { "prompt": "Who wrote the article?", "options": ["Sam", "Maya", "Elif"], "answer": 2 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: question words",
+      "look": ["**Where** are you from?", "**What time do** you open the café?", "**What do** you do on Sundays?", "**Why do** you love Boston? — **Because** …"],
+      "table": {
+        "head": ["Question word", "do / does + person + verb", "Answer"],
+        "rows": [
+          ["What", "do you do on Sundays?", "I go to the beach."],
+          ["Where", "does he live?", "In Boston."],
+          ["What time / When", "do you open?", "At seven."],
+          ["Who", "do you live with?", "With my wife."],
+          ["How often", "do you go to London?", "Once a year."],
+          ["Why", "do you love Boston?", "Because it's beautiful."]
+        ]
+      },
+      "rules": [
+        "Question word + **do / does** + person + verb: **Where do** you live?",
+        "With he / she: **does** — What **does** she like? (no -s on the verb)",
+        "With **be**: question word + am / is / are: **Where are** you from?",
+        "**Why …?** — **Because …**"
+      ],
+      "examples": ["What do you do in the evening?", "Where does Omar work?", "When does the class start?", "Why do you study English? — Because I want a new job."],
+      "support": {
+        "tr": "Soru kelimesi (what, where, when…) başa gelir, sonra do / does, sonra kişi ve fiil: Where do you live? = Nerede yaşıyorsun? he / she ile does: Where does he live? Be fiilli sorularda do yok: Where are you from? Why (neden) sorusunun cevabı because (çünkü) ile başlar.",
+        "ar": "تأتي أداة الاستفهام (what, where, when…) في البداية، ثم do / does، ثم الفاعل والفعل: Where do you live? = أين تسكن؟ ومع he / she نستخدم does: Where does he live? ومع فعل be لا نستخدم do: Where are you from? وجواب Why (لماذا) يبدأ عادةً بـ because (لأنّ)."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "Soru kelimesinden sonra do / does'u unutma: soru kelimesi + do + kişi + fiil.",
+          "wrong": ["Where you live?", "What time you open the café?"],
+          "right": ["Where do you live?", "What time do you open the café?"]
+        },
+        "ar": {
+          "note": "لا تترك السؤال بدون do / does، ولا تضع s على الفعل بعد does.",
+          "wrong": ["Where he lives?", "What does she likes?"],
+          "right": ["Where does he live?", "What does she like?"]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Question and answer",
+      "instructions": "Match the question and the answer.",
+      "support": { "tr": "Soruyu cevabıyla eşleştir.", "ar": "صِل السؤال بالجواب." },
+      "pairs": [
+        ["What time do you open?", "At seven."],
+        ["Where are you from?", "From London."],
+        ["Who makes the cookies?", "My wife, Emma."],
+        ["Why do you love Boston?", "Because the people are friendly."],
+        ["How often do you go to London?", "Once a year."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with a question word.",
+      "support": { "tr": "Bir soru kelimesiyle tamamla.", "ar": "أكمل بأداة استفهام." },
+      "bank": ["What", "Where", "When", "Who", "Why", "How often"],
+      "items": [
+        "{Where} does Omar work? — In a hospital.",
+        "{What} do you do on Saturdays? — I go to the market.",
+        "{Who} is your teacher? — Maya.",
+        "{How often} do you go to the library? — Once a week.",
+        "{Why} do you study English? — Because I want a new job.",
+        "{When|What time} does class start? — At nine."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen to the answer. Choose the question.",
+      "support": { "tr": "Cevabı dinle. Doğru soruyu seç.", "ar": "استمع إلى الجواب. اختر السؤال." },
+      "items": [
+        { "audio": "At nine o'clock, from Monday to Friday.", "voice": "maya", "prompt": "The question is …", "options": ["What time does class start?", "Who is your teacher?", "Where is the school?"], "answer": 0 },
+        { "audio": "Because I love English songs!", "voice": "lucas", "prompt": "The question is …", "options": ["Where do you live?", "Why do you study English?", "How often do you study?"], "answer": 1 },
+        { "audio": "With my sister and my parents.", "voice": "lina", "prompt": "The question is …", "options": ["Who do you live with?", "When do you get up?", "What do you like?"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make questions",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["Where do you live?", "What time do you get up?", "Why do you love Boston?", "Where does Sam go on Sundays?"]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "Where are you from?", "voice": "elif" },
+        { "text": "What do you do on Sundays?", "voice": "elif" },
+        { "text": "Because the people are friendly.", "voice": "sam" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: My weekend",
+      "model": {
+        "heading": "My weekend — Lucas",
+        "text": [
+          "On Saturdays, I usually get up late.",
+          "In the afternoon, I play football with Omar.",
+          "On Saturday evenings, I sometimes play the guitar at Sam's café.",
+          "On Sundays, I always call my family in Brazil.",
+          "I love weekends because I can sleep late!"
+        ]
+      },
+      "frame": [
+        "On Saturdays, I usually ___.",
+        "In the afternoon, I ___.",
+        "On Sundays, I always / sometimes ___.",
+        "I love / don't like weekends because ___."
+      ],
+      "prompt": "Write about your weekend (5 or 6 sentences). Send your text to your teacher.",
+      "support": { "tr": "Hafta sonunu anlat (5–6 cümle). Metnini öğretmenine gönder.", "ar": "اكتب عن عطلة نهاية الأسبوع (5 أو 6 جمل). أرسل نصّك إلى معلّمك." },
+      "minWords": 35,
+      "checklist": ["I use always / usually / sometimes.", "I use because one time.", "I use on with days: on Saturdays."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

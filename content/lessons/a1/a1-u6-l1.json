@@ -1,0 +1,217 @@
+{
+  "id": "a1-u6-l1",
+  "level": "a1",
+  "unit": 6,
+  "order": 1,
+  "title": "What do you do on Saturdays?",
+  "subtitle": "Free time and hobbies — like, love, hate + -ing",
+  "canDo": [
+    "I can talk about my free time and hobbies.",
+    "I can use like, love, don't like and hate + -ing.",
+    "I can ask: What do you do in your free time?"
+  ],
+  "teacherNotes": [
+    "Warm-up: Öğrencilerden en sevdikleri hafta sonu aktivitesini tek kelimeyle söylemelerini isteyin, ekrana listeleyin.",
+    "like + -ing: \"I like read\" hatası çok yaygın. Kural: like / love / hate + fiil-ing (I like reading).",
+    "Yazım: swim → swimming, run → running (son harf ikizlenir); dance → dancing (e düşer). Tabloya bakarak çalıştırın.",
+    "Anket oyunu: Her öğrenci 3 arkadaşına \"Do you like cooking?\" gibi sorular sorar ve sonucu raporlar (\"Omar likes cooking\")."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["What do you do on Saturdays?", "What's your favorite hobby?", "What don't you like doing?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Free time",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "free time", "pos": "noun", "example": "What do you do in your free time?", "gloss": { "tr": "boş zaman", "ar": "وقت الفراغ" } },
+        { "word": "hobby", "pos": "noun", "example": "Drawing is my hobby.", "gloss": { "tr": "hobi, uğraş", "ar": "هواية" } },
+        { "word": "reading", "pos": "noun", "example": "I love reading.", "gloss": { "tr": "okumak, kitap okuma", "ar": "القراءة" } },
+        { "word": "drawing", "pos": "noun", "example": "Elif likes drawing buildings.", "gloss": { "tr": "resim çizmek", "ar": "الرسم" } },
+        { "word": "swimming", "pos": "noun", "example": "Maya likes swimming in the summer.", "gloss": { "tr": "yüzmek, yüzme", "ar": "السباحة" } },
+        { "word": "dancing", "pos": "noun", "example": "Lucas loves dancing.", "gloss": { "tr": "dans etmek", "ar": "الرقص" } },
+        { "word": "watching TV", "pos": "phrase", "example": "I don't like watching TV.", "gloss": { "tr": "televizyon izlemek", "ar": "مشاهدة التلفاز" } },
+        { "word": "listening to music", "pos": "phrase", "example": "Omar likes listening to music.", "gloss": { "tr": "müzik dinlemek", "ar": "الاستماع إلى الموسيقى" } },
+        { "word": "playing video games", "pos": "phrase", "example": "Can loves playing video games.", "gloss": { "tr": "video oyunu oynamak", "ar": "ممارسة ألعاب الفيديو" } },
+        { "word": "taking photos", "pos": "phrase", "example": "Rose enjoys taking photos of her garden.", "gloss": { "tr": "fotoğraf çekmek", "ar": "التقاط الصور" } },
+        { "word": "hate", "pos": "verb", "example": "I hate running!", "gloss": { "tr": "nefret etmek", "ar": "يكره" } },
+        { "word": "enjoy", "pos": "verb", "example": "I enjoy cooking for my friends.", "gloss": { "tr": "keyif almak, zevk almak", "ar": "يستمتع بـ" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "The class survey",
+      "scene": "Monday morning. Maya asks the class about their free time.",
+      "lines": [
+        { "speaker": "maya", "text": "Good morning! Today's question: what do you do in your free time? Lucas?" },
+        { "speaker": "lucas", "text": "I play the guitar, of course. And I love dancing!" },
+        { "speaker": "maya", "text": "Great. Omar?" },
+        { "speaker": "omar", "text": "I like cooking, and I play football on Fridays. I don't like watching TV." },
+        { "speaker": "maya", "text": "And you, Elif?" },
+        { "speaker": "elif", "text": "I love drawing. I draw buildings — old houses, bridges, cafés." },
+        { "speaker": "lucas", "text": "Do you like running, Elif? Maya runs every Saturday." },
+        { "speaker": "elif", "text": "Running? No! I hate running. But I like walking in the park." },
+        { "speaker": "maya", "text": "Ha! OK. And what about me? I love reading, running … and swimming in the summer." },
+        { "speaker": "omar", "text": "Swimming? In Boston? The water is so cold!" },
+        { "speaker": "maya", "text": "That's why it's only in the summer!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Lucas loves dancing.", "answer": true },
+        { "statement": "Omar likes watching TV.", "answer": false },
+        { "statement": "Elif draws buildings.", "answer": true },
+        { "statement": "Elif loves running.", "answer": false },
+        { "statement": "Maya swims in the summer.", "answer": true }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Rose's Saturdays",
+      "intro": "Rose writes about her free time.",
+      "voice": "rose",
+      "paragraphs": [
+        ["I'm sixty-eight, and I have a lot of free time now!"],
+        ["I love reading. I read two or three books every week.", "I enjoy working in my garden, and I like taking photos of my flowers."],
+        ["I don't like watching TV. Tom loves it, but I don't!"],
+        ["On Saturday evenings, I play cards with my friend Dorothy.", "We talk, we laugh and we eat a lot of cookies."],
+        ["I hate cooking, but I love eating. Thank you, Omar, for the maqluba!"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Rose's Saturdays",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "How many books does Rose read every week?", "options": ["one", "two or three", "ten"], "answer": 1 },
+        { "prompt": "Rose likes taking photos of …", "options": ["her flowers", "Tom", "Dorothy"], "answer": 0 },
+        { "prompt": "Who loves watching TV?", "options": ["Rose", "Tom", "Dorothy"], "answer": 1 },
+        { "prompt": "Rose hates …", "options": ["eating", "cooking", "reading"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: like / love / hate + -ing",
+      "look": ["I **love dancing**!", "I **don't like watching** TV.", "I **hate running**.", "I **enjoy working** in my garden."],
+      "table": {
+        "head": ["", "verb + -ing"],
+        "rows": [
+          ["I love / I enjoy", "**reading**"],
+          ["I like", "**cooking**"],
+          ["I don't like", "**watching** TV"],
+          ["I hate", "**running**"]
+        ]
+      },
+      "rules": [
+        "**love / like / enjoy / don't like / hate** + verb**-ing**: I like read**ing**.",
+        "Spelling: read → read**ing** · dance → danc**ing** (no e) · swim → swi**mm**ing, run → ru**nn**ing",
+        "Question: **Do you like** cook**ing**? — Yes, I do. / No, I don't.",
+        "he / she: She **likes** swimm**ing**. He **doesn't like** runn**ing**."
+      ],
+      "examples": ["I like listening to music.", "She loves taking photos.", "Do you enjoy cooking?", "He hates getting up early."],
+      "support": {
+        "tr": "like, love, enjoy, hate gibi fiillerden sonra ikinci fiil -ing alır: I like reading = Okumayı severim. Türkçedeki \"-mayı / -meyi\" ekine benzer. \"I like read\" yanlıştır. Yazıma dikkat: swim → swimming, dance → dancing.",
+        "ar": "بعد الأفعال like و love و enjoy و hate نضيف ing إلى الفعل الثاني: I like reading = أحبّ القراءة. هذا يشبه المصدر في العربية (القراءة، الطبخ). لا نقول «I like read». وانتبه للإملاء: swim → swimming، dance → dancing."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "like / love / hate'ten sonra fiile -ing ekle.",
+          "wrong": ["I like read books.", "She love dancing."],
+          "right": ["I like reading books.", "She loves dancing."]
+        },
+        "ar": {
+          "note": "لا تضع to أو الفعل المجرّد بعد enjoy، واستخدم ing.",
+          "wrong": ["I enjoy to cook.", "I like swim."],
+          "right": ["I enjoy cooking.", "I like swimming."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Write the verb + -ing.",
+      "support": { "tr": "Fiili -ing ile yaz.", "ar": "اكتب الفعل مع ing." },
+      "items": [
+        "I love {reading}. (read)",
+        "Maya likes {swimming} in the summer. (swim)",
+        "Lucas enjoys {dancing}. (dance)",
+        "Elif hates {running}. (run)",
+        "Omar likes {cooking} for his friends. (cook)",
+        "Do you like {taking} photos? (take)"
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Who likes what?",
+      "instructions": "Match the person and the hobby.",
+      "support": { "tr": "Kişiyi ve hobisini eşleştir.", "ar": "صِل الشخص بهوايته." },
+      "pairs": [
+        ["Elif", "drawing old buildings"],
+        ["Lucas", "playing the guitar and dancing"],
+        ["Omar", "cooking and playing football"],
+        ["Rose", "reading and working in her garden"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "support": { "tr": "Dinle ve doğru cevabı seç.", "ar": "استمع واختر الجواب الصحيح." },
+      "items": [
+        { "audio": "I love taking photos, but I hate being in them!", "voice": "lina", "prompt": "Lina loves …", "options": ["taking photos", "dancing", "reading"], "answer": 0 },
+        { "audio": "On Sundays, I enjoy walking on the beach with Biscuit.", "voice": "sam", "prompt": "Sam enjoys …", "options": ["swimming", "walking on the beach", "cooking"], "answer": 1 },
+        { "audio": "I don't like playing video games. My brother loves it.", "voice": "elif", "prompt": "Who loves video games?", "options": ["Elif", "Elif's brother", "Omar"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["I love reading books.", "Do you like cooking?", "She hates running.", "What do you do in your free time?"]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "I love drawing.", "voice": "elif" },
+        { "text": "Do you like dancing?", "voice": "lucas" },
+        { "text": "I don't like watching TV.", "voice": "omar" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write",
+      "model": {
+        "heading": "My free time — Elif",
+        "text": ["In my free time, I love drawing.", "I like walking in the park and listening to music.", "I don't like watching TV.", "I hate running!", "What do you do in your free time?"]
+      },
+      "frame": ["In my free time, I love ___.", "I like ___ and ___.", "I don't like ___.", "I hate ___!"],
+      "prompt": "Write about your free time (5 sentences).",
+      "support": { "tr": "Boş zamanını anlat (5 cümle).", "ar": "اكتب عن وقت فراغك (5 جمل)." },
+      "minWords": 25,
+      "checklist": ["After like / love / hate, I write verb + -ing.", "I check the spelling: swimming, running, dancing."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

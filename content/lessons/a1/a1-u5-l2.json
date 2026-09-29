@@ -1,0 +1,203 @@
+{
+  "id": "a1-u5-l2",
+  "level": "a1",
+  "unit": 5,
+  "order": 2,
+  "title": "Some and any",
+  "subtitle": "Omar wants to cook his mom's maqluba",
+  "canDo": [
+    "I can say what is and isn't in my kitchen.",
+    "I can use some and any.",
+    "I can understand a simple recipe."
+  ],
+  "teacherNotes": [
+    "Kural basit tutulmalı: olumlu cümlede some, olumsuz ve soruda any. \"Would you like some…?\" istisnası 5.4'te.",
+    "Arap öğrenciler çift olumsuz kurabilir (\"I don't have no…\"); İngilizcede not + any.",
+    "Tarif metni emir kipini (Ünite 4.4) tekrar ettirir: Cook, Put, Add, Turn… Öğrencilere metindeki emir fiillerini buldurun.",
+    "Kültür köşesi: Arap öğrencilere maklubenin kendi ülkelerindeki hâlini, Türk öğrencilere benzer bir Türk yemeğini sorun."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["Do you cook?", "What's in your fridge right now?", "What's a famous dish from your country?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "eggplant", "pos": "noun", "example": "Maqluba has eggplants in it.", "gloss": { "tr": "patlıcan", "ar": "باذنجان" } },
+        { "word": "yogurt", "pos": "noun", "example": "Maqluba with yogurt is the best.", "gloss": { "tr": "yoğurt", "ar": "لبن زبادي" } },
+        { "word": "recipe", "pos": "noun", "example": "This is my mom's recipe.", "gloss": { "tr": "yemek tarifi", "ar": "وصفة" } },
+        { "word": "shopping list", "pos": "noun", "example": "Eggplants are on my shopping list.", "gloss": { "tr": "alışveriş listesi", "ar": "قائمة المشتريات" } },
+        { "word": "pot", "pos": "noun", "example": "Put the rice in a big pot.", "gloss": { "tr": "tencere", "ar": "قِدر" } },
+        { "word": "plate", "pos": "noun", "example": "Turn the pot upside down on a big plate.", "gloss": { "tr": "tabak", "ar": "صحن" } },
+        { "word": "add", "pos": "verb", "example": "Add some water.", "gloss": { "tr": "eklemek", "ar": "يضيف" } },
+        { "word": "fry", "pos": "verb", "example": "Fry the eggplants.", "gloss": { "tr": "kızartmak", "ar": "يقلي" } },
+        { "word": "upside down", "pos": "phrase", "example": "Maqluba means “upside down”.", "gloss": { "tr": "baş aşağı, ters", "ar": "مقلوب" } },
+        { "word": "some", "pos": "determiner", "example": "There's some rice in the cupboard.", "gloss": { "tr": "biraz, birkaç (olumlu cümlede)", "ar": "بعض (في الجملة المثبتة)" } },
+        { "word": "any", "pos": "determiner", "example": "There aren't any eggplants.", "gloss": { "tr": "hiç (olumsuz / soru cümlesinde)", "ar": "أيّ (في النفي والسؤال)" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Mom's maqluba",
+      "scene": "Omar's kitchen. He's on a video call with his sister, Lina.",
+      "lines": [
+        { "speaker": "omar", "text": "Lina, I want to make Mom's maqluba for my classmates on Saturday. What do I need?" },
+        { "speaker": "lina", "text": "OK. Do you have any rice?" },
+        { "speaker": "omar", "text": "Yes, there's some rice in the cupboard." },
+        { "speaker": "lina", "text": "Good. Are there any eggplants?" },
+        { "speaker": "omar", "text": "No, there aren't any eggplants. I need some." },
+        { "speaker": "lina", "text": "And chicken?" },
+        { "speaker": "omar", "text": "There isn't any chicken." },
+        { "speaker": "lina", "text": "Onions? Tomatoes?" },
+        { "speaker": "omar", "text": "I have some onions, but I don't have any tomatoes." },
+        { "speaker": "lina", "text": "So, your shopping list: eggplants, chicken, tomatoes … and yogurt!" },
+        { "speaker": "omar", "text": "Yogurt?" },
+        { "speaker": "lina", "text": "Of course! Maqluba with yogurt is the best. And send me a photo!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "The maqluba is for Omar's classmates.", "answer": true },
+        { "statement": "There isn't any rice in Omar's kitchen.", "answer": false },
+        { "statement": "Omar has some eggplants.", "answer": false },
+        { "statement": "Omar has some onions.", "answer": true },
+        { "statement": "Lina says: eat maqluba with yogurt.", "answer": true }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Mom's maqluba",
+      "intro": "The recipe from Omar's mom, in English.",
+      "voice": "lina",
+      "paragraphs": [
+        ["Maqluba means “upside down” in Arabic."],
+        ["You need: some rice, some chicken, two eggplants, two onions, some tomatoes and some water."],
+        ["Cook the chicken with the onions.", "Fry the eggplants.", "Put the chicken, the eggplants and the tomatoes in a big pot.", "Put the rice on top, and add some water.", "Cook it for forty minutes."],
+        ["Now the fun part: turn the pot upside down on a big plate!", "Eat it with some yogurt."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "ordering",
+      "title": "The recipe",
+      "instructions": "Put the steps in order.",
+      "support": { "tr": "Adımları sıraya koy.", "ar": "رتّب الخطوات." },
+      "items": [
+        "Cook the chicken with the onions.",
+        "Fry the eggplants.",
+        "Put everything in a big pot.",
+        "Put the rice on top and add some water.",
+        "Turn the pot upside down on a plate."
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: some and any",
+      "look": ["There's **some** rice.", "Are there **any** eggplants?", "There aren't **any** eggplants.", "I don't have **any** tomatoes."],
+      "table": {
+        "head": ["", "Plural", "Uncountable"],
+        "rows": [
+          ["+", "I have **some** onions.", "There's **some** rice."],
+          ["–", "I don't have **any** tomatoes.", "There isn't **any** chicken."],
+          ["?", "Are there **any** eggplants?", "Is there **any** milk?"]
+        ]
+      },
+      "rules": [
+        "**some** in positive sentences (+)",
+        "**any** in negative sentences (–) and questions (?)",
+        "Use some / any with plurals (eggs) and uncountable nouns (rice)."
+      ],
+      "examples": ["There are some apples on the table.", "There isn't any milk.", "Do you have any eggs?", "I don't have any yogurt."],
+      "support": {
+        "tr": "some ve any \"biraz, birkaç\" anlamına gelir. Olumlu cümlede some, olumsuz ve soru cümlesinde any kullanılır: There's some rice (Biraz pirinç var). There isn't any chicken (Hiç tavuk yok). Is there any milk? (Hiç süt var mı?)",
+        "ar": "some و any بمعنى «بعض / شيء من». نستخدم some في الجملة المثبتة، و any في النفي والسؤال: There's some rice = يوجد بعض الأرزّ. There isn't any chicken = لا يوجد أيّ دجاج. Is there any milk? = هل يوجد حليب؟"
+      },
+      "watchOut": {
+        "tr": {
+          "note": "Olumsuz ve soru cümlelerinde some değil any kullan.",
+          "wrong": ["There isn't some milk.", "Are there some eggs?"],
+          "right": ["There isn't any milk.", "Are there any eggs?"]
+        },
+        "ar": {
+          "note": "بعد not استخدم any، ولا تجمع بين نفيين (not + no).",
+          "wrong": ["I don't have no tomatoes.", "There isn't some chicken."],
+          "right": ["I don't have any tomatoes.", "There isn't any chicken."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with some or any.",
+      "support": { "tr": "some veya any ile tamamla.", "ar": "أكمل بـ some أو any." },
+      "bank": ["some", "any"],
+      "items": [
+        "There's {some} rice in the cupboard.",
+        "There aren't {any} eggplants.",
+        "Do you have {any} tomatoes?",
+        "I have {some} onions.",
+        "Is there {any} yogurt in the fridge?",
+        "We don't have {any} bread."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "support": { "tr": "Dinle ve doğru cevabı seç.", "ar": "استمع واختر الجواب الصحيح." },
+      "items": [
+        { "audio": "There's some milk, but there aren't any eggs.", "voice": "maya", "prompt": "What isn't there?", "options": ["milk", "eggs"], "answer": 1 },
+        { "audio": "Do you have any olives? I need some for breakfast.", "voice": "elif", "prompt": "Elif needs …", "options": ["olives", "onions", "oranges"], "answer": 0 },
+        { "audio": "There isn't any coffee in the café! Sorry, everyone.", "voice": "sam", "prompt": "There isn't any …", "options": ["tea", "coffee", "milk"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["There's some rice.", "Are there any eggplants?", "I don't have any tomatoes.", "Is there any milk?"]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "Do you have any rice?", "voice": "lina" },
+        { "text": "There isn't any chicken.", "voice": "omar" },
+        { "text": "I need some eggplants.", "voice": "omar" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write",
+      "model": {
+        "heading": "My kitchen — Omar",
+        "text": ["There's some rice in the cupboard.", "There are some onions, but there aren't any tomatoes.", "There isn't any chicken in the fridge.", "There's some coffee, of course!", "I need some eggplants and some yogurt."]
+      },
+      "frame": ["There's some ___ in the ___.", "There are some ___.", "There isn't any ___.", "There aren't any ___.", "I need some ___."],
+      "prompt": "What's in your kitchen? Write 5 sentences with some and any.",
+      "support": { "tr": "Mutfağında neler var? some ve any ile 5 cümle yaz.", "ar": "ماذا يوجد في مطبخك؟ اكتب 5 جمل مع some و any." },
+      "minWords": 25,
+      "checklist": ["I use some in positive sentences.", "I use any in negative sentences."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

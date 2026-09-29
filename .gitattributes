@@ -1,0 +1,5 @@
+# Satır sonları her bilgisayarda aynı olsun (Windows / GitHub)
+* text=auto eol=lf
+*.mp3 binary
+*.png binary
+*.woff2 binary

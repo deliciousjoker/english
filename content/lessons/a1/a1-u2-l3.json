@@ -1,0 +1,252 @@
+{
+  "id": "a1-u2-l3",
+  "level": "a1",
+  "unit": 2,
+  "order": 3,
+  "title": "Whose bag is this?",
+  "subtitle": "After class — this, that, these, those",
+  "canDo": [
+    "I can name things in my bag.",
+    "I can use this, that, these and those.",
+    "I can make plurals: keys, boxes, cities, children."
+  ],
+  "teacherNotes": [
+    "Sınıftaki / ekrandaki gerçek nesnelerle çalışın: yakındakini gösterip \"this\", uzaktakini gösterip \"that\" deyin.",
+    "Türk öğrenciler sayıdan sonra -s'yi unutur (\"two book\"), çünkü Türkçede \"iki kitap\" tekildir.",
+    "Arap öğrenciler sıfatı da çoğul yapabilir (\"bigs bags\"); İngilizcede sıfat hiç değişmez.",
+    "\"Whose\" ile \"Who's\" aynı okunur; şimdilik sadece \"Whose bag is this?\" kalıbını öğretin."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["What's in your bag right now?", "Look around you. What's this? What's that?", "Do you often forget things?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Things",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "bag", "pos": "noun", "example": "Whose bag is this?", "gloss": { "tr": "çanta", "ar": "حقيبة" } },
+        { "word": "phone", "pos": "noun", "example": "My phone is in my bag.", "gloss": { "tr": "telefon", "ar": "هاتف" } },
+        { "word": "key", "pos": "noun", "example": "Are these your keys?", "gloss": { "tr": "anahtar", "ar": "مفتاح" } },
+        { "word": "wallet", "pos": "noun", "example": "My wallet is black.", "gloss": { "tr": "cüzdan", "ar": "محفظة" } },
+        { "word": "umbrella", "pos": "noun", "example": "Whose umbrella is that?", "gloss": { "tr": "şemsiye", "ar": "مظلّة" } },
+        { "word": "glasses", "pos": "noun", "example": "Those glasses are Sam's.", "gloss": { "tr": "gözlük", "ar": "نظّارة" } },
+        { "word": "notebook", "pos": "noun", "example": "I have two notebooks.", "gloss": { "tr": "defter", "ar": "دفتر" } },
+        { "word": "jacket", "pos": "noun", "example": "Is this your jacket?", "gloss": { "tr": "ceket, mont", "ar": "سترة، جاكيت" } },
+        { "word": "office", "pos": "noun", "example": "The keys are in the office.", "gloss": { "tr": "ofis, büro", "ar": "مكتب" } },
+        { "word": "whose", "pos": "question word", "example": "Whose phone is this?", "gloss": { "tr": "kimin", "ar": "لِمَن" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "After class",
+      "scene": "The end of the lesson. Some things are on the tables.",
+      "lines": [
+        { "speaker": "maya", "text": "OK, everyone, see you tomorrow! … Wait! Whose bag is this?" },
+        { "speaker": "lucas", "text": "Oh, it's my bag! Thank you, Maya." },
+        { "speaker": "maya", "text": "Lucas, are these your keys, too?" },
+        { "speaker": "lucas", "text": "No, they aren't. They're Omar's keys." },
+        { "speaker": "omar", "text": "Oh, yes! My keys! Thanks, Lucas." },
+        { "speaker": "maya", "text": "And that umbrella? Whose umbrella is that?" },
+        { "speaker": "elif", "text": "Sorry, it's mine. It's my umbrella." },
+        { "speaker": "maya", "text": "And these books? Whose books are these?" },
+        { "speaker": "omar", "text": "Maya … I think they're your books!" },
+        { "speaker": "maya", "text": "Oh! They're my books. Thank you, Omar!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "The bag is Lucas's.", "answer": true },
+        { "statement": "The keys are Lucas's.", "answer": false },
+        { "statement": "The umbrella is Elif's.", "answer": true },
+        { "statement": "The books are Omar's.", "answer": false }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "LOST AND FOUND",
+      "intro": "A notice on the door of Harbor English School.",
+      "voice": "maya",
+      "paragraphs": [
+        ["Harbor English School — Lost and Found"],
+        ["These things are in the school office:", "a black umbrella, two notebooks, three pens, a pair of glasses, a blue jacket and some keys."],
+        ["The keys have a small guitar on them.", "Hmm … Lucas?"],
+        ["Are these things yours?", "Please come to the office from Monday to Friday."],
+        ["Thank you!", "Maya"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "The notice",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "Where are the things?", "options": ["in the café", "in the school office", "in the classroom"], "answer": 1 },
+        { "prompt": "How many notebooks?", "options": ["one", "two", "three"], "answer": 1 },
+        { "prompt": "The jacket is …", "options": ["black", "blue", "red"], "answer": 1 },
+        { "prompt": "Whose keys are they, maybe?", "options": ["Maya's", "Omar's", "Lucas's"], "answer": 2 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: this, that, these, those",
+      "look": ["Whose bag is **this**?", "Are **these** your keys?", "Whose umbrella is **that**?", "**Those** glasses are Sam's."],
+      "table": {
+        "head": ["", "here (near me)", "there (not near me)"],
+        "rows": [
+          ["one", "this bag", "that umbrella"],
+          ["two or more", "these keys", "those glasses"]
+        ]
+      },
+      "rules": [
+        "**this / these** = near me · **that / those** = not near me",
+        "**this / that** + one thing · **these / those** + two or more: these key**s**",
+        "Ask: **Whose** bag is this? — It's **Lucas's**. / It's **my** bag."
+      ],
+      "examples": ["This is my phone.", "That's Sam's café.", "These are my keys.", "Those are Omar's books."],
+      "support": {
+        "tr": "this = bu, that = şu / o (tekil); these = bunlar, those = şunlar / onlar (çoğul). Yakındaki şeyler için this / these, uzaktakiler için that / those kullanılır. Kimin olduğunu sormak için: Whose bag is this? = Bu kimin çantası?",
+        "ar": "this = هذا / هذه (قريب، مفرد)، that = ذلك / تلك (بعيد، مفرد)، these = هؤلاء / هذه (قريب، جمع)، those = أولئك / تلك (بعيد، جمع). لا فرق في الإنجليزية بين المذكّر والمؤنّث هنا. وللسؤال عن المالك: Whose bag is this? = لِمَن هذه الحقيبة؟"
+      },
+      "watchOut": {
+        "tr": {
+          "note": "these / those'dan sonra isim çoğul olur, fiil de are.",
+          "wrong": ["These is my key.", "This keys are Omar's."],
+          "right": ["These are my keys.", "These keys are Omar's."]
+        },
+        "ar": {
+          "note": "this للمفرد و these للجمع، ولا تنسَ are مع these / those.",
+          "wrong": ["This are my books.", "These is my bag."],
+          "right": ["These are my books.", "This is my bag."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice: this, that, these, those",
+      "instructions": "Complete with this, that, these or those.",
+      "support": { "tr": "this, that, these veya those ile tamamla.", "ar": "أكمل بـ this أو that أو these أو those." },
+      "bank": ["This", "That", "These", "Those", "these"],
+      "items": [
+        "{This} is my phone. (here, one)",
+        "{These} are my keys. (here, two or more)",
+        "{That} is Sam's café. (there, one)",
+        "{Those} are Omar's books. (there, two or more)",
+        "Are {these} your glasses? (here)"
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: plurals",
+      "look": ["two notebook**s**", "three pen**s**", "a pair of glass**es**", "these **people**"],
+      "table": {
+        "head": ["Rule", "One", "Two or more"],
+        "rows": [
+          ["+ s", "key", "keys"],
+          ["+ es (after s, sh, ch, x)", "box", "boxes"],
+          ["consonant + y → ies", "city", "cities"],
+          ["irregular", "man / woman", "men / women"],
+          ["irregular", "child", "children"],
+          ["irregular", "person", "people"]
+        ]
+      },
+      "rules": [
+        "Most nouns: + **s** (book → book**s**)",
+        "After s, sh, ch, x: + **es** (watch → watch**es**)",
+        "Consonant + y: y → **ies** (city → cit**ies**)",
+        "Some nouns are irregular: man → **men**, child → **children**, person → **people**"
+      ],
+      "examples": ["I have two brothers.", "Boston and Izmir are big cities.", "My grandparents have five children.", "Maya has eight students."],
+      "support": {
+        "tr": "Türkçede sayıdan sonra isim tekil kalır: iki kitap. İngilizcede ise çoğul olur: two books. Yani \"two book\" yanlıştır. Bazı kelimeler düzensizdir: child → children (çocuklar), person → people (insanlar).",
+        "ar": "في العربية للمثنّى والجمع أشكال كثيرة. في الإنجليزية الأمر أسهل: نضيف s في الغالب: one book → two books. ولا يوجد مثنّى: two books و three books بالشكل نفسه. وبعض الكلمات شاذّة: child → children، person → people."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "Sayıdan sonra -s'yi unutma! Türkçede \"iki kitap\" dediğimiz için bu hata çok yaygın.",
+          "wrong": ["two book", "three pen"],
+          "right": ["two books", "three pens"]
+        },
+        "ar": {
+          "note": "الصفة في الإنجليزية لا تُجمع أبدًا، ولا تضع s على الصفة.",
+          "wrong": ["two bigs bags", "these news books"],
+          "right": ["two big bags", "these new books"]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice: plurals",
+      "instructions": "Write the plural.",
+      "support": { "tr": "Çoğul hâlini yaz.", "ar": "اكتب صيغة الجمع." },
+      "items": [
+        "two {books} (book)",
+        "three {boxes} (box)",
+        "four {cities} (city)",
+        "two {children} (child)",
+        "five {people} (person)",
+        "two {watches} (watch)",
+        "three {women} (woman)"
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "support": { "tr": "Dinle ve doğru cevabı seç.", "ar": "استمع واختر الجواب الصحيح." },
+      "items": [
+        { "audio": "Whose phone is this? It's Lucas's.", "voice": "maya", "prompt": "The phone is …", "options": ["Maya's", "Lucas's", "Elif's"], "answer": 1 },
+        { "audio": "These are my keys, and that's my jacket.", "voice": "omar", "prompt": "Omar's things:", "options": ["keys and a jacket", "a bag and a phone", "books and pens"], "answer": 0 },
+        { "audio": "Those umbrellas are Sam's.", "voice": "elif", "prompt": "How many umbrellas?", "options": ["one", "two or more"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["Whose bag is this?", "These are my keys.", "Those glasses are Sam's.", "Is that your umbrella?"]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "Whose phone is this?", "voice": "maya" },
+        { "text": "These are my keys.", "voice": "omar" },
+        { "text": "Those are Lucas's books.", "voice": "elif" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write",
+      "model": {
+        "heading": "Elif's bag",
+        "text": ["This is my bag.", "It's black and small.", "My phone and my wallet are in it.", "These are my notebooks — two notebooks and three pens.", "And this is a box of Rose's cookies!"]
+      },
+      "frame": ["This is my bag. It's ___ and ___.", "My ___ and my ___ are in it.", "These are my ___."],
+      "prompt": "What's in your bag? Write 4 or 5 sentences.",
+      "support": { "tr": "Çantanda neler var? 4–5 cümle yaz.", "ar": "ماذا في حقيبتك؟ اكتب 4 أو 5 جمل." },
+      "minWords": 20,
+      "checklist": ["I use this or these.", "I write plurals with -s: two pens."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

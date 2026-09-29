@@ -1,0 +1,221 @@
+{
+  "id": "a1-u4-l3",
+  "level": "a1",
+  "unit": 4,
+  "order": 3,
+  "title": "Where is it?",
+  "subtitle": "Lucas can't find his things — in, on, under, next to…",
+  "canDo": [
+    "I can ask where things are.",
+    "I can use in, on, under, next to, behind, in front of and between.",
+    "I can describe where things are in my room."
+  ],
+  "teacherNotes": [
+    "Edatları gerçek nesnelerle gösterin: bir kalemi masanın üstüne, altına, arkasına koyup sorun: \"Where's the pen?\"",
+    "Türk öğrenciler için en büyük fark sıradır: \"masanın üstünde\" → on the table (edat başta). Tahtada iki dili alt alta yazın.",
+    "Arap öğrenciler on / in ayrımında zorlanabilir (ikisi de bazen في). Kural: yüzeyin üstü on, bir şeyin içi in.",
+    "Oyun: Öğretmen ekranda odasındaki bir eşyayı gizler; öğrenciler \"Is it under the desk?\" diye sorarak bulur."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["Where's your phone right now?", "Is your room tidy or messy?", "What things do you often lose?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Where?",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "in", "pos": "preposition", "example": "My phone is in my pocket.", "gloss": { "tr": "içinde", "ar": "في، داخل" } },
+        { "word": "on", "pos": "preposition", "example": "The keys are on the table.", "gloss": { "tr": "üstünde", "ar": "على" } },
+        { "word": "under", "pos": "preposition", "example": "The shoes are under the bed.", "gloss": { "tr": "altında", "ar": "تحت" } },
+        { "word": "next to", "pos": "preposition", "example": "The lamp is next to the bed.", "gloss": { "tr": "yanında", "ar": "بجانب" } },
+        { "word": "behind", "pos": "preposition", "example": "My shoes are behind the door.", "gloss": { "tr": "arkasında", "ar": "خلف" } },
+        { "word": "in front of", "pos": "preposition", "example": "The cat is in front of the TV.", "gloss": { "tr": "önünde", "ar": "أمام" } },
+        { "word": "between", "pos": "preposition", "example": "The desk is between the bed and the window.", "gloss": { "tr": "arasında", "ar": "بين" } },
+        { "word": "sofa", "pos": "noun", "example": "Tom is on the sofa.", "gloss": { "tr": "kanepe", "ar": "أريكة، كنبة" } },
+        { "word": "shelf", "pos": "noun", "example": "The books are on the shelf.", "gloss": { "tr": "raf", "ar": "رفّ" } },
+        { "word": "floor", "pos": "noun", "example": "His clothes are on the floor.", "gloss": { "tr": "yer, zemin", "ar": "أرضية" } },
+        { "word": "shoes", "pos": "noun", "example": "Where are my shoes?", "gloss": { "tr": "ayakkabılar", "ar": "حذاء" } },
+        { "word": "pocket", "pos": "noun", "example": "It's in my pocket.", "gloss": { "tr": "cep", "ar": "جيب" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Where are my keys?",
+      "scene": "Saturday afternoon. Omar is at Lucas's apartment. They have a football game.",
+      "lines": [
+        { "speaker": "omar", "text": "Lucas, come on! The game starts at four." },
+        { "speaker": "lucas", "text": "One minute! Where are my shoes?" },
+        { "speaker": "omar", "text": "Are they under the bed?" },
+        { "speaker": "lucas", "text": "No, they aren't. … Oh! They're behind the door!" },
+        { "speaker": "omar", "text": "Great. Let's go!" },
+        { "speaker": "lucas", "text": "Wait — where are my keys?" },
+        { "speaker": "omar", "text": "Are they on the table?" },
+        { "speaker": "lucas", "text": "No … and they aren't in my bag." },
+        { "speaker": "omar", "text": "Lucas, what's that in your hand?" },
+        { "speaker": "lucas", "text": "My keys! Ha ha. Sorry." },
+        { "speaker": "omar", "text": "And your phone?" },
+        { "speaker": "lucas", "text": "It's in my pocket. … Yes! OK, let's go!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "The football game starts at four.", "answer": true },
+        { "statement": "Lucas's shoes are under the bed.", "answer": false },
+        { "statement": "The shoes are behind the door.", "answer": true },
+        { "statement": "Lucas's keys are in his bag.", "answer": false },
+        { "statement": "His phone is in his pocket.", "answer": true }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Where's Tom?",
+      "intro": "Rose writes about her cat.",
+      "voice": "rose",
+      "paragraphs": [
+        ["Tom is my cat.", "He's gray, and he's very lazy."],
+        ["In the morning, he's on the sofa.", "At noon, he's under the table in the kitchen."],
+        ["In the afternoon, he's in the garden, between the flowers.", "In the evening, he's in front of the TV."],
+        ["And where is Tom at night?", "He's on my bed, of course!"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Tom's day",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "In the morning, Tom is …", "options": ["on the sofa", "under the table", "in the garden"], "answer": 0 },
+        { "prompt": "At noon, Tom is …", "options": ["on the bed", "under the table", "in front of the TV"], "answer": 1 },
+        { "prompt": "In the afternoon, he's …", "options": ["between the flowers", "in the kitchen", "on the sofa"], "answer": 0 },
+        { "prompt": "At night, Tom is on …", "options": ["the sofa", "Rose's bed", "the table"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: where things are",
+      "look": ["They're **behind** the door!", "Are they **under** the bed?", "Tom is **between** the flowers.", "He's **in front of** the TV."],
+      "table": {
+        "head": ["", "Example"],
+        "rows": [
+          ["in", "The phone is **in** my pocket."],
+          ["on", "The keys are **on** the table."],
+          ["under", "The shoes are **under** the bed."],
+          ["next to", "The lamp is **next to** the bed."],
+          ["behind", "The bag is **behind** the door."],
+          ["in front of", "The cat is **in front of** the TV."],
+          ["between", "The desk is **between** the bed **and** the window."]
+        ]
+      },
+      "rules": [
+        "Ask: **Where is** the …? / **Where are** the …?",
+        "Answer: **It's** on the table. / **They're** under the bed.",
+        "**between** + two things: between the bed **and** the window"
+      ],
+      "examples": ["Where's my phone? — It's on the desk.", "Where are the books? — They're on the shelf.", "The park is in front of the school."],
+      "support": {
+        "tr": "Türkçede yer bildirmek için isme ek getiririz: masada, masanın üstünde, yatağın altında. İngilizcede ise ismin ÖNÜNE ayrı bir kelime gelir: on the table (masanın üstünde), under the bed (yatağın altında), next to the window (pencerenin yanında). Sıra Türkçenin tersidir!",
+        "ar": "حروف الجرّ في الإنجليزية تأتي قبل الاسم كما في العربية: in = في، داخل · on = على · under = تحت · next to = بجانب · behind = خلف · in front of = أمام · between = بين. انتبه: نستخدم on لما يكون فوق السطح (on the table)، و in لما يكون داخل الشيء (in the bag)."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "Yer bildiren kelimeyi ismin önüne koy; Türkçedeki gibi sona koyma.",
+          "wrong": ["The keys are the table on.", "The shoes are bed under."],
+          "right": ["The keys are on the table.", "The shoes are under the bed."]
+        },
+        "ar": {
+          "note": "لا تنسَ the بعد حرف الجرّ، واستخدم on للسطح و in للداخل.",
+          "wrong": ["The keys are in table.", "The phone is on my pocket."],
+          "right": ["The keys are on the table.", "The phone is in my pocket."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with in, on, under, next to, behind, in front of or between.",
+      "support": { "tr": "in, on, under, next to, behind, in front of veya between ile tamamla.", "ar": "أكمل بـ in أو on أو under أو next to أو behind أو in front of أو between." },
+      "bank": ["in", "on", "under", "next to", "behind", "in front of", "between"],
+      "items": [
+        "The phone is {in} my pocket.",
+        "The keys are {on} the table.",
+        "The shoes are {under} the bed.",
+        "The lamp is {next to} the bed.",
+        "The cat is {in front of} the TV.",
+        "The desk is {between} the bed and the window.",
+        "The bag is {behind} the door."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Where is it?",
+      "instructions": "Match the question and the answer.",
+      "support": { "tr": "Soruyu cevabıyla eşleştir.", "ar": "صِل السؤال بالجواب." },
+      "pairs": [
+        ["Where's my phone?", "It's in your pocket."],
+        ["Where are the keys?", "They're on the table."],
+        ["Where's Tom?", "He's under the table."],
+        ["Where are my shoes?", "They're behind the door."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "support": { "tr": "Dinle ve doğru cevabı seç.", "ar": "استمع واختر الجواب الصحيح." },
+      "items": [
+        { "audio": "My keys are on the desk, next to the lamp.", "voice": "elif", "prompt": "Where are Elif's keys?", "options": ["on the desk", "in the bag", "under the bed"], "answer": 0 },
+        { "audio": "The books are in the box under my desk.", "voice": "maya", "prompt": "Where's the box?", "options": ["on the desk", "under the desk", "next to the desk"], "answer": 1 },
+        { "audio": "Tom is behind the sofa again!", "voice": "rose", "prompt": "Where's Tom?", "options": ["on the sofa", "behind the sofa", "in front of the sofa"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["The keys are on the table.", "Where are my shoes?", "It's under the bed.", "Tom is in front of the TV."]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "Where are my keys?", "voice": "lucas" },
+        { "text": "They're under the bed.", "voice": "omar" },
+        { "text": "The cat is on the sofa.", "voice": "rose" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write",
+      "model": {
+        "heading": "My room — Elif",
+        "text": ["My bed is next to the window.", "My desk is between the bed and the closet.", "There's a lamp on the desk.", "My shoes are under the bed.", "My bag is behind the door."]
+      },
+      "frame": ["My bed is ___ the ___.", "My desk is between the ___ and the ___.", "There's a ___ on the ___.", "My ___ is / are under the ___."],
+      "prompt": "Where are the things in your room? Write 5 sentences.",
+      "support": { "tr": "Odandaki eşyalar nerede? 5 cümle yaz.", "ar": "أين الأشياء في غرفتك؟ اكتب 5 جمل." },
+      "minWords": 25,
+      "checklist": ["I put in / on / under before the noun.", "I use the after the preposition: on the table."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

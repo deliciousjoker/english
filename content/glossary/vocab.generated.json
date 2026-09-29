@@ -1,0 +1,1154 @@
+{
+ "a little": {
+  "tr": "biraz",
+  "ar": "قليلًا"
+ },
+ "add": {
+  "tr": "eklemek",
+  "ar": "يضيف"
+ },
+ "always": {
+  "tr": "her zaman (%100)",
+  "ar": "دائمًا"
+ },
+ "american": {
+  "tr": "Amerikalı",
+  "ar": "أمريكي"
+ },
+ "any": {
+  "tr": "hiç (olumsuz / soru cümlesinde)",
+  "ar": "أيّ (في النفي والسؤال)"
+ },
+ "apartment": {
+  "tr": "daire, apartman dairesi",
+  "ar": "شقّة"
+ },
+ "apple": {
+  "tr": "elma",
+  "ar": "تفّاحة"
+ },
+ "architect": {
+  "tr": "mimar",
+  "ar": "مهندس معماري"
+ },
+ "artist": {
+  "tr": "sanatçı, ressam",
+  "ar": "فنّان / فنّانة"
+ },
+ "bag": {
+  "tr": "çanta",
+  "ar": "حقيبة"
+ },
+ "banana": {
+  "tr": "muz",
+  "ar": "موزة"
+ },
+ "bank": {
+  "tr": "banka",
+  "ar": "بنك، مصرف"
+ },
+ "bathroom": {
+  "tr": "banyo",
+  "ar": "حمّام"
+ },
+ "beach": {
+  "tr": "plaj, sahil",
+  "ar": "شاطئ"
+ },
+ "beard": {
+  "tr": "sakal",
+  "ar": "لحية"
+ },
+ "because": {
+  "tr": "çünkü",
+  "ar": "لأنّ"
+ },
+ "bed": {
+  "tr": "yatak",
+  "ar": "سرير"
+ },
+ "bedroom": {
+  "tr": "yatak odası",
+  "ar": "غرفة النوم"
+ },
+ "behind": {
+  "tr": "arkasında",
+  "ar": "خلف"
+ },
+ "best friend": {
+  "tr": "en yakın arkadaş",
+  "ar": "أعزّ صديق / صديقة"
+ },
+ "between": {
+  "tr": "arasında",
+  "ar": "بين"
+ },
+ "big": {
+  "tr": "büyük",
+  "ar": "كبير"
+ },
+ "birthday": {
+  "tr": "doğum günü",
+  "ar": "عيد ميلاد"
+ },
+ "bookstore": {
+  "tr": "kitapçı",
+  "ar": "مكتبة لبيع الكتب"
+ },
+ "brazilian": {
+  "tr": "Brezilyalı",
+  "ar": "برازيلي"
+ },
+ "bread": {
+  "tr": "ekmek",
+  "ar": "خبز"
+ },
+ "brother": {
+  "tr": "erkek kardeş, ağabey",
+  "ar": "أخ"
+ },
+ "brown": {
+  "tr": "kahverengi",
+  "ar": "بنّي"
+ },
+ "brush your teeth": {
+  "tr": "dişlerini fırçalamak",
+  "ar": "يُفرّش أسنانه"
+ },
+ "busy": {
+  "tr": "meşgul, yoğun",
+  "ar": "مشغول"
+ },
+ "buy": {
+  "tr": "satın almak",
+  "ar": "يشتري"
+ },
+ "café": {
+  "tr": "kafe",
+  "ar": "مقهى"
+ },
+ "can't": {
+  "tr": "-emez (yapamamak)",
+  "ar": "لا يستطيع"
+ },
+ "can": {
+  "tr": "-ebilmek",
+  "ar": "يستطيع"
+ },
+ "card": {
+  "tr": "kart; banka kartı",
+  "ar": "بطاقة"
+ },
+ "cat": {
+  "tr": "kedi",
+  "ar": "قطّة، قطّ"
+ },
+ "cent": {
+  "tr": "sent (doların yüzde biri)",
+  "ar": "سنت"
+ },
+ "chair": {
+  "tr": "sandalye",
+  "ar": "كرسي"
+ },
+ "change": {
+  "tr": "para üstü",
+  "ar": "الباقي (من المال)"
+ },
+ "cheap": {
+  "tr": "ucuz",
+  "ar": "رخيص"
+ },
+ "check": {
+  "tr": "kontrol et",
+  "ar": "تحقَّق، راجِع"
+ },
+ "cheese": {
+  "tr": "peynir",
+  "ar": "جبن"
+ },
+ "chicken": {
+  "tr": "tavuk",
+  "ar": "دجاج"
+ },
+ "choose": {
+  "tr": "seç",
+  "ar": "اختر"
+ },
+ "cinema": {
+  "tr": "sinema",
+  "ar": "سينما"
+ },
+ "city": {
+  "tr": "şehir",
+  "ar": "مدينة"
+ },
+ "classmate": {
+  "tr": "sınıf arkadaşı",
+  "ar": "زميل الصف"
+ },
+ "clock": {
+  "tr": "saat (duvar / masa)",
+  "ar": "ساعة حائط"
+ },
+ "close": {
+  "tr": "kapatmak",
+  "ar": "يُغلِق"
+ },
+ "closet": {
+  "tr": "gömme dolap, gardırop",
+  "ar": "خزانة ملابس"
+ },
+ "complete": {
+  "tr": "tamamla",
+  "ar": "أكمِل"
+ },
+ "cook": {
+  "tr": "yemek pişirmek",
+  "ar": "يطبخ"
+ },
+ "country": {
+  "tr": "ülke",
+  "ar": "دولة، بلد"
+ },
+ "cup": {
+  "tr": "fincan, bardak",
+  "ar": "فنجان، كوب"
+ },
+ "cupboard": {
+  "tr": "dolap (mutfak)",
+  "ar": "خزانة المطبخ"
+ },
+ "customer": {
+  "tr": "müşteri",
+  "ar": "زبون"
+ },
+ "dance": {
+  "tr": "dans etmek",
+  "ar": "يرقص"
+ },
+ "dancing": {
+  "tr": "dans etmek",
+  "ar": "الرقص"
+ },
+ "daughter": {
+  "tr": "kız evlat",
+  "ar": "ابنة، بنت"
+ },
+ "dear": {
+  "tr": "canım, sevgili",
+  "ar": "عزيزي، عزيزتي"
+ },
+ "delicious": {
+  "tr": "çok lezzetli",
+  "ar": "لذيذ"
+ },
+ "desk": {
+  "tr": "çalışma masası",
+  "ar": "مكتب (طاولة)"
+ },
+ "dessert": {
+  "tr": "tatlı",
+  "ar": "حلوى"
+ },
+ "dinner": {
+  "tr": "akşam yemeği",
+  "ar": "عشاء"
+ },
+ "doctor": {
+  "tr": "doktor",
+  "ar": "طبيب / طبيبة"
+ },
+ "dog": {
+  "tr": "köpek",
+  "ar": "كلب"
+ },
+ "dollar": {
+  "tr": "dolar",
+  "ar": "دولار"
+ },
+ "draw": {
+  "tr": "(resim) çizmek",
+  "ar": "يرسم"
+ },
+ "drawing": {
+  "tr": "resim çizmek",
+  "ar": "الرسم"
+ },
+ "dream": {
+  "tr": "hayal",
+  "ar": "حُلم"
+ },
+ "drive": {
+  "tr": "araba sürmek",
+  "ar": "يقود (السيارة)"
+ },
+ "driver": {
+  "tr": "şoför, sürücü",
+  "ar": "سائق"
+ },
+ "each": {
+  "tr": "tanesi, her biri",
+  "ar": "للواحدة، لكلّ واحدة"
+ },
+ "early": {
+  "tr": "erken",
+  "ar": "مبكّرًا"
+ },
+ "egg": {
+  "tr": "yumurta",
+  "ar": "بيضة"
+ },
+ "eggplant": {
+  "tr": "patlıcan",
+  "ar": "باذنجان"
+ },
+ "engineer": {
+  "tr": "mühendis",
+  "ar": "مهندس / مهندسة"
+ },
+ "english": {
+  "tr": "İngiliz, İngilizce",
+  "ar": "إنجليزي"
+ },
+ "enjoy": {
+  "tr": "keyif almak, zevk almak",
+  "ar": "يستمتع بـ"
+ },
+ "every day": {
+  "tr": "her gün",
+  "ar": "كلّ يوم"
+ },
+ "excuse me": {
+  "tr": "affedersiniz",
+  "ar": "عفوًا، لو سمحت"
+ },
+ "expensive": {
+  "tr": "pahalı",
+  "ar": "غالٍ"
+ },
+ "eyes": {
+  "tr": "gözler",
+  "ar": "عيون"
+ },
+ "false": {
+  "tr": "yanlış",
+  "ar": "خطأ"
+ },
+ "family": {
+  "tr": "aile",
+  "ar": "عائلة، أسرة"
+ },
+ "father": {
+  "tr": "baba",
+  "ar": "أب"
+ },
+ "feed": {
+  "tr": "(hayvanı) beslemek, yem vermek",
+  "ar": "يُطعِم"
+ },
+ "film": {
+  "tr": "film",
+  "ar": "فيلم"
+ },
+ "finish": {
+  "tr": "bitirmek, bitmek",
+  "ar": "يُنهي، ينتهي"
+ },
+ "floor": {
+  "tr": "yer, zemin",
+  "ar": "أرضية"
+ },
+ "free time": {
+  "tr": "boş zaman",
+  "ar": "وقت الفراغ"
+ },
+ "friday": {
+  "tr": "Cuma",
+  "ar": "الجمعة"
+ },
+ "fridge": {
+  "tr": "buzdolabı",
+  "ar": "ثلّاجة"
+ },
+ "friend": {
+  "tr": "arkadaş",
+  "ar": "صديق / صديقة"
+ },
+ "friendly": {
+  "tr": "arkadaş canlısı, samimi",
+  "ar": "ودود"
+ },
+ "from": {
+  "tr": "-den, -dan (nereli olduğunu söylerken)",
+  "ar": "مِن"
+ },
+ "fry": {
+  "tr": "kızartmak",
+  "ar": "يقلي"
+ },
+ "full": {
+  "tr": "tok",
+  "ar": "شبعان"
+ },
+ "funny": {
+  "tr": "komik, eğlenceli",
+  "ar": "مُضحِك، ظريف"
+ },
+ "garden": {
+  "tr": "bahçe",
+  "ar": "حديقة"
+ },
+ "get dressed": {
+  "tr": "giyinmek",
+  "ar": "يرتدي ملابسه"
+ },
+ "get up": {
+  "tr": "(yataktan) kalkmak",
+  "ar": "ينهض من السرير"
+ },
+ "glasses": {
+  "tr": "gözlük",
+  "ar": "نظّارة"
+ },
+ "go straight": {
+  "tr": "düz git",
+  "ar": "امشِ مباشرةً، إلى الأمام"
+ },
+ "go to work": {
+  "tr": "işe gitmek",
+  "ar": "يذهب إلى العمل"
+ },
+ "good afternoon": {
+  "tr": "iyi günler (öğleden sonra selamı), tünaydın",
+  "ar": "مساء الخير (بعد الظهر)"
+ },
+ "good evening": {
+  "tr": "iyi akşamlar",
+  "ar": "مساء الخير"
+ },
+ "good morning": {
+  "tr": "günaydın",
+  "ar": "صباح الخير"
+ },
+ "goodbye": {
+  "tr": "hoşça kal, güle güle",
+  "ar": "مع السلامة"
+ },
+ "grandfather": {
+  "tr": "büyükbaba, dede",
+  "ar": "جدّ"
+ },
+ "grandmother": {
+  "tr": "büyükanne, nine",
+  "ar": "جدّة"
+ },
+ "guest": {
+  "tr": "misafir",
+  "ar": "ضيف"
+ },
+ "habit": {
+  "tr": "alışkanlık",
+  "ar": "عادة"
+ },
+ "hair": {
+  "tr": "saç",
+  "ar": "شَعر"
+ },
+ "half past": {
+  "tr": "… buçuk",
+  "ar": "… والنصف"
+ },
+ "hate": {
+  "tr": "nefret etmek",
+  "ar": "يكره"
+ },
+ "have breakfast": {
+  "tr": "kahvaltı yapmak",
+  "ar": "يتناول الفطور"
+ },
+ "hello": {
+  "tr": "merhaba",
+  "ar": "مرحبًا"
+ },
+ "help yourself!": {
+  "tr": "Buyurun, kendiniz alın!",
+  "ar": "تفضّل، خُذ بنفسك!"
+ },
+ "hi": {
+  "tr": "selam",
+  "ar": "أهلًا"
+ },
+ "hobby": {
+  "tr": "hobi, uğraş",
+  "ar": "هواية"
+ },
+ "hospital": {
+  "tr": "hastane",
+  "ar": "مستشفى"
+ },
+ "hour": {
+  "tr": "saat (süre)",
+  "ar": "ساعة (مدّة)"
+ },
+ "how much is it?": {
+  "tr": "Bu ne kadar? Kaç para?",
+  "ar": "بكم هذا؟"
+ },
+ "how often…?": {
+  "tr": "Ne sıklıkla…?",
+  "ar": "كم مرّة…؟"
+ },
+ "hungry": {
+  "tr": "aç",
+  "ar": "جائع"
+ },
+ "husband": {
+  "tr": "koca, eş",
+  "ar": "زوج"
+ },
+ "i'd like": {
+  "tr": "… istiyorum (kibar)",
+  "ar": "أودّ، أريد (بأدب)"
+ },
+ "in front of": {
+  "tr": "önünde",
+  "ar": "أمام"
+ },
+ "in": {
+  "tr": "içinde",
+  "ar": "في، داخل"
+ },
+ "interview": {
+  "tr": "röportaj; mülakat",
+  "ar": "مقابلة"
+ },
+ "jacket": {
+  "tr": "ceket, mont",
+  "ar": "سترة، جاكيت"
+ },
+ "job": {
+  "tr": "iş, meslek",
+  "ar": "وظيفة، مهنة"
+ },
+ "jordanian": {
+  "tr": "Ürdünlü",
+  "ar": "أردني"
+ },
+ "juice": {
+  "tr": "meyve suyu",
+  "ar": "عصير"
+ },
+ "key": {
+  "tr": "anahtar",
+  "ar": "مفتاح"
+ },
+ "kind": {
+  "tr": "nazik, iyi kalpli",
+  "ar": "لطيف، طيّب"
+ },
+ "kitchen": {
+  "tr": "mutfak",
+  "ar": "مطبخ"
+ },
+ "lamp": {
+  "tr": "lamba, abajur",
+  "ar": "مصباح"
+ },
+ "late": {
+  "tr": "geç; geç kalmış",
+  "ar": "متأخّر"
+ },
+ "library": {
+  "tr": "kütüphane",
+  "ar": "مكتبة عامّة"
+ },
+ "like": {
+  "tr": "sevmek, hoşlanmak",
+  "ar": "يحبّ، يُعجبه"
+ },
+ "listen": {
+  "tr": "dinle",
+  "ar": "استمع"
+ },
+ "listening to music": {
+  "tr": "müzik dinlemek",
+  "ar": "الاستماع إلى الموسيقى"
+ },
+ "little": {
+  "tr": "küçük (little sister: küçük kız kardeş)",
+  "ar": "صغير (little sister: الأخت الصغرى)"
+ },
+ "living room": {
+  "tr": "oturma odası, salon",
+  "ar": "غرفة المعيشة"
+ },
+ "long": {
+  "tr": "uzun",
+  "ar": "طويل"
+ },
+ "look": {
+  "tr": "bak",
+  "ar": "انظر"
+ },
+ "love": {
+  "tr": "çok sevmek, bayılmak",
+  "ar": "يحبّ كثيرًا، يعشق"
+ },
+ "lovely": {
+  "tr": "harika, çok hoş",
+  "ar": "رائع، جميل جدًّا"
+ },
+ "match": {
+  "tr": "eşleştir",
+  "ar": "صِل، طابِق"
+ },
+ "meet": {
+  "tr": "tanışmak",
+  "ar": "يتعرّف على، يقابل"
+ },
+ "milk": {
+  "tr": "süt",
+  "ar": "حليب"
+ },
+ "minute": {
+  "tr": "dakika",
+  "ar": "دقيقة"
+ },
+ "miss": {
+  "tr": "özlemek",
+  "ar": "يشتاق إلى"
+ },
+ "monday": {
+  "tr": "Pazartesi",
+  "ar": "الاثنين"
+ },
+ "mother": {
+  "tr": "anne",
+  "ar": "أمّ"
+ },
+ "name": {
+  "tr": "isim, ad",
+  "ar": "اسم"
+ },
+ "near": {
+  "tr": "yakınında",
+  "ar": "بالقرب من"
+ },
+ "need": {
+  "tr": "ihtiyacı olmak, gerekmek",
+  "ar": "يحتاج"
+ },
+ "neighbor": {
+  "tr": "komşu",
+  "ar": "جار / جارة"
+ },
+ "neighborhood": {
+  "tr": "mahalle, semt",
+  "ar": "حيّ"
+ },
+ "never": {
+  "tr": "asla, hiçbir zaman (%0)",
+  "ar": "أبدًا"
+ },
+ "new": {
+  "tr": "yeni",
+  "ar": "جديد"
+ },
+ "newsletter": {
+  "tr": "bülten",
+  "ar": "نشرة"
+ },
+ "next to": {
+  "tr": "yanında",
+  "ar": "بجانب"
+ },
+ "nice": {
+  "tr": "hoş, güzel",
+  "ar": "لطيف، جميل"
+ },
+ "noon": {
+  "tr": "öğle, saat 12",
+  "ar": "الظهر"
+ },
+ "note": {
+  "tr": "not",
+  "ar": "ملاحظة، ورقة"
+ },
+ "notebook": {
+  "tr": "defter",
+  "ar": "دفتر"
+ },
+ "nurse": {
+  "tr": "hemşire (erkek için de kullanılır)",
+  "ar": "ممرّض / ممرّضة"
+ },
+ "o'clock": {
+  "tr": "saat … (tam)",
+  "ar": "الساعة … تمامًا"
+ },
+ "office": {
+  "tr": "ofis, büro",
+  "ar": "مكتب"
+ },
+ "often": {
+  "tr": "sık sık",
+  "ar": "غالبًا، كثيرًا"
+ },
+ "on": {
+  "tr": "üstünde",
+  "ar": "على"
+ },
+ "once a week": {
+  "tr": "haftada bir",
+  "ar": "مرّة في الأسبوع"
+ },
+ "once a year": {
+  "tr": "yılda bir",
+  "ar": "مرّة في السنة"
+ },
+ "onion": {
+  "tr": "soğan",
+  "ar": "بصل"
+ },
+ "only": {
+  "tr": "sadece",
+  "ar": "فقط"
+ },
+ "open": {
+  "tr": "açmak",
+  "ar": "يفتح"
+ },
+ "owner": {
+  "tr": "sahip, işletmeci",
+  "ar": "مالك، صاحب"
+ },
+ "parents": {
+  "tr": "anne baba, ebeveynler",
+  "ar": "الوالدان"
+ },
+ "park": {
+  "tr": "park",
+  "ar": "حديقة عامّة"
+ },
+ "pay": {
+  "tr": "ödemek",
+  "ar": "يدفع"
+ },
+ "pharmacy": {
+  "tr": "eczane",
+  "ar": "صيدلية"
+ },
+ "phone": {
+  "tr": "telefon",
+  "ar": "هاتف"
+ },
+ "photo": {
+  "tr": "fotoğraf",
+  "ar": "صورة"
+ },
+ "plant": {
+  "tr": "bitki, saksı çiçeği",
+  "ar": "نبتة"
+ },
+ "plate": {
+  "tr": "tabak",
+  "ar": "صحن"
+ },
+ "play the piano": {
+  "tr": "piyano çalmak",
+  "ar": "يعزف على البيانو"
+ },
+ "play": {
+  "tr": "oynamak; çalmak (müzik)",
+  "ar": "يلعب؛ يعزف"
+ },
+ "playing video games": {
+  "tr": "video oyunu oynamak",
+  "ar": "ممارسة ألعاب الفيديو"
+ },
+ "please": {
+  "tr": "lütfen",
+  "ar": "من فضلك"
+ },
+ "pocket": {
+  "tr": "cep",
+  "ar": "جيب"
+ },
+ "post office": {
+  "tr": "postane",
+  "ar": "مكتب البريد"
+ },
+ "pot": {
+  "tr": "tencere",
+  "ar": "قِدر"
+ },
+ "potato": {
+  "tr": "patates",
+  "ar": "بطاطا، بطاطس"
+ },
+ "price": {
+  "tr": "fiyat",
+  "ar": "سعر"
+ },
+ "quarter past": {
+  "tr": "…'i çeyrek geçiyor",
+  "ar": "… والربع"
+ },
+ "quarter to": {
+  "tr": "…'e çeyrek var",
+  "ar": "… إلا ربعًا"
+ },
+ "quiet": {
+  "tr": "sessiz, sakin",
+  "ar": "هادئ"
+ },
+ "read": {
+  "tr": "oku",
+  "ar": "اقرأ"
+ },
+ "reading": {
+  "tr": "okumak, kitap okuma",
+  "ar": "القراءة"
+ },
+ "ready": {
+  "tr": "hazır",
+  "ar": "جاهز"
+ },
+ "really": {
+  "tr": "gerçekten",
+  "ar": "حقًّا"
+ },
+ "recipe": {
+  "tr": "yemek tarifi",
+  "ar": "وصفة"
+ },
+ "repeat": {
+  "tr": "tekrar et",
+  "ar": "كرِّر"
+ },
+ "rice": {
+  "tr": "pirinç, pilav",
+  "ar": "أرزّ"
+ },
+ "ride a bike": {
+  "tr": "bisiklet sürmek",
+  "ar": "يركب الدراجة"
+ },
+ "room": {
+  "tr": "oda",
+  "ar": "غرفة"
+ },
+ "saturday": {
+  "tr": "Cumartesi",
+  "ar": "السبت"
+ },
+ "school": {
+  "tr": "okul",
+  "ar": "مدرسة"
+ },
+ "secret": {
+  "tr": "sır",
+  "ar": "سرّ"
+ },
+ "see you": {
+  "tr": "görüşürüz",
+  "ar": "أراك لاحقًا"
+ },
+ "shelf": {
+  "tr": "raf",
+  "ar": "رفّ"
+ },
+ "shoes": {
+  "tr": "ayakkabılar",
+  "ar": "حذاء"
+ },
+ "shopping list": {
+  "tr": "alışveriş listesi",
+  "ar": "قائمة المشتريات"
+ },
+ "short": {
+  "tr": "kısa boylu; kısa",
+  "ar": "قصير"
+ },
+ "show": {
+  "tr": "gösteri, konser",
+  "ar": "عرض، حفلة"
+ },
+ "sick": {
+  "tr": "hasta",
+  "ar": "مريض"
+ },
+ "sing": {
+  "tr": "şarkı söylemek",
+  "ar": "يُغنّي"
+ },
+ "singer": {
+  "tr": "şarkıcı",
+  "ar": "مُغنٍّ، مُغنّية"
+ },
+ "sister": {
+  "tr": "kız kardeş, abla",
+  "ar": "أخت"
+ },
+ "sleep late": {
+  "tr": "geç saate kadar uyumak",
+  "ar": "ينام حتى وقت متأخّر"
+ },
+ "smart": {
+  "tr": "zeki, akıllı",
+  "ar": "ذكي"
+ },
+ "sofa": {
+  "tr": "kanepe",
+  "ar": "أريكة، كنبة"
+ },
+ "some": {
+  "tr": "biraz, birkaç (olumlu cümlede)",
+  "ar": "بعض (في الجملة المثبتة)"
+ },
+ "sometimes": {
+  "tr": "bazen",
+  "ar": "أحيانًا"
+ },
+ "son": {
+  "tr": "oğul",
+  "ar": "ابن"
+ },
+ "song": {
+  "tr": "şarkı",
+  "ar": "أغنية"
+ },
+ "sorry": {
+  "tr": "özür dilerim, pardon",
+  "ar": "آسف"
+ },
+ "speak": {
+  "tr": "konuşmak (bir dili)",
+  "ar": "يتكلّم"
+ },
+ "start": {
+  "tr": "başlamak",
+  "ar": "يبدأ"
+ },
+ "street": {
+  "tr": "sokak, cadde",
+  "ar": "شارع"
+ },
+ "student": {
+  "tr": "öğrenci",
+  "ar": "طالب / طالبة"
+ },
+ "study": {
+  "tr": "okumak, ders çalışmak",
+  "ar": "يدرس"
+ },
+ "sunday": {
+  "tr": "Pazar",
+  "ar": "الأحد"
+ },
+ "supermarket": {
+  "tr": "süpermarket",
+  "ar": "سوبرماركت"
+ },
+ "survey": {
+  "tr": "anket",
+  "ar": "استطلاع، استبيان"
+ },
+ "swim": {
+  "tr": "yüzmek",
+  "ar": "يسبح"
+ },
+ "swimming": {
+  "tr": "yüzmek, yüzme",
+  "ar": "السباحة"
+ },
+ "take a shower": {
+  "tr": "duş almak",
+  "ar": "يستحمّ"
+ },
+ "taking photos": {
+  "tr": "fotoğraf çekmek",
+  "ar": "التقاط الصور"
+ },
+ "tall": {
+  "tr": "uzun boylu",
+  "ar": "طويل"
+ },
+ "teacher": {
+  "tr": "öğretmen",
+  "ar": "معلّم / معلّمة"
+ },
+ "thank you": {
+  "tr": "teşekkür ederim",
+  "ar": "شكرًا لك"
+ },
+ "they": {
+  "tr": "onlar",
+  "ar": "هم / هنّ"
+ },
+ "thursday": {
+  "tr": "Perşembe",
+  "ar": "الخميس"
+ },
+ "tomato": {
+  "tr": "domates",
+  "ar": "طماطم، بندورة"
+ },
+ "tourist": {
+  "tr": "turist",
+  "ar": "سائح"
+ },
+ "true": {
+  "tr": "doğru",
+  "ar": "صحيح"
+ },
+ "tuesday": {
+  "tr": "Salı",
+  "ar": "الثلاثاء"
+ },
+ "turkish": {
+  "tr": "Türk, Türkçe",
+  "ar": "تركي"
+ },
+ "turn left": {
+  "tr": "sola dön",
+  "ar": "انعطف يسارًا"
+ },
+ "turn right": {
+  "tr": "sağa dön",
+  "ar": "انعطف يمينًا"
+ },
+ "twice a week": {
+  "tr": "haftada iki kez",
+  "ar": "مرّتين في الأسبوع"
+ },
+ "umbrella": {
+  "tr": "şemsiye",
+  "ar": "مظلّة"
+ },
+ "under": {
+  "tr": "altında",
+  "ar": "تحت"
+ },
+ "understand": {
+  "tr": "anlamak",
+  "ar": "يفهم"
+ },
+ "university": {
+  "tr": "üniversite",
+  "ar": "جامعة"
+ },
+ "upside down": {
+  "tr": "baş aşağı, ters",
+  "ar": "مقلوب"
+ },
+ "usually": {
+  "tr": "genellikle",
+  "ar": "عادةً"
+ },
+ "visit": {
+  "tr": "ziyaret etmek",
+  "ar": "يزور"
+ },
+ "waiter": {
+  "tr": "garson",
+  "ar": "نادل"
+ },
+ "wake up": {
+  "tr": "uyanmak",
+  "ar": "يستيقظ"
+ },
+ "walk": {
+  "tr": "yürümek",
+  "ar": "يمشي"
+ },
+ "wall": {
+  "tr": "duvar",
+  "ar": "جدار، حائط"
+ },
+ "wallet": {
+  "tr": "cüzdan",
+  "ar": "محفظة"
+ },
+ "want": {
+  "tr": "istemek",
+  "ar": "يريد"
+ },
+ "watch": {
+  "tr": "kol saati",
+  "ar": "ساعة يد"
+ },
+ "watching tv": {
+  "tr": "televizyon izlemek",
+  "ar": "مشاهدة التلفاز"
+ },
+ "water": {
+  "tr": "sulamak (su: water)",
+  "ar": "يسقي (ماء: water)"
+ },
+ "we": {
+  "tr": "biz",
+  "ar": "نحن"
+ },
+ "wednesday": {
+  "tr": "Çarşamba",
+  "ar": "الأربعاء"
+ },
+ "weekday": {
+  "tr": "hafta içi günü",
+  "ar": "يوم من أيام الأسبوع (غير العطلة)"
+ },
+ "weekend": {
+  "tr": "hafta sonu",
+  "ar": "عطلة نهاية الأسبوع"
+ },
+ "welcome": {
+  "tr": "hoş geldin, hoş geldiniz",
+  "ar": "أهلًا وسهلًا، مرحبًا بك"
+ },
+ "what time is it?": {
+  "tr": "Saat kaç?",
+  "ar": "كم الساعة؟"
+ },
+ "when": {
+  "tr": "ne zaman",
+  "ar": "متى"
+ },
+ "who": {
+  "tr": "kim",
+  "ar": "مَن"
+ },
+ "whose": {
+  "tr": "kimin",
+  "ar": "لِمَن"
+ },
+ "why": {
+  "tr": "neden, niçin",
+  "ar": "لماذا"
+ },
+ "wife": {
+  "tr": "karı, eş",
+  "ar": "زوجة"
+ },
+ "window": {
+  "tr": "pencere",
+  "ar": "نافذة"
+ },
+ "would you like…?": {
+  "tr": "… ister misin / ister misiniz?",
+  "ar": "هل تودّ …؟ هل تريد …؟"
+ },
+ "write": {
+  "tr": "yaz",
+  "ar": "اكتب"
+ },
+ "yogurt": {
+  "tr": "yoğurt",
+  "ar": "لبن زبادي"
+ },
+ "young": {
+  "tr": "genç",
+  "ar": "صغير السنّ، شابّ"
+ }
+}

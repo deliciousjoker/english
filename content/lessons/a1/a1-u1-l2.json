@@ -1,0 +1,212 @@
+{
+  "id": "a1-u1-l2",
+  "level": "a1",
+  "unit": 1,
+  "order": 2,
+  "title": "Where are you from?",
+  "subtitle": "Elif meets Sam at his café",
+  "canDo": [
+    "I can say where people are from.",
+    "I can use he, she and it.",
+    "I can name some countries and nationalities."
+  ],
+  "teacherNotes": [
+    "Warm-up: Dünya haritası paylaşın; öğrenciler kendi ülkelerini ve şehirlerini göstersin.",
+    "Türk öğrenciler he/she karıştırır (Türkçede tek \"o\"). Her yanlışta nazikçe \"he or she?\" diye sorun.",
+    "Arap öğrenciler şehir/ülke için she kullanabilir (مدينة → هي). \"It's a big city\" örneğini vurgulayın.",
+    "Ülke–milliyet eşleştirmesinde öğrencilerin kendi ülkelerini de ekleyin (Syrian, Iraqi, Egyptian…)."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": [
+        "Where are you from?",
+        "What's the name of your city?",
+        "Is your city big or small?"
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "country", "pos": "noun", "example": "Turkey is a country.", "gloss": { "tr": "ülke", "ar": "دولة، بلد" } },
+        { "word": "city", "pos": "noun", "example": "Boston is a city.", "gloss": { "tr": "şehir", "ar": "مدينة" } },
+        { "word": "big", "pos": "adjective", "example": "It's a big city.", "gloss": { "tr": "büyük", "ar": "كبير" } },
+        { "word": "classmate", "pos": "noun", "example": "Lucas is my classmate.", "gloss": { "tr": "sınıf arkadaşı", "ar": "زميل الصف" } },
+        { "word": "Turkish", "pos": "adjective", "example": "Elif is Turkish.", "gloss": { "tr": "Türk, Türkçe", "ar": "تركي" } },
+        { "word": "Jordanian", "pos": "adjective", "example": "Omar is Jordanian.", "gloss": { "tr": "Ürdünlü", "ar": "أردني" } },
+        { "word": "Brazilian", "pos": "adjective", "example": "Lucas is Brazilian.", "gloss": { "tr": "Brezilyalı", "ar": "برازيلي" } },
+        { "word": "American", "pos": "adjective", "example": "Maya is American.", "gloss": { "tr": "Amerikalı", "ar": "أمريكي" } },
+        { "word": "English", "pos": "adjective", "example": "Sam is English.", "gloss": { "tr": "İngiliz, İngilizce", "ar": "إنجليزي" } },
+        { "word": "café", "pos": "noun", "example": "Welcome to my café!", "gloss": { "tr": "kafe", "ar": "مقهى" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "At Sam's café",
+      "scene": "After class. Lucas and Elif are at a small café.",
+      "lines": [
+        { "speaker": "lucas", "text": "Hi, Sam! This is Elif. She's in my English class." },
+        { "speaker": "sam", "text": "Hello, Elif. I'm Sam. Nice to meet you." },
+        { "speaker": "elif", "text": "Nice to meet you, too. Where are you from, Sam?" },
+        { "speaker": "sam", "text": "I'm from London. I'm English. And you?" },
+        { "speaker": "elif", "text": "I'm from Izmir. It's a big city in Turkey." },
+        { "speaker": "sam", "text": "Turkey! Great. Welcome to my café." },
+        { "speaker": "lucas", "text": "Look, Elif. That's Omar. He's in our class, too." },
+        { "speaker": "elif", "text": "Oh, yes. Where's he from?" },
+        { "speaker": "lucas", "text": "He's from Jordan. He's very nice." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Sam is from London.", "answer": true },
+        { "statement": "Elif is American.", "answer": false },
+        { "statement": "Izmir is a big city.", "answer": true },
+        { "statement": "Omar is from Brazil.", "answer": false },
+        { "statement": "Omar is in Elif's class.", "answer": true }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "My new class",
+      "intro": "Elif writes about the people in her class.",
+      "voice": "elif",
+      "paragraphs": [
+        ["This is my English class in Boston."],
+        ["My teacher is Maya.", "She's American.", "She's from Boston."],
+        ["Lucas is my classmate.", "He's Brazilian.", "He's from São Paulo.", "It's a very big city in Brazil."],
+        ["Omar is my classmate, too.", "He's from Amman.", "Amman is in Jordan."],
+        ["And me?", "I'm Turkish, and I'm very happy here!"]
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: he / she / it + is",
+      "look": ["**She's** in my English class.", "**He's** from Jordan.", "**It's** a big city.", "Where**'s** he from?"],
+      "table": {
+        "head": ["", "Long form", "Short form"],
+        "rows": [
+          ["he", "He is from Jordan.", "He's from Jordan."],
+          ["she", "She is American.", "She's American."],
+          ["it", "It is a big city.", "It's a big city."]
+        ]
+      },
+      "rules": [
+        "**he** = a man or a boy",
+        "**she** = a woman or a girl",
+        "**it** = a thing, a place or an animal",
+        "he / she / it → **is**"
+      ],
+      "examples": [
+        "Omar is from Jordan. He's Jordanian.",
+        "Maya is American. She's from Boston.",
+        "Amman is in Jordan. It's a big city.",
+        "Where's she from?"
+      ],
+      "support": {
+        "tr": "Türkçede tek bir \"o\" var; İngilizcede üç tane: he (erkek), she (kadın), it (eşya, yer, hayvan). Üçüyle de is kullanılır: He is from Jordan = O Ürdünlü. Konuşurken kısaltırız: he's, she's, it's. Soru: Where is he from? = O nereli?",
+        "ar": "في الإنجليزية: he = هو (للمذكّر)، she = هي (للمؤنّث)، it للأشياء والأماكن والحيوانات. نستخدم is مع الثلاثة: He is from Jordan = هو من الأردن. وفي الكلام نختصر: he's و she's و it's. والسؤال: Where is he from? = من أين هو؟"
+      },
+      "watchOut": {
+        "tr": {
+          "note": "Türkçedeki \"o\" için doğru kelimeyi seç: erkek için he, kadın için she. Bu çok sık yapılan bir hata!",
+          "wrong": ["Maya is my teacher. He's American.", "Omar is my classmate. She's from Jordan."],
+          "right": ["Maya is my teacher. She's American.", "Omar is my classmate. He's from Jordan."]
+        },
+        "ar": {
+          "note": "في العربية نقول عن المدينة «هي»، لكن في الإنجليزية نستخدم it للأماكن والأشياء.",
+          "wrong": ["Amman is in Jordan. She's a big city.", "Boston? He is a nice city."],
+          "right": ["Amman is in Jordan. It's a big city.", "Boston? It's a nice city."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with He, She or It.",
+      "support": { "tr": "He, She veya It ile tamamla.", "ar": "أكمل بـ He أو She أو It." },
+      "bank": ["He", "She", "It"],
+      "items": [
+        "This is Maya. {She}'s my teacher.",
+        "This is Omar. {He}'s from Jordan.",
+        "This is Boston. {It}'s a big city.",
+        "Lucas is my classmate. {He}'s Brazilian.",
+        "Elif is from Izmir. {She}'s Turkish."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Countries",
+      "instructions": "Match the country and the nationality.",
+      "support": { "tr": "Ülkeyi milliyetle eşleştir.", "ar": "صِل الدولة بالجنسية." },
+      "pairs": [
+        ["Turkey", "Turkish"],
+        ["Jordan", "Jordanian"],
+        ["Brazil", "Brazilian"],
+        ["the USA", "American"],
+        ["England", "English"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "support": { "tr": "Dinle ve doğru cevabı seç.", "ar": "استمع واختر الجواب الصحيح." },
+      "items": [
+        { "audio": "This is Lucas. He's from Brazil.", "voice": "maya", "prompt": "Lucas is …", "options": ["Turkish", "Brazilian", "English"], "answer": 1 },
+        { "audio": "Elif is my classmate. She's from Izmir.", "voice": "lucas", "prompt": "Izmir is in …", "options": ["Turkey", "Jordan", "Brazil"], "answer": 0 },
+        { "audio": "Hi, I'm Sam. I'm from London.", "voice": "sam", "prompt": "Sam is …", "options": ["American", "English", "Jordanian"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["She's from Boston.", "Where is he from?", "It's a big city.", "He's my classmate."]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "He's from Jordan.", "voice": "elif" },
+        { "text": "She's American.", "voice": "lucas" },
+        { "text": "Where's she from?", "voice": "sam" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write",
+      "model": {
+        "heading": "My classmate",
+        "text": ["This is Lucas.", "He's my classmate.", "He's from São Paulo, in Brazil.", "He's Brazilian."]
+      },
+      "frame": ["This is ___.", "He's / She's my ___.", "He's / She's from ___, in ___.", "He's / She's ___."],
+      "prompt": "Write about a friend or a classmate.",
+      "support": { "tr": "Bir arkadaşın veya sınıf arkadaşın hakkında yaz.", "ar": "اكتب عن صديق أو زميل." },
+      "minWords": 15,
+      "checklist": [
+        "I use he for a man and she for a woman.",
+        "Names, cities and countries start with a capital letter."
+      ]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "id": "a1-u1-l4",
+  "level": "a1",
+  "unit": 1,
+  "order": 4,
+  "title": "Are you a student?",
+  "subtitle": "Elif meets her neighbor — questions with be",
+  "canDo": [
+    "I can ask and answer yes/no questions: Are you…? Is he…?",
+    "I can use we and they.",
+    "I can write a short text about me."
+  ],
+  "teacherNotes": [
+    "Ünitenin son dersi: sonunda öğrencilerden \"About me\" metnini yazıp size göndermelerini isteyin (Copy my text → WhatsApp).",
+    "Soru yapısında Türkçedeki -mı/-mi ve Arapçadaki هل karşılığı yok; sadece yer değiştirme var. Tahtada ok ile gösterin: You are → Are you?",
+    "\"Yes, I'm.\" hatası çok yaygın. Kısa cevapta kısaltma yapılmaz: Yes, I am / Yes, he is.",
+    "Rol yapma: öğrenciler Rose ve Elif'i kendi bilgileriyle canlandırsın."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["Are you a student?", "Is your teacher American?", "Who is your neighbor?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "new", "pos": "adjective", "example": "Are you new here?", "gloss": { "tr": "yeni", "ar": "جديد" } },
+        { "word": "neighbor", "pos": "noun", "example": "Mrs. Miller is my neighbor.", "gloss": { "tr": "komşu", "ar": "جار / جارة" } },
+        { "word": "apartment", "pos": "noun", "example": "I'm in apartment 4B.", "gloss": { "tr": "daire, apartman dairesi", "ar": "شقّة" } },
+        { "word": "friend", "pos": "noun", "example": "Is she your friend?", "gloss": { "tr": "arkadaş", "ar": "صديق / صديقة" } },
+        { "word": "kind", "pos": "adjective", "example": "She's very kind.", "gloss": { "tr": "nazik, iyi kalpli", "ar": "لطيف، طيّب" } },
+        { "word": "lovely", "pos": "adjective", "example": "Oh, lovely!", "gloss": { "tr": "harika, çok hoş", "ar": "رائع، جميل جدًّا" } },
+        { "word": "really", "pos": "adverb", "example": "Really? Wow!", "gloss": { "tr": "gerçekten", "ar": "حقًّا" } },
+        { "word": "only", "pos": "adverb", "example": "We're only eight students.", "gloss": { "tr": "sadece", "ar": "فقط" } },
+        { "word": "we", "pos": "pronoun", "example": "We're classmates.", "gloss": { "tr": "biz", "ar": "نحن" } },
+        { "word": "they", "pos": "pronoun", "example": "They're from Brazil.", "gloss": { "tr": "onlar", "ar": "هم / هنّ" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "The new neighbor",
+      "scene": "Elif's apartment building. Elif meets an old woman at the door.",
+      "lines": [
+        { "speaker": "rose", "text": "Hello! Are you new here?" },
+        { "speaker": "elif", "text": "Yes, I am. I'm Elif. I'm in apartment 4B." },
+        { "speaker": "rose", "text": "Welcome! I'm Rose Miller. I'm in 4A. Are you a student?" },
+        { "speaker": "elif", "text": "Yes, I am. I'm a student at Harbor English School." },
+        { "speaker": "rose", "text": "Oh, lovely! Is your teacher Maya Brooks?" },
+        { "speaker": "elif", "text": "Yes, she is! Is she your friend?" },
+        { "speaker": "rose", "text": "No, she isn't. She's my niece!" },
+        { "speaker": "elif", "text": "Really? Wow!" },
+        { "speaker": "rose", "text": "Yes! Are you free now? Tea and cookies in 4A!" },
+        { "speaker": "elif", "text": "Thank you, Mrs. Miller!" },
+        { "speaker": "rose", "text": "Please, call me Rose." }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "A message from Boston",
+      "intro": "Elif writes a message to her mom and dad.",
+      "voice": "elif",
+      "paragraphs": [
+        ["Hi Mom and Dad!"],
+        ["I'm OK, and Boston is great.", "My neighbor is Mrs. Miller.", "She's sixty-eight, and she's very kind."],
+        ["My classmates are nice, too.", "They're from Brazil, Jordan and China.", "We're a small class — only eight students."],
+        ["Are you OK?", "Is Grandma OK?"],
+        ["Love,", "Elif"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Elif is in apartment 4A.", "answer": false },
+        { "statement": "Rose Miller is Elif's neighbor.", "answer": true },
+        { "statement": "Maya is Rose's friend.", "answer": false },
+        { "statement": "Elif's classmates are from Brazil, Jordan and China.", "answer": true },
+        { "statement": "Elif's class is very big.", "answer": false }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: questions with be",
+      "look": [
+        "**Are you** a student? — Yes, I **am**.",
+        "**Is she** your friend? — No, she **isn't**.",
+        "**We're** a small class.",
+        "**They're** from Brazil and Jordan."
+      ],
+      "table": {
+        "head": ["Question", "Yes", "No"],
+        "rows": [
+          ["Are you a student?", "Yes, I am.", "No, I'm not."],
+          ["Is he from Jordan?", "Yes, he is.", "No, he isn't."],
+          ["Is she a teacher?", "Yes, she is.", "No, she isn't."],
+          ["Are they American?", "Yes, they are.", "No, they aren't."]
+        ]
+      },
+      "rules": [
+        "Question: put **am / is / are** first. You are → **Are you** …?",
+        "Short answers: Yes, I **am**. / No, I**'m not**.",
+        "**we / they** → **are**: we're, they're",
+        "Don't say “Yes, I'm.” Say “Yes, I **am**.”"
+      ],
+      "examples": ["Are you from Turkey? — Yes, I am.", "Is Omar a doctor? — No, he isn't.", "Are they students? — Yes, they are."],
+      "support": {
+        "tr": "Soru yapmak için am / is / are cümlenin başına gelir: You are a student → Are you a student? (Öğrenci misin?). Türkçedeki soru eki \"mi\"nin görevini bu yer değiştirme yapar. Kısa cevaplarda Yes, I am / No, I'm not deriz. we (biz) ve they (onlar) ile are kullanılır.",
+        "ar": "لطرح السؤال نضع am / is / are في أول الجملة: You are a student → Are you a student? (هل أنت طالب؟). لا نحتاج إلى كلمة مثل «هل»؛ يكفي تغيير الترتيب. الجواب القصير: Yes, I am. / No, I'm not. ونستخدم are مع we (نحن) و they (هم / هنّ)."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "Soruda sadece sesi yükseltmek yetmez; am / is / are başa gelmeli. Kısa cevapta da kısaltma yapma.",
+          "wrong": ["You are a student?", "Yes, I'm."],
+          "right": ["Are you a student?", "Yes, I am."]
+        },
+        "ar": {
+          "note": "لا تبدأ السؤال بـ Do مع فعل be، ولا تنسَ تغيير الترتيب.",
+          "wrong": ["Do you are a student?", "She is teacher?"],
+          "right": ["Are you a student?", "Is she a teacher?"]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete the questions and answers.",
+      "support": { "tr": "Soruları ve cevapları tamamla.", "ar": "أكمل الأسئلة والأجوبة." },
+      "bank": ["Are", "Is", "am", "is", "are", "isn't"],
+      "items": [
+        "{Are} you from Jordan? — Yes, I {am}.",
+        "{Is} she a teacher? — No, she {isn't|is not}.",
+        "{Are} they students? — Yes, they {are}.",
+        "{Is} he Brazilian? — Yes, he {is}.",
+        "We {are} classmates."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Question and answer",
+      "instructions": "Match the question and the answer.",
+      "support": { "tr": "Soruyu cevabıyla eşleştir.", "ar": "صِل السؤال بالجواب." },
+      "pairs": [
+        ["Are you American?", "No, I'm not. I'm Turkish."],
+        ["Is Maya a teacher?", "Yes, she is."],
+        ["Are Lucas and Omar students?", "Yes, they are."],
+        ["Is Sam a doctor?", "No, he isn't."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "ordering",
+      "title": "The conversation",
+      "instructions": "Put the conversation in order.",
+      "support": { "tr": "Konuşmayı doğru sıraya koy.", "ar": "رتّب المحادثة." },
+      "items": [
+        "Hello! Are you new here?",
+        "Yes, I am. I'm Elif.",
+        "Welcome! I'm Rose. Are you a student?",
+        "Yes, I am. I'm at Harbor English School.",
+        "Oh, lovely!"
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and answer",
+      "instructions": "Listen to the question. Choose the best answer.",
+      "support": { "tr": "Soruyu dinle. En iyi cevabı seç.", "ar": "استمع إلى السؤال. اختر أفضل جواب." },
+      "items": [
+        { "audio": "Are you a student?", "voice": "rose", "prompt": "Answer:", "options": ["Yes, I'm.", "Yes, I am.", "Yes, I are."], "answer": 1 },
+        { "audio": "Is Omar from Jordan?", "voice": "maya", "prompt": "Answer:", "options": ["Yes, he is.", "Yes, she is.", "Yes, it is."], "answer": 0 },
+        { "audio": "Are they from Brazil?", "voice": "sam", "prompt": "Answer:", "options": ["No, they aren't.", "No, they isn't.", "No, we aren't."], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make questions",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["Are you a student?", "Is he from Brazil?", "No, she isn't.", "They're from Jordan."]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "Are you a student?", "voice": "rose" },
+        { "text": "Yes, I am.", "voice": "elif" },
+        { "text": "They're from Jordan.", "voice": "maya" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: About me",
+      "model": {
+        "heading": "About me — Lucas",
+        "text": [
+          "Hi! I'm Lucas Silva.",
+          "I'm twenty-one.",
+          "I'm from São Paulo, in Brazil.",
+          "I'm a student and a musician.",
+          "I'm not a teacher!",
+          "My classmates are from Turkey, Jordan and China.",
+          "They're very nice."
+        ]
+      },
+      "frame": [
+        "Hi! I'm ___.",
+        "I'm ___ years old.",
+        "I'm from ___, in ___.",
+        "I'm a / an ___.",
+        "I'm not ___.",
+        "My classmates / friends are ___."
+      ],
+      "prompt": "Write 5 or 6 sentences about you. Send your text to your teacher.",
+      "support": { "tr": "Kendin hakkında 5–6 cümle yaz. Metnini öğretmenine gönder.", "ar": "اكتب 5 أو 6 جمل عن نفسك. أرسل نصّك إلى معلّمك." },
+      "minWords": 25,
+      "checklist": [
+        "I use I'm and I'm not.",
+        "I use a or an before a job.",
+        "Every sentence starts with a capital letter and ends with a period (.)"
+      ]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

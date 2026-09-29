@@ -1,0 +1,221 @@
+{
+  "id": "a1-u3-l2",
+  "level": "a1",
+  "unit": 3,
+  "order": 2,
+  "title": "What time is it?",
+  "subtitle": "Lucas is late (again) — telling the time, at / on / in",
+  "canDo": [
+    "I can ask and say the time.",
+    "I can use at, on and in with times and days.",
+    "I can read opening hours."
+  ],
+  "teacherNotes": [
+    "Saati iki yolla öğretin: seven thirty (dijital, ABD'de çok yaygın) ve half past seven. İkisini de tanısınlar, birini üretsinler yeter.",
+    "\"quarter to / past\" mantığını ekranda bir saat çizerek gösterin; Türkçedeki \"yediyi çeyrek geçiyor / sekize çeyrek var\" ile aynı.",
+    "at / on / in: Türkçe ve Arapçada tek ek / edat var (-de, في). Üç kutulu tabloyu tahtada tutun.",
+    "Oyun: Öğretmen bir saat söyler, öğrenciler parmakla / yazarak gösterir."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["What time is it now?", "What time is your English class?", "Are you usually early or late?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Time",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "What time is it?", "pos": "question", "example": "Excuse me, what time is it?", "gloss": { "tr": "Saat kaç?", "ar": "كم الساعة؟" } },
+        { "word": "o'clock", "pos": "adverb", "example": "It's nine o'clock.", "gloss": { "tr": "saat … (tam)", "ar": "الساعة … تمامًا" } },
+        { "word": "half past", "pos": "phrase", "example": "It's half past seven.", "gloss": { "tr": "… buçuk", "ar": "… والنصف" } },
+        { "word": "quarter past", "pos": "phrase", "example": "It's quarter past nine.", "gloss": { "tr": "…'i çeyrek geçiyor", "ar": "… والربع" } },
+        { "word": "quarter to", "pos": "phrase", "example": "It's quarter to eight.", "gloss": { "tr": "…'e çeyrek var", "ar": "… إلا ربعًا" } },
+        { "word": "minute", "pos": "noun", "example": "The school is five minutes from here.", "gloss": { "tr": "dakika", "ar": "دقيقة" } },
+        { "word": "hour", "pos": "noun", "example": "Class is three hours.", "gloss": { "tr": "saat (süre)", "ar": "ساعة (مدّة)" } },
+        { "word": "noon", "pos": "noun", "example": "Lunch is at noon.", "gloss": { "tr": "öğle, saat 12", "ar": "الظهر" } },
+        { "word": "watch", "pos": "noun", "example": "My watch is at home.", "gloss": { "tr": "kol saati", "ar": "ساعة يد" } },
+        { "word": "clock", "pos": "noun", "example": "Here — a clock for you!", "gloss": { "tr": "saat (duvar / masa)", "ar": "ساعة حائط" } }
+      ]
+    },
+    {
+      "type": "tiles",
+      "title": "Telling the time",
+      "instructions": "Listen and repeat. You can say the time in two ways.",
+      "support": { "tr": "Dinle ve tekrar et. Saati iki şekilde söyleyebilirsin.", "ar": "استمع وكرّر. يمكنك قول الوقت بطريقتين." },
+      "items": [
+        { "big": "7:00", "small": "seven o'clock", "say": "seven o'clock", "hint": { "tr": "saat yedi", "ar": "السابعة تمامًا" } },
+        { "big": "7:10", "small": "ten past seven", "say": "ten past seven, seven ten", "hint": { "tr": "yediyi on geçiyor", "ar": "السابعة وعشر دقائق" } },
+        { "big": "7:15", "small": "quarter past seven", "say": "quarter past seven, seven fifteen", "hint": { "tr": "yediyi çeyrek geçiyor", "ar": "السابعة والربع" } },
+        { "big": "7:30", "small": "half past seven", "say": "half past seven, seven thirty", "hint": { "tr": "yedi buçuk", "ar": "السابعة والنصف" } },
+        { "big": "7:45", "small": "quarter to eight", "say": "quarter to eight, seven forty-five", "hint": { "tr": "sekize çeyrek var", "ar": "الثامنة إلا ربعًا" } },
+        { "big": "7:50", "small": "ten to eight", "say": "ten to eight, seven fifty", "hint": { "tr": "sekize on var", "ar": "الثامنة إلا عشر دقائق" } },
+        { "big": "12:00", "small": "noon", "say": "twelve o'clock, noon", "hint": { "tr": "öğle, saat on iki", "ar": "الثانية عشرة ظهرًا" } },
+        { "big": "00:00", "small": "midnight", "say": "midnight", "hint": { "tr": "gece yarısı", "ar": "منتصف الليل" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Late again",
+      "scene": "Tuesday morning. Lucas runs into Sam's café.",
+      "lines": [
+        { "speaker": "lucas", "text": "Sam, what time is it? My phone is dead." },
+        { "speaker": "sam", "text": "It's ten to nine." },
+        { "speaker": "lucas", "text": "Ten to nine? Oh no! Class starts at nine on Tuesdays!" },
+        { "speaker": "sam", "text": "Relax. The school is five minutes from here. Here's your coffee. Go, go!" },
+        { "speaker": "maya", "text": "Good morning, Lucas. It's quarter past nine!" },
+        { "speaker": "lucas", "text": "Sorry, Maya. My phone is dead, and my watch is at home." },
+        { "speaker": "maya", "text": "Every Tuesday, Lucas! Here — a present for you." },
+        { "speaker": "lucas", "text": "A clock? Ha ha. Thank you, Maya!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Lucas's phone is dead.", "answer": true },
+        { "statement": "At the café, it's ten past nine.", "answer": false },
+        { "statement": "On Tuesdays, class starts at nine.", "answer": true },
+        { "statement": "Lucas's watch is at home.", "answer": true },
+        { "statement": "Maya's present is a new phone.", "answer": false }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Sam's Café — opening hours",
+      "intro": "A sign on the door of Sam's café.",
+      "voice": "sam",
+      "paragraphs": [
+        ["Sam's Café"],
+        ["Monday to Friday: 7:00 a.m. to 6:00 p.m.", "Saturday: 8:00 a.m. to 4:00 p.m.", "Sunday: closed."],
+        ["Breakfast: 7:00 to 11:00.", "Lunch: 12:00 to 3:00."],
+        ["Fresh cookies every day at 10:30!", "Dogs are welcome. Ask Biscuit."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "The sign",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "On Saturday, the café opens at …", "options": ["7:00", "8:00", "9:00"], "answer": 1 },
+        { "prompt": "On Sunday, the café is …", "options": ["open", "closed"], "answer": 1 },
+        { "prompt": "Fresh cookies are at …", "options": ["10:30", "11:30", "12:30"], "answer": 0 },
+        { "prompt": "Lunch is from …", "options": ["11 to 2", "12 to 3", "1 to 4"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: at, on, in",
+      "look": ["Class starts **at** nine.", "Class starts at nine **on** Tuesdays.", "I'm always tired **in** the morning."],
+      "table": {
+        "head": ["at", "on", "in"],
+        "rows": [
+          ["at 9:00", "on Monday", "in the morning"],
+          ["at half past two", "on Tuesdays", "in the afternoon"],
+          ["at noon / at night", "on the weekend", "in the evening"]
+        ]
+      },
+      "rules": [
+        "**at** + clock time: at 7:30, at noon, at night",
+        "**on** + day: on Monday, on Sundays",
+        "**in** + part of the day: in the morning, in the evening (but: **at** night)",
+        "What time is it? — It's seven o'clock. / It's half past seven. / It's seven thirty."
+      ],
+      "examples": ["The café opens at seven.", "I have English on Tuesdays.", "I drink coffee in the morning.", "Omar works at night."],
+      "support": {
+        "tr": "Saat için at (saat 7'de = at 7), gün için on (pazartesi günü = on Monday), günün bölümleri için in (sabahleyin = in the morning) kullanılır. Türkçedeki -de / -da ekinin karşılığı üç farklı kelimedir. İstisna: at night (geceleyin).",
+        "ar": "نستخدم at مع الساعة (at 7 = في السابعة)، و on مع الأيام (on Monday = يوم الاثنين)، و in مع أجزاء اليوم (in the morning = في الصباح). في العربية نقول «في» في أغلب الحالات، أما في الإنجليزية فهناك ثلاث كلمات. والاستثناء: at night (في الليل)."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "Türkçedeki -de her yerde aynı, İngilizcede değil. Saatten önce in, günden önce at kullanma.",
+          "wrong": ["in 9 o'clock", "at Monday"],
+          "right": ["at 9 o'clock", "on Monday"]
+        },
+        "ar": {
+          "note": "لا تترجم «في» دائمًا بـ in.",
+          "wrong": ["in seven o'clock", "in Monday"],
+          "right": ["at seven o'clock", "on Monday"]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with at, on or in.",
+      "support": { "tr": "at, on veya in ile tamamla.", "ar": "أكمل بـ at أو on أو in." },
+      "bank": ["at", "on", "in"],
+      "items": [
+        "Class starts {at} nine.",
+        "I have English {on} Tuesdays.",
+        "I drink coffee {in} the morning.",
+        "Omar works {at} night.",
+        "The café is closed {on} Sunday.",
+        "We go to the café {in} the afternoon."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "What time is it?",
+      "instructions": "Listen and choose the time.",
+      "support": { "tr": "Dinle ve saati seç.", "ar": "استمع واختر الوقت." },
+      "items": [
+        { "audio": "It's half past ten.", "voice": "maya", "prompt": "What time is it?", "options": ["10:30", "10:15", "11:30"], "answer": 0 },
+        { "audio": "It's quarter to eight.", "voice": "sam", "prompt": "What time is it?", "options": ["7:45", "8:15", "8:45"], "answer": 0 },
+        { "audio": "It's twelve o'clock.", "voice": "elif", "prompt": "What time is it?", "options": ["2:00", "12:00", "12:30"], "answer": 1 },
+        { "audio": "It's ten past six.", "voice": "omar", "prompt": "What time is it?", "options": ["6:10", "5:50", "10:06"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Two ways",
+      "instructions": "Match the time and the words.",
+      "support": { "tr": "Saati ve yazılışını eşleştir.", "ar": "صِل الوقت بالكلمات." },
+      "pairs": [
+        ["3:00", "three o'clock"],
+        ["3:15", "quarter past three"],
+        ["3:30", "half past three"],
+        ["3:45", "quarter to four"],
+        ["3:10", "ten past three"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "What time is it?", "voice": "lucas" },
+        { "text": "It's half past nine.", "voice": "sam" },
+        { "text": "Class starts at nine.", "voice": "maya" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write",
+      "model": {
+        "heading": "My week",
+        "text": ["I have English class on Tuesdays and Thursdays.", "Class starts at nine in the morning.", "I have lunch at one.", "I go to bed at eleven at night."]
+      },
+      "frame": ["I get up at ___ in the morning.", "I have ___ on ___.", "I have lunch at ___.", "I go to bed at ___."],
+      "prompt": "Write about your times and days (4 or 5 sentences).",
+      "support": { "tr": "Saatlerini ve günlerini yaz (4–5 cümle).", "ar": "اكتب عن أوقاتك وأيامك (4 أو 5 جمل)." },
+      "minWords": 20,
+      "checklist": ["I use at with times.", "I use on with days.", "I use in with the morning, the afternoon, the evening."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

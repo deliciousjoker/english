@@ -1,0 +1,246 @@
+{
+  "id": "a1-u3-l4",
+  "level": "a1",
+  "unit": 3,
+  "order": 4,
+  "title": "A day at the café",
+  "subtitle": "Elif's job interview — do, does, don't, doesn't",
+  "canDo": [
+    "I can ask questions: Do you…? Does she…?",
+    "I can say what I don't do: I don't, she doesn't.",
+    "I can write about my day."
+  ],
+  "teacherNotes": [
+    "Ünitenin son dersi: \"My day\" yazısını ödev verin (Copy my text ile size göndersinler).",
+    "does'tan sonra fiil -s almaz (She doesn't works ✗). Bunu 3.3'teki -s kuralıyla karşılaştırarak gösterin.",
+    "Arap öğrencilere: Do / Does soru başında \"هل\"in işini görür. Türk öğrencilere: \"mi\" soru ekinin yerine Do / Does başa gelir.",
+    "Rol yapma: Öğrencilerden biri Sam, biri iş arayan olsun; ilandaki sorularla kısa bir mülakat yapsınlar."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["Do you have a job?", "Do you drink coffee or tea?", "What's a good weekend job for a student?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "want", "pos": "verb", "example": "Do you want a job?", "gloss": { "tr": "istemek", "ar": "يريد" } },
+        { "word": "like", "pos": "verb", "example": "Do you like coffee?", "gloss": { "tr": "sevmek, hoşlanmak", "ar": "يحبّ، يُعجبه" } },
+        { "word": "love", "pos": "verb", "example": "I love dogs!", "gloss": { "tr": "çok sevmek, bayılmak", "ar": "يحبّ كثيرًا، يعشق" } },
+        { "word": "speak", "pos": "verb", "example": "Do you speak Turkish?", "gloss": { "tr": "konuşmak (bir dili)", "ar": "يتكلّم" } },
+        { "word": "understand", "pos": "verb", "example": "I understand a little Arabic.", "gloss": { "tr": "anlamak", "ar": "يفهم" } },
+        { "word": "customer", "pos": "noun", "example": "The customers love Biscuit.", "gloss": { "tr": "müşteri", "ar": "زبون" } },
+        { "word": "tourist", "pos": "noun", "example": "We have a lot of tourists.", "gloss": { "tr": "turist", "ar": "سائح" } },
+        { "word": "cup", "pos": "noun", "example": "I drink three cups of coffee a day.", "gloss": { "tr": "fincan, bardak", "ar": "فنجان، كوب" } },
+        { "word": "weekday", "pos": "noun", "example": "I don't work on weekdays.", "gloss": { "tr": "hafta içi günü", "ar": "يوم من أيام الأسبوع (غير العطلة)" } },
+        { "word": "a little", "pos": "phrase", "example": "I speak a little English.", "gloss": { "tr": "biraz", "ar": "قليلًا" } }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "HELP WANTED",
+      "intro": "A notice in the window of Sam's café.",
+      "voice": "sam",
+      "paragraphs": [
+        ["Help wanted at Sam's Café!"],
+        ["Weekend job: Saturdays and Sundays, 8 a.m. to 2 p.m."],
+        ["Do you like people?", "Do you like coffee?", "Do you speak English and another language?"],
+        ["Come in and talk to Sam."]
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "The interview",
+      "scene": "Sam's café. Elif wants the weekend job.",
+      "lines": [
+        { "speaker": "sam", "text": "So, Elif, you want the weekend job?" },
+        { "speaker": "elif", "text": "Yes, please. On Saturdays and Sundays." },
+        { "speaker": "sam", "text": "OK. First question: do you like coffee?" },
+        { "speaker": "elif", "text": "Yes, I do! I drink three cups a day." },
+        { "speaker": "sam", "text": "Ha! Good. Do you speak other languages?" },
+        { "speaker": "elif", "text": "Yes, I speak Turkish, and I understand a little Arabic. Omar is my teacher!" },
+        { "speaker": "sam", "text": "Great. We have a lot of tourists. Do you work on weekdays?" },
+        { "speaker": "elif", "text": "No, I don't. I have class in the morning." },
+        { "speaker": "sam", "text": "And does your class finish at twelve?" },
+        { "speaker": "elif", "text": "Yes, it does." },
+        { "speaker": "sam", "text": "Last question: do you like dogs? Biscuit is here every day." },
+        { "speaker": "elif", "text": "I don't have a dog, but I love dogs!" },
+        { "speaker": "sam", "text": "Perfect. You start on Saturday!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Elif wants a weekday job.", "answer": false },
+        { "statement": "Elif drinks three cups of coffee a day.", "answer": true },
+        { "statement": "Elif understands a little Arabic.", "answer": true },
+        { "statement": "Elif has a dog.", "answer": false },
+        { "statement": "Elif starts on Sunday.", "answer": false }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Biscuit's day",
+      "voice": "narrator",
+      "paragraphs": [
+        ["Biscuit is Sam's dog.", "He's five, and he's small and brown."],
+        ["Biscuit doesn't work, but he comes to the café every day.", "In the morning, he sleeps under a table."],
+        ["He doesn't drink coffee, and he doesn't eat cookies.", "Well … Sam says, “No cookies for Biscuit!”", "But the customers don't listen."],
+        ["Does Biscuit like the customers?", "Yes, he does.", "He loves them!"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Biscuit",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "Biscuit is …", "options": ["Sam's cat", "Sam's dog", "Sam's son"], "answer": 1 },
+        { "prompt": "In the morning, Biscuit …", "options": ["sleeps under a table", "drinks coffee", "works"], "answer": 0 },
+        { "prompt": "Who gives Biscuit cookies?", "options": ["Sam", "the customers", "Elif"], "answer": 1 },
+        { "prompt": "Does Biscuit like the customers?", "options": ["Yes, he does.", "No, he doesn't."], "answer": 0 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: do / does, don't / doesn't",
+      "look": [
+        "**Do** you **like** coffee? — Yes, I **do**.",
+        "I **don't have** a dog.",
+        "Biscuit **doesn't drink** coffee.",
+        "**Does** he **like** the customers? — Yes, he **does**."
+      ],
+      "table": {
+        "head": ["", "I / you / we / they", "he / she / it"],
+        "rows": [
+          ["Negative (–)", "I **don't** work.", "She **doesn't** work."],
+          ["Question (?)", "**Do** you work?", "**Does** she work?"],
+          ["Short answers", "Yes, I **do**. / No, I **don't**.", "Yes, she **does**. / No, she **doesn't**."]
+        ]
+      },
+      "rules": [
+        "**don't** = do not · **doesn't** = does not",
+        "After does / doesn't: no -s! She **doesn't work**. **Does** she **work**?",
+        "Questions: **Do / Does** + person + verb: **Does** Omar **work** at night?",
+        "With am / is / are, don't use do: **Are** you a student? (not “Do you are…”)"
+      ],
+      "examples": ["I don't drink coffee.", "Lucas doesn't get up early.", "Do you speak Turkish? — Yes, I do.", "Does Sam have a dog? — Yes, he does."],
+      "support": {
+        "tr": "Geniş zamanda olumsuz ve soru için yardımcı fiil kullanılır: do / does. Olumsuz: I don't work = Çalışmam. Soru: Do you work? = Çalışır mısın? he / she / it ile does gelir ve fiildeki -s kaybolur: She doesn't work, Does she work? Be fiiliyle (am / is / are) do kullanılmaz: Are you a student?",
+        "ar": "في النفي والسؤال بالمضارع البسيط نستخدم do / does. النفي: I don't work = لا أعمل. السؤال: Do you work? = هل تعمل؟ — هنا تقوم Do بدور «هل». مع he / she / it نستخدم does ويعود الفعل بدون s: She doesn't work، Does she work? وتذكّر: لا نستخدم do مع am / is / are."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "Olumsuzda sadece not yetmez, don't / doesn't gerekir. does'tan sonra fiile -s ekleme.",
+          "wrong": ["I not like coffee.", "She doesn't works on Sundays."],
+          "right": ["I don't like coffee.", "She doesn't work on Sundays."]
+        },
+        "ar": {
+          "note": "لا تبدأ السؤال بالفعل مباشرةً، ولا تستخدم does مع I / you.",
+          "wrong": ["Like you coffee?", "Does you speak English?"],
+          "right": ["Do you like coffee?", "Do you speak English?"]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with do, does, don't or doesn't.",
+      "support": { "tr": "do, does, don't veya doesn't ile tamamla.", "ar": "أكمل بـ do أو does أو don't أو doesn't." },
+      "bank": ["Do", "Does", "do", "does", "don't", "doesn't"],
+      "items": [
+        "{Do} you like tea? — Yes, I {do}.",
+        "{Does} Omar work at night? — Yes, he {does}.",
+        "Lucas {doesn't|does not} get up early.",
+        "I {don't|do not} have a car.",
+        "{Does} Maya run on Saturdays? — Yes, she {does}."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Question and answer",
+      "instructions": "Match the question and the answer.",
+      "support": { "tr": "Soruyu cevabıyla eşleştir.", "ar": "صِل السؤال بالجواب." },
+      "pairs": [
+        ["Do you speak Arabic?", "Yes, I do."],
+        ["Does Elif have a dog?", "No, she doesn't."],
+        ["Do Maya's parents live in Florida?", "Yes, they do."],
+        ["Does Biscuit drink coffee?", "No, he doesn't!"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and answer",
+      "instructions": "Listen and choose the best answer.",
+      "support": { "tr": "Dinle ve en iyi cevabı seç.", "ar": "استمع واختر أفضل جواب." },
+      "items": [
+        { "audio": "Do you work on Sundays?", "voice": "sam", "prompt": "Answer:", "options": ["Yes, I do.", "Yes, I am.", "Yes, I does."], "answer": 0 },
+        { "audio": "Does Lucas get up early?", "voice": "maya", "prompt": "Answer:", "options": ["No, he isn't.", "No, he doesn't.", "No, he don't."], "answer": 1 },
+        { "audio": "I don't like tea. I like coffee.", "voice": "elif", "prompt": "Elif likes …", "options": ["tea", "coffee", "juice"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["Do you like coffee?", "She doesn't work on Sundays.", "Does he have a dog?", "I don't drink tea."]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "Do you like dogs?", "voice": "sam" },
+        { "text": "I don't have a car.", "voice": "elif" },
+        { "text": "Does she work on Saturdays?", "voice": "maya" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: My day",
+      "model": {
+        "heading": "My day — Elif",
+        "text": [
+          "I get up at eight.",
+          "I have a big breakfast, and I walk to school.",
+          "Class starts at nine and finishes at twelve.",
+          "On Saturdays and Sundays, I work at Sam's café.",
+          "I don't work on weekdays.",
+          "And you? Do you work on weekends?"
+        ]
+      },
+      "frame": [
+        "I get up at ___.",
+        "I have ___ for breakfast.",
+        "I ___ in the morning / afternoon.",
+        "On weekends, I ___.",
+        "I don't ___.",
+        "Do you ___?"
+      ],
+      "prompt": "Write about your day (6 sentences). Use one sentence with don't and one question. Send your text to your teacher.",
+      "support": { "tr": "Gününü anlat (6 cümle). Bir cümlede don't, bir cümlede soru kullan. Metnini öğretmenine gönder.", "ar": "اكتب عن يومك (6 جمل). استخدم don't في جملة، واكتب سؤالًا واحدًا. أرسل نصّك إلى معلّمك." },
+      "minWords": 40,
+      "checklist": ["I use don't or doesn't one time.", "I write one question with Do or Does.", "After doesn't, the verb has no -s."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

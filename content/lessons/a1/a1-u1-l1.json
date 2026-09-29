@@ -1,0 +1,204 @@
+{
+  "id": "a1-u1-l1",
+  "level": "a1",
+  "unit": 1,
+  "order": 1,
+  "title": "Nice to meet you",
+  "subtitle": "Elif's first day at Harbor English School",
+  "canDo": [
+    "I can say hello and goodbye.",
+    "I can say my name.",
+    "I can say where I am from."
+  ],
+  "teacherNotes": [
+    "Warm-up: Önce kendini tanıt (\"Hello! I'm ___. I'm from ___.\"), sonra her öğrenciye \"What's your name?\" diye sor.",
+    "Diyaloğu önce \"Hide text\" ile metinsiz dinletin; sonra metni açıp birlikte okuyun.",
+    "a / an ayrıntısına girme; 1.3'te geliyor. \"a student\" kalıbını bütün olarak öğret.",
+    "Ders sonu rol yapma: öğrenciler diyaloğu kendi isim ve şehirleriyle canlandırsın."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": [
+        "Hello! What's your name?",
+        "Where are you from?",
+        "Say “hello” in your language. Now say it in English!"
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "hello", "pos": "exclamation", "example": "Hello! I'm Maya.", "gloss": { "tr": "merhaba", "ar": "مرحبًا" } },
+        { "word": "hi", "pos": "exclamation", "example": "Hi, Elif!", "gloss": { "tr": "selam", "ar": "أهلًا" } },
+        { "word": "name", "pos": "noun", "example": "My name is Elif.", "gloss": { "tr": "isim, ad", "ar": "اسم" } },
+        { "word": "teacher", "pos": "noun", "example": "I'm your teacher.", "gloss": { "tr": "öğretmen", "ar": "معلّم / معلّمة" } },
+        { "word": "student", "pos": "noun", "example": "I'm a student.", "gloss": { "tr": "öğrenci", "ar": "طالب / طالبة" } },
+        { "word": "school", "pos": "noun", "example": "Welcome to Harbor English School.", "gloss": { "tr": "okul", "ar": "مدرسة" } },
+        { "word": "from", "pos": "preposition", "example": "I'm from Turkey.", "gloss": { "tr": "-den, -dan (nereli olduğunu söylerken)", "ar": "مِن" } },
+        { "word": "nice", "pos": "adjective", "example": "Nice to meet you!", "gloss": { "tr": "hoş, güzel", "ar": "لطيف، جميل" } },
+        { "word": "meet", "pos": "verb", "example": "Nice to meet you.", "gloss": { "tr": "tanışmak", "ar": "يتعرّف على، يقابل" } },
+        { "word": "welcome", "pos": "exclamation", "example": "Welcome to the class!", "gloss": { "tr": "hoş geldin, hoş geldiniz", "ar": "أهلًا وسهلًا، مرحبًا بك" } },
+        { "word": "thank you", "pos": "phrase", "example": "Thank you, Maya.", "gloss": { "tr": "teşekkür ederim", "ar": "شكرًا لك" } },
+        { "word": "goodbye", "pos": "exclamation", "example": "Goodbye, Lucas!", "gloss": { "tr": "hoşça kal, güle güle", "ar": "مع السلامة" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Elif's first day",
+      "scene": "Harbor English School, Boston. Elif's first day.",
+      "lines": [
+        { "speaker": "maya", "text": "Hello! Welcome to Harbor English School." },
+        { "speaker": "elif", "text": "Hi! Thank you." },
+        { "speaker": "maya", "text": "I'm Maya. I'm your teacher. What's your name?" },
+        { "speaker": "elif", "text": "My name is Elif." },
+        { "speaker": "maya", "text": "Nice to meet you, Elif." },
+        { "speaker": "elif", "text": "Nice to meet you, too." },
+        { "speaker": "maya", "text": "Where are you from?" },
+        { "speaker": "elif", "text": "I'm from Turkey. I'm from Izmir." },
+        { "speaker": "maya", "text": "Great! Come in, please. Lucas, this is Elif." },
+        { "speaker": "lucas", "text": "Hi, Elif! I'm Lucas. I'm from Brazil." },
+        { "speaker": "elif", "text": "Hi, Lucas! Nice to meet you." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Maya is a teacher.", "answer": true },
+        { "statement": "Elif is from Brazil.", "answer": false },
+        { "statement": "Elif is from Izmir.", "answer": true },
+        { "statement": "Elif's teacher is Lucas.", "answer": false },
+        { "statement": "Lucas is from Brazil.", "answer": true }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Elif's notebook",
+      "intro": "Elif writes in her notebook.",
+      "voice": "elif",
+      "paragraphs": [
+        ["My name is Elif Kaya.", "I'm twenty years old.", "I'm from Izmir, in Turkey."],
+        ["Now I'm in Boston.", "I'm a student at Harbor English School.", "My teacher is Maya.", "I'm happy!"]
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: I am / you are",
+      "look": ["**I'm** Maya.", "**I'm** from Turkey.", "Where **are you** from?"],
+      "table": {
+        "head": ["Long form", "Short form"],
+        "rows": [
+          ["I am Elif.", "I'm Elif."],
+          ["I am from Turkey.", "I'm from Turkey."],
+          ["You are my teacher.", "You're my teacher."]
+        ]
+      },
+      "rules": [
+        "I → am",
+        "you → are",
+        "We usually say the short form: I'm, you're."
+      ],
+      "examples": ["I'm a student.", "You're my teacher.", "Where are you from? — I'm from Jordan."],
+      "support": {
+        "tr": "İngilizcede her cümlede ayrı bir fiil olmalıdır. Türkçede \"Ben öğrenciyim\" derken ayrı bir kelime kullanmayız; \"olmak\" anlamını -im eki (ek-fiil) verir. İngilizcede bu görevi ayrı kelimeler yapar, am ve are: I am a student = Ben öğrenciyim. I (ben) ile am, you (sen / siz) ile are kullanılır. Konuşurken çoğunlukla kısa hâli söyleriz: I'm, you're.",
+        "ar": "في الجملة الإنجليزية لا بدّ من فعل. نقول في العربية «أنا طالب» بدون فعل، أما في الإنجليزية فنضيف am أو are: I am a student = أنا طالب. نستخدم am مع I (أنا)، و are مع you. كلمة you تعني: أنتَ، أنتِ، أنتم، أنتنّ. وفي الكلام نستخدم عادةً الشكل المختصر: I'm و you're."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "Türkçedeki -im / -sin ekinin yerine İngilizcede ayrı bir kelime (am / are) gelir. Onu unutma!",
+          "wrong": ["I student.", "I from Turkey."],
+          "right": ["I'm a student.", "I'm from Turkey."]
+        },
+        "ar": {
+          "note": "لا تحذف am / are كما نحذف الفعل في الجملة الاسمية العربية.",
+          "wrong": ["I student.", "You my teacher."],
+          "right": ["I'm a student.", "You're my teacher."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with am or are.",
+      "support": { "tr": "am veya are ile tamamla.", "ar": "أكمل بـ am أو are." },
+      "bank": ["am", "are"],
+      "items": [
+        "I {am} Maya.",
+        "You {are} a student.",
+        "Where {are} you from?",
+        "I {am} from Jordan.",
+        "You {are} my teacher."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["My name is Omar.", "I'm from Brazil.", "Where are you from?", "Nice to meet you."]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Question and answer",
+      "instructions": "Match the question and the answer.",
+      "support": { "tr": "Soruyu cevabıyla eşleştir.", "ar": "صِل السؤال بالجواب." },
+      "pairs": [
+        ["What's your name?", "My name is Lucas."],
+        ["Where are you from?", "I'm from Brazil."],
+        ["Nice to meet you.", "Nice to meet you, too."],
+        ["Welcome to the school!", "Thank you!"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "support": { "tr": "Dinle ve doğru cevabı seç.", "ar": "استمع واختر الجواب الصحيح." },
+      "items": [
+        { "audio": "Hi! I'm Omar. I'm from Jordan.", "voice": "omar", "prompt": "Where is Omar from?", "options": ["Turkey", "Jordan", "Brazil"], "answer": 1 },
+        { "audio": "Hello! My name is Sam. I'm from London.", "voice": "sam", "prompt": "What's his name?", "options": ["Sam", "Omar", "Lucas"], "answer": 0 },
+        { "audio": "Hi, I'm Maya. I'm your teacher.", "voice": "maya", "prompt": "Maya is a …", "options": ["student", "teacher", "friend"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "My name is Elif.", "voice": "elif" },
+        { "text": "I'm from Turkey.", "voice": "elif" },
+        { "text": "Nice to meet you.", "voice": "maya" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write",
+      "model": { "heading": "Elif", "text": ["Hello! My name is Elif.", "I'm from Izmir, in Turkey.", "I'm a student."] },
+      "frame": ["Hello! My name is ___.", "I'm from ___, in ___.", "I'm a ___."],
+      "prompt": "Now write about you.",
+      "support": { "tr": "Şimdi kendin hakkında yaz.", "ar": "الآن اكتب عن نفسك." },
+      "minWords": 10,
+      "checklist": [
+        "I use I'm.",
+        "I start every sentence with a capital letter.",
+        "I end every sentence with a period (.)"
+      ]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

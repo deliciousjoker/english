@@ -1,0 +1,220 @@
+{
+  "id": "a1-u5-l3",
+  "level": "a1",
+  "unit": 5,
+  "order": 3,
+  "title": "How much is it?",
+  "subtitle": "A birthday present for Rose — prices, how much and how many",
+  "canDo": [
+    "I can ask and say prices.",
+    "I can use how much and how many.",
+    "I can buy something in a shop."
+  ],
+  "teacherNotes": [
+    "Fiyat okuma: $14.99 = fourteen ninety-nine (günlük dil) ya da fourteen dollars and ninety-nine cents. İkisini de tanısınlar.",
+    "How many + sayılabilir çoğul, How much + sayılamaz; ayrıca fiyat sorusu: How much is it? Arapçadaki \"كم / بكم\" ikisini de karşılar; farkı özellikle gösterin.",
+    "Menü okuma metnini sunum modunda açıp \"How much is a tea?\" gibi hızlı sorularla oyun yapın.",
+    "Rol yapma: dükkân. Öğrenciler sırayla satıcı ve müşteri olsun; ekranda basit bir fiyat listesi gösterin."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["How much is a coffee in your city?", "What's a good birthday present?", "Do you like shopping?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Shopping",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "How much is it?", "pos": "question", "example": "Excuse me, how much is this book?", "gloss": { "tr": "Bu ne kadar? Kaç para?", "ar": "بكم هذا؟" } },
+        { "word": "dollar", "pos": "noun", "example": "It's fourteen dollars.", "gloss": { "tr": "dolar", "ar": "دولار" } },
+        { "word": "cent", "pos": "noun", "example": "Here's your change — fifty-one cents.", "gloss": { "tr": "sent (doların yüzde biri)", "ar": "سنت" } },
+        { "word": "price", "pos": "noun", "example": "The prices are on the board.", "gloss": { "tr": "fiyat", "ar": "سعر" } },
+        { "word": "cheap", "pos": "adjective", "example": "The cards are cheap.", "gloss": { "tr": "ucuz", "ar": "رخيص" } },
+        { "word": "expensive", "pos": "adjective", "example": "That book is expensive.", "gloss": { "tr": "pahalı", "ar": "غالٍ" } },
+        { "word": "buy", "pos": "verb", "example": "I want to buy a present.", "gloss": { "tr": "satın almak", "ar": "يشتري" } },
+        { "word": "pay", "pos": "verb", "example": "Can I pay by card?", "gloss": { "tr": "ödemek", "ar": "يدفع" } },
+        { "word": "change", "pos": "noun", "example": "And here's your change.", "gloss": { "tr": "para üstü", "ar": "الباقي (من المال)" } },
+        { "word": "birthday", "pos": "noun", "example": "It's Rose's birthday on Sunday.", "gloss": { "tr": "doğum günü", "ar": "عيد ميلاد" } },
+        { "word": "card", "pos": "noun", "example": "A birthday card, please.", "gloss": { "tr": "kart; banka kartı", "ar": "بطاقة" } },
+        { "word": "each", "pos": "adverb", "example": "The cards are three dollars each.", "gloss": { "tr": "tanesi, her biri", "ar": "للواحدة، لكلّ واحدة" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "A present for Rose",
+      "scene": "The small bookstore on Harbor Street. It's Rose's birthday on Sunday.",
+      "lines": [
+        { "speaker": "lucas", "text": "So, what's a good present for Rose?" },
+        { "speaker": "elif", "text": "A book! She loves books. Excuse me, how much is this book?" },
+        { "speaker": "clerk", "text": "That one? It's $14.99." },
+        { "speaker": "elif", "text": "And how much is this notebook with flowers?" },
+        { "speaker": "clerk", "text": "It's $6.50." },
+        { "speaker": "lucas", "text": "How many notebooks do you want?" },
+        { "speaker": "elif", "text": "Just one. And a birthday card. How much are the cards?" },
+        { "speaker": "clerk", "text": "They're three dollars each." },
+        { "speaker": "elif", "text": "OK. The book, the notebook and a card, please. How much is that?" },
+        { "speaker": "clerk", "text": "That's $24.49." },
+        { "speaker": "elif", "text": "Here you are — twenty-five dollars." },
+        { "speaker": "clerk", "text": "And here's your change. Fifty-one cents. Thank you!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "It's Rose's birthday on Sunday.", "answer": true },
+        { "statement": "The book is $14.99.", "answer": true },
+        { "statement": "Elif buys two notebooks.", "answer": false },
+        { "statement": "The cards are five dollars each.", "answer": false },
+        { "statement": "Elif pays twenty-five dollars.", "answer": true }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Sam's Café — menu",
+      "intro": "The board on the wall at Sam's café.",
+      "voice": "sam",
+      "paragraphs": [
+        ["Drinks"],
+        ["Coffee: $2.50.", "Tea: $2.00.", "Hot chocolate: $3.00.", "Orange juice: $3.50."],
+        ["Food"],
+        ["Cookie: $1.25.", "Cheese sandwich: $6.75.", "Soup of the day: $5.50."],
+        ["Tea and a cookie: only $3.00!"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "The menu",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "How much is a coffee?", "options": ["$2.00", "$2.50", "$3.50"], "answer": 1 },
+        { "prompt": "What's the most expensive thing?", "options": ["the soup", "the cheese sandwich", "the orange juice"], "answer": 1 },
+        { "prompt": "Tea and a cookie are …", "options": ["$3.00", "$3.25", "$4.00"], "answer": 0 },
+        { "prompt": "How much are two cookies?", "options": ["$1.25", "$2.50", "$3.00"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: how much and how many",
+      "look": ["**How much is** this book? — **It's** $14.99.", "**How much are** the cards? — **They're** three dollars each.", "**How many** notebooks do you want?"],
+      "table": {
+        "head": ["Question", "Answer"],
+        "rows": [
+          ["How much is it?", "It's $6.50."],
+          ["How much are they?", "They're $3 each."],
+          ["How many eggs do you want?", "Twelve, please."],
+          ["How much milk do you want?", "A bottle, please."]
+        ]
+      },
+      "rules": [
+        "Prices: **How much is** + one thing? · **How much are** + two or more?",
+        "**How many** + countable plural: How many **eggs**?",
+        "**How much** + uncountable: How much **milk**? How much **money**?",
+        "Say prices: $6.50 = six dollars fifty / six fifty"
+      ],
+      "examples": ["How much is a coffee? — It's $2.50.", "How much are the apples? — They're a dollar each.", "How many people are there?", "How much water do you drink?"],
+      "support": {
+        "tr": "Fiyat sormak için How much is …? (tek şey) ve How much are …? (birden fazla) kullanılır. Miktar sorarken: sayılabilir çoğul isimlerle How many (How many eggs? = Kaç yumurta?), sayılamayan isimlerle How much (How much milk? = Ne kadar süt?).",
+        "ar": "للسؤال عن السعر نقول: How much is …? (للمفرد) و How much are …? (للجمع) = بكم …؟ وللسؤال عن الكمّية: How many مع الجمع المعدود (How many eggs? = كم بيضة؟)، و How much مع غير المعدود (How much milk? = كم من الحليب؟). في العربية «كم» واحدة للحالتين، أما في الإنجليزية فهناك كلمتان."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "Birden fazla şeyin fiyatını sorarken is değil are; sayılabilir isimlerle much değil many.",
+          "wrong": ["How much is the cards?", "How much eggs do you want?"],
+          "right": ["How much are the cards?", "How many eggs do you want?"]
+        },
+        "ar": {
+          "note": "«كم» العربية لها ترجمتان: How many للمعدود و How much لغير المعدود وللسعر.",
+          "wrong": ["How many is this book?", "How much apples do you want?"],
+          "right": ["How much is this book?", "How many apples do you want?"]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with how much or how many.",
+      "support": { "tr": "how much veya how many ile tamamla.", "ar": "أكمل بـ how much أو how many." },
+      "bank": ["How much", "How many"],
+      "items": [
+        "{How much} is this notebook?",
+        "{How many} cards do you want?",
+        "{How much} are the apples?",
+        "{How much} milk do you need?",
+        "{How many} students are there in your class?"
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "How much is it?",
+      "instructions": "Listen and choose the price.",
+      "support": { "tr": "Dinle ve fiyatı seç.", "ar": "استمع واختر السعر." },
+      "items": [
+        { "audio": "It's twelve dollars and fifty cents.", "voice": "clerk", "prompt": "How much is it?", "options": ["$12.50", "$20.50", "$12.15"], "answer": 0 },
+        { "audio": "The coffee is two fifty.", "voice": "sam", "prompt": "How much is the coffee?", "options": ["$2.15", "$2.50", "$25.00"], "answer": 1 },
+        { "audio": "They're three dollars each.", "voice": "clerk", "prompt": "One card is …", "options": ["$3", "$13", "$30"], "answer": 0 },
+        { "audio": "That's nineteen ninety-nine, please.", "voice": "seller", "prompt": "How much is it?", "options": ["$9.99", "$19.99", "$90.99"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "ordering",
+      "title": "In the shop",
+      "instructions": "Put the conversation in order.",
+      "support": { "tr": "Konuşmayı sıraya koy.", "ar": "رتّب المحادثة." },
+      "items": [
+        "Excuse me, how much is this book?",
+        "It's $14.99.",
+        "OK, I'd like it, please. Here you are.",
+        "Thank you. And here's your change.",
+        "Thanks. Goodbye!"
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make questions",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["How much is this book?", "How much are the cards?", "How many eggs do you want?", "Here's your change."]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "How much is this notebook?", "voice": "elif" },
+        { "text": "It's six dollars.", "voice": "clerk" },
+        { "text": "Here's your change.", "voice": "clerk" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write",
+      "model": {
+        "heading": "Prices in Izmir — Elif",
+        "text": ["In Izmir, a tea is cheap.", "A coffee is about eighty lira.", "A book is about three hundred lira.", "Clothes are expensive now.", "How much is a coffee in your city?"]
+      },
+      "frame": ["In my city, a ___ is cheap.", "A ___ is about ___.", "___ are expensive.", "How much is a ___ in your city?"],
+      "prompt": "Write about prices in your city (4 or 5 sentences).",
+      "support": { "tr": "Şehrindeki fiyatları anlat (4–5 cümle).", "ar": "اكتب عن الأسعار في مدينتك (4 أو 5 جمل)." },
+      "minWords": 25,
+      "checklist": ["I use cheap and expensive.", "I write one question with How much."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

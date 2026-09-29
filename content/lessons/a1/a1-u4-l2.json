@@ -1,0 +1,219 @@
+{
+  "id": "a1-u4-l2",
+  "level": "a1",
+  "unit": 4,
+  "order": 2,
+  "title": "There's a park near here",
+  "subtitle": "Places in the neighborhood — Is there…? How many…?",
+  "canDo": [
+    "I can name places in a town.",
+    "I can ask: Is there a … near here? How many … are there?",
+    "I can describe my neighborhood."
+  ],
+  "teacherNotes": [
+    "Warm-up: Öğrencilerin evlerinin yakınındaki 3 yeri söylemelerini isteyin; bilmedikleri yer adlarını ekrana yazın.",
+    "Arap öğrenciler \"كم\"den sonra tekil kullandıkları için \"How many book…?\" der. İngilizcede How many + çoğul.",
+    "Türk öğrenciler de \"Kaç kitap\" tekil olduğu için aynı hatayı yapar. Tahtada \"How many + ___s\" kalıbını gösterin.",
+    "Oyun: Bir öğrenci evinin yakınında olan / olmayan şeyleri düşünür, diğerleri \"Is there a … near your home?\" diye sorarak tahmin eder."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["What's near your home?", "Is there a park near your home?", "What's your favorite place in your town?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Places",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "street", "pos": "noun", "example": "Sam's café is on Harbor Street.", "gloss": { "tr": "sokak, cadde", "ar": "شارع" } },
+        { "word": "neighborhood", "pos": "noun", "example": "I love my neighborhood.", "gloss": { "tr": "mahalle, semt", "ar": "حيّ" } },
+        { "word": "bank", "pos": "noun", "example": "The pharmacy is next to the bank.", "gloss": { "tr": "banka", "ar": "بنك، مصرف" } },
+        { "word": "pharmacy", "pos": "noun", "example": "Is there a pharmacy near here?", "gloss": { "tr": "eczane", "ar": "صيدلية" } },
+        { "word": "post office", "pos": "noun", "example": "There's a post office near the park.", "gloss": { "tr": "postane", "ar": "مكتب البريد" } },
+        { "word": "supermarket", "pos": "noun", "example": "The supermarket is open every day.", "gloss": { "tr": "süpermarket", "ar": "سوبرماركت" } },
+        { "word": "bookstore", "pos": "noun", "example": "There are two bookstores.", "gloss": { "tr": "kitapçı", "ar": "مكتبة لبيع الكتب" } },
+        { "word": "library", "pos": "noun", "example": "Rose goes to the library on Wednesdays.", "gloss": { "tr": "kütüphane", "ar": "مكتبة عامّة" } },
+        { "word": "park", "pos": "noun", "example": "There's a market in the park.", "gloss": { "tr": "park", "ar": "حديقة عامّة" } },
+        { "word": "cinema", "pos": "noun", "example": "There isn't a cinema.", "gloss": { "tr": "sinema", "ar": "سينما" } },
+        { "word": "near", "pos": "preposition", "example": "Is there a bank near here?", "gloss": { "tr": "yakınında", "ar": "بالقرب من" } },
+        { "word": "next to", "pos": "preposition", "example": "The library is next to the park.", "gloss": { "tr": "yanında", "ar": "بجانب" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Is there a pharmacy near here?",
+      "scene": "Sam's café. Elif has a lot of questions about the neighborhood.",
+      "lines": [
+        { "speaker": "elif", "text": "Sam, is there a pharmacy near here?" },
+        { "speaker": "sam", "text": "Yes, there is. There's a pharmacy on Harbor Street, next to the bank." },
+        { "speaker": "elif", "text": "Great. And is there a post office? I want to send a package to Izmir." },
+        { "speaker": "sam", "text": "Hmm, no, there isn't a post office on this street. But there's one near the park." },
+        { "speaker": "elif", "text": "OK. Are there any good bookstores?" },
+        { "speaker": "sam", "text": "Oh, yes! There are two bookstores on Harbor Street. Rose loves the small one." },
+        { "speaker": "elif", "text": "And a supermarket?" },
+        { "speaker": "sam", "text": "There's a big supermarket across from the school. It's open every day." },
+        { "speaker": "elif", "text": "Thank you, Sam! You're a great map." },
+        { "speaker": "sam", "text": "Ha! That's my second job." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "The pharmacy is next to the bank.", "answer": true },
+        { "statement": "There's a post office on Harbor Street.", "answer": false },
+        { "statement": "There are two bookstores on Harbor Street.", "answer": true },
+        { "statement": "The supermarket is closed on Sundays.", "answer": false },
+        { "statement": "Rose loves the big bookstore.", "answer": false }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Welcome to Harbor Street!",
+      "intro": "A page from a small guide for new students.",
+      "voice": "narrator",
+      "paragraphs": [
+        ["Harbor Street is a small street, but there are a lot of places."],
+        ["There's a bank, a pharmacy and a post office.", "There are two bookstores and three cafés — but Sam's café is the best!"],
+        ["There isn't a cinema, but there's a library next to the park."],
+        ["On Saturdays, there's a market in the park.", "There are a lot of people, and there's fresh fruit, bread and flowers."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Harbor Street",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "How many cafés are there on Harbor Street?", "options": ["one", "two", "three"], "answer": 2 },
+        { "prompt": "Is there a cinema?", "options": ["Yes, there is.", "No, there isn't."], "answer": 1 },
+        { "prompt": "The library is next to …", "options": ["the bank", "the park", "the school"], "answer": 1 },
+        { "prompt": "When is the market?", "options": ["on Saturdays", "on Sundays", "every day"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: Is there…? How many…?",
+      "look": [
+        "**Is there** a pharmacy near here? — Yes, **there is**.",
+        "**Are there any** good bookstores?",
+        "**How many** bookstores **are there**? — **There are** two.",
+        "There are **a lot of** places on Harbor Street."
+      ],
+      "table": {
+        "head": ["Question", "Answer"],
+        "rows": [
+          ["Is there a bank near here?", "Yes, there is. / No, there isn't."],
+          ["Are there any cafés?", "Yes, there are. / No, there aren't."],
+          ["How many cafés are there?", "There are three."],
+          ["How many people are there?", "There are a lot of people!"]
+        ]
+      },
+      "rules": [
+        "**How many** + plural noun + **are there**? — How many caf**és** are there?",
+        "**a lot of** = many: a lot of cafés, a lot of people",
+        "Short answers: Yes, there **is**. / No, there **aren't**."
+      ],
+      "examples": ["Is there a bank near here? — Yes, there is.", "How many students are there in your class?", "There are a lot of books in the library."],
+      "support": {
+        "tr": "Kaç tane olduğunu sormak için How many … are there? kullanılır: How many cafés are there? = Kaç kafe var? How many'den sonra isim çoğul olur (Türkçedeki \"kaç kafe\" gibi tekil değil). \"Çok\" için a lot of: a lot of books = bir sürü kitap.",
+        "ar": "للسؤال عن العدد نقول: How many … are there? = كم … يوجد؟ مثال: How many cafés are there? = كم مقهى يوجد؟ لاحظ: بعد How many يأتي الاسم بصيغة الجمع (cafés)، على عكس العربية حيث يأتي بعد «كم» مفردًا. و a lot of = كثير من."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "How many'den sonra isim çoğul olur; birden fazla şey için there are.",
+          "wrong": ["How many café are there?", "There is a lot of cafés."],
+          "right": ["How many cafés are there?", "There are a lot of cafés."]
+        },
+        "ar": {
+          "note": "بعد How many استخدم الجمع، وليس المفرد كما بعد «كم» في العربية.",
+          "wrong": ["How many book are there?", "How many there are bookstores?"],
+          "right": ["How many books are there?", "How many bookstores are there?"]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete the questions and answers.",
+      "support": { "tr": "Soruları ve cevapları tamamla.", "ar": "أكمل الأسئلة والأجوبة." },
+      "bank": ["Is there", "Are there", "How many", "there is", "there aren't", "a lot of"],
+      "items": [
+        "{Is there} a bank near here? — Yes, {there is}.",
+        "{Are there} any cafés? — Yes, there are {a lot of} cafés!",
+        "{How many} bookstores are there? — Two.",
+        "Are there any cinemas? — No, {there aren't|there are not}."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "What do you do there?",
+      "instructions": "Match the place and what you do there.",
+      "support": { "tr": "Yeri ve orada ne yaptığını eşleştir.", "ar": "صِل المكان بما تفعله هناك." },
+      "pairs": [
+        ["pharmacy", "buy medicine"],
+        ["post office", "send a package"],
+        ["bank", "get money"],
+        ["library", "read books"],
+        ["supermarket", "buy food"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "support": { "tr": "Dinle ve doğru cevabı seç.", "ar": "استمع واختر الجواب الصحيح." },
+      "items": [
+        { "audio": "There are three cafés on Harbor Street, but my café is the best!", "voice": "sam", "prompt": "How many cafés?", "options": ["two", "three", "four"], "answer": 1 },
+        { "audio": "The library is next to the park.", "voice": "rose", "prompt": "Where's the library?", "options": ["next to the park", "next to the bank", "next to the school"], "answer": 0 },
+        { "audio": "Is there a mosque near here? Yes, there is. It's on Green Street.", "voice": "omar", "prompt": "The mosque is on …", "options": ["Harbor Street", "Green Street", "Park Street"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make questions and sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["Is there a bank near here?", "How many cafés are there?", "There are a lot of books.", "There isn't a cinema."]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "Is there a pharmacy near here?", "voice": "elif" },
+        { "text": "There are two bookstores.", "voice": "sam" },
+        { "text": "How many cafés are there?", "voice": "maya" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write",
+      "model": {
+        "heading": "My neighborhood — Elif",
+        "text": ["I live near Harbor Street.", "There's a bank, a pharmacy and a post office.", "There are three cafés.", "There isn't a cinema.", "There's a big park, and there's a market on Saturdays."]
+      },
+      "frame": ["I live on / near ___.", "There's a ___, a ___ and a ___.", "There are ___.", "There isn't a ___.", "My favorite place is ___."],
+      "prompt": "Write about your neighborhood (5 sentences).",
+      "support": { "tr": "Mahalleni anlat (5 cümle).", "ar": "اكتب عن حيّك (5 جمل)." },
+      "minWords": 25,
+      "checklist": ["I use there's and there are.", "I use one negative: there isn't / there aren't."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

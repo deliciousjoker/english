@@ -1,0 +1,193 @@
+{
+  "id": "starter-u1-l2",
+  "level": "starter",
+  "unit": 1,
+  "order": 2,
+  "title": "Numbers and hello",
+  "subtitle": "Count, say hello — and understand the teacher",
+  "canDo": [
+    "I can count from 0 to 20.",
+    "I can say hello, goodbye, thank you and sorry.",
+    "I can understand classroom instructions: listen, read, write, match…"
+  ],
+  "teacherNotes": [
+    "Sayıları önce koro hâlinde sayın, sonra öğrenciler sırayla birer sayı söylesin (1, 2, 3… zinciri).",
+    "-teen / -ty farkı (13 / 30, 15 / 50) en sık hata: vurgunun yerini abartarak gösterin: thirTEEN – THIRty.",
+    "Sınıf talimatları çok önemli: sitedeki tüm alıştırma yönergeleri bu kelimelerle yazıldı. Sonraki derslerde yönergeleri İngilizce okumalarını bekleyin.",
+    "Arap öğrencilere: sayılar soldan sağa okunur (١٢ = 12)."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": [
+        "Count with me: one, two, three…",
+        "How do you say “thank you” in English?",
+        "Say goodbye in your language. Now say it in English!"
+      ]
+    },
+    {
+      "type": "tiles",
+      "title": "Numbers",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "big": "0", "small": "zero", "say": "zero", "hint": { "tr": "sıfır", "ar": "٠" } },
+        { "big": "1", "small": "one", "say": "one", "hint": { "tr": "bir", "ar": "١" } },
+        { "big": "2", "small": "two", "say": "two", "hint": { "tr": "iki", "ar": "٢" } },
+        { "big": "3", "small": "three", "say": "three", "hint": { "tr": "üç", "ar": "٣" } },
+        { "big": "4", "small": "four", "say": "four", "hint": { "tr": "dört", "ar": "٤" } },
+        { "big": "5", "small": "five", "say": "five", "hint": { "tr": "beş", "ar": "٥" } },
+        { "big": "6", "small": "six", "say": "six", "hint": { "tr": "altı", "ar": "٦" } },
+        { "big": "7", "small": "seven", "say": "seven", "hint": { "tr": "yedi", "ar": "٧" } },
+        { "big": "8", "small": "eight", "say": "eight", "hint": { "tr": "sekiz", "ar": "٨" } },
+        { "big": "9", "small": "nine", "say": "nine", "hint": { "tr": "dokuz", "ar": "٩" } },
+        { "big": "10", "small": "ten", "say": "ten", "hint": { "tr": "on", "ar": "١٠" } },
+        { "big": "11", "small": "eleven", "say": "eleven", "hint": { "tr": "on bir", "ar": "١١" } },
+        { "big": "12", "small": "twelve", "say": "twelve", "hint": { "tr": "on iki", "ar": "١٢" } },
+        { "big": "13", "small": "thirteen", "say": "thirteen", "hint": { "tr": "on üç", "ar": "١٣" } },
+        { "big": "14", "small": "fourteen", "say": "fourteen", "hint": { "tr": "on dört", "ar": "١٤" } },
+        { "big": "15", "small": "fifteen", "say": "fifteen", "hint": { "tr": "on beş", "ar": "١٥" } },
+        { "big": "16", "small": "sixteen", "say": "sixteen", "hint": { "tr": "on altı", "ar": "١٦" } },
+        { "big": "17", "small": "seventeen", "say": "seventeen", "hint": { "tr": "on yedi", "ar": "١٧" } },
+        { "big": "18", "small": "eighteen", "say": "eighteen", "hint": { "tr": "on sekiz", "ar": "١٨" } },
+        { "big": "19", "small": "nineteen", "say": "nineteen", "hint": { "tr": "on dokuz", "ar": "١٩" } },
+        { "big": "20", "small": "twenty", "say": "twenty", "hint": { "tr": "yirmi", "ar": "٢٠" } },
+        { "big": "30", "small": "thirty", "say": "thirty", "hint": { "tr": "otuz", "ar": "٣٠" } },
+        { "big": "40", "small": "forty", "say": "forty", "hint": { "tr": "kırk", "ar": "٤٠" } },
+        { "big": "50", "small": "fifty", "say": "fifty", "hint": { "tr": "elli", "ar": "٥٠" } },
+        { "big": "100", "small": "a hundred", "say": "a hundred", "hint": { "tr": "yüz", "ar": "١٠٠" } }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Hello and goodbye",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "good morning", "pos": "phrase", "example": "Good morning, Maya!", "gloss": { "tr": "günaydın", "ar": "صباح الخير" } },
+        { "word": "good afternoon", "pos": "phrase", "example": "Good afternoon, everyone.", "gloss": { "tr": "iyi günler (öğleden sonra selamı), tünaydın", "ar": "مساء الخير (بعد الظهر)" } },
+        { "word": "good evening", "pos": "phrase", "example": "Good evening, Mrs. Miller.", "gloss": { "tr": "iyi akşamlar", "ar": "مساء الخير" } },
+        { "word": "goodbye", "pos": "exclamation", "example": "Goodbye, everyone!", "gloss": { "tr": "hoşça kal, güle güle", "ar": "مع السلامة" } },
+        { "word": "see you", "pos": "phrase", "example": "See you tomorrow!", "gloss": { "tr": "görüşürüz", "ar": "أراك لاحقًا" } },
+        { "word": "thank you", "pos": "phrase", "example": "Thank you, Omar.", "gloss": { "tr": "teşekkür ederim", "ar": "شكرًا لك" } },
+        { "word": "please", "pos": "adverb", "example": "Come in, please.", "gloss": { "tr": "lütfen", "ar": "من فضلك" } },
+        { "word": "sorry", "pos": "adjective", "example": "Sorry! I'm late.", "gloss": { "tr": "özür dilerim, pardon", "ar": "آسف" } },
+        { "word": "excuse me", "pos": "phrase", "example": "Excuse me, Maya?", "gloss": { "tr": "affedersiniz", "ar": "عفوًا، لو سمحت" } },
+        { "word": "late", "pos": "adjective", "example": "Am I late?", "gloss": { "tr": "geç; geç kalmış", "ar": "متأخّر" } }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "title": "In the classroom",
+      "instructions": "These words are in every lesson. Listen and repeat.",
+      "support": { "tr": "Bu kelimeler her derste var. Dinle ve tekrar et.", "ar": "هذه الكلمات موجودة في كل درس. استمع وكرّر." },
+      "items": [
+        { "word": "listen", "pos": "verb", "example": "Listen and repeat.", "gloss": { "tr": "dinle", "ar": "استمع" } },
+        { "word": "repeat", "pos": "verb", "example": "Listen and repeat.", "gloss": { "tr": "tekrar et", "ar": "كرِّر" } },
+        { "word": "read", "pos": "verb", "example": "Read the text.", "gloss": { "tr": "oku", "ar": "اقرأ" } },
+        { "word": "write", "pos": "verb", "example": "Write your name.", "gloss": { "tr": "yaz", "ar": "اكتب" } },
+        { "word": "look", "pos": "verb", "example": "Look at the letters.", "gloss": { "tr": "bak", "ar": "انظر" } },
+        { "word": "match", "pos": "verb", "example": "Match the words.", "gloss": { "tr": "eşleştir", "ar": "صِل، طابِق" } },
+        { "word": "choose", "pos": "verb", "example": "Choose the answer.", "gloss": { "tr": "seç", "ar": "اختر" } },
+        { "word": "complete", "pos": "verb", "example": "Complete the sentence.", "gloss": { "tr": "tamamla", "ar": "أكمِل" } },
+        { "word": "check", "pos": "verb", "example": "Check your answers.", "gloss": { "tr": "kontrol et", "ar": "تحقَّق، راجِع" } },
+        { "word": "true", "pos": "adjective", "example": "True or false?", "gloss": { "tr": "doğru", "ar": "صحيح" } },
+        { "word": "false", "pos": "adjective", "example": "True or false?", "gloss": { "tr": "yanlış", "ar": "خطأ" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Good morning, class!",
+      "scene": "Harbor English School. The first lesson.",
+      "lines": [
+        { "speaker": "maya", "text": "Good morning, everyone!" },
+        { "speaker": "lucas", "text": "Good morning, Maya!" },
+        { "speaker": "maya", "text": "OK. Let's count. One, two, three, four, five." },
+        { "speaker": "omar", "text": "Excuse me! Sorry! Am I late?" },
+        { "speaker": "maya", "text": "No, you're OK, Omar. Come in, please." },
+        { "speaker": "omar", "text": "Thank you." },
+        { "speaker": "maya", "text": "Six students. Great! Now, listen and repeat: hello." },
+        { "speaker": "elif", "text": "Hello!" },
+        { "speaker": "maya", "text": "Very good! … OK, that's all for today. Goodbye, everyone!" },
+        { "speaker": "elif", "text": "Goodbye, Maya! See you tomorrow!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Which number?",
+      "instructions": "Listen and choose the number.",
+      "support": { "tr": "Dinle ve sayıyı seç.", "ar": "استمع واختر الرقم." },
+      "items": [
+        { "audio": "seven", "prompt": "Which number?", "options": ["7", "11", "17"], "answer": 0 },
+        { "audio": "twelve", "prompt": "Which number?", "options": ["2", "12", "20"], "answer": 1 },
+        { "audio": "fifteen", "prompt": "Which number?", "options": ["5", "15", "50"], "answer": 1 },
+        { "audio": "thirty", "prompt": "Which number?", "options": ["3", "13", "30"], "answer": 2 },
+        { "audio": "nineteen", "prompt": "Which number?", "options": ["9", "19", "90"], "answer": 1 },
+        { "audio": "forty", "prompt": "Which number?", "options": ["4", "14", "40"], "answer": 2 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Numbers and words",
+      "instructions": "Match the number and the word.",
+      "support": { "tr": "Sayıyı kelimeyle eşleştir.", "ar": "صِل الرقم بالكلمة." },
+      "pairs": [
+        ["3", "three"],
+        ["8", "eight"],
+        ["12", "twelve"],
+        ["15", "fifteen"],
+        ["20", "twenty"],
+        ["50", "fifty"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "What do you say?",
+      "instructions": "Match the sentence and the answer.",
+      "support": { "tr": "Cümleyi cevabıyla eşleştir.", "ar": "صِل الجملة بالجواب." },
+      "pairs": [
+        ["Thank you!", "You're welcome."],
+        ["Good morning!", "Good morning!"],
+        ["Goodbye!", "See you tomorrow!"],
+        ["Sorry, I'm late!", "That's OK. Come in."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "ordering",
+      "title": "Small to big",
+      "instructions": "Put the numbers in order: small → big.",
+      "support": { "tr": "Sayıları küçükten büyüğe sırala.", "ar": "رتّب الأرقام من الأصغر إلى الأكبر." },
+      "items": ["four", "nine", "twelve", "sixteen", "twenty", "forty"]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the number (1, 2, 3…).",
+      "support": { "tr": "Dinle ve sayıyı rakamla yaz.", "ar": "استمع واكتب الرقم." },
+      "items": [
+        { "say": "fourteen", "text": "14" },
+        { "say": "six", "text": "6" },
+        { "say": "eleven", "text": "11" },
+        { "say": "twenty", "text": "20" },
+        { "say": "fifty", "text": "50" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write",
+      "model": { "text": ["one, two, three …"] },
+      "prompt": "Write the numbers 1 to 10 in words.",
+      "support": { "tr": "1'den 10'a kadar sayıları yazıyla yaz.", "ar": "اكتب الأرقام من 1 إلى 10 بالحروف." },
+      "minWords": 10,
+      "checklist": ["I write ten numbers.", "I check the spelling: e.g. eight, not eigt."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

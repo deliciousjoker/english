@@ -1,0 +1,226 @@
+{
+  "id": "a1-u5-l4",
+  "level": "a1",
+  "unit": 5,
+  "order": 4,
+  "title": "Cooking with Omar",
+  "subtitle": "Dinner at Omar's — would you like…? I'd like…",
+  "canDo": [
+    "I can offer food and drinks: Would you like…?",
+    "I can ask politely: I'd like…, please.",
+    "I can write about my favorite food."
+  ],
+  "teacherNotes": [
+    "Ünitenin son dersi: \"My favorite food\" yazısını ödev verin (Copy my text ile gönderilecek).",
+    "I like (genel olarak severim) ile I'd like (şimdi istiyorum, kibar) farkı çok önemli: I like coffee ≠ I'd like a coffee.",
+    "some teklif ve ricalarda da olumlu kabul edilir: Would you like some tea? (any değil).",
+    "Kültür köşesi: Türk ve Arap misafirperverliği ile karşılaştırın; misafire ikram ederken ne denir? (\"Buyurun\" / \"تفضّل\" → Here you are / Help yourself.)"
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["What do you cook for guests?", "What do you say when you offer tea in your language?", "What's your favorite food?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "Would you like…?", "pos": "question", "example": "Would you like some tea?", "gloss": { "tr": "… ister misin / ister misiniz?", "ar": "هل تودّ …؟ هل تريد …؟" } },
+        { "word": "I'd like", "pos": "phrase", "example": "I'd like some juice, please.", "gloss": { "tr": "… istiyorum (kibar)", "ar": "أودّ، أريد (بأدب)" } },
+        { "word": "dinner", "pos": "noun", "example": "Dinner is ready!", "gloss": { "tr": "akşam yemeği", "ar": "عشاء" } },
+        { "word": "guest", "pos": "noun", "example": "Omar has five guests.", "gloss": { "tr": "misafir", "ar": "ضيف" } },
+        { "word": "ready", "pos": "adjective", "example": "Dinner is ready.", "gloss": { "tr": "hazır", "ar": "جاهز" } },
+        { "word": "juice", "pos": "noun", "example": "Would you like some orange juice?", "gloss": { "tr": "meyve suyu", "ar": "عصير" } },
+        { "word": "delicious", "pos": "adjective", "example": "This is delicious!", "gloss": { "tr": "çok lezzetli", "ar": "لذيذ" } },
+        { "word": "hungry", "pos": "adjective", "example": "I'm very hungry.", "gloss": { "tr": "aç", "ar": "جائع" } },
+        { "word": "full", "pos": "adjective", "example": "No, thank you. I'm full.", "gloss": { "tr": "tok", "ar": "شبعان" } },
+        { "word": "dessert", "pos": "noun", "example": "Would you like some dessert?", "gloss": { "tr": "tatlı", "ar": "حلوى" } },
+        { "word": "Help yourself!", "pos": "phrase", "example": "There's a lot of food. Help yourself!", "gloss": { "tr": "Buyurun, kendiniz alın!", "ar": "تفضّل، خُذ بنفسك!" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Dinner at Omar's",
+      "scene": "Saturday evening. Omar's apartment. His classmates and Rose are his guests.",
+      "lines": [
+        { "speaker": "omar", "text": "Welcome, everyone! Would you like something to drink?" },
+        { "speaker": "lucas", "text": "I'd like some orange juice, please." },
+        { "speaker": "rose", "text": "Some water for me, please, Omar." },
+        { "speaker": "omar", "text": "And you, Elif? Would you like a coffee?" },
+        { "speaker": "elif", "text": "Ha! No, thank you. It's evening. I'd like some tea." },
+        { "speaker": "omar", "text": "OK. And now … the maqluba! Look — one, two, three!" },
+        { "speaker": "lucas", "text": "Wow! It's upside down!" },
+        { "speaker": "rose", "text": "Omar, this is delicious. Could I have the recipe?" },
+        { "speaker": "omar", "text": "Of course! It's my mom's recipe. Would you like some more, Lucas?" },
+        { "speaker": "lucas", "text": "Yes, please! I'm always hungry." },
+        { "speaker": "omar", "text": "Help yourself! And there's some dessert, too." },
+        { "speaker": "elif", "text": "No, thank you, Omar. I'm full!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Lucas would like some orange juice.", "answer": true },
+        { "statement": "Elif would like a coffee.", "answer": false },
+        { "statement": "Rose would like the recipe.", "answer": true },
+        { "statement": "The recipe is from Omar's grandmother.", "answer": false },
+        { "statement": "Elif is full at the end.", "answer": true }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Thank you, Omar!",
+      "intro": "Elif writes a message to Omar after dinner.",
+      "voice": "elif",
+      "paragraphs": [
+        ["Hi Omar!"],
+        ["Thank you for a wonderful dinner.", "Your maqluba is the best food in Boston!", "Rose says the recipe is on her fridge now, next to Tom's photo."],
+        ["Next Saturday, you are all my guests.", "I'd like to make a Turkish breakfast for you: bread, cheese, olives, eggs, tomatoes … and a lot of tea!"],
+        ["Would you like to come at ten?", "See you soon,", "Elif"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Elif's message",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "Where is the recipe now?", "options": ["on Rose's fridge", "in Omar's bag", "at Sam's café"], "answer": 0 },
+        { "prompt": "Next Saturday, Elif would like to make …", "options": ["maqluba", "a Turkish breakfast", "a birthday cake"], "answer": 1 },
+        { "prompt": "What time is the breakfast?", "options": ["at eight", "at nine", "at ten"], "answer": 2 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: would like",
+      "look": ["**Would you like** something to drink?", "**I'd like** some orange juice, please.", "**Would you like** some more? — **Yes, please!**", "No, **thank you**. I'm full!"],
+      "table": {
+        "head": ["Offer (?)", "Yes", "No"],
+        "rows": [
+          ["Would you like some tea?", "Yes, please.", "No, thank you."],
+          ["Would you like a coffee?", "Yes, I'd love one!", "No, thanks."]
+        ]
+      },
+      "rules": [
+        "Offer: **Would you like** + something? — Would you like **some** tea?",
+        "Ask politely: **I'd like** (= I would like) + something, **please**.",
+        "**I like** coffee. = in general ✓ · **I'd like** a coffee. = now, please ✓",
+        "In offers and requests, use **some** (not any): Would you like **some** water?"
+      ],
+      "examples": ["Would you like some cookies?", "I'd like a tea, please.", "What would you like?", "No, thank you. I'm full."],
+      "support": {
+        "tr": "Would you like …? kibar bir tekliftir: Would you like some tea? = Biraz çay ister misin? Cevap: Yes, please / No, thank you. I'd like … kibarca bir şey istemektir: I'd like some water, please = Biraz su istiyorum, lütfen. Dikkat: I like coffee (genel olarak kahve severim) ile I'd like a coffee (şimdi bir kahve istiyorum) farklıdır.",
+        "ar": "Would you like …? عرضٌ مؤدّب: Would you like some tea? = هل تودّ بعض الشاي؟ والجواب: Yes, please أو No, thank you. أمّا I'd like … فطلبٌ مؤدّب: I'd like some water, please = أودّ بعض الماء من فضلك. انتبه: I like coffee (أحبّ القهوة عمومًا) تختلف عن I'd like a coffee (أريد قهوة الآن)."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "Şimdi bir şey isterken I like değil I'd like de. Tekliflerde any değil some.",
+          "wrong": ["I like a tea, please.", "Would you like any water?"],
+          "right": ["I'd like a tea, please.", "Would you like some water?"]
+        },
+        "ar": {
+          "note": "لا تقل I want في المطعم أو عند الضيافة؛ I'd like أكثر أدبًا. ولا تنسَ please.",
+          "wrong": ["I want water.", "Give me tea."],
+          "right": ["I'd like some water, please.", "I'd like some tea, please."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete the conversation.",
+      "support": { "tr": "Konuşmayı tamamla.", "ar": "أكمل المحادثة." },
+      "bank": ["Would you like", "I'd like", "please", "thank you", "some"],
+      "items": [
+        "{Would you like} some tea?",
+        "Yes, {please}.",
+        "{I'd like|I would like} some water, please.",
+        "Would you like some more? — No, {thank you}. I'm full.",
+        "Would you like {some} cookies?"
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Offer and answer",
+      "instructions": "Match the question and the answer.",
+      "support": { "tr": "Soruyu cevabıyla eşleştir.", "ar": "صِل السؤال بالجواب." },
+      "pairs": [
+        ["Would you like some tea?", "Yes, please. With milk."],
+        ["What would you like?", "I'd like a sandwich, please."],
+        ["Would you like some more?", "No, thank you. I'm full."],
+        ["Do you like coffee?", "Yes, I do. I love it!"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "support": { "tr": "Dinle ve doğru cevabı seç.", "ar": "استمع واختر الجواب الصحيح." },
+      "items": [
+        { "audio": "Would you like some tea?", "voice": "rose", "prompt": "Best answer:", "options": ["Yes, please.", "Yes, I like.", "Yes, I would like."], "answer": 0 },
+        { "audio": "I'd like a cheese sandwich and an orange juice, please.", "voice": "lucas", "prompt": "Lucas would like …", "options": ["a sandwich and a juice", "a coffee and a cookie", "some soup"], "answer": 0 },
+        { "audio": "No, thank you. I'm full.", "voice": "maya", "prompt": "Maya …", "options": ["is hungry", "doesn't want more food", "wants some dessert"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["Would you like some tea?", "I'd like some water, please.", "No, thank you.", "This is delicious!"]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "Would you like some tea?", "voice": "omar" },
+        { "text": "I'd like some water, please.", "voice": "rose" },
+        { "text": "This is delicious!", "voice": "lucas" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: My favorite food",
+      "model": {
+        "heading": "My favorite food — Omar",
+        "text": [
+          "My favorite food is maqluba.",
+          "It's a Jordanian dish.",
+          "You need some rice, some chicken, some eggplants and some onions.",
+          "My mom makes the best maqluba.",
+          "We eat it with yogurt.",
+          "Would you like some?"
+        ]
+      },
+      "frame": [
+        "My favorite food is ___.",
+        "It's a ___ dish.",
+        "You need some ___ and some ___.",
+        "My ___ makes the best ___.",
+        "We eat it with ___."
+      ],
+      "prompt": "Write about your favorite food (5 or 6 sentences). Send your text to your teacher.",
+      "support": { "tr": "En sevdiğin yemeği anlat (5–6 cümle). Metnini öğretmenine gönder.", "ar": "اكتب عن طعامك المفضّل (5 أو 6 جمل). أرسل نصّك إلى معلّمك." },
+      "minWords": 35,
+      "checklist": ["I use some with food words.", "I use a or an with one thing.", "I finish with a question: Would you like some?"]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

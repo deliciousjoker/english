@@ -1,0 +1,110 @@
+{
+  "levels": [
+    {
+      "id": "starter",
+      "title": "Starter",
+      "description": "Letters, sounds, numbers and your first words.",
+      "units": [
+        {
+          "number": 1,
+          "title": "First steps",
+          "lessons": [
+            { "id": "starter-u1-l1", "title": "Letters and sounds" },
+            { "id": "starter-u1-l2", "title": "Numbers and hello" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1",
+      "title": "A1",
+      "description": "Talk about yourself, your family and your day in simple English.",
+      "units": [
+        {
+          "number": 1,
+          "title": "Hello!",
+          "lessons": [
+            { "id": "a1-u1-l1", "title": "Nice to meet you" },
+            { "id": "a1-u1-l2", "title": "Where are you from?" },
+            { "id": "a1-u1-l3", "title": "What's your job?" },
+            { "id": "a1-u1-l4", "title": "Are you a student?" }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "People in my life",
+          "lessons": [
+            { "id": "a1-u2-l1", "title": "This is my family" },
+            { "id": "a1-u2-l2", "title": "Omar's sister" },
+            { "id": "a1-u2-l3", "title": "Whose bag is this?" },
+            { "id": "a1-u2-l4", "title": "My best friend" }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Every day",
+          "lessons": [
+            { "id": "a1-u3-l1", "title": "My morning" },
+            { "id": "a1-u3-l2", "title": "What time is it?" },
+            { "id": "a1-u3-l3", "title": "Weekdays and weekends" },
+            { "id": "a1-u3-l4", "title": "A day at the café" }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Home",
+          "lessons": [
+            { "id": "a1-u4-l1", "title": "My new room" },
+            { "id": "a1-u4-l2", "title": "There's a park near here" },
+            { "id": "a1-u4-l3", "title": "Where is it?" },
+            { "id": "a1-u4-l4", "title": "Mrs. Miller's house" }
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Food and shopping",
+          "lessons": [
+            { "id": "a1-u5-l1", "title": "At the market" },
+            { "id": "a1-u5-l2", "title": "Some and any" },
+            { "id": "a1-u5-l3", "title": "How much is it?" },
+            { "id": "a1-u5-l4", "title": "Cooking with Omar" }
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Free time",
+          "lessons": [
+            { "id": "a1-u6-l1", "title": "What do you do on Saturdays?" },
+            { "id": "a1-u6-l2", "title": "I can swim" },
+            { "id": "a1-u6-l3", "title": "Always, sometimes, never" },
+            { "id": "a1-u6-l4", "title": "Sam's weekend" }
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Right now",
+          "lessons": [
+            { "id": "a1-u7-l1", "title": "What are you doing?" },
+            { "id": "a1-u7-l2", "title": "What's the weather like?" },
+            { "id": "a1-u7-l3", "title": "Clothes" },
+            { "id": "a1-u7-l4", "title": "A message from Elif" }
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Yesterday",
+          "lessons": [
+            { "id": "a1-u8-l1", "title": "Where were you?" },
+            { "id": "a1-u8-l2", "title": "Last weekend" },
+            { "id": "a1-u8-l3", "title": "A busy day" },
+            { "id": "a1-u8-l4", "title": "Elif's first month" }
+          ]
+        }
+      ]
+    },
+    { "id": "a2", "title": "A2", "description": "Everyday situations: travel, shopping, work and plans.", "units": [] },
+    { "id": "b1", "title": "B1", "description": "Stories, opinions and longer texts about familiar topics.", "units": [] },
+    { "id": "b2", "title": "B2", "description": "Articles, arguments and clear, detailed writing.", "units": [] },
+    { "id": "c1", "title": "C1", "description": "Complex texts, nuance and flexible, precise English.", "units": [] }
+  ]
+}

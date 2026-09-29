@@ -1,0 +1,81 @@
+/* ---------- Sunum modu (ekran paylaşımı) ---------- */
+
+html.is-presenting {
+  font-size: 118%;
+}
+@media (min-width: 1400px) {
+  html.is-presenting {
+    font-size: 132%;
+  }
+}
+html.is-presenting .topbar,
+html.is-presenting .sitefoot {
+  display: none;
+}
+
+.present {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  background: var(--bg);
+}
+.present__stage {
+  overflow-y: auto;
+  padding: clamp(24px, 5vh, 56px) clamp(16px, 6vw, 96px) 48px;
+}
+.present__stage > .sec,
+.present__title {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.present__title {
+  display: grid;
+  gap: 16px;
+  align-content: center;
+  min-height: 70vh;
+}
+.present__title .lesson__title {
+  font-size: clamp(3rem, 8vw, 6rem);
+}
+.present__cando {
+  margin-top: 24px;
+  font-size: 1.3rem;
+}
+.present__cando ul {
+  display: grid;
+  gap: 8px;
+}
+
+.present .reading__paraplay {
+  position: static;
+  float: left;
+  margin: 0.4rem 12px 0 0;
+}
+
+.present__bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px clamp(12px, 3vw, 28px);
+  border-top: var(--sec-top);
+  background: var(--bg);
+  font-family: var(--font-ui);
+}
+.present__where {
+  display: grid;
+  line-height: 1.2;
+  min-width: 9em;
+  text-align: center;
+}
+.present__where strong {
+  font-family: var(--font-num);
+}
+.present__where span {
+  font-size: 0.8rem;
+  color: var(--ink-3);
+}
+.present__spacer {
+  flex: 1;
+}

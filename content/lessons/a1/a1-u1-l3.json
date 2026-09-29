@@ -1,0 +1,236 @@
+{
+  "id": "a1-u1-l3",
+  "level": "a1",
+  "unit": 1,
+  "order": 3,
+  "title": "What's your job?",
+  "subtitle": "Jobs, a and an — and saying “not”",
+  "canDo": [
+    "I can say my job (or my dream job).",
+    "I can use a and an.",
+    "I can say what is not true: I'm not…, he isn't…"
+  ],
+  "teacherNotes": [
+    "Warm-up: Öğrencilerin mesleklerini sorun; bilmedikleri meslek adlarını ekrana yazın ve kelime defterine ekletin.",
+    "a/an kuralı harfe değil SESE bağlıdır. Şimdilik basit tutun (a, e, i, o, u); \"an hour / a university\" gibi istisnaları sonraya bırakın.",
+    "Türk ve Arap öğrenciler meslekten önce a/an'ı düşürür (\"I'm teacher\"). Her seferinde düzeltin.",
+    "\"Who is it?\" okumasını oyun gibi yapın: metni okuyun, öğrenciler kişiyi tahmin etsin."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": [
+        "What's your job?",
+        "What's your dream job?",
+        "Say three jobs in English."
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Jobs",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "job", "pos": "noun", "example": "What's your job?", "gloss": { "tr": "iş, meslek", "ar": "وظيفة، مهنة" } },
+        { "word": "nurse", "pos": "noun", "example": "Omar is a nurse.", "gloss": { "tr": "hemşire (erkek için de kullanılır)", "ar": "ممرّض / ممرّضة" } },
+        { "word": "doctor", "pos": "noun", "example": "She's a doctor.", "gloss": { "tr": "doktor", "ar": "طبيب / طبيبة" } },
+        { "word": "engineer", "pos": "noun", "example": "He's an engineer.", "gloss": { "tr": "mühendis", "ar": "مهندس / مهندسة" } },
+        { "word": "architect", "pos": "noun", "example": "Elif's dream job? An architect!", "gloss": { "tr": "mimar", "ar": "مهندس معماري" } },
+        { "word": "artist", "pos": "noun", "example": "I'm an artist.", "gloss": { "tr": "sanatçı, ressam", "ar": "فنّان / فنّانة" } },
+        { "word": "driver", "pos": "noun", "example": "Ben is a taxi driver.", "gloss": { "tr": "şoför, sürücü", "ar": "سائق" } },
+        { "word": "waiter", "pos": "noun", "example": "He isn't a waiter.", "gloss": { "tr": "garson", "ar": "نادل" } },
+        { "word": "owner", "pos": "noun", "example": "Sam is the owner of the café.", "gloss": { "tr": "sahip, işletmeci", "ar": "مالك، صاحب" } },
+        { "word": "hospital", "pos": "noun", "example": "I work in a hospital.", "gloss": { "tr": "hastane", "ar": "مستشفى" } },
+        { "word": "dream", "pos": "noun", "example": "My dream job is a teacher.", "gloss": { "tr": "hayal", "ar": "حُلم" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Coffee and tea",
+      "scene": "Sam's café. Omar sits with Elif.",
+      "lines": [
+        { "speaker": "omar", "text": "Hi, Elif. I'm Omar. I'm in your English class." },
+        { "speaker": "elif", "text": "Oh, hi! Nice to meet you. What's your job, Omar?" },
+        { "speaker": "omar", "text": "I'm a nurse. I work in a hospital here in Boston." },
+        { "speaker": "elif", "text": "A nurse? That's great!" },
+        { "speaker": "omar", "text": "And you? What's your job?" },
+        { "speaker": "elif", "text": "I'm a student. I'm not an architect … not yet!" },
+        { "speaker": "sam", "text": "Here's your coffee, Omar. And a tea for Elif." },
+        { "speaker": "elif", "text": "Thank you! Are you a waiter, Sam?" },
+        { "speaker": "omar", "text": "No, Sam isn't a waiter. He's the owner of the café!" },
+        { "speaker": "sam", "text": "That's right. It's my café." }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Who is it?",
+      "intro": "Read. Who is it? Guess!",
+      "paragraphs": [
+        ["1. He's from London.", "He isn't a teacher.", "He's the owner of a café."],
+        ["2. She's American.", "She isn't a student.", "She's an English teacher."],
+        ["3. He's from Jordan.", "He isn't a doctor.", "He's a nurse."],
+        ["4. She's Turkish.", "She's a student.", "Her dream job?", "An architect!"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Who is it?",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "Person 1 is …", "options": ["Omar", "Sam", "Lucas"], "answer": 1 },
+        { "prompt": "Person 2 is …", "options": ["Maya", "Elif", "Mrs. Miller"], "answer": 0 },
+        { "prompt": "Person 3 is …", "options": ["Sam", "Lucas", "Omar"], "answer": 2 },
+        { "prompt": "Person 4 is …", "options": ["Elif", "Maya", "Omar"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: a or an?",
+      "look": ["I'm **a** nurse.", "I'm not **an** architect.", "He's **an** engineer."],
+      "table": {
+        "head": ["a + other sounds", "an + a, e, i, o, u sounds"],
+        "rows": [
+          ["a nurse", "an architect"],
+          ["a doctor", "an engineer"],
+          ["a student", "an artist"],
+          ["a teacher", "an office worker"]
+        ]
+      },
+      "rules": [
+        "Use **a** or **an** for one person's job: I'm **a** teacher.",
+        "**an** + a word with a, e, i, o, u sound: **an** artist, **an** engineer",
+        "**a** + other words: **a** doctor, **a** nurse"
+      ],
+      "examples": ["She's a doctor.", "He's an engineer.", "I'm an artist."],
+      "support": {
+        "tr": "Türkçede \"Ben öğretmenim\" deriz, \"bir\" kullanmayız. İngilizcede meslek söylerken a / an şarttır: I'm a teacher. Kelime sesli harf sesiyle (a, e, i, o, u) başlıyorsa an kullanılır: an engineer, an artist.",
+        "ar": "في العربية نقول: «أنا ممرّض» بدون أداة. في الإنجليزية نضع a أو an قبل المهنة: I'm a nurse. نستخدم an إذا بدأت الكلمة بصوت متحرّك (a, e, i, o, u): an engineer, an artist."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "Meslek söylerken a / an'ı unutma.",
+          "wrong": ["I'm teacher.", "She's engineer."],
+          "right": ["I'm a teacher.", "She's an engineer."]
+        },
+        "ar": {
+          "note": "لا تحذف a / an قبل المهنة، واستخدم an قبل الصوت المتحرّك.",
+          "wrong": ["He's nurse.", "I'm a engineer."],
+          "right": ["He's a nurse.", "I'm an engineer."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "a or an?",
+      "instructions": "Complete with a or an.",
+      "support": { "tr": "a veya an ile tamamla.", "ar": "أكمل بـ a أو an." },
+      "bank": ["a", "an"],
+      "items": [
+        "I'm {a} student.",
+        "She's {an} engineer.",
+        "He's {a} nurse.",
+        "I'm {an} artist.",
+        "Maya is {a} teacher.",
+        "Elif's dream job? {An} architect!"
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: not",
+      "look": ["He **isn't** a doctor.", "I**'m not** an architect.", "Sam **isn't** a waiter."],
+      "table": {
+        "head": ["Positive (+)", "Negative (–)"],
+        "rows": [
+          ["I'm a student.", "I'm not a student."],
+          ["You're a doctor.", "You aren't a doctor."],
+          ["He's a nurse.", "He isn't a nurse."],
+          ["She's American.", "She isn't American."]
+        ]
+      },
+      "rules": ["Put **not** after am / is / are.", "Short forms: **'m not**, **isn't**, **aren't**"],
+      "examples": ["I'm not a teacher.", "Omar isn't a doctor.", "You aren't late."],
+      "support": {
+        "tr": "Olumsuz yapmak için am / is / are'dan sonra not ekle: He is not a doctor = O doktor değil. Kısa hâlleri: isn't, aren't. \"I amn't\" diye bir şey yok; I'm not deriz.",
+        "ar": "للنفي نضيف not بعد am / is / are: He is not a doctor = هو ليس طبيبًا. الشكل المختصر: isn't و aren't. ومع I نقول: I'm not."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "\"Değil\" için not kullan, no değil!",
+          "wrong": ["He is no a doctor.", "I amn't a teacher."],
+          "right": ["He isn't a doctor.", "I'm not a teacher."]
+        },
+        "ar": {
+          "note": "لا نستخدم no للنفي هنا، بل not بعد am / is / are.",
+          "wrong": ["She no teacher.", "He not is a nurse."],
+          "right": ["She isn't a teacher.", "He isn't a nurse."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice: not",
+      "instructions": "Complete with 'm not, isn't or aren't.",
+      "support": { "tr": "'m not, isn't veya aren't ile tamamla.", "ar": "أكمل بـ 'm not أو isn't أو aren't." },
+      "items": [
+        "Omar {isn't|is not} a doctor. He's a nurse.",
+        "I {'m not|am not} from London. I'm from Izmir.",
+        "Sam {isn't|is not} a teacher. He's the owner of a café.",
+        "You {aren't|are not} a student. You're a teacher!",
+        "Maya {isn't|is not} Brazilian. She's American."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the job.",
+      "support": { "tr": "Dinle ve mesleği seç.", "ar": "استمع واختر المهنة." },
+      "items": [
+        { "audio": "Hi! I'm Anna. I'm an engineer.", "voice": "maya", "prompt": "Anna is …", "options": ["an engineer", "a nurse", "a teacher"], "answer": 0 },
+        { "audio": "My friend Ben isn't a doctor. He's a driver.", "voice": "lucas", "prompt": "Ben is …", "options": ["a doctor", "a driver", "an artist"], "answer": 1 },
+        { "audio": "I'm not a teacher. I'm a nurse.", "voice": "omar", "prompt": "Omar is …", "options": ["a teacher", "a doctor", "a nurse"], "answer": 2 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["I'm not a doctor.", "She's an engineer.", "What's your job?", "He isn't from London."]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "I'm a nurse.", "voice": "omar" },
+        { "text": "She isn't a doctor.", "voice": "sam" },
+        { "text": "He's an artist.", "voice": "maya" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write",
+      "model": {
+        "heading": "Omar",
+        "text": ["My name is Omar.", "I'm a nurse.", "I'm not a doctor.", "I'm from Jordan, but I'm in Boston now."]
+      },
+      "frame": ["My name is ___.", "I'm a / an ___.", "I'm not a / an ___.", "My dream job? A / An ___!"],
+      "prompt": "Write about you and your job (or your dream job).",
+      "support": { "tr": "Kendini ve mesleğini (ya da hayalindeki mesleği) yaz.", "ar": "اكتب عن نفسك وعن مهنتك (أو مهنة أحلامك)." },
+      "minWords": 15,
+      "checklist": ["I use a or an before the job.", "I use one sentence with not."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

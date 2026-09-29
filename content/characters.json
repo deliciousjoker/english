@@ -1,0 +1,90 @@
+[
+  {
+    "id": "narrator",
+    "name": "Narrator",
+    "azureVoice": "en-US-JennyNeural",
+    "kokoroVoice": "af_heart",
+    "fallback": { "lang": "en-US", "gender": "female" },
+    "color": "#6B6358"
+  },
+  {
+    "id": "elif",
+    "name": "Elif",
+    "azureVoice": "en-US-EmmaNeural",
+    "kokoroVoice": "af_bella",
+    "fallback": { "lang": "en-US", "gender": "female" },
+    "color": "#C4572E"
+  },
+  {
+    "id": "omar",
+    "name": "Omar",
+    "azureVoice": "en-US-AndrewNeural",
+    "kokoroVoice": "am_michael",
+    "fallback": { "lang": "en-US", "gender": "male" },
+    "color": "#2E7A6B"
+  },
+  {
+    "id": "maya",
+    "name": "Maya",
+    "azureVoice": "en-US-AvaNeural",
+    "kokoroVoice": "af_aoede",
+    "fallback": { "lang": "en-US", "gender": "female" },
+    "color": "#3D5A9E"
+  },
+  {
+    "id": "sam",
+    "name": "Sam",
+    "azureVoice": "en-GB-RyanNeural",
+    "kokoroVoice": "bm_george",
+    "fallback": { "lang": "en-GB", "gender": "male" },
+    "color": "#8A5A2B"
+  },
+  {
+    "id": "lucas",
+    "name": "Lucas",
+    "azureVoice": "en-US-BrianNeural",
+    "kokoroVoice": "am_puck",
+    "fallback": { "lang": "en-US", "gender": "male" },
+    "color": "#6E4E96"
+  },
+  {
+    "id": "rose",
+    "name": "Mrs. Miller",
+    "azureVoice": "en-US-AriaNeural",
+    "kokoroVoice": "af_sarah",
+    "fallback": { "lang": "en-US", "gender": "female" },
+    "color": "#9E3D5A"
+  },
+  {
+    "id": "ayse",
+    "name": "Ayşe",
+    "azureVoice": "en-GB-SoniaNeural",
+    "kokoroVoice": "bf_emma",
+    "fallback": { "lang": "en-GB", "gender": "female" },
+    "color": "#5E7D3A"
+  },
+  {
+    "id": "seller",
+    "name": "Seller",
+    "azureVoice": "en-US-ChristopherNeural",
+    "kokoroVoice": "am_fenrir",
+    "fallback": { "lang": "en-US", "gender": "male" },
+    "color": "#7A6A3A"
+  },
+  {
+    "id": "clerk",
+    "name": "Clerk",
+    "azureVoice": "en-US-NancyNeural",
+    "kokoroVoice": "af_nova",
+    "fallback": { "lang": "en-US", "gender": "female" },
+    "color": "#4E6E8E"
+  },
+  {
+    "id": "lina",
+    "name": "Lina",
+    "azureVoice": "en-US-MichelleNeural",
+    "kokoroVoice": "af_kore",
+    "fallback": { "lang": "en-US", "gender": "female" },
+    "color": "#B0782A"
+  }
+]

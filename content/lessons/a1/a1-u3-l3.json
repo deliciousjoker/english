@@ -1,0 +1,210 @@
+{
+  "id": "a1-u3-l3",
+  "level": "a1",
+  "unit": 3,
+  "order": 3,
+  "title": "Weekdays and weekends",
+  "subtitle": "What does Maya do on Saturdays? — he / she + verb + s",
+  "canDo": [
+    "I can say the days of the week.",
+    "I can talk about other people's routines: she works, he goes.",
+    "I can understand a text about someone's week."
+  ],
+  "teacherNotes": [
+    "Günler: Arap öğrencilere Arap ülkelerinde hafta sonunun çoğunlukla Cuma–Cumartesi olduğunu, ABD'de Cumartesi–Pazar olduğunu konuşturun. Güzel bir kültür karşılaştırması.",
+    "3. tekil -s en çok unutulan ektir; konuşurken de takip edin. Yazımı: goes, watches, studies, has.",
+    "Arap öğrenciler \"She is runs\" gibi be + fiil kurabilir; Türk öğrenciler -s'yi I / you ile de kullanabilir (\"I works\").",
+    "Okuma metnindeki \"maqluba\" (Ürdün yemeği) ve camiye gitme gibi kültürel ayrıntılar, Arap öğrencileri derse katmak için iyi bir fırsat."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["What's your favorite day of the week? Why?", "In your country, what days are the weekend?", "What does your best friend do on weekends?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Days of the week",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "Monday", "pos": "noun", "example": "Omar works at night on Mondays.", "gloss": { "tr": "Pazartesi", "ar": "الاثنين" } },
+        { "word": "Tuesday", "pos": "noun", "example": "Lucas is late every Tuesday.", "gloss": { "tr": "Salı", "ar": "الثلاثاء" } },
+        { "word": "Wednesday", "pos": "noun", "example": "Rose goes to the library on Wednesdays.", "gloss": { "tr": "Çarşamba", "ar": "الأربعاء" } },
+        { "word": "Thursday", "pos": "noun", "example": "We have English on Thursday.", "gloss": { "tr": "Perşembe", "ar": "الخميس" } },
+        { "word": "Friday", "pos": "noun", "example": "Omar goes to the mosque on Fridays.", "gloss": { "tr": "Cuma", "ar": "الجمعة" } },
+        { "word": "Saturday", "pos": "noun", "example": "Maya runs in the park on Saturdays.", "gloss": { "tr": "Cumartesi", "ar": "السبت" } },
+        { "word": "Sunday", "pos": "noun", "example": "The café is closed on Sunday.", "gloss": { "tr": "Pazar", "ar": "الأحد" } },
+        { "word": "weekend", "pos": "noun", "example": "What do you do on the weekend?", "gloss": { "tr": "hafta sonu", "ar": "عطلة نهاية الأسبوع" } },
+        { "word": "visit", "pos": "verb", "example": "Maya visits Rose on Sundays.", "gloss": { "tr": "ziyaret etmek", "ar": "يزور" } },
+        { "word": "cook", "pos": "verb", "example": "Omar cooks for his neighbors.", "gloss": { "tr": "yemek pişirmek", "ar": "يطبخ" } },
+        { "word": "play", "pos": "verb", "example": "He plays football on Fridays.", "gloss": { "tr": "oynamak; çalmak (müzik)", "ar": "يلعب؛ يعزف" } },
+        { "word": "study", "pos": "verb", "example": "Lina studies engineering.", "gloss": { "tr": "okumak, ders çalışmak", "ar": "يدرس" } }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "ordering",
+      "title": "The week",
+      "instructions": "Put the days in order. Start with Monday.",
+      "support": { "tr": "Günleri sıraya koy. Pazartesiden başla.", "ar": "رتّب الأيام. ابدأ بيوم الاثنين." },
+      "items": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Plans for the weekend",
+      "scene": "Friday evening. Elif meets Rose in front of the building.",
+      "lines": [
+        { "speaker": "elif", "text": "Hi, Rose! It's Friday — the weekend!" },
+        { "speaker": "rose", "text": "Yes! Do you have plans, Elif?" },
+        { "speaker": "elif", "text": "Not really. What does Maya do on weekends?" },
+        { "speaker": "rose", "text": "Oh, Maya's weekends are busy! She runs in the park every Saturday morning. Then she goes to the market." },
+        { "speaker": "elif", "text": "And on Sundays?" },
+        { "speaker": "rose", "text": "On Sundays, she visits me. She brings flowers, and I make lunch." },
+        { "speaker": "elif", "text": "That's lovely. And Sam? He works on Saturdays, right?" },
+        { "speaker": "rose", "text": "Yes. Sam works six days a week. He only has Sundays free. He takes Biscuit to the beach." },
+        { "speaker": "elif", "text": "Good idea. The park on Saturday morning — for me, too!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Maya runs in the park on Saturdays.", "answer": true },
+        { "statement": "Maya visits Rose on Fridays.", "answer": false },
+        { "statement": "Rose makes lunch on Sundays.", "answer": true },
+        { "statement": "Sam works seven days a week.", "answer": false },
+        { "statement": "Sam takes Biscuit to the beach.", "answer": true }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Omar's week",
+      "voice": "narrator",
+      "paragraphs": [
+        ["Omar has a busy week."],
+        ["On Mondays, he works at night.", "He finishes at seven in the morning and goes to English class."],
+        ["On Tuesdays and Thursdays, he works from seven to three."],
+        ["On Wednesdays, he studies English at home, and he cooks for his neighbors.", "He makes maqluba, a Jordanian rice dish."],
+        ["On Fridays, he goes to the mosque, and then he plays football with friends."],
+        ["On weekends, he sleeps a lot and calls his family in Amman.", "His mother always asks, “Do you eat well, Omar?”"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Omar's week",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "On Mondays, Omar works …", "options": ["in the morning", "at night", "in the afternoon"], "answer": 1 },
+        { "prompt": "On Wednesdays, he …", "options": ["cooks for his neighbors", "plays football", "goes to the mosque"], "answer": 0 },
+        { "prompt": "Maqluba is …", "options": ["a Jordanian dish", "a city", "a friend"], "answer": 0 },
+        { "prompt": "On weekends, Omar calls …", "options": ["his family", "Maya", "Sam"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: he / she / it + verb + s",
+      "look": ["She **runs** in the park.", "She **goes** to the market.", "He **finishes** at seven.", "He **studies** English at home.", "He **has** Sundays free."],
+      "table": {
+        "head": ["Rule", "I / you / we / they", "he / she / it"],
+        "rows": [
+          ["+ s", "work, run, play", "work**s**, run**s**, play**s**"],
+          ["+ es (after s, sh, ch, x, o)", "finish, watch, go", "finish**es**, watch**es**, go**es**"],
+          ["consonant + y → ies", "study", "stud**ies**"],
+          ["irregular", "have, do", "**has**, **does**"]
+        ]
+      },
+      "rules": [
+        "he / she / it + verb + **s**: She run**s**.",
+        "Only he / she / it! I run, you run, they run — but she run**s**.",
+        "Spelling: go → go**es**, watch → watch**es**, study → stud**ies**, have → **has**"
+      ],
+      "examples": ["She works in a café.", "He goes to the mosque on Fridays.", "Maya visits Rose on Sundays.", "Omar has a busy week."],
+      "support": {
+        "tr": "Geniş zamanda he / she / it ile fiilin sonuna -s eklenir: He works = O çalışır. Türkçede fiil her kişide değişir (çalışırım, çalışırsın…); İngilizcede ise sadece he / she / it farklıdır. Bu -s çok küçük ama çok önemli: konuşurken de söyle!",
+        "ar": "في المضارع البسيط نضيف s إلى الفعل مع he و she و it فقط: She works = هي تعمل. في العربية يتغيّر الفعل مع كل ضمير (أعمل، تعمل، يعمل)، أما في الإنجليزية فالتغيير الوحيد هو s مع he / she / it."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "He / she / it'ten sonra -s'yi unutma; ama I / you / we / they ile -s ekleme.",
+          "wrong": ["She work in a café.", "I works at night."],
+          "right": ["She works in a café.", "I work at night."]
+        },
+        "ar": {
+          "note": "لا تنسَ s مع he / she / it، ولا تضع is قبل الفعل.",
+          "wrong": ["He go to the mosque on Fridays.", "She is runs in the park."],
+          "right": ["He goes to the mosque on Fridays.", "She runs in the park."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Write the verb with -s, -es or -ies.",
+      "support": { "tr": "Fiili -s, -es veya -ies ile yaz.", "ar": "اكتب الفعل مع s أو es أو ies." },
+      "items": [
+        "Maya {runs} in the park. (run)",
+        "Omar {goes} to the mosque on Fridays. (go)",
+        "Sam {opens} the café at seven. (open)",
+        "Lina {studies} engineering. (study)",
+        "Rose {has} a garden. (have)",
+        "The class {finishes} at twelve. (finish)",
+        "Lucas {plays} the guitar. (play)"
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "support": { "tr": "Dinle ve doğru cevabı seç.", "ar": "استمع واختر الجواب الصحيح." },
+      "items": [
+        { "audio": "My aunt Rose goes to the library on Wednesdays.", "voice": "maya", "prompt": "Rose goes to the library on …", "options": ["Mondays", "Wednesdays", "Fridays"], "answer": 1 },
+        { "audio": "My band plays at Sam's café on Friday evenings.", "voice": "lucas", "prompt": "The band plays on …", "options": ["Friday evenings", "Saturday mornings", "Sundays"], "answer": 0 },
+        { "audio": "My brother Can watches football every Sunday.", "voice": "elif", "prompt": "Can watches football on …", "options": ["Saturdays", "Sundays", "Tuesdays"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["She runs in the park.", "He goes to the mosque on Fridays.", "Omar has a busy week.", "Sam works on Saturdays."]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "She visits Rose on Sundays.", "voice": "rose" },
+        { "text": "He works six days a week.", "voice": "maya" },
+        { "text": "Omar studies at home.", "voice": "elif" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write",
+      "model": {
+        "heading": "My mother's week",
+        "text": ["My mother is a teacher.", "She works from Monday to Friday.", "She gets up at six thirty.", "On Saturdays, she goes to the market.", "On Sundays, she cooks a big lunch for the family."]
+      },
+      "frame": ["My ___ is a / an ___.", "He / She works on ___.", "On Saturdays, he / she ___.", "On Sundays, he / she ___."],
+      "prompt": "Write about a friend's or a family member's week (5 sentences with he or she).",
+      "support": { "tr": "Bir arkadaşının ya da aile üyenin haftasını anlat (he veya she ile 5 cümle).", "ar": "اكتب عن أسبوع صديق أو أحد أفراد عائلتك (5 جمل مع he أو she)." },
+      "minWords": 30,
+      "checklist": ["I add -s to the verb after he / she.", "I use on with days."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

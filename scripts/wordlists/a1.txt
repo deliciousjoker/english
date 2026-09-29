@@ -1,0 +1,78 @@
+# A1 çekirdek kelime listesi (seviye kontrolü için; tam liste değildir, zamanla genişletilir).
+# Boşluk veya satırla ayrılır. Çekimli hâller (plays, played, playing) otomatik tanınır.
+
+# Zamirler, belirteçler, bağlaçlar, edatlar
+i me my mine you your yours he him his she her hers it its we us our ours they them their theirs
+a an the this that these those some any no every all both each other another
+and but or so because if then than
+in on at to from of for with without about by near next under over behind between into out up down off
+here there where when what who whom whose which why how
+not very too also only just really again always usually often sometimes never
+yes no ok okay please sorry thanks thank hello hi goodbye bye welcome oh wow everyone everybody someone something yet
+can can't cannot could will won't would shall should must may might
+do does did don't doesn't didn't be am is are was were been being isn't aren't wasn't weren't
+have has had haven't hasn't having get got
+let's let
+
+# Sayılar
+zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty
+thirty forty fifty sixty seventy eighty ninety hundred thousand million first second third last next half
+number
+
+# Zaman
+time day week month year today tomorrow yesterday tonight morning afternoon evening night now later soon early late
+monday tuesday wednesday thursday friday saturday sunday weekend
+january february march april may june july august september october november december
+spring summer autumn fall winter o'clock minute hour clock calendar birthday holiday
+old young new age
+
+# İnsanlar ve aile
+person people man men woman women boy girl child children baby friend family mother father mom dad mum
+parent parents brother sister son daughter husband wife grandmother grandfather grandma grandpa aunt uncle cousin
+name surname mr mrs ms miss teacher student classmate neighbor neighbour
+
+# Meslekler
+job work doctor nurse engineer driver waiter waitress artist police officer farmer cook chef singer actor
+manager worker shop assistant businessman businesswoman secretary pilot dentist musician writer
+
+# Yerler
+home house apartment flat room kitchen bathroom bedroom garden door window wall floor
+school class classroom university office hospital shop store supermarket market bank restaurant cafe café hotel museum
+park street road city town village country world place station airport bus train car taxi bike bicycle plane
+cinema library church mosque beach sea river mountain lake
+
+# Ülkeler / milliyetler / diller
+america american england english britain british turkey turkish jordan jordanian brazil brazilian china chinese
+egypt egyptian syria syrian iraq iraqi arabic arab france french germany german spain spanish italy italian japan japanese usa uk
+
+# Yiyecek, içecek
+food drink water coffee tea milk juice bread butter cheese egg eggs rice meat chicken fish fruit apple banana orange lemon
+vegetable potato tomato salad soup sandwich pizza cake cookie cookies chocolate sugar salt breakfast lunch dinner
+
+# Eşyalar
+book pen pencil paper bag box key phone computer table chair bed desk cup glass plate bottle car bike ticket money
+picture photo map letter word sentence question answer page text message email notebook board clock watch
+clothes shirt t-shirt dress shoes jacket hat
+
+# Renkler ve sıfatlar
+red blue green yellow black white brown orange pink purple grey gray color colour
+good bad big small long short tall high low hot cold warm cool nice beautiful pretty happy sad tired hungry thirsty
+easy difficult hard fast slow cheap expensive right wrong true false same different favorite favourite
+great fine kind friendly funny lovely busy free open closed clean dirty full empty important interesting boring
+
+# Fiiller
+go come see look watch listen hear read write speak talk say tell ask answer like love want need know think
+live work study learn teach play eat drink cook make take give buy sell pay open close start begin finish stop
+sit stand walk run swim drive ride fly sleep wake meet help call phone spell repeat match choose complete check
+count guess understand use find put wear wash clean visit stay travel wait bring carry try
+
+# Diğer
+thing things way part kind lot lots many much more most little
+animal dog cat bird horse
+weather sun rain snow wind
+sport football tennis music song film movie game tv television radio internet video party
+english class lesson homework test exam
+bridge draw laugh drum special wedding ahead poster summer winter mum
+dozen forget loaf stall fun mean top wonderful yourself
+outside plant across package send hand anything back else problem course lemonade game gray map fruit
+grandparents grandparent cute lazy loud famous story guitar band building thin after real roommate olive dead fresh present relax dish flower idea plan language perfect well pair tourist customer weekday

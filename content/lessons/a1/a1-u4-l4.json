@@ -1,0 +1,232 @@
+{
+  "id": "a1-u4-l4",
+  "level": "a1",
+  "unit": 4,
+  "order": 4,
+  "title": "Mrs. Miller's house",
+  "subtitle": "A note on the fridge — instructions and directions",
+  "canDo": [
+    "I can understand and give simple instructions: Open…, Don't…",
+    "I can give simple directions: turn left, go straight.",
+    "I can write a short note for a friend."
+  ],
+  "teacherNotes": [
+    "Ünitenin son dersi: \"Write a note\" görevini ödev verin. Not türü gerçek hayatta çok kullanılır (buzdolabı notu, mesaj).",
+    "Emir kipini sınıf talimatlarıyla bağlayın: Listen, Read, Write, Match… hepsi emir cümlesi! Öğrenciler bunu fark edince çok hoşlarına gider.",
+    "Arap öğrencilere: İngilizcede emir tek biçimli (افتح / افتحي / افتحوا → open). Türk öğrencilere: olumsuzda \"not\" değil \"don't\".",
+    "Yol tarifi oyunu: Ekranda basit bir harita çizin; öğrenciler birbirlerine \"Turn left…\" diyerek yol tarif etsin."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["Do you have a pet?", "Who helps you when you are away?", "How do you go from your home to the supermarket?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "feed", "pos": "verb", "example": "Please feed Tom at eight.", "gloss": { "tr": "(hayvanı) beslemek, yem vermek", "ar": "يُطعِم" } },
+        { "word": "water", "pos": "verb", "example": "Please water the plants.", "gloss": { "tr": "sulamak (su: water)", "ar": "يسقي (ماء: water)" } },
+        { "word": "plant", "pos": "noun", "example": "There are three plants in the kitchen.", "gloss": { "tr": "bitki, saksı çiçeği", "ar": "نبتة" } },
+        { "word": "fridge", "pos": "noun", "example": "There's lemonade in the fridge.", "gloss": { "tr": "buzdolabı", "ar": "ثلّاجة" } },
+        { "word": "cupboard", "pos": "noun", "example": "His food is in the cupboard.", "gloss": { "tr": "dolap (mutfak)", "ar": "خزانة المطبخ" } },
+        { "word": "open", "pos": "verb", "example": "Don't open the window.", "gloss": { "tr": "açmak", "ar": "يفتح" } },
+        { "word": "close", "pos": "verb", "example": "Please close the door.", "gloss": { "tr": "kapatmak", "ar": "يُغلِق" } },
+        { "word": "turn left", "pos": "phrase", "example": "Turn left at the bank.", "gloss": { "tr": "sola dön", "ar": "انعطف يسارًا" } },
+        { "word": "turn right", "pos": "phrase", "example": "Turn right at the park.", "gloss": { "tr": "sağa dön", "ar": "انعطف يمينًا" } },
+        { "word": "go straight", "pos": "phrase", "example": "Go straight to the school.", "gloss": { "tr": "düz git", "ar": "امشِ مباشرةً، إلى الأمام" } },
+        { "word": "note", "pos": "noun", "example": "There's a note on the fridge.", "gloss": { "tr": "not", "ar": "ملاحظة، ورقة" } },
+        { "word": "dear", "pos": "adjective", "example": "Thank you, dear.", "gloss": { "tr": "canım, sevgili", "ar": "عزيزي، عزيزتي" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Can you help me, Elif?",
+      "scene": "Friday evening. Rose knocks on Elif's door.",
+      "lines": [
+        { "speaker": "rose", "text": "Elif, I'm at Dorothy's house this weekend. Can you feed Tom?" },
+        { "speaker": "elif", "text": "Of course! What time?" },
+        { "speaker": "rose", "text": "Give him his food at eight in the morning and at six in the evening." },
+        { "speaker": "elif", "text": "OK. Where's his food?" },
+        { "speaker": "rose", "text": "It's in the kitchen, in the cupboard next to the fridge." },
+        { "speaker": "elif", "text": "Anything else?" },
+        { "speaker": "rose", "text": "Yes. Please water the plants on Saturday. And don't open the windows — Tom loves the street!" },
+        { "speaker": "elif", "text": "No problem. And your library books?" },
+        { "speaker": "rose", "text": "Oh, yes! Please take them back on Saturday. Go out of the building, turn left and walk to the park. The library is next to the park." },
+        { "speaker": "elif", "text": "Turn left, walk to the park. Got it!" },
+        { "speaker": "rose", "text": "Thank you, dear. Here's the key." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Rose is at Dorothy's house this weekend.", "answer": true },
+        { "statement": "Elif feeds Tom at eight in the evening.", "answer": false },
+        { "statement": "Tom's food is in the cupboard next to the fridge.", "answer": true },
+        { "statement": "Elif can open the windows for Tom.", "answer": false },
+        { "statement": "The library is next to the park.", "answer": true }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "A note on the fridge",
+      "intro": "Rose leaves a note for Elif.",
+      "voice": "rose",
+      "paragraphs": [
+        ["Elif — thank you, dear!"],
+        ["Please feed Tom at 8 a.m. and 6 p.m.", "His food is in the cupboard next to the fridge.", "Give him fresh water every day."],
+        ["Don't give him cookies!", "He loves them, but they aren't good for him."],
+        ["Please water the plants in the living room on Saturday.", "Don't open the windows."],
+        ["There's lemonade in the fridge for you.", "See you on Monday!", "Rose"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "The note",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "How many times a day does Elif feed Tom?", "options": ["one time", "two times", "three times"], "answer": 1 },
+        { "prompt": "Cookies for Tom?", "options": ["Yes, every day.", "No!"], "answer": 1 },
+        { "prompt": "When does Elif water the plants?", "options": ["on Saturday", "every day", "on Monday"], "answer": 0 },
+        { "prompt": "What's in the fridge for Elif?", "options": ["milk", "lemonade", "cookies"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: instructions (imperatives)",
+      "look": ["**Give** him his food at eight.", "**Don't open** the windows.", "**Turn** left and **walk** to the park.", "**Please** water the plants."],
+      "table": {
+        "head": ["Do this (+)", "Don't do this (–)"],
+        "rows": [
+          ["Open the window.", "Don't open the window."],
+          ["Give him cookies.", "Don't give him cookies."],
+          ["Turn left.", "Don't turn right."],
+          ["Please sit down.", "Please don't be late!"]
+        ]
+      },
+      "rules": [
+        "Instruction = the verb first, no subject: **Open** the door.",
+        "Negative: **Don't** + verb: **Don't** open the window.",
+        "Add **please** to be polite: **Please** water the plants.",
+        "Directions: **turn** left, **turn** right, **go** straight, **walk** to the park"
+      ],
+      "examples": ["Turn right at the bank.", "Go straight and turn left.", "Don't be late!", "Please close the door."],
+      "support": {
+        "tr": "Emir cümlesi fiille başlar, özne yoktur: Open the window = Pencereyi aç. Olumsuz için Don't kullanılır: Don't open the window = Pencereyi açma. Kibar olmak için please ekle: Please water the plants = Lütfen çiçekleri sula. Yol tarifi de böyle yapılır: Turn left = Sola dön. Derslerdeki talimatlar da emir cümlesidir: Listen, Read, Write!",
+        "ar": "فعل الأمر يبدأ بالفعل مباشرةً بدون فاعل: Open the window = افتح النافذة. وللنهي نستخدم Don't: Don't open the window = لا تفتح النافذة. ولنكون مؤدّبين نضيف please: Please water the plants = من فضلك اسقِ النباتات. لاحظ: شكل الأمر واحد في الإنجليزية للمذكّر والمؤنّث والجمع (افتح، افتحي، افتحوا = open)."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "Olumsuz emirde not ya da no değil, don't kullan.",
+          "wrong": ["Not open the window.", "No give him cookies."],
+          "right": ["Don't open the window.", "Don't give him cookies."]
+        },
+        "ar": {
+          "note": "بعد Don't يأتي الفعل مباشرةً بدون to، ولا نستخدم no للنهي.",
+          "wrong": ["Don't to open the window.", "No give him cookies!"],
+          "right": ["Don't open the window.", "Don't give him cookies!"]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete the instructions.",
+      "support": { "tr": "Talimatları tamamla.", "ar": "أكمل التعليمات." },
+      "bank": ["Turn", "Don't", "Please", "Give", "Walk"],
+      "items": [
+        "{Turn} left at the bank.",
+        "{Don't} open the window!",
+        "{Please} water the plants.",
+        "{Give} Tom fresh water.",
+        "{Walk} to the park. The library is next to it."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "ordering",
+      "title": "To the library",
+      "instructions": "Put Rose's directions in order.",
+      "support": { "tr": "Rose'un yol tarifini sıraya koy.", "ar": "رتّب إرشادات روز." },
+      "items": ["Go out of the building.", "Turn left.", "Walk to the park.", "The library is next to the park."]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Why?",
+      "instructions": "Match the instruction and the reason.",
+      "support": { "tr": "Talimatı nedeniyle eşleştir.", "ar": "صِل التعليمات بالسبب." },
+      "pairs": [
+        ["Don't be late!", "Class starts at nine."],
+        ["Please close the door.", "Tom is in the room."],
+        ["Don't give Biscuit cookies!", "They aren't good for dogs."],
+        ["Turn left at the bank.", "The pharmacy is there."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "support": { "tr": "Dinle ve doğru cevabı seç.", "ar": "استمع واختر الجواب الصحيح." },
+      "items": [
+        { "audio": "Go straight and turn right. The bank is next to the café.", "voice": "sam", "prompt": "Turn …", "options": ["left", "right"], "answer": 1 },
+        { "audio": "Please don't be late tomorrow!", "voice": "maya", "prompt": "Maya says:", "options": ["Be late.", "Don't be late."], "answer": 1 },
+        { "audio": "Open the door, please. Tom wants to come in.", "voice": "rose", "prompt": "What does Rose want?", "options": ["Open the door.", "Close the door.", "Feed Tom."], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["Please water the plants.", "Don't open the window.", "Turn left at the bank.", "Give Tom fresh water."]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "Don't open the window.", "voice": "rose" },
+        { "text": "Turn left at the park.", "voice": "sam" },
+        { "text": "Please feed Tom.", "voice": "rose" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: A note",
+      "model": {
+        "heading": "Elif's note for Zeynep",
+        "text": [
+          "Hi Zeynep! Welcome to my apartment.",
+          "The keys are on the table next to the door.",
+          "There's food in the fridge.",
+          "Please water the plants on Sunday.",
+          "Don't open the window — Rose's cat is next door!",
+          "See you on Monday! Elif"
+        ]
+      },
+      "frame": ["Hi ___! Welcome to my home.", "The ___ is / are ___.", "There's ___ in the ___.", "Please ___.", "Don't ___."],
+      "prompt": "Your friend is in your home this weekend. Write a note: where things are and 4 or 5 instructions. Send it to your teacher.",
+      "support": { "tr": "Arkadaşın bu hafta sonu senin evinde kalıyor. Bir not yaz: eşyalar nerede ve 4–5 talimat. Notu öğretmenine gönder.", "ar": "صديقك في بيتك هذا الأسبوع. اكتب ملاحظة: أين الأشياء، و4 أو 5 تعليمات. أرسلها إلى معلّمك." },
+      "minWords": 30,
+      "checklist": ["I use Please one time.", "I use Don't one time.", "I say where things are: on, in, next to…"]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

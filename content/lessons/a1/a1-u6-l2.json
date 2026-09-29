@@ -1,0 +1,216 @@
+{
+  "id": "a1-u6-l2",
+  "level": "a1",
+  "unit": 6,
+  "order": 2,
+  "title": "I can swim",
+  "subtitle": "Lucas needs a singer — can and can't",
+  "canDo": [
+    "I can say what I can and can't do.",
+    "I can ask: Can you…? and answer: Yes, I can. / No, I can't.",
+    "I can understand a poster for an event."
+  ],
+  "teacherNotes": [
+    "can her kişide aynıdır: She can (cans değil), ve arkasından to gelmez: I can swim (can to swim değil).",
+    "Telaffuz: can /kən/ (zayıf) – can't /kænt/ ya da /kɑːnt/ (güçlü). Dinleme alıştırmasında bu farkı abartarak gösterin.",
+    "Türkçedeki \"-ebilmek\" eki ve Arapçadaki \"يستطيع\" ile karşılaştırın; can fiilden ÖNCE ayrı bir kelime olarak gelir.",
+    "Sınıf oyunu: \"Find someone who can…\" (… yapabilen birini bul): yüzmek, araba sürmek, üç dil konuşmak, gitar çalmak."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["Can you swim?", "Can you play a musical instrument?", "What can you do very well?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "can", "pos": "verb", "example": "I can play the guitar.", "gloss": { "tr": "-ebilmek", "ar": "يستطيع" } },
+        { "word": "can't", "pos": "verb", "example": "I can't sing.", "gloss": { "tr": "-emez (yapamamak)", "ar": "لا يستطيع" } },
+        { "word": "sing", "pos": "verb", "example": "Omar can sing.", "gloss": { "tr": "şarkı söylemek", "ar": "يُغنّي" } },
+        { "word": "dance", "pos": "verb", "example": "I can't dance!", "gloss": { "tr": "dans etmek", "ar": "يرقص" } },
+        { "word": "swim", "pos": "verb", "example": "Can you swim?", "gloss": { "tr": "yüzmek", "ar": "يسبح" } },
+        { "word": "draw", "pos": "verb", "example": "Elif can draw very well.", "gloss": { "tr": "(resim) çizmek", "ar": "يرسم" } },
+        { "word": "drive", "pos": "verb", "example": "Mehmet can drive. He's a taxi driver.", "gloss": { "tr": "araba sürmek", "ar": "يقود (السيارة)" } },
+        { "word": "ride a bike", "pos": "phrase", "example": "Adam can ride a bike.", "gloss": { "tr": "bisiklet sürmek", "ar": "يركب الدراجة" } },
+        { "word": "play the piano", "pos": "phrase", "example": "Maya can play the piano.", "gloss": { "tr": "piyano çalmak", "ar": "يعزف على البيانو" } },
+        { "word": "singer", "pos": "noun", "example": "Our singer is sick.", "gloss": { "tr": "şarkıcı", "ar": "مُغنٍّ، مُغنّية" } },
+        { "word": "show", "pos": "noun", "example": "We have a show on Friday.", "gloss": { "tr": "gösteri, konser", "ar": "عرض، حفلة" } },
+        { "word": "sick", "pos": "adjective", "example": "He's sick today.", "gloss": { "tr": "hasta", "ar": "مريض" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "We need a singer!",
+      "scene": "After class. Lucas has a problem.",
+      "lines": [
+        { "speaker": "lucas", "text": "Friends, I have a problem. Our singer is sick, and we have a show at Sam's café on Friday." },
+        { "speaker": "elif", "text": "Oh no! Can you sing, Lucas?" },
+        { "speaker": "lucas", "text": "No, I can't. I can play the guitar, but I can't sing." },
+        { "speaker": "maya", "text": "Don't look at me! I can play the piano, but I can't sing at all." },
+        { "speaker": "elif", "text": "I can draw a poster for the show, but I can't sing. Omar, can you sing?" },
+        { "speaker": "omar", "text": "Well … yes, I can. I sing at family weddings in Amman." },
+        { "speaker": "lucas", "text": "Really? Sing something, please!" },
+        { "speaker": "maya", "text": "Wow, Omar! You can really sing!" },
+        { "speaker": "omar", "text": "OK, OK. I can sing on Friday. But I can't dance!" },
+        { "speaker": "lucas", "text": "No problem. I can dance for you!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "The band's singer is sick.", "answer": true },
+        { "statement": "Lucas can sing.", "answer": false },
+        { "statement": "Maya can play the piano.", "answer": true },
+        { "statement": "Elif can draw a poster.", "answer": true },
+        { "statement": "Omar can dance very well.", "answer": false }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Blue Monday — live at Sam's café!",
+      "intro": "Elif's poster for the show.",
+      "voice": "narrator",
+      "paragraphs": [
+        ["Blue Monday — live at Sam's café!"],
+        ["Friday, 7 p.m.", "Lucas Silva on the guitar.", "Jake Brown on the drums."],
+        ["And a special singer: Omar Haddad!", "Songs in English, Portuguese and Arabic."],
+        ["Free cookies for everyone — from Sam and Biscuit.", "Can you dance? Come and dance with us!"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "The poster",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "When is the show?", "options": ["Friday at 7 p.m.", "Saturday at 7 p.m.", "Friday at 9 p.m."], "answer": 0 },
+        { "prompt": "Who plays the drums?", "options": ["Lucas", "Jake", "Omar"], "answer": 1 },
+        { "prompt": "The songs are in …", "options": ["English and Turkish", "English, Portuguese and Arabic", "only English"], "answer": 1 },
+        { "prompt": "The cookies are …", "options": ["$1.25", "free", "only for the band"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: can / can't",
+      "look": ["I **can play** the guitar.", "I **can't sing**.", "**Can** you **sing**? — Yes, I **can**.", "You **can** really **sing**!"],
+      "table": {
+        "head": ["", "Example"],
+        "rows": [
+          ["+", "I / You / He / She / We / They **can** swim."],
+          ["–", "I / You / He / She / We / They **can't** swim."],
+          ["?", "**Can** you / he / she swim?"],
+          ["Short answers", "Yes, I **can**. / No, I **can't**."]
+        ]
+      },
+      "rules": [
+        "**can** + verb: I can swim. (no **to**: not “can to swim”)",
+        "**can** is the same for everyone: she **can** (not “cans”)",
+        "Negative: **can't** (= cannot)",
+        "Question: **Can** + person + verb? — **Can** you drive?"
+      ],
+      "examples": ["Omar can sing.", "Elif can't sing, but she can draw.", "Can you ride a bike? — Yes, I can.", "Can Maya play the piano? — Yes, she can."],
+      "support": {
+        "tr": "can \"-ebilmek\" demektir ve fiilden önce ayrı bir kelime olarak gelir: I can swim = Yüzebilirim. Her kişide aynıdır (she can) ve arkasından to gelmez. Olumsuz: can't = -emez (I can't sing = Şarkı söyleyemem). Soru: Can you drive? = Araba kullanabilir misin?",
+        "ar": "can تعني «يستطيع» وتأتي قبل الفعل: I can swim = أستطيع السباحة. شكلها لا يتغيّر مع الضمائر (she can)، ولا نضع to بعدها. النفي: can't (I can't sing = لا أستطيع الغناء). والسؤال: Can you drive? = هل تستطيع القيادة؟"
+      },
+      "watchOut": {
+        "tr": {
+          "note": "can'den sonra to ya da -s gelmez.",
+          "wrong": ["I can to swim.", "She cans dance."],
+          "right": ["I can swim.", "She can dance."]
+        },
+        "ar": {
+          "note": "لا تضع to بعد can، ولا تستخدم do في السؤال.",
+          "wrong": ["He can to drive.", "Do you can swim?"],
+          "right": ["He can drive.", "Can you swim?"]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with can or can't.",
+      "support": { "tr": "can veya can't ile tamamla.", "ar": "أكمل بـ can أو can't." },
+      "bank": ["can", "can't", "Can"],
+      "items": [
+        "Lucas {can} play the guitar.",
+        "Lucas {can't|cannot} sing.",
+        "{Can} you swim? — Yes, I {can}.",
+        "Omar {can} sing, but he {can't|cannot} dance.",
+        "Adam is four. He {can} ride a bike."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Who can do it?",
+      "instructions": "Match the person and the sentence.",
+      "support": { "tr": "Kişiyi ve cümleyi eşleştir.", "ar": "صِل الشخص بالجملة." },
+      "pairs": [
+        ["Omar", "can sing, but he can't dance."],
+        ["Lucas", "can play the guitar and dance."],
+        ["Maya", "can play the piano."],
+        ["Elif", "can draw a poster."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Can or can't?",
+      "instructions": "Listen. Do you hear can or can't?",
+      "support": { "tr": "Dinle. can mi duyuyorsun, can't mi?", "ar": "استمع. هل تسمع can أم can't؟" },
+      "items": [
+        { "audio": "I can swim.", "voice": "maya", "prompt": "Maya …", "options": ["can swim", "can't swim"], "answer": 0 },
+        { "audio": "I can't drive.", "voice": "elif", "prompt": "Elif …", "options": ["can drive", "can't drive"], "answer": 1 },
+        { "audio": "Biscuit can't swim, but he loves the beach.", "voice": "sam", "prompt": "Biscuit …", "options": ["can swim", "can't swim"], "answer": 1 },
+        { "audio": "My grandmother can speak three languages.", "voice": "omar", "prompt": "Omar's grandmother …", "options": ["can speak three languages", "can't speak English"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["I can play the guitar.", "Can you swim?", "She can't sing.", "He can ride a bike."]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "Can you sing?", "voice": "lucas" },
+        { "text": "I can't dance.", "voice": "omar" },
+        { "text": "She can play the piano.", "voice": "elif" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write",
+      "model": {
+        "heading": "What can I do? — Omar",
+        "text": ["I can cook very well.", "I can sing, but I can't dance.", "I can speak Arabic and English.", "I can't drive in Boston — it's too difficult!", "Can you play football? Come on Friday!"]
+      },
+      "frame": ["I can ___ very well.", "I can ___, but I can't ___.", "I can speak ___.", "I can't ___.", "Can you ___?"],
+      "prompt": "What can you do? What can't you do? Write 5 sentences.",
+      "support": { "tr": "Neler yapabilirsin, neler yapamazsın? 5 cümle yaz.", "ar": "ماذا تستطيع أن تفعل؟ وماذا لا تستطيع؟ اكتب 5 جمل." },
+      "minWords": 25,
+      "checklist": ["I don't write to after can.", "I write one question with Can you…?"]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

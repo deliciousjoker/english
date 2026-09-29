@@ -1,0 +1,180 @@
+{
+  "id": "starter-u1-l1",
+  "level": "starter",
+  "unit": 1,
+  "order": 1,
+  "title": "Letters and sounds",
+  "subtitle": "The English alphabet — and how to spell your name",
+  "canDo": [
+    "I can say the English alphabet.",
+    "I can spell my name.",
+    "I can understand letters when I hear them."
+  ],
+  "teacherNotes": [
+    "Arap öğrenciler: İngilizce soldan sağa yazılır; büyük/küçük harf farkını ekranda gösterin. b-d-p-q karışıklığına ve p/b, v/f seslerine özellikle dikkat (Arapçada p ve v sesi yok).",
+    "Türk öğrenciler: Harf isimleri Türkçeden farklı. En çok karışanlar: A (ey) – E (i) – I (ay), G (ci) – J (cey), Y (vay) – W (dabılyu).",
+    "Alfabeyi 3 grupta çalışın (A–H, I–P, Q–Z). Her grubu önce dinletin, sonra koro hâlinde tekrar ettirin.",
+    "Ders sonu: her öğrenci kendi adını ve soyadını kodlasın. \"double D\" gibi kullanımı Omar'ın diyaloğundan gösterin."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": [
+        "Hello! What's your name?",
+        "Do you know any English words? Say them!",
+        "Look at the letters. Do you know them?"
+      ]
+    },
+    {
+      "type": "tiles",
+      "title": "The alphabet",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "big": "Aa", "small": "apple", "say": "A, apple.", "hint": { "tr": "ey", "ar": "إيه" } },
+        { "big": "Bb", "small": "book", "say": "B, book.", "hint": { "tr": "bi", "ar": "بي" } },
+        { "big": "Cc", "small": "cat", "say": "C, cat.", "hint": { "tr": "si", "ar": "سي" } },
+        { "big": "Dd", "small": "door", "say": "D, door.", "hint": { "tr": "di", "ar": "دي" } },
+        { "big": "Ee", "small": "egg", "say": "E, egg.", "hint": { "tr": "i", "ar": "إي" } },
+        { "big": "Ff", "small": "family", "say": "F, family.", "hint": { "tr": "ef", "ar": "إف" } },
+        { "big": "Gg", "small": "good", "say": "G, good.", "hint": { "tr": "ci", "ar": "جي" } },
+        { "big": "Hh", "small": "hello", "say": "H, hello.", "hint": { "tr": "eyç", "ar": "إيتش" } },
+        { "big": "Ii", "small": "ice", "say": "I, ice.", "hint": { "tr": "ay", "ar": "آي" } },
+        { "big": "Jj", "small": "job", "say": "J, job.", "hint": { "tr": "cey", "ar": "جيه" } },
+        { "big": "Kk", "small": "key", "say": "K, key.", "hint": { "tr": "key", "ar": "كيه" } },
+        { "big": "Ll", "small": "lemon", "say": "L, lemon.", "hint": { "tr": "el", "ar": "إل" } },
+        { "big": "Mm", "small": "milk", "say": "M, milk.", "hint": { "tr": "em", "ar": "إم" } },
+        { "big": "Nn", "small": "name", "say": "N, name.", "hint": { "tr": "en", "ar": "إن" } },
+        { "big": "Oo", "small": "orange", "say": "O, orange.", "hint": { "tr": "ou", "ar": "أو" } },
+        { "big": "Pp", "small": "pen", "say": "P, pen.", "hint": { "tr": "pi", "ar": "پي" } },
+        { "big": "Qq", "small": "question", "say": "Q, question.", "hint": { "tr": "kyu", "ar": "كيو" } },
+        { "big": "Rr", "small": "red", "say": "R, red.", "hint": { "tr": "ar", "ar": "آر" } },
+        { "big": "Ss", "small": "school", "say": "S, school.", "hint": { "tr": "es", "ar": "إس" } },
+        { "big": "Tt", "small": "tea", "say": "T, tea.", "hint": { "tr": "ti", "ar": "تي" } },
+        { "big": "Uu", "small": "umbrella", "say": "U, umbrella.", "hint": { "tr": "yu", "ar": "يو" } },
+        { "big": "Vv", "small": "video", "say": "V, video.", "hint": { "tr": "vi", "ar": "ڤي" } },
+        { "big": "Ww", "small": "water", "say": "W, water.", "hint": { "tr": "dabılyu", "ar": "دبليو" } },
+        { "big": "Xx", "small": "box", "say": "X, box.", "hint": { "tr": "eks", "ar": "إكس" } },
+        { "big": "Yy", "small": "yes", "say": "Y, yes.", "hint": { "tr": "vay", "ar": "واي" } },
+        { "big": "Zz", "small": "zero", "say": "Z, zero.", "hint": { "tr": "zi", "ar": "زي" } }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Capital letters",
+      "look": ["**M**y name is **O**mar.", "**E**lif is from **T**urkey.", "**I**'m from **B**oston."],
+      "table": {
+        "head": ["Capital", "Small", "Capital", "Small"],
+        "rows": [
+          ["B", "b", "D", "d"],
+          ["P", "p", "Q", "q"],
+          ["G", "g", "J", "j"],
+          ["I", "i", "L", "l"]
+        ]
+      },
+      "rules": [
+        "Every sentence starts with a capital letter.",
+        "Names start with a capital letter: Omar, Elif, Boston, Turkey.",
+        "“I” is always a capital letter.",
+        "We write from left to right →",
+        "a, e, i, o, u are vowels."
+      ],
+      "support": {
+        "tr": "İngilizcede her harfin iki şekli vardır: büyük (A) ve küçük (a). Cümleler, insan isimleri, şehir ve ülke isimleri büyük harfle başlar. \"I\" (ben) her zaman büyük yazılır. Harflerin isimleri Türkçeden farklıdır: A = \"ey\", E = \"i\", I = \"ay\".",
+        "ar": "تُكتب الإنجليزية من اليسار إلى اليمين. لكل حرف شكلان: كبير (A) وصغير (a). تبدأ الجملة وأسماء الأشخاص والمدن والدول بحرف كبير. والضمير I (أنا) يُكتب دائمًا بحرف كبير. انتبه للحروف المتشابهة: b و d، و p و q."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "İsim ve cümle başında büyük harfi unutma. Kelimeyi harf harf söylerken de İngilizce harf isimlerini kullan: E = \"i\", I = \"ay\".",
+          "wrong": ["my name is elif.", "i'm from izmir."],
+          "right": ["My name is Elif.", "I'm from Izmir."]
+        },
+        "ar": {
+          "note": "في الإنجليزية نكتب الحروف المتحرّكة (a, e, i, o, u) دائمًا، ولا نحذفها كما نحذف الحركات في العربية.",
+          "wrong": ["nm", "stdnt", "my name is omar."],
+          "right": ["name", "student", "My name is Omar."]
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "How do you spell it?",
+      "scene": "Omar is at the school office.",
+      "lines": [
+        { "speaker": "maya", "text": "Good morning! What's your name, please?" },
+        { "speaker": "omar", "text": "Hello. My name is Omar Haddad." },
+        { "speaker": "maya", "text": "How do you spell “Omar”?" },
+        { "speaker": "omar", "text": "O, M, A, R." },
+        { "speaker": "maya", "text": "And “Haddad”?" },
+        { "speaker": "omar", "text": "H, A, double D, A, D." },
+        { "speaker": "maya", "text": "Thank you, Omar. Welcome to Harbor English School!" },
+        { "speaker": "omar", "text": "Thank you!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Which letter?",
+      "instructions": "Listen and choose the letter.",
+      "support": { "tr": "Dinle ve harfi seç.", "ar": "استمع واختر الحرف." },
+      "items": [
+        { "audio": "The letter E.", "prompt": "Which letter?", "options": ["A", "E", "I"], "answer": 1 },
+        { "audio": "The letter G.", "prompt": "Which letter?", "options": ["G", "J", "Z"], "answer": 0 },
+        { "audio": "The letter I.", "prompt": "Which letter?", "options": ["E", "I", "Y"], "answer": 1 },
+        { "audio": "The letter V.", "prompt": "Which letter?", "options": ["B", "V", "W"], "answer": 1 },
+        { "audio": "The letter P.", "prompt": "Which letter?", "options": ["B", "D", "P"], "answer": 2 },
+        { "audio": "The letter J.", "prompt": "Which letter?", "options": ["G", "J", "Y"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Big and small",
+      "instructions": "Match the capital letter and the small letter.",
+      "support": { "tr": "Büyük harfi küçük harfle eşleştir.", "ar": "صِل الحرف الكبير بالحرف الصغير." },
+      "pairs": [
+        ["B", "b"],
+        ["D", "d"],
+        ["G", "g"],
+        ["Q", "q"],
+        ["P", "p"],
+        ["R", "r"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Vowels",
+      "instructions": "Complete the words with a, e, i, o or u.",
+      "support": { "tr": "Kelimeleri a, e, i, o veya u ile tamamla.", "ar": "أكمل الكلمات بـ a أو e أو i أو o أو u." },
+      "bank": ["a", "e", "i", "o", "u"],
+      "items": ["n{a}me", "h{e}llo", "t{e}{a}cher", "st{u}dent", "sch{o}{o}l", "n{i}ce", "b{o}{o}k"]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen to the letters. Write the word.",
+      "support": { "tr": "Harfleri dinle. Kelimeyi yaz.", "ar": "استمع إلى الحروف. اكتب الكلمة." },
+      "items": [
+        { "say": "S, A, M.", "text": "Sam" },
+        { "say": "M, A, Y, A.", "text": "Maya" },
+        { "say": "L, U, C, A, S.", "text": "Lucas" },
+        { "say": "B, O, S, T, O, N.", "text": "Boston" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write",
+      "model": { "heading": "Omar", "text": ["My name is Omar.", "O, M, A, R."] },
+      "frame": ["My name is ___.", "___, ___, ___, ___ …"],
+      "prompt": "Write your name. Then spell it.",
+      "support": { "tr": "Adını yaz. Sonra harf harf yaz.", "ar": "اكتب اسمك. ثم تهجَّه حرفًا حرفًا." },
+      "minWords": 4,
+      "checklist": ["My name starts with a capital letter.", "I write from left to right."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

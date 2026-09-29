@@ -1,0 +1,211 @@
+{
+  "id": "a1-u2-l2",
+  "level": "a1",
+  "unit": 2,
+  "order": 2,
+  "title": "Omar's sister",
+  "subtitle": "A video call from Amman — and words for people",
+  "canDo": [
+    "I can use 's: Omar's sister, Sam's café.",
+    "I can describe people: tall, young, funny, quiet…",
+    "I can understand a short video call."
+  ],
+  "teacherNotes": [
+    "'s'nin iki anlamını mutlaka ayırın: Omar's tall (= Omar is tall) / Omar's sister (= Omar'ın kız kardeşi). Tahtada iki renkle gösterin.",
+    "Türk öğrenciler için iyelik sırası Türkçeyle aynı (Omar'ın kız kardeşi = Omar's sister). Arap öğrenciler için sıra ters (أخت عمر = Omar's sister); bunu özellikle vurgulayın.",
+    "Sıfatlar: öğrencilere sınıftan birini veya ünlü birini 2 sıfatla anlattırın (\"He's tall and funny\").",
+    "Çoğul iyelik (my parents' house) bu seviyede sadece tanıma amaçlı; üretmelerini beklemeyin."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["Do you have a brother or a sister?", "Is he or she tall or short?", "Is your best friend funny or quiet?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "People",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "tall", "pos": "adjective", "example": "Kareem is very tall.", "gloss": { "tr": "uzun boylu", "ar": "طويل" } },
+        { "word": "short", "pos": "adjective", "example": "My grandmother is short.", "gloss": { "tr": "kısa boylu; kısa", "ar": "قصير" } },
+        { "word": "young", "pos": "adjective", "example": "Adam is young. He's four.", "gloss": { "tr": "genç", "ar": "صغير السنّ، شابّ" } },
+        { "word": "little", "pos": "adjective", "example": "Lina is Omar's little sister.", "gloss": { "tr": "küçük (little sister: küçük kız kardeş)", "ar": "صغير (little sister: الأخت الصغرى)" } },
+        { "word": "quiet", "pos": "adjective", "example": "Omar is quiet in class.", "gloss": { "tr": "sessiz, sakin", "ar": "هادئ" } },
+        { "word": "funny", "pos": "adjective", "example": "Lina is very funny.", "gloss": { "tr": "komik, eğlenceli", "ar": "مُضحِك، ظريف" } },
+        { "word": "friendly", "pos": "adjective", "example": "Hala is very friendly.", "gloss": { "tr": "arkadaş canlısı, samimi", "ar": "ودود" } },
+        { "word": "smart", "pos": "adjective", "example": "My sister is very smart.", "gloss": { "tr": "zeki, akıllı", "ar": "ذكي" } },
+        { "word": "busy", "pos": "adjective", "example": "She's always busy.", "gloss": { "tr": "meşgul, yoğun", "ar": "مشغول" } },
+        { "word": "university", "pos": "noun", "example": "She's a student at the University of Jordan.", "gloss": { "tr": "üniversite", "ar": "جامعة" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "A video call",
+      "scene": "Sam's café. Omar's phone rings. It's his sister, Lina, in Amman.",
+      "lines": [
+        { "speaker": "omar", "text": "Elif, look — it's my sister, Lina. Say hi!" },
+        { "speaker": "elif", "text": "Hi, Lina! I'm Elif, Omar's classmate." },
+        { "speaker": "lina", "text": "Hi, Elif! Nice to meet you. Is my brother a good student?" },
+        { "speaker": "elif", "text": "Yes, he is! He's very smart, and he's never late." },
+        { "speaker": "lina", "text": "Really? At home, he's always late!" },
+        { "speaker": "omar", "text": "Lina! That's not true!" },
+        { "speaker": "lina", "text": "Elif, is that the famous café? Sam's café?" },
+        { "speaker": "elif", "text": "Yes, it is! Sam's coffee is great." },
+        { "speaker": "lina", "text": "Say hello to Sam from Omar's little sister!" },
+        { "speaker": "omar", "text": "OK, OK. Bye, Lina!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Lina is Omar's sister.", "answer": true },
+        { "statement": "Elif is Lina's classmate.", "answer": false },
+        { "statement": "Lina says: at home, Omar is always late.", "answer": true },
+        { "statement": "Elif and Omar are at Sam's café.", "answer": true },
+        { "statement": "Lina is Omar's big sister.", "answer": false }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "People in my life",
+      "intro": "Omar writes about his family.",
+      "voice": "omar",
+      "paragraphs": [
+        ["Lina is my little sister.", "She's twenty-two and very smart.", "She's a student at the University of Jordan.", "She's funny, and she's always busy."],
+        ["Kareem is my big brother.", "He's tall and quiet.", "Kareem's wife, Hala, is very friendly.", "Their son, Adam, is four.", "He's small, but he's very loud!"],
+        ["My grandmother's name is Fatima.", "She's eighty-five.", "Her stories are the best!"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Omar's family",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "Kareem is …", "options": ["tall and quiet", "short and funny", "young and loud"], "answer": 0 },
+        { "prompt": "Hala is Kareem's …", "options": ["sister", "wife", "daughter"], "answer": 1 },
+        { "prompt": "Fatima is Omar's …", "options": ["mother", "sister", "grandmother"], "answer": 2 },
+        { "prompt": "Adam is …", "options": ["four", "fourteen", "forty"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: 's (Omar's sister)",
+      "look": ["I'm Elif, **Omar's** classmate.", "Is that **Sam's** café?", "**Kareem's** wife is very friendly.", "My **grandmother's** name is Fatima."],
+      "table": {
+        "head": ["Person + 's", "Meaning"],
+        "rows": [
+          ["Omar's sister", "the sister of Omar"],
+          ["Sam's café", "the café of Sam"],
+          ["Lina's university", "the university of Lina"],
+          ["my parents' apartment", "the apartment of my parents"]
+        ]
+      },
+      "rules": [
+        "Person + **'s** + thing or person: **Sam's** café, **Omar's** sister",
+        "Plural words with -s: add only **'** — my parent**s'** apartment",
+        "Be careful! **'s** can also be **is**: Omar**'s** tall. (= Omar is tall)"
+      ],
+      "examples": ["This is Omar's sister.", "Sam's café is small.", "Adam is Kareem's son.", "Omar's very quiet."],
+      "support": {
+        "tr": "\"Omar'ın kız kardeşi\" demek için isme 's ekleriz: Omar's sister. Türkçedeki -ın / -in gibidir ve sıra da aynıdır. Ama İngilizcede ikinci kelimeye ek gelmez: kardeş-i değil, sadece sister. Dikkat: 's bazen is'in kısaltmasıdır: Omar's tall = Omar uzun boylu.",
+        "ar": "في الإنجليزية نضيف 's إلى اسم المالك: Omar's sister = أختُ عمر. الترتيب عكس العربية: المالك أولًا ثم الشيء (Sam's café = مقهى سام). وانتبه: 's قد تكون اختصارًا لـ is: Omar's tall = عمر طويل."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "'s'yi unutma; Türkçedeki -ın / -in ekinin karşılığıdır.",
+          "wrong": ["Omar sister is Lina.", "Sam café is small."],
+          "right": ["Omar's sister is Lina.", "Sam's café is small."]
+        },
+        "ar": {
+          "note": "في العربية نقول «مقهى سام» (الشيء أولًا)، أما في الإنجليزية فنقول Sam's café (المالك أولًا).",
+          "wrong": ["café Sam", "sister Omar's is Lina."],
+          "right": ["Sam's café", "Omar's sister is Lina."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice: 's",
+      "instructions": "Write the name + 's.",
+      "support": { "tr": "İsmi 's ile yaz.", "ar": "اكتب الاسم مع 's." },
+      "items": [
+        "Adam is {Kareem's} son. (Kareem)",
+        "This is {Sam's} café. (Sam)",
+        "Hala is {Kareem's} wife. (Kareem)",
+        "Where is {Lina's} university? (Lina)",
+        "{Maya's} class is small. (Maya)"
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Opposites",
+      "instructions": "Match the opposites.",
+      "support": { "tr": "Zıt anlamlı kelimeleri eşleştir.", "ar": "صِل الكلمة بعكسها." },
+      "pairs": [
+        ["tall", "short"],
+        ["young", "old"],
+        ["big", "little"],
+        ["quiet", "loud"],
+        ["busy", "free"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "support": { "tr": "Dinle ve doğru cevabı seç.", "ar": "استمع واختر الجواب الصحيح." },
+      "items": [
+        { "audio": "My brother Omar is tall and quiet. He's very smart.", "voice": "lina", "prompt": "Omar is …", "options": ["tall and quiet", "short and funny", "loud and busy"], "answer": 0 },
+        { "audio": "This is Rose's apartment. Her cat's name is Tom.", "voice": "elif", "prompt": "Tom is …", "options": ["Rose's cat", "Rose's son", "Rose's neighbor"], "answer": 0 },
+        { "audio": "Lucas's guitar is always in my classroom!", "voice": "maya", "prompt": "The guitar is …", "options": ["Maya's", "Lucas's", "Sam's"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["Lina is Omar's sister.", "Sam's café is small.", "Her brother is very tall.", "Is that Maya's bag?"]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "Kareem's wife is friendly.", "voice": "omar" },
+        { "text": "Adam is Kareem's son.", "voice": "lina" },
+        { "text": "She's funny and smart.", "voice": "elif" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write",
+      "model": {
+        "heading": "Elif",
+        "text": ["Can is my brother. He's tall and funny.", "Zeynep is my best friend. Zeynep's family is in Ankara.", "My grandmother's name is Nermin. She's quiet and very kind."]
+      },
+      "frame": ["___ is my ___. He's / She's ___ and ___.", "___'s ___ is in ___.", "My ___'s name is ___."],
+      "prompt": "Write about three people in your life. Use 's and two adjectives.",
+      "support": { "tr": "Hayatındaki üç kişiyi yaz. 's ve iki sıfat kullan.", "ar": "اكتب عن ثلاثة أشخاص في حياتك. استخدم 's وصفتين." },
+      "minWords": 25,
+      "checklist": ["I use 's one or two times.", "I use two adjectives for every person."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

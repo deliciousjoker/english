@@ -1,0 +1,234 @@
+{
+  "id": "a1-u2-l1",
+  "level": "a1",
+  "unit": 2,
+  "order": 1,
+  "title": "This is my family",
+  "subtitle": "Omar shows Elif some family photos",
+  "canDo": [
+    "I can name the people in my family.",
+    "I can use my, your, his, her, our and their.",
+    "I can understand a short text about a family."
+  ],
+  "teacherNotes": [
+    "Warm-up: İsterseniz kendi aile fotoğrafınızdan birini paylaşın ve \"This is my mother…\" diye tanıtın.",
+    "his / her Türk öğrenciler için zor, çünkü Türkçede tek \"onun\" var. Kural: sahibi erkekse his, kadınsa her (Omar → his sister, Lina → her brother).",
+    "Arap öğrencilere: his / her seçimi Arapçadaki ـه / ـها ile aynı mantık (sahibine göre). Fark şu: İngilizcede kelime ismin önüne gelir.",
+    "Rol yapma: Öğrenciler telefonlarındaki bir aile fotoğrafını (ya da hayalî bir aileyi) anlatsın."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["Is your family big or small?", "Where is your family now?", "Who is in your favorite family photo?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Family",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "family", "pos": "noun", "example": "This is my family.", "gloss": { "tr": "aile", "ar": "عائلة، أسرة" } },
+        { "word": "mother", "pos": "noun", "example": "My mother is a doctor.", "gloss": { "tr": "anne", "ar": "أمّ" } },
+        { "word": "father", "pos": "noun", "example": "My father is a teacher.", "gloss": { "tr": "baba", "ar": "أب" } },
+        { "word": "parents", "pos": "noun", "example": "My parents are in Amman.", "gloss": { "tr": "anne baba, ebeveynler", "ar": "الوالدان" } },
+        { "word": "brother", "pos": "noun", "example": "This is my brother, Kareem.", "gloss": { "tr": "erkek kardeş, ağabey", "ar": "أخ" } },
+        { "word": "sister", "pos": "noun", "example": "Lina is my sister.", "gloss": { "tr": "kız kardeş, abla", "ar": "أخت" } },
+        { "word": "husband", "pos": "noun", "example": "Her husband is an engineer.", "gloss": { "tr": "koca, eş", "ar": "زوج" } },
+        { "word": "wife", "pos": "noun", "example": "His wife is a nurse.", "gloss": { "tr": "karı, eş", "ar": "زوجة" } },
+        { "word": "son", "pos": "noun", "example": "Their son is four.", "gloss": { "tr": "oğul", "ar": "ابن" } },
+        { "word": "daughter", "pos": "noun", "example": "Our daughter is a student.", "gloss": { "tr": "kız evlat", "ar": "ابنة، بنت" } },
+        { "word": "grandmother", "pos": "noun", "example": "Our grandmother is eighty-five.", "gloss": { "tr": "büyükanne, nine", "ar": "جدّة" } },
+        { "word": "grandfather", "pos": "noun", "example": "My grandfather is from Irbid.", "gloss": { "tr": "büyükbaba, dede", "ar": "جدّ" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Family photos",
+      "scene": "Sam's café. Omar shows Elif some photos on his phone.",
+      "lines": [
+        { "speaker": "elif", "text": "Is that a family photo, Omar?" },
+        { "speaker": "omar", "text": "Yes, it is. Look — this is my father, and this is my mother." },
+        { "speaker": "elif", "text": "Oh, nice! Where are your parents?" },
+        { "speaker": "omar", "text": "They're in Amman. My father is a teacher, and my mother is a doctor." },
+        { "speaker": "elif", "text": "And who's this?" },
+        { "speaker": "omar", "text": "That's my sister, Lina. She's twenty-two. She's a student at a university in Amman." },
+        { "speaker": "elif", "text": "And the man with the little boy?" },
+        { "speaker": "omar", "text": "That's my brother, Kareem, and his son, Adam. Adam is four." },
+        { "speaker": "elif", "text": "He's so cute! Is his wife in the photo?" },
+        { "speaker": "omar", "text": "No, she isn't. Her name is Hala. They're from Amman, but their apartment is in Dubai now." },
+        { "speaker": "elif", "text": "And this old woman?" },
+        { "speaker": "omar", "text": "That's our grandmother. She's eighty-five, and she's the boss of the family!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Omar's parents are in Amman.", "answer": true },
+        { "statement": "His mother is a teacher.", "answer": false },
+        { "statement": "Lina is twenty-two.", "answer": true },
+        { "statement": "Adam is Omar's son.", "answer": false },
+        { "statement": "Kareem and Hala are in Dubai now.", "answer": true }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Family words",
+      "instructions": "Match the man and the woman.",
+      "support": { "tr": "Erkeği ve kadını eşleştir.", "ar": "صِل الرجل بالمرأة." },
+      "pairs": [
+        ["father", "mother"],
+        ["brother", "sister"],
+        ["husband", "wife"],
+        ["son", "daughter"],
+        ["grandfather", "grandmother"]
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "My family",
+      "intro": "Elif writes about her family in Izmir.",
+      "voice": "elif",
+      "paragraphs": [
+        ["My family is small."],
+        ["My father is Mehmet.", "He's fifty-two, and he's a taxi driver.", "My mother is Ayşe.", "She's an English teacher!"],
+        ["My brother is Can.", "He's sixteen.", "He's a student, and his favorite sport is football."],
+        ["Our cat is Pamuk.", "Pamuk is Turkish for “cotton”.", "She's white and very lazy."],
+        ["My grandparents are in Izmir, too.", "Their house is near the sea."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Elif's family",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "Mehmet is Elif's …", "options": ["father", "brother", "grandfather"], "answer": 0 },
+        { "prompt": "Elif's mother is …", "options": ["a taxi driver", "an English teacher", "a student"], "answer": 1 },
+        { "prompt": "Can is …", "options": ["six", "sixteen", "sixty"], "answer": 1 },
+        { "prompt": "Pamuk is …", "options": ["Elif's sister", "a cat", "a city"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: my, your, his, her…",
+      "look": [
+        "This is **my** father.",
+        "Where are **your** parents?",
+        "That's my brother and **his** son.",
+        "**Her** name is Hala.",
+        "That's **our** grandmother.",
+        "**Their** apartment is in Dubai."
+      ],
+      "table": {
+        "head": ["", "Possessive", "Example"],
+        "rows": [
+          ["I", "my", "**my** sister"],
+          ["you", "your", "**your** parents"],
+          ["he", "his", "**his** son"],
+          ["she", "her", "**her** name"],
+          ["it", "its", "**its** name"],
+          ["we", "our", "**our** grandmother"],
+          ["they", "their", "**their** apartment"]
+        ]
+      },
+      "rules": [
+        "Put my, your, his … before a noun: **my** brother, **her** name.",
+        "**his** = of a man · **her** = of a woman: Omar → **his** sister, Lina → **her** brother.",
+        "They don't change for plurals: **my** brother → **my** brothers."
+      ],
+      "examples": ["My mother is a doctor.", "His name is Kareem.", "Her son is four.", "Our cat is white.", "Their house is near the sea."],
+      "support": {
+        "tr": "Türkçede iyelik çoğunlukla ekle yapılır: kardeşim, kardeşin. İngilizcede ise ismin önüne ayrı bir kelime gelir: my sister (kız kardeşim), your sister (kız kardeşin). Türkçedeki \"onun\" için iki kelime vardır: his (erkeğin) ve her (kadının). Sahibi erkekse his, kadınsa her: Omar and his sister = Omar ve (onun) kız kardeşi.",
+        "ar": "في العربية نضيف ضميرًا متّصلًا في آخر الكلمة: أختي، أختك، أخته، أختها. في الإنجليزية نضع كلمة منفصلة قبل الاسم: my sister (أختي)، your sister (أختك)، his sister (أخته)، her sister (أختها)، our sister (أختنا)، their sister (أختهم). ونختار his أو her حسب صاحب الشيء، تمامًا مثل ـه و ـها في العربية."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "\"Onun\" için sahibine bak: erkekse his, kadınsa her. Türkçede tek kelime olduğu için çok karışır.",
+          "wrong": ["Omar and her sister.", "Lina and his brother."],
+          "right": ["Omar and his sister.", "Lina and her brother."]
+        },
+        "ar": {
+          "note": "لا نضع الضمير في آخر الكلمة، بل نضع my / your / his … قبلها، ولا نستخدم the معها.",
+          "wrong": ["sister my", "the my father"],
+          "right": ["my sister", "my father"]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with my, your, his, her, our or their.",
+      "support": { "tr": "my, your, his, her, our veya their ile tamamla.", "ar": "أكمل بـ my أو your أو his أو her أو our أو their." },
+      "bank": ["my", "your", "his", "her", "our", "their"],
+      "items": [
+        "I'm Omar. {My} sister is Lina.",
+        "Lina is a student. {Her} university is in Amman.",
+        "Kareem and Hala are in Dubai. {Their} son is four.",
+        "Elif, is this {your} bag?",
+        "We're classmates. {Our} teacher is Maya.",
+        "Omar is a nurse. {His} hospital is in Boston."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "support": { "tr": "Dinle ve doğru cevabı seç.", "ar": "استمع واختر الجواب الصحيح." },
+      "items": [
+        { "audio": "This is my sister. Her name is Ana. She's nineteen.", "voice": "lucas", "prompt": "Lucas's sister is …", "options": ["nine", "nineteen", "ninety"], "answer": 1 },
+        { "audio": "My parents are from Boston, but their house is in Florida now.", "voice": "maya", "prompt": "Maya's parents are in …", "options": ["Boston", "Florida", "London"], "answer": 1 },
+        { "audio": "My wife is Emma. Our dog is Biscuit.", "voice": "sam", "prompt": "Biscuit is …", "options": ["Sam's wife", "Sam's dog", "Sam's son"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["Her name is Lina.", "This is my brother.", "Their son is four.", "Where are your parents?"]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "My parents are in Amman.", "voice": "omar" },
+        { "text": "Her name is Hala.", "voice": "omar" },
+        { "text": "This is our grandmother.", "voice": "elif" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write",
+      "model": {
+        "heading": "Elif",
+        "text": ["My family is small.", "My father is Mehmet. He's a taxi driver.", "My mother is Ayşe. She's an English teacher.", "My brother is Can. He's sixteen."]
+      },
+      "frame": [
+        "My family is big / small.",
+        "My father is ___. He's a / an ___.",
+        "My mother is ___. She's a / an ___.",
+        "My brother / sister is ___. He's / She's ___."
+      ],
+      "prompt": "Write about your family.",
+      "support": { "tr": "Aileni anlat.", "ar": "اكتب عن عائلتك." },
+      "minWords": 25,
+      "checklist": ["I use his for a man and her for a woman.", "I use a or an with jobs."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

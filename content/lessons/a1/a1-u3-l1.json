@@ -1,0 +1,210 @@
+{
+  "id": "a1-u3-l1",
+  "level": "a1",
+  "unit": 3,
+  "order": 1,
+  "title": "My morning",
+  "subtitle": "Early birds and late birds — the present simple",
+  "canDo": [
+    "I can talk about my morning routine.",
+    "I can use the present simple with I, you, we and they.",
+    "I can understand a short text about daily life."
+  ],
+  "teacherNotes": [
+    "Warm-up: Kendi sabahınızı 3–4 cümleyle anlatın (\"I get up at 7. I drink tea…\"), sonra öğrencilere sorun.",
+    "Türk öğrenciler özneyi düşürebilir (\"Get up at eight\"); İngilizcede özne her zaman söylenir.",
+    "Hem Türk hem Arap öğrencilerde \"I am get up\" / \"I am work\" hatası sık görülür: be + fiil birlikte kullanılmaz.",
+    "Bu derste sadece I / you / we / they var; he / she -s ekini 3.3'te öğretiyoruz. Okuma metninde tanıma amaçlı geçebilir."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["What time do you get up?", "What do you have for breakfast?", "Are you an early bird or a late bird?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "My morning",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "wake up", "pos": "verb", "example": "I wake up at six.", "gloss": { "tr": "uyanmak", "ar": "يستيقظ" } },
+        { "word": "get up", "pos": "verb", "example": "I get up at eight.", "gloss": { "tr": "(yataktan) kalkmak", "ar": "ينهض من السرير" } },
+        { "word": "take a shower", "pos": "phrase", "example": "I take a shower in the morning.", "gloss": { "tr": "duş almak", "ar": "يستحمّ" } },
+        { "word": "get dressed", "pos": "phrase", "example": "I get dressed and have breakfast.", "gloss": { "tr": "giyinmek", "ar": "يرتدي ملابسه" } },
+        { "word": "have breakfast", "pos": "phrase", "example": "We have breakfast at home.", "gloss": { "tr": "kahvaltı yapmak", "ar": "يتناول الفطور" } },
+        { "word": "brush your teeth", "pos": "phrase", "example": "I brush my teeth after breakfast.", "gloss": { "tr": "dişlerini fırçalamak", "ar": "يُفرّش أسنانه" } },
+        { "word": "go to work", "pos": "phrase", "example": "I go to work at seven.", "gloss": { "tr": "işe gitmek", "ar": "يذهب إلى العمل" } },
+        { "word": "start", "pos": "verb", "example": "Class starts at nine.", "gloss": { "tr": "başlamak", "ar": "يبدأ" } },
+        { "word": "finish", "pos": "verb", "example": "I finish work at seven.", "gloss": { "tr": "bitirmek, bitmek", "ar": "يُنهي، ينتهي" } },
+        { "word": "walk", "pos": "verb", "example": "I walk to school.", "gloss": { "tr": "yürümek", "ar": "يمشي" } },
+        { "word": "early", "pos": "adjective", "example": "I get up early.", "gloss": { "tr": "erken", "ar": "مبكّرًا" } },
+        { "word": "every day", "pos": "phrase", "example": "I drink tea every day.", "gloss": { "tr": "her gün", "ar": "كلّ يوم" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Early bird",
+      "scene": "Monday, 8:45 a.m. Elif and Omar at the school door.",
+      "lines": [
+        { "speaker": "elif", "text": "Good morning, Omar! You look tired." },
+        { "speaker": "omar", "text": "Good morning. I work at the hospital at night on Mondays." },
+        { "speaker": "elif", "text": "At night? And you come to class in the morning?" },
+        { "speaker": "omar", "text": "Yes. I finish work at seven, I have breakfast, and I come here." },
+        { "speaker": "elif", "text": "Wow. I get up at eight, and I'm always tired!" },
+        { "speaker": "omar", "text": "Ha! What do you have for breakfast?" },
+        { "speaker": "elif", "text": "A Turkish breakfast: bread, cheese, olives, tomatoes and tea." },
+        { "speaker": "omar", "text": "That's a real breakfast! I drink coffee and eat a banana." },
+        { "speaker": "elif", "text": "Only a banana? Come on, Omar!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Omar works at night on Mondays.", "answer": true },
+        { "statement": "Omar finishes work at eight.", "answer": false },
+        { "statement": "Elif gets up at eight.", "answer": true },
+        { "statement": "Elif has tea for breakfast.", "answer": true },
+        { "statement": "Omar has a big breakfast.", "answer": false }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Our mornings",
+      "intro": "Elif writes about mornings in her class.",
+      "voice": "elif",
+      "paragraphs": [
+        ["My classmates and I have very different mornings."],
+        ["I get up at eight.", "I take a shower, get dressed and have a big Turkish breakfast.", "Then I walk to school."],
+        ["Lucas and his roommates get up late.", "They drink coffee, eat a cookie and run to school!"],
+        ["We start class at nine and finish at twelve.", "After class, we go to Sam's café.", "We drink tea and do our homework."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "ordering",
+      "title": "Elif's morning",
+      "instructions": "Put Elif's morning in order.",
+      "support": { "tr": "Elif'in sabahını sıraya koy.", "ar": "رتّب صباح إليف." },
+      "items": ["I get up at eight.", "I take a shower.", "I get dressed.", "I have a big breakfast.", "I walk to school."]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: present simple (I, you, we, they)",
+      "look": ["I **finish** work at seven.", "I **get up** at eight.", "They **run** to school.", "We **start** class at nine."],
+      "table": {
+        "head": ["", "verb", ""],
+        "rows": [
+          ["I", "get up", "at eight."],
+          ["You", "have", "breakfast at home."],
+          ["We", "start", "class at nine."],
+          ["They", "walk", "to school."]
+        ]
+      },
+      "rules": [
+        "Use the present simple for things you do every day (routines).",
+        "I / you / we / they + verb: I **work**, they **walk**",
+        "Time words: every day, in the morning, at 7:00"
+      ],
+      "examples": ["I get up at seven.", "We have breakfast at home.", "They walk to school.", "You drink a lot of coffee!"],
+      "support": {
+        "tr": "Present simple (geniş zaman) her gün ya da genellikle yaptığımız işler içindir: I get up at eight = Saat sekizde kalkarım. I, you, we, they ile fiil yalın kalır, ek almaz. Türkçeden farklı olarak özne (I, we …) mutlaka söylenir: \"Get up at eight\" değil, \"I get up at eight\".",
+        "ar": "نستخدم المضارع البسيط (present simple) للعادات اليومية: I get up at eight = أنهض في الثامنة. مع I و you و we و they يبقى الفعل كما هو. وعلى عكس العربية لا بدّ من ذكر الفاعل: نقول I get up ولا نقول get up وحدها، لأن الفعل الإنجليزي لا يحمل ضمير الفاعل."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "Türkçede özneyi düşürebiliriz (kalkarım), İngilizcede düşüremeyiz. Fiilden önce am / are de koyma.",
+          "wrong": ["Get up at eight every day.", "I am get up at eight."],
+          "right": ["I get up at eight every day.", "I get up at eight."]
+        },
+        "ar": {
+          "note": "لا تضع am / is / are قبل الفعل في المضارع البسيط.",
+          "wrong": ["I am work in a hospital.", "We are start at nine."],
+          "right": ["I work in a hospital.", "We start at nine."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete the sentences.",
+      "support": { "tr": "Cümleleri tamamla.", "ar": "أكمل الجمل." },
+      "bank": ["get up", "have", "walk", "start", "drink", "finish"],
+      "items": [
+        "I {get up} at seven.",
+        "We {have} breakfast at home.",
+        "They {walk} to school.",
+        "Classes {start} at nine.",
+        "I {drink} tea in the morning.",
+        "We {finish} class at twelve."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Word partners",
+      "instructions": "Match the words.",
+      "support": { "tr": "Kelimeleri eşleştir.", "ar": "صِل الكلمات." },
+      "pairs": [
+        ["take", "a shower"],
+        ["have", "breakfast"],
+        ["get", "dressed"],
+        ["brush", "your teeth"],
+        ["go", "to work"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "support": { "tr": "Dinle ve doğru cevabı seç.", "ar": "استمع واختر الجواب الصحيح." },
+      "items": [
+        { "audio": "I get up at nine, and I run to school!", "voice": "lucas", "prompt": "Lucas gets up at …", "options": ["seven", "eight", "nine"], "answer": 2 },
+        { "audio": "I start work at eight thirty.", "voice": "maya", "prompt": "Maya starts work at …", "options": ["8:00", "8:30", "9:30"], "answer": 1 },
+        { "audio": "I open the café at seven every day.", "voice": "sam", "prompt": "Sam opens the café at …", "options": ["six", "seven", "eleven"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["I get up at seven.", "We have breakfast at home.", "They walk to school.", "I drink tea every day."]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "I take a shower.", "voice": "elif" },
+        { "text": "We start class at nine.", "voice": "maya" },
+        { "text": "They walk to school.", "voice": "lucas" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write",
+      "model": {
+        "heading": "Omar's morning",
+        "text": ["I wake up at five.", "I take a shower and get dressed.", "I drink a coffee and eat a banana.", "I go to work at six.", "I start work at seven."]
+      },
+      "frame": ["I wake up at ___.", "I ___ and ___.", "I have ___ for breakfast.", "I go to ___ at ___."],
+      "prompt": "Write about your morning (5 sentences).",
+      "support": { "tr": "Sabahını anlat (5 cümle).", "ar": "اكتب عن صباحك (5 جمل)." },
+      "minWords": 25,
+      "checklist": ["Every sentence has I at the start.", "I don't write am / are before the verb."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}
