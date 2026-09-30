@@ -86,7 +86,7 @@
           "lessons": [
             { "id": "a1-u7-l1", "title": "What are you doing?" },
             { "id": "a1-u7-l2", "title": "What's the weather like?" },
-            { "id": "a1-u7-l3", "title": "Clothes" },
+            { "id": "a1-u7-l3", "title": "A warm coat" },
             { "id": "a1-u7-l4", "title": "A message from Elif" }
           ]
         },
@@ -102,7 +102,93 @@
         }
       ]
     },
-    { "id": "a2", "title": "A2", "description": "Everyday situations: travel, shopping, work and plans.", "units": [] },
+    {
+      "id": "a2",
+      "title": "A2",
+      "description": "Plans, stories, health, travel and work: everyday life in more detail.",
+      "units": [
+        {
+          "number": 1,
+          "title": "Plans",
+          "lessons": [
+            { "id": "a2-u1-l1", "title": "What are you going to do?" },
+            { "id": "a2-u1-l2", "title": "Thanksgiving at Rose's" },
+            { "id": "a2-u1-l3", "title": "Too expensive!" },
+            { "id": "a2-u1-l4", "title": "Holiday plans" }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Better and best",
+          "lessons": [
+            { "id": "a2-u2-l1", "title": "Boston or Izmir?" },
+            { "id": "a2-u2-l2", "title": "The best café in town" },
+            { "id": "a2-u2-l3", "title": "A new laptop" },
+            { "id": "a2-u2-l4", "title": "My city" }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Healthy life",
+          "lessons": [
+            { "id": "a2-u3-l1", "title": "I don't feel well" },
+            { "id": "a2-u3-l2", "title": "At the pharmacy" },
+            { "id": "a2-u3-l3", "title": "Healthy habits" },
+            { "id": "a2-u3-l4", "title": "Dear Omar" }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Getting around",
+          "lessons": [
+            { "id": "a2-u4-l1", "title": "How do I get there?" },
+            { "id": "a2-u4-l2", "title": "On the T" },
+            { "id": "a2-u4-l3", "title": "A walk through history" },
+            { "id": "a2-u4-l4", "title": "Directions to my home" }
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Stories",
+          "lessons": [
+            { "id": "a2-u5-l1", "title": "The snowstorm" },
+            { "id": "a2-u5-l2", "title": "Where's Tom?" },
+            { "id": "a2-u5-l3", "title": "When I was a child" },
+            { "id": "a2-u5-l4", "title": "A story to tell" }
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Experiences",
+          "lessons": [
+            { "id": "a2-u6-l1", "title": "Have you ever…?" },
+            { "id": "a2-u6-l2", "title": "First snow" },
+            { "id": "a2-u6-l3", "title": "Not yet!" },
+            { "id": "a2-u6-l4", "title": "My blog" }
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Work",
+          "lessons": [
+            { "id": "a2-u7-l1", "title": "Rules at the café" },
+            { "id": "a2-u7-l2", "title": "The interview" },
+            { "id": "a2-u7-l3", "title": "Could you help me?" },
+            { "id": "a2-u7-l4", "title": "A work email" }
+          ]
+        },
+        {
+          "number": 8,
+          "title": "The future",
+          "lessons": [
+            { "id": "a2-u8-l1", "title": "What will happen?" },
+            { "id": "a2-u8-l2", "title": "I'll help you" },
+            { "id": "a2-u8-l3", "title": "If it's sunny…" },
+            { "id": "a2-u8-l4", "title": "One year in Boston" }
+          ]
+        }
+      ]
+    },
     { "id": "b1", "title": "B1", "description": "Stories, opinions and longer texts about familiar topics.", "units": [] },
     { "id": "b2", "title": "B2", "description": "Articles, arguments and clear, detailed writing.", "units": [] },
     { "id": "c1", "title": "C1", "description": "Complex texts, nuance and flexible, precise English.", "units": [] }

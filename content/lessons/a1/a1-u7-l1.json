@@ -1,0 +1,227 @@
+{
+  "id": "a1-u7-l1",
+  "level": "a1",
+  "unit": 7,
+  "order": 1,
+  "title": "What are you doing?",
+  "subtitle": "Saturday at Sam's café — the present continuous",
+  "canDo": [
+    "I can say what people are doing now.",
+    "I can say what people aren't doing.",
+    "I can describe a picture in simple sentences."
+  ],
+  "teacherNotes": [
+    "Present continuous'u ilk kez görüyorlar. Tahtaya: am / is / are + fiil-ing. Türkçedeki -iyor ekiyle karşılaştırın ama am / is / are kısmının unutulmaması üzerinde durun.",
+    "Pandomim oyunu: bir öğrenci bir hareket yapsın (drinking tea, sleeping, writing), diğerleri \"You're …ing!\" desin.",
+    "Arapça konuşanlar sık sık is'i düşürür (She cleaning). Türkler ise bazen -ing'i unutur (I am work). İkisini de hemen düzeltin.",
+    "Saat farkı detayı: Boston'da 11.00 iken İzmir'de 18.00. İsterseniz \"What time is it in Izmir / Amman now?\" diye sorun."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["Where are you right now?", "What is your family doing right now?", "Look out of the window. What can you see?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "right now", "pos": "phrase", "example": "What are you doing right now?", "gloss": { "tr": "şu anda, şimdi", "ar": "الآن، في هذه اللحظة" } },
+        { "word": "happen", "pos": "verb", "example": "What's happening at the café?", "gloss": { "tr": "olmak (olay)", "ar": "يحدث" } },
+        { "word": "clean", "pos": "verb", "example": "I'm cleaning the tables.", "gloss": { "tr": "temizlemek", "ar": "ينظّف" } },
+        { "word": "wait", "pos": "verb", "example": "Two customers are waiting.", "gloss": { "tr": "beklemek", "ar": "ينتظر" } },
+        { "word": "sit", "pos": "verb", "example": "Lucas is sitting by the window.", "gloss": { "tr": "oturmak", "ar": "يجلس" } },
+        { "word": "stand", "pos": "verb", "example": "Sam is standing next to the coffee machine.", "gloss": { "tr": "ayakta durmak", "ar": "يقف" } },
+        { "word": "carry", "pos": "verb", "example": "Elif is carrying three cups.", "gloss": { "tr": "taşımak", "ar": "يحمل" } },
+        { "word": "look at", "pos": "phrase", "example": "Rose is looking at a book.", "gloss": { "tr": "-e bakmak", "ar": "ينظر إلى" } },
+        { "word": "talk on the phone", "pos": "phrase", "example": "Elif is talking on the phone.", "gloss": { "tr": "telefonda konuşmak", "ar": "يتكلّم على الهاتف" } },
+        { "word": "full", "pos": "adjective", "example": "The café is full.", "gloss": { "tr": "dolu", "ar": "ممتلئ" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "A call from Izmir",
+      "scene": "Saturday, 11 a.m. in Boston (6 p.m. in Izmir). Elif is at work. Her mom calls.",
+      "lines": [
+        { "speaker": "ayse", "text": "Hello, Elif! Can you talk?" },
+        { "speaker": "elif", "text": "Hi, Mom! Just for a minute. I'm working today." },
+        { "speaker": "ayse", "text": "Oh, you're at the café. What's happening there?" },
+        { "speaker": "elif", "text": "It's very busy. Sam is making tea for six people." },
+        { "speaker": "ayse", "text": "And what are you doing?" },
+        { "speaker": "elif", "text": "I'm cleaning the tables. Look!" },
+        { "speaker": "ayse", "text": "Who's that young man with the guitar?" },
+        { "speaker": "elif", "text": "That's Lucas. He isn't playing. He's writing a new song." },
+        { "speaker": "ayse", "text": "And the little brown dog?" },
+        { "speaker": "elif", "text": "That's Biscuit. He's sleeping under the table. He's always sleeping!" },
+        { "speaker": "ayse", "text": "Here it's six o'clock. Your dad is watching football with Can." },
+        { "speaker": "elif", "text": "Of course he is! And Pamuk?" },
+        { "speaker": "ayse", "text": "Pamuk is sleeping too … on your bed!" },
+        { "speaker": "elif", "text": "Sorry, Mom, two customers are waiting. I can call you tomorrow." },
+        { "speaker": "ayse", "text": "OK. Bye, Elif!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Elif is working at the café.", "answer": true },
+        { "statement": "Sam is making coffee for six people.", "answer": false },
+        { "statement": "Lucas is playing the guitar.", "answer": false },
+        { "statement": "Biscuit is sleeping under the table.", "answer": true },
+        { "statement": "In Izmir, Elif's dad is watching football.", "answer": true }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "My drawing: Saturday at Sam's",
+      "intro": "Elif draws the café in her notebook and writes about it.",
+      "voice": "elif",
+      "paragraphs": [
+        ["It's eleven o'clock on Saturday, and the café is full.", "Sam is standing next to the coffee machine. He's making tea again."],
+        ["Two students are sitting by the window.", "They aren't talking. They're studying for a test."],
+        ["Lucas is sitting at the small table near the door.", "He's writing a new song for his band, Blue Monday."],
+        ["An old man is reading a book, and Biscuit is sleeping under his chair."],
+        ["And me? I'm not cleaning the tables right now. I'm drawing this picture!", "Shh, don't tell Sam."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "The drawing",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "What is Sam doing?", "options": ["He's making tea.", "He's cleaning the tables.", "He's reading."], "answer": 0 },
+        { "prompt": "The two students are …", "options": ["talking", "studying", "sleeping"], "answer": 1 },
+        { "prompt": "Where is Biscuit sleeping?", "options": ["on the sofa", "next to Sam", "under a chair"], "answer": 2 },
+        { "prompt": "What is Elif doing right now?", "options": ["She's working.", "She's drawing.", "She's talking on the phone."], "answer": 1 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: the present continuous",
+      "look": ["Sam **is making** tea.", "I**'m cleaning** the tables.", "He **isn't playing**. He**'s writing** a new song.", "Two customers **are waiting**."],
+      "table": {
+        "head": ["", "+", "−"],
+        "rows": [
+          ["I", "I**'m** work**ing**.", "I**'m not** work**ing**."],
+          ["he / she / it", "She**'s** sleep**ing**.", "She **isn't** sleep**ing**."],
+          ["you / we / they", "They**'re** wait**ing**.", "They **aren't** wait**ing**."]
+        ]
+      },
+      "rules": [
+        "**am / is / are** + verb**-ing**: for things happening **now**.",
+        "Spelling: work → work**ing**, make → mak**ing** (no e), sit → sit**ting**.",
+        "Short forms: I'm, he's, she's, it's, we're, you're, they're · isn't, aren't.",
+        "Words for now: **now**, **right now**, **Look!**"
+      ],
+      "examples": ["I'm talking on the phone.", "Lucas is writing a song.", "The students aren't talking.", "We're waiting for the bus."],
+      "support": {
+        "tr": "Şu anda olan şeyler için am / is / are + fiil-ing kullanılır: I'm working = Çalışıyorum (şu an). Türkçedeki -iyor ekine benzer, ama İngilizcede am / is / are unutulmaz: She is sleeping = Uyuyor. Olumsuz için not: He isn't playing = Çalmıyor.",
+        "ar": "نستخدم am / is / are + الفعل مع ing للحديث عمّا يحدث الآن: I'm working = أنا أعمل (الآن). في العربية نقول «هي نائمة» أو «هي تنام» بدون فعل مساعد، أمّا في الإنجليزية فلا بدّ من is: She is sleeping. وللنفي نضيف not: He isn't playing = هو لا يعزف الآن."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "Türkçede \"uyuyor\" tek kelime ama İngilizcede iki parça var: is + sleeping. İkisini de yaz.",
+          "wrong": ["Biscuit sleeping under the table.", "I am work today."],
+          "right": ["Biscuit is sleeping under the table.", "I am working today."]
+        },
+        "ar": {
+          "note": "لا تحذف am / is / are، ولا تنسَ ing في آخر الفعل.",
+          "wrong": ["She cleaning the tables.", "They are wait for the bus."],
+          "right": ["She is cleaning the tables.", "They are waiting for the bus."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with the present continuous.",
+      "support": { "tr": "Present continuous ile tamamla (am / is / are + -ing).", "ar": "أكمل بزمن المضارع المستمر (am / is / are + ing)." },
+      "items": [
+        "Sam {is making|'s making} tea for six people. (make)",
+        "I {am cleaning|'m cleaning} the tables. (clean)",
+        "Two customers {are waiting|'re waiting} at the door. (wait)",
+        "Lucas {isn't playing|is not playing} the guitar. (not play)",
+        "We {are sitting|'re sitting} by the window. (sit)",
+        "Omar {isn't working|is not working} today. (not work)"
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Who is doing what?",
+      "instructions": "Match the two parts.",
+      "support": { "tr": "İki parçayı eşleştir.", "ar": "صِل الجزأين." },
+      "pairs": [
+        ["Sam is making", "tea for six people."],
+        ["Biscuit is sleeping", "under the table."],
+        ["Lucas is writing", "a new song."],
+        ["The students are studying", "for a test."],
+        ["Elif's dad is watching", "football with Can."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen. What is happening?",
+      "support": { "tr": "Dinle. Ne oluyor?", "ar": "استمع. ماذا يحدث؟" },
+      "items": [
+        { "audio": "Sorry, Elif, I can't talk now. I'm at the hospital, and I'm very busy.", "voice": "omar", "prompt": "What is Omar doing?", "options": ["He's working.", "He's sleeping.", "He's cooking."], "answer": 0 },
+        { "audio": "Tom! Stop it! You're sitting on my book!", "voice": "rose", "prompt": "What is Tom doing?", "options": ["He's eating.", "He's sitting on a book.", "He's sleeping in the garden."], "answer": 1 },
+        { "audio": "Shh! We're listening to Pedro's new song.", "voice": "lucas", "prompt": "What are they doing?", "options": ["They're listening to music.", "They're talking.", "They're watching TV."], "answer": 0 },
+        { "audio": "OK, everyone, please sit down. We're starting the lesson.", "voice": "maya", "prompt": "Where are they?", "options": ["at the café", "at school", "at home"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["Elif is talking on the phone.", "They aren't studying right now.", "What are you doing?", "Rose is looking at the photos."]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "What are you doing?", "voice": "ayse" },
+        { "text": "I'm cleaning the tables.", "voice": "elif" },
+        { "text": "He's writing a new song.", "voice": "elif" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: Right now",
+      "model": {
+        "heading": "Right now — Omar",
+        "text": [
+          "It's eight o'clock in the evening.",
+          "I'm sitting in my kitchen.",
+          "I'm cooking rice and chicken for dinner.",
+          "My neighbor's children are playing outside.",
+          "They aren't sleeping!",
+          "And my sister Lina is calling me on video … again."
+        ]
+      },
+      "frame": ["It's ___ o'clock.", "I'm sitting in ___.", "I'm ___ing.", "My ___ is ___ing.", "___ isn't / aren't ___ing."],
+      "prompt": "Look around you. Write about what you and other people are doing right now (5 or 6 sentences).",
+      "support": { "tr": "Etrafına bak. Senin ve başkalarının şu anda ne yaptığını yaz (5–6 cümle).", "ar": "انظر حولك. اكتب ماذا تفعل أنت والآخرون الآن (5 أو 6 جمل)." },
+      "minWords": 25,
+      "checklist": ["I use am / is / are + -ing.", "I use one negative: 'm not / isn't / aren't.", "I check the spelling: making, sitting."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

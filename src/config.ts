@@ -2,7 +2,6 @@ import type { Level } from './content/schema'
 
 /** Site adı tek yerden değişir. */
 export const SITE_NAME = 'Folio'
-export const SITE_TAGLINE = 'English, one page at a time.'
 
 export const LEVEL_LABEL: Record<Level, string> = {
   starter: 'Starter',

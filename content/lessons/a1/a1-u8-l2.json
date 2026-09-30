@@ -1,0 +1,215 @@
+{
+  "id": "a1-u8-l2",
+  "level": "a1",
+  "unit": 8,
+  "order": 2,
+  "title": "Last weekend",
+  "subtitle": "How was your weekend? — the past simple with -ed",
+  "canDo": [
+    "I can talk about my weekend with -ed verbs.",
+    "I can spell past verbs: worked, lived, studied, stopped.",
+    "I can hear and say -ed in three ways."
+  ],
+  "teacherNotes": [
+    "Düzenli fiillerle past simple. -ed'in üç okunuşuna (/t/, /d/, /ɪd/) özellikle zaman ayırın: Türk ve Arap öğrenciler çoğu zaman her fiilde /ɪd/ der (walk-id, play-id).",
+    "Kural: /ɪd/ sadece t veya d ile biten fiillerde (visited, wanted, started). Diğerlerinde tek hece: walked = \"wokt\".",
+    "Ürdün'de hafta sonu Cuma ve Cumartesi; Lina'nın mesajı bu kültürel farkı konuşmak için iyi bir fırsat. Türkiye'de ve ABD'de Cumartesi–Pazar.",
+    "Did'li soru ve olumsuzlar 8.3 ve 8.4'te geliyor; bu derste sadece olumlu cümle ve How was …? kullanın."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["How was your weekend?", "What do you usually do on Saturdays?", "When is the weekend in your country?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "How was your weekend?", "pos": "question", "example": "How was your weekend, Omar?", "gloss": { "tr": "Hafta sonun nasıldı?", "ar": "كيف كانت عطلة نهاية الأسبوع؟" } },
+        { "word": "stay", "pos": "verb", "example": "I stayed at home on Sunday.", "gloss": { "tr": "kalmak", "ar": "يبقى، يمكث" } },
+        { "word": "talk to", "pos": "phrase", "example": "I talked to my grandmother.", "gloss": { "tr": "ile konuşmak", "ar": "يتحدّث مع" } },
+        { "word": "help", "pos": "verb", "example": "I helped in the kitchen.", "gloss": { "tr": "yardım etmek", "ar": "يساعد" } },
+        { "word": "then", "pos": "adverb", "example": "I walked in the park, and then I shopped at the market.", "gloss": { "tr": "sonra, ondan sonra", "ar": "ثمّ، بعد ذلك" } },
+        { "word": "after", "pos": "preposition", "example": "After lunch, we talked.", "gloss": { "tr": "-den sonra", "ar": "بعد" } },
+        { "word": "together", "pos": "adverb", "example": "We cooked together.", "gloss": { "tr": "birlikte", "ar": "معًا" } },
+        { "word": "for hours", "pos": "phrase", "example": "We talked for hours.", "gloss": { "tr": "saatlerce", "ar": "لساعات" } },
+        { "word": "exam", "pos": "noun", "example": "I have an exam on Sunday.", "gloss": { "tr": "sınav", "ar": "امتحان" } },
+        { "word": "city center", "pos": "noun", "example": "We walked in the city center.", "gloss": { "tr": "şehir merkezi", "ar": "وسط المدينة" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Monday morning",
+      "scene": "Monday, 9 a.m. Maya asks her students about their weekend.",
+      "lines": [
+        { "speaker": "maya", "text": "Good morning! How was your weekend? Omar?" },
+        { "speaker": "omar", "text": "It was good, thanks. On Saturday, I cooked for my neighbors. On Sunday, I played football in the park." },
+        { "speaker": "maya", "text": "Nice! And you, Elif?" },
+        { "speaker": "elif", "text": "I worked at the café on Saturday and Sunday. It was very busy." },
+        { "speaker": "maya", "text": "Oh, poor you. Was it fun?" },
+        { "speaker": "elif", "text": "Yes, it was. And on Sunday evening, I called my family. I talked to my grandmother for an hour." },
+        { "speaker": "maya", "text": "Lovely. Lucas?" },
+        { "speaker": "lucas", "text": "On Friday, we played at Sam's café, and Omar was our singer again." },
+        { "speaker": "maya", "text": "And on Saturday and Sunday?" },
+        { "speaker": "lucas", "text": "Well … I cleaned my room. Really! My roommates were very happy." },
+        { "speaker": "maya", "text": "Wow! Well done, Lucas." },
+        { "speaker": "elif", "text": "And you, Maya? How was your weekend?" },
+        { "speaker": "maya", "text": "Quiet. I walked in the park on Saturday, and on Sunday I visited my aunt Rose." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Omar cooked for his neighbors on Saturday.", "answer": true },
+        { "statement": "Elif stayed at home on Sunday.", "answer": false },
+        { "statement": "Elif talked to her grandmother on Sunday evening.", "answer": true },
+        { "statement": "Lucas cleaned his room.", "answer": true },
+        { "statement": "Maya visited Rose on Saturday.", "answer": false }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "My weekend in Amman",
+      "intro": "A message from Lina to her brother, Omar.",
+      "voice": "lina",
+      "paragraphs": [
+        ["Hi Omar! In Jordan, the weekend is Friday and Saturday, remember? So here's my weekend news."],
+        ["On Friday, we visited Grandma Fatima. She cooked maqluba for twelve people!", "I helped in the kitchen, and after lunch, we talked for hours."],
+        ["In the evening, Mom and I walked in the city center together."],
+        ["On Saturday, I studied all day. I have an exam on Sunday!", "Then I called Kareem and played with little Adam on video. He's so loud!"],
+        ["What about your weekend? Call me!", "Lina"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Lina's weekend",
+      "instructions": "Read again. Match the two parts.",
+      "support": { "tr": "Tekrar oku. İki parçayı eşleştir.", "ar": "اقرأ مرة أخرى. صِل الجزأين." },
+      "pairs": [
+        ["On Friday, Lina's family", "visited Grandma Fatima."],
+        ["Grandma Fatima", "cooked maqluba for twelve people."],
+        ["After lunch, they", "talked for hours."],
+        ["On Saturday, Lina", "studied all day."],
+        ["Then she", "called Kareem."]
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: the past simple with -ed",
+      "look": ["On Saturday, I **cooked** for my neighbors.", "I **worked** at the café.", "I **called** my family and **talked** to my grandmother.", "We **visited** Grandma Fatima."],
+      "table": {
+        "head": ["Verb", "Past", "Spelling"],
+        "rows": [
+          ["work, walk, cook", "work**ed**, walk**ed**, cook**ed**", "+ ed"],
+          ["live, love, dance", "live**d**, love**d**, dance**d**", "e → + d"],
+          ["study, try", "stud**ied**, tr**ied**", "y → ied"],
+          ["play, stay", "play**ed**, stay**ed**", "a / e / o + y → + ed"],
+          ["stop, shop", "stop**ped**, shop**ped**", "one vowel + one consonant → double"]
+        ]
+      },
+      "rules": [
+        "Past simple: finished actions in the past (**yesterday**, **last week**, **on Saturday**).",
+        "The same form for all people: I / you / he / she / we / they work**ed**.",
+        "Say -ed three ways: /t/ walk**ed**, cook**ed** · /d/ play**ed**, call**ed** · /ɪd/ visit**ed**, want**ed** (after t and d)."
+      ],
+      "examples": ["I walked in the park.", "She played with Adam.", "We visited our grandmother.", "They studied all day."],
+      "support": {
+        "tr": "Past simple geçmişte bitmiş işler içindir (-di'li geçmiş): I worked = Çalıştım. Düzenli fiillere -ed eklenir ve her kişide aynıdır: I / she / they worked. Türkçede kişi eki değişir (çalıştım, çalıştı, çalıştılar), İngilizcede değişmez. -ed çoğu zaman ayrı bir hece değildir: walked \"vokt\" gibi okunur. Sadece t ve d ile biten fiillerde /id/ olur: visited.",
+        "ar": "نستخدم past simple للأفعال التي انتهت في الماضي: I worked = عملتُ. نضيف ed إلى الفعل المنتظم، وهو نفسه مع كلّ الضمائر: I / she / they worked. في العربية يتغيّر الفعل (عملتُ، عملتْ، عملوا)، أمّا في الإنجليزية فلا يتغيّر. وغالبًا لا تكون ed مقطعًا جديدًا: walked تُنطق /wɔːkt/. نقول /id/ فقط بعد t و d مثل visited."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "yesterday, last week, on Saturday gibi kelimeler varsa fiil geçmiş olmalı. was ile -ed'i birlikte kullanma.",
+          "wrong": ["Yesterday I work at the café.", "I was cooked dinner."],
+          "right": ["Yesterday I worked at the café.", "I cooked dinner."]
+        },
+        "ar": {
+          "note": "لا تنطق ed دائمًا /id/، ولا تنسَ كتابة ed.",
+          "wrong": ["I walk-id in the park.", "Last week she visit her aunt."],
+          "right": ["I walked in the park.", "Last week she visited her aunt."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with the past simple.",
+      "support": { "tr": "Past simple ile tamamla.", "ar": "أكمل بزمن الماضي البسيط." },
+      "items": [
+        "Last night, I {watched} a film. (watch)",
+        "Elif {worked} at the café on Sunday. (work)",
+        "We {visited} our grandmother. (visit)",
+        "Lina {studied} for her exam. (study)",
+        "The lesson {started} at nine. (start)",
+        "Lucas {cleaned} his room! (clean)"
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen: /t/, /d/ or /ɪd/?",
+      "instructions": "Listen to the verb. How does -ed sound?",
+      "support": { "tr": "Fiili dinle. -ed nasıl okunuyor?", "ar": "استمع إلى الفعل. كيف تُنطق ed؟" },
+      "items": [
+        { "audio": "walked", "prompt": "walked", "options": ["/t/", "/d/", "/ɪd/"], "answer": 0 },
+        { "audio": "played", "prompt": "played", "options": ["/t/", "/d/", "/ɪd/"], "answer": 1 },
+        { "audio": "visited", "prompt": "visited", "options": ["/t/", "/d/", "/ɪd/"], "answer": 2 },
+        { "audio": "cooked", "prompt": "cooked", "options": ["/t/", "/d/", "/ɪd/"], "answer": 0 },
+        { "audio": "called", "prompt": "called", "options": ["/t/", "/d/", "/ɪd/"], "answer": 1 },
+        { "audio": "wanted", "prompt": "wanted", "options": ["/t/", "/d/", "/ɪd/"], "answer": 2 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["I cooked for my neighbors.", "We talked for hours.", "Lucas cleaned his room.", "How was your weekend?"]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "How was your weekend?", "voice": "maya" },
+        { "text": "I worked at the café.", "voice": "elif" },
+        { "text": "We visited Grandma Fatima.", "voice": "lina" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: Last weekend",
+      "model": {
+        "heading": "Last weekend — Maya",
+        "text": [
+          "Last weekend was quiet.",
+          "On Saturday morning, I walked in the park, and then I shopped at the market.",
+          "In the afternoon, I cleaned my apartment and played the piano.",
+          "On Sunday, I visited my aunt Rose.",
+          "We talked for hours and looked at old photos.",
+          "It was a lovely weekend."
+        ]
+      },
+      "frame": ["Last weekend was ___.", "On Saturday morning, I ___.", "In the afternoon, I ___.", "On Sunday, I ___.", "It was a ___ weekend."],
+      "prompt": "How was your last weekend? Write 5 or 6 sentences with -ed verbs.",
+      "support": { "tr": "Geçen hafta sonun nasıldı? -ed'li fiillerle 5–6 cümle yaz.", "ar": "كيف كانت عطلتك الماضية؟ اكتب 5 أو 6 جمل بأفعال تنتهي بـ ed." },
+      "minWords": 30,
+      "checklist": ["I use five verbs with -ed.", "I use on Saturday / on Sunday.", "I use was one time."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, Outlet, ScrollRestoration } from 'react-router'
 import { SITE_NAME } from '../../config'
-import { useSettings, type Mode, type SupportLang, type Theme } from '../../state/settings'
+import { useSettings, type Mode, type SupportLang } from '../../state/settings'
 import { Icon } from '../ui/Icon'
 import { BrandMark } from './BrandMark'
 
@@ -91,19 +91,6 @@ function SettingsMenu() {
             />
           </div>
           <div className="settings__row">
-            <span className="settings__label">Design (preview)</span>
-            <Segmented<Theme>
-              label="Design"
-              value={s.theme}
-              onChange={(v) => s.update({ theme: v })}
-              options={[
-                { value: 'notebook', label: 'Notebook' },
-                { value: 'minimal', label: 'Minimal' },
-                { value: 'warm', label: 'Warm' },
-              ]}
-            />
-          </div>
-          <div className="settings__row">
             <span className="settings__label">Appearance</span>
             <Segmented<Mode>
               label="Appearance"
@@ -138,7 +125,7 @@ export function AppShell() {
         Skip to content
       </a>
       <header className="topbar">
-        <Link to="/" className="brand" aria-label={`${SITE_NAME} — home`}>
+        <Link to="/" className="brand" aria-label={`${SITE_NAME}, home`}>
           <BrandMark />
           <span className="brand__name">{SITE_NAME}</span>
         </Link>
@@ -160,9 +147,9 @@ export function AppShell() {
       </main>
       <footer className="sitefoot">
         <span>
-          {SITE_NAME} · {new Date().getFullYear()}
+          {SITE_NAME} · free English lessons for our class
         </span>
-        <span>Levels follow the CEFR (Starter → C1).</span>
+        <span>Starter, A1, A2, B1, B2, C1 (CEFR)</span>
       </footer>
       <ScrollRestoration />
     </>

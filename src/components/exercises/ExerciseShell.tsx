@@ -70,7 +70,7 @@ export function ExerciseShell({ section, id, index, score, onCheck, onShow, onRe
         ) : score ? (
           <span className={`score ${score.correct === score.total ? 'score--full' : ''}`} role="status">
             {score.correct} / {score.total}
-            {score.correct === score.total ? ' — well done!' : ''}
+            {score.correct === score.total ? '. Well done!' : ''}
           </span>
         ) : last ? (
           <span className="score score--last">

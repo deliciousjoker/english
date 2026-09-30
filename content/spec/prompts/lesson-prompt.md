@@ -47,8 +47,9 @@ grammar and writing. Speaking happens in live lessons with the teacher.
    a comprehension exercise, grammar (with look, table, rules, examples, support.tr, support.ar,
    watchOut.tr and watchOut.ar), 3–5 practice exercises of different kinds (gapfill, wordorder,
    matching, ordering, mcq with audio, truefalse), one dictation, one writing task, wrapup.
-6. Every vocabulary item has gloss.tr and gloss.ar. Every exercise has support.tr and support.ar
-   (a translation of the instructions).
+6. Every vocabulary item has gloss.tr and gloss.ar. At Starter and A1, every exercise, the vocabulary
+   section and the writing task also have support.tr and support.ar (a translation of the instructions).
+   From A2 on, leave out these instruction translations (learners know the instructions by then).
 7. Grammar support: a short, clear explanation in Turkish and in Arabic that compares the
    structure with the learner's language. watchOut: typical mistakes of Turkish / Arabic speakers
    for this structure, with wrong and right example sentences (same number of each).

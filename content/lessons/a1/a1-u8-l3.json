@@ -1,0 +1,230 @@
+{
+  "id": "a1-u8-l3",
+  "level": "a1",
+  "unit": 8,
+  "order": 3,
+  "title": "A busy day",
+  "subtitle": "Lucas's crazy Friday — irregular verbs and didn't",
+  "canDo": [
+    "I can use common irregular verbs: went, had, got up, bought …",
+    "I can say what I didn't do.",
+    "I can tell the story of a busy day."
+  ],
+  "teacherNotes": [
+    "Düzensiz fiiller: tabloyu tek seferde ezberletmeye çalışmayın. Bu dersteki 16 fiil yeter; her derste 3–4 yenisini ekleyin.",
+    "didn't + yalın fiil kuralı çok önemli: \"I didn't went\" hatası hem Türklerde hem Araplarda çok yaygın.",
+    "Hikâye zinciri oyunu: öğretmen \"Yesterday I got up at six …\" diye başlar, her öğrenci bir cümle ekler (and then I went / had / saw …).",
+    "Omar'ın günlüğü 8.1'deki sahneyle bağlantılı: Salı sabahı sınıfta neden uyuduğunu anlatıyor. İsterseniz öğrencilere hatırlatın."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["Were you busy yesterday?", "Do you sometimes forget things? What?", "Tell me about a very busy day."]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "What happened?", "pos": "question", "example": "Why are you tired? What happened?", "gloss": { "tr": "Ne oldu?", "ar": "ماذا حدث؟" } },
+        { "word": "look tired", "pos": "phrase", "example": "You look tired, Lucas.", "gloss": { "tr": "yorgun görünmek", "ar": "يبدو متعبًا" } },
+        { "word": "forget", "pos": "verb", "example": "I forgot my guitar at home.", "gloss": { "tr": "unutmak (past: forgot)", "ar": "ينسى (الماضي: forgot)" } },
+        { "word": "music store", "pos": "noun", "example": "We went to the music store.", "gloss": { "tr": "müzik mağazası", "ar": "متجر الآلات الموسيقية" } },
+        { "word": "problem", "pos": "noun", "example": "Then I saw the problem.", "gloss": { "tr": "sorun, problem", "ar": "مشكلة" } },
+        { "word": "all night", "pos": "phrase", "example": "I didn't sleep all night.", "gloss": { "tr": "bütün gece", "ar": "طوال الليل" } },
+        { "word": "sit down", "pos": "phrase", "example": "I didn't sit down all night.", "gloss": { "tr": "oturmak (ayaktan)", "ar": "يجلس" } },
+        { "word": "leave", "pos": "verb", "example": "I left the hospital at seven.", "gloss": { "tr": "ayrılmak, çıkmak (past: left)", "ar": "يغادر (الماضي: left)" } },
+        { "word": "diary", "pos": "noun", "example": "Omar writes in his diary.", "gloss": { "tr": "günlük, hatıra defteri", "ar": "مذكّرات، يوميات" } },
+        { "word": "the best", "pos": "phrase", "example": "That was the best moment.", "gloss": { "tr": "en iyi", "ar": "الأفضل، أحسن" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Lucas's crazy Friday",
+      "scene": "Saturday morning at Sam's café. Elif is working. Lucas comes in.",
+      "lines": [
+        { "speaker": "elif", "text": "Good morning, Lucas! You look tired." },
+        { "speaker": "lucas", "text": "I am! Yesterday was a very busy day." },
+        { "speaker": "elif", "text": "Why? What happened?" },
+        { "speaker": "lucas", "text": "Well, I got up at six o'clock." },
+        { "speaker": "elif", "text": "Six? You never get up at six!" },
+        { "speaker": "lucas", "text": "I know! I had a coffee, and then I went to the music store with Jake. We bought a new drum for the band." },
+        { "speaker": "elif", "text": "Nice! And then?" },
+        { "speaker": "lucas", "text": "Then we took the bus to the café with the drum. It was very big, and the bus was full!" },
+        { "speaker": "elif", "text": "Oh no!" },
+        { "speaker": "lucas", "text": "At the café, I saw the problem. I didn't have my guitar. I forgot it at home!" },
+        { "speaker": "elif", "text": "Lucas!" },
+        { "speaker": "lucas", "text": "So I went home again on the bus. I didn't have lunch, and I didn't sit down all day." },
+        { "speaker": "elif", "text": "But the concert was great. And Omar sang very well." },
+        { "speaker": "lucas", "text": "Yes, he did. And Biscuit ate my sandwich!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Lucas got up at six o'clock.", "answer": true },
+        { "statement": "Lucas and Jake bought a new guitar.", "answer": false },
+        { "statement": "They took the bus to the café.", "answer": true },
+        { "statement": "Lucas had lunch at the café.", "answer": false },
+        { "statement": "Biscuit ate Lucas's sandwich.", "answer": true }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Omar's diary",
+      "intro": "Tuesday morning. Omar writes in his diary after work.",
+      "voice": "omar",
+      "paragraphs": [
+        ["Monday night. I came to the hospital at eight in the evening.", "There were a lot of sick people, and I didn't sit down all night."],
+        ["I helped the doctors, and I talked to a lot of families.", "At two in the morning, I ate a sandwich and drank a cup of tea."],
+        ["At six o'clock, a little boy said, “Thank you, Omar.”", "That was the best moment of the night."],
+        ["I left the hospital at seven, and I went to class at nine.", "I was very tired, and I slept on my desk. Sorry, Maya!"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Omar's night",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "Omar came to the hospital …", "options": ["at eight in the evening", "at two in the morning", "at seven"], "answer": 0 },
+        { "prompt": "At two in the morning, Omar ate …", "options": ["maqluba", "a sandwich", "cookies"], "answer": 1 },
+        { "prompt": "The best moment of the night was …", "options": ["his cup of tea", "a little boy's thank you", "his class"], "answer": 1 },
+        { "prompt": "In class, Omar …", "options": ["slept on his desk", "wrote a test", "sang a song"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: irregular verbs and didn't",
+      "look": ["I **got up** at six o'clock.", "We **took** the bus.", "I **didn't have** my guitar.", "Biscuit **ate** my sandwich!"],
+      "table": {
+        "head": ["Verb", "Past", "Verb", "Past"],
+        "rows": [
+          ["go", "**went**", "have", "**had**"],
+          ["get up", "**got up**", "buy", "**bought**"],
+          ["take", "**took**", "see", "**saw**"],
+          ["eat", "**ate**", "drink", "**drank**"],
+          ["come", "**came**", "leave", "**left**"],
+          ["make", "**made**", "say", "**said**"],
+          ["forget", "**forgot**", "sing", "**sang**"],
+          ["give", "**gave**", "sleep", "**slept**"]
+        ]
+      },
+      "rules": [
+        "Many common verbs are irregular: go → **went**, have → **had**. Learn them like new words.",
+        "Negative: **didn't** + verb: I **didn't have** lunch. (not I didn't had)",
+        "**didn't** = did not. It is the same for all people: I / she / they didn't go."
+      ],
+      "examples": ["I went to the music store.", "We bought a new drum.", "He didn't have lunch.", "They didn't sleep all night."],
+      "support": {
+        "tr": "Sık kullanılan birçok fiil düzensizdir: -ed almaz, kendine ait bir geçmiş biçimi vardır: go → went (gitti), have → had (vardı / yedi). Bunları yeni kelime gibi öğren. Olumsuz: didn't + fiilin yalın hâli: I didn't have lunch = Öğle yemeği yemedim. didn't'ten sonra fiil geçmiş hâle girmez: didn't went değil, didn't go.",
+        "ar": "كثير من الأفعال الشائعة شاذّة: لا تأخذ ed بل لها صيغة ماضٍ خاصّة: go → went (ذهب)، have → had (كان عنده / تناول). احفظها ككلمات جديدة. النفي: didn't + الفعل في صيغته الأصلية: I didn't have lunch = لم أتناول الغداء. بعد didn't لا نستخدم صيغة الماضي: نقول didn't go وليس didn't went."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "didn't'ten sonra fiil yalın kalır. Düzensiz fiile -ed ekleme.",
+          "wrong": ["I didn't went to class.", "We buyed a new drum."],
+          "right": ["I didn't go to class.", "We bought a new drum."]
+        },
+        "ar": {
+          "note": "بعد didn't استخدم الفعل الأصلي، ولا تنفِ الماضي بـ no.",
+          "wrong": ["He didn't ate breakfast.", "I no have lunch yesterday."],
+          "right": ["He didn't eat breakfast.", "I didn't have lunch yesterday."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Verbs",
+      "instructions": "Match the verb and the past.",
+      "support": { "tr": "Fiili geçmiş hâliyle eşleştir.", "ar": "صِل الفعل بصيغة الماضي." },
+      "pairs": [
+        ["go", "went"],
+        ["have", "had"],
+        ["buy", "bought"],
+        ["take", "took"],
+        ["eat", "ate"],
+        ["see", "saw"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with the words.",
+      "support": { "tr": "Kelimelerle tamamla.", "ar": "أكمل بالكلمات." },
+      "bank": ["went", "bought", "took", "ate", "had", "didn't"],
+      "items": [
+        "Yesterday Lucas {went} to the music store.",
+        "Lucas and Jake {bought} a new drum.",
+        "They {took} the bus to the café.",
+        "Biscuit {ate} Lucas's sandwich!",
+        "Lucas {had} a coffee in the morning.",
+        "Lucas {didn't} have lunch."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "support": { "tr": "Dinle ve cevabı seç.", "ar": "استمع واختر الجواب." },
+      "items": [
+        { "audio": "Yesterday I got up late, and I didn't have breakfast.", "voice": "elif", "prompt": "Elif …", "options": ["had a big breakfast", "didn't have breakfast", "got up early"], "answer": 1 },
+        { "audio": "I went to the library, and I took three books home.", "voice": "rose", "prompt": "Rose …", "options": ["bought three books", "took three books from the library", "wrote three books"], "answer": 1 },
+        { "audio": "Emma made two hundred cookies on Saturday. Two hundred!", "voice": "sam", "prompt": "Emma …", "options": ["made a lot of cookies", "ate two hundred cookies", "didn't make cookies"], "answer": 0 },
+        { "audio": "I didn't sleep last night. I was at the hospital.", "voice": "omar", "prompt": "Omar …", "options": ["slept at the hospital", "didn't sleep", "went to bed early"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["I didn't have my guitar.", "We took the bus to the café.", "Biscuit ate my sandwich!", "I left the hospital at seven."]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "I got up at six o'clock.", "voice": "lucas" },
+        { "text": "I didn't have lunch.", "voice": "lucas" },
+        { "text": "What happened?", "voice": "elif" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: A busy day",
+      "model": {
+        "heading": "A busy day — Elif",
+        "text": [
+          "Last Saturday was a very busy day.",
+          "I got up at seven and went to the café.",
+          "There were a lot of customers, and I made fifty coffees!",
+          "I didn't have lunch, but Sam gave me a cookie.",
+          "At two o'clock, I went home and slept for three hours."
+        ]
+      },
+      "frame": ["Last ___ was a busy day.", "I got up at ___ and went to ___.", "Then I ___.", "I didn't ___.", "In the evening, I ___."],
+      "prompt": "Write about a busy day in your life (5 or 6 sentences). Use didn't one time.",
+      "support": { "tr": "Hayatındaki yoğun bir günü anlat (5–6 cümle). Bir kez didn't kullan.", "ar": "اكتب عن يوم مزدحم في حياتك (5 أو 6 جمل). استخدم didn't مرة واحدة." },
+      "minWords": 35,
+      "checklist": ["I use four irregular verbs: went, had, got up …", "I use didn't + verb one time.", "I use then or and then."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "id": "a1-u8-l1",
+  "level": "a1",
+  "unit": 8,
+  "order": 1,
+  "title": "Where were you?",
+  "subtitle": "A tired Tuesday — was and were",
+  "canDo": [
+    "I can say where I was yesterday.",
+    "I can ask questions like Where were you? and Was it difficult?",
+    "I can understand a short text about the past."
+  ],
+  "teacherNotes": [
+    "Geçmiş zamana giriş: was / were. Tahtaya: am, is → was; are → were. Türkçedeki -di (idi) ekiyle karşılaştırın.",
+    "Hızlı soru oyunu: \"Where were you at 8 a.m. yesterday / last night / on Sunday?\" Öğrenciler \"I was at …\" ile cevaplasın.",
+    "\"When were you born? — I was born in …\" kalıbını kalıp olarak verin; born'u ayrıca açıklamaya gerek yok.",
+    "Rose'un fotoğrafı: öğrencilerden eski bir fotoğraflarını açıp \"This is me in … I was … years old.\" diye anlatmalarını isteyin."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["Where were you yesterday morning?", "Were you tired last night?", "Where were you born?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "yesterday", "pos": "adverb", "example": "Where were you yesterday?", "gloss": { "tr": "dün", "ar": "أمس" } },
+        { "word": "last night", "pos": "phrase", "example": "I was at work last night.", "gloss": { "tr": "dün gece, dün akşam", "ar": "الليلة الماضية" } },
+        { "word": "last week", "pos": "phrase", "example": "There was a test last week.", "gloss": { "tr": "geçen hafta", "ar": "الأسبوع الماضي" } },
+        { "word": "all day", "pos": "phrase", "example": "I was in bed all day.", "gloss": { "tr": "bütün gün", "ar": "طوال اليوم" } },
+        { "word": "tired", "pos": "adjective", "example": "Omar is very tired today.", "gloss": { "tr": "yorgun", "ar": "متعب" } },
+        { "word": "easy", "pos": "adjective", "example": "The test was easy.", "gloss": { "tr": "kolay", "ar": "سهل" } },
+        { "word": "difficult", "pos": "adjective", "example": "Was it difficult?", "gloss": { "tr": "zor", "ar": "صعب" } },
+        { "word": "interesting", "pos": "adjective", "example": "The lesson was interesting.", "gloss": { "tr": "ilginç", "ar": "مثير للاهتمام" } },
+        { "word": "be born", "pos": "phrase", "example": "I was born in 1958.", "gloss": { "tr": "doğmak (I was born: doğdum)", "ar": "يُولَد (I was born: وُلِدتُ)" } },
+        { "word": "remember", "pos": "verb", "example": "He works on Monday nights, remember?", "gloss": { "tr": "hatırlamak", "ar": "يتذكّر" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Back in class",
+      "scene": "Tuesday, 8:55 a.m. Harbor English School.",
+      "lines": [
+        { "speaker": "elif", "text": "Lucas! You weren't in class yesterday. Where were you?" },
+        { "speaker": "lucas", "text": "I was at home. I was sick. I was in bed all day." },
+        { "speaker": "elif", "text": "Oh no. Are you OK now?" },
+        { "speaker": "lucas", "text": "Yes, I'm fine, thanks. Was the lesson interesting?" },
+        { "speaker": "elif", "text": "Yes, it was. It was about the weather. And there was a test!" },
+        { "speaker": "lucas", "text": "A test? Was it difficult?" },
+        { "speaker": "elif", "text": "No, it wasn't. It was easy." },
+        { "speaker": "lucas", "text": "And where's Omar? Is he sick too?" },
+        { "speaker": "elif", "text": "No, he's here. Look! He's sleeping on his desk." },
+        { "speaker": "lucas", "text": "Why is he so tired?" },
+        { "speaker": "elif", "text": "He was at work last night. He works on Monday nights, remember?" },
+        { "speaker": "maya", "text": "Good morning, everyone! Lucas, you're back. Were you sick?" },
+        { "speaker": "lucas", "text": "Yes, I was. But I'm OK now." },
+        { "speaker": "maya", "text": "Good. And Omar … were you at the hospital last night?" },
+        { "speaker": "omar", "text": "Yes, I was. Sorry, Maya. I'm very tired." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Lucas was in class yesterday.", "answer": false },
+        { "statement": "Lucas was sick.", "answer": true },
+        { "statement": "The test was difficult.", "answer": false },
+        { "statement": "Omar was at the hospital last night.", "answer": true },
+        { "statement": "Omar is sick today.", "answer": false }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Rose's old photo",
+      "intro": "Rose shows Elif a photo from 1978.",
+      "voice": "rose",
+      "paragraphs": [
+        ["This is me in 1978. I was twenty years old.", "I was a student at a university here in Boston."],
+        ["The girl next to me is Dorothy. She was my best friend then, and she's my best friend now!"],
+        ["We were in the same class at school.", "We weren't very good students, but we were very happy."],
+        ["My first job was at the library on Harbor Street. I was there for forty years.", "Were my days boring? No, they weren't.", "There were always interesting people and wonderful books."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "The photo",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "How old was Rose in 1978?", "options": ["eighteen", "twenty", "forty"], "answer": 1 },
+        { "prompt": "Who was Rose's best friend?", "options": ["Maya", "Dorothy", "Elif"], "answer": 1 },
+        { "prompt": "Rose and Dorothy were …", "options": ["very good students", "very happy", "teachers"], "answer": 1 },
+        { "prompt": "Where was Rose's first job?", "options": ["at a library", "at a café", "at a university"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: was and were",
+      "look": ["Where **were** you yesterday?", "I **was** at home. I **was** sick.", "**Was** the test difficult? — No, it **wasn't**.", "We **weren't** very good students."],
+      "table": {
+        "head": ["", "+", "−", "?"],
+        "rows": [
+          ["I / he / she / it", "I **was** tired.", "I **wasn't** tired.", "**Was** she tired?"],
+          ["you / we / they", "They **were** here.", "They **weren't** here.", "**Were** you here?"]
+        ]
+      },
+      "rules": [
+        "am / is → **was** · are → **were**",
+        "Negative: **wasn't** (was not), **weren't** (were not).",
+        "Short answers: Yes, I **was**. / No, they **weren't**.",
+        "**There was** a test. **There were** interesting people.",
+        "Past time words: **yesterday**, **last night**, **last week**, **in 1978**."
+      ],
+      "examples": ["I was at home yesterday.", "Were you sick?", "The test wasn't difficult.", "Where were you last night?"],
+      "support": {
+        "tr": "was / were, be fiilinin geçmiş hâlidir (Türkçede -di / idi). I was tired = Yorgundum. am ve is → was, are → were. Olumsuz: wasn't / weren't = değildim, değildik. Soru: Were you at home? = Evde miydin? Türkçede -di eki kelimeye eklenir, İngilizcede was / were ayrı bir kelimedir.",
+        "ar": "was / were هما ماضي فعل be (كان). I was tired = كنتُ متعبًا. am و is ← was، و are ← were. النفي: wasn't / weren't = لم أكن / لم يكونوا. السؤال: Were you at home? = هل كنتَ في البيت؟ في العربية نقول «كان» للمفرد و«كانوا» للجمع، وفي الإنجليزية نستخدم were مع you و we و they."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "Türkçede \"hastaydım\" tek kelime; İngilizcede was'ı ayrı yaz. you ile her zaman were kullan.",
+          "wrong": ["I sick yesterday.", "You was at home."],
+          "right": ["I was sick yesterday.", "You were at home."]
+        },
+        "ar": {
+          "note": "لا تحذف was / were في الماضي، ولا تستخدم was مع they.",
+          "wrong": ["Yesterday I at home.", "They was very happy."],
+          "right": ["Yesterday I was at home.", "They were very happy."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with was, were, wasn't or weren't.",
+      "support": { "tr": "was, were, wasn't veya weren't ile tamamla.", "ar": "أكمل بـ was أو were أو wasn't أو weren't." },
+      "items": [
+        "Lucas {was} sick yesterday.",
+        "Omar and Elif {were} in class.",
+        "{Was} the test difficult? — No, it {wasn't|was not}.",
+        "Rose and Dorothy {were} best friends at school.",
+        "Where {were} you last night? — I {was} at work.",
+        "We {weren't|were not} at home on Sunday. We were at the park."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Questions and answers",
+      "instructions": "Match the question and the answer.",
+      "support": { "tr": "Soruyu cevabıyla eşleştir.", "ar": "صِل السؤال بالجواب." },
+      "pairs": [
+        ["Where were you yesterday?", "I was at home."],
+        ["Was the test easy?", "Yes, it was."],
+        ["Were you at work last night?", "No, I wasn't."],
+        ["When were you born?", "In 2006."],
+        ["Were Rose and Dorothy good students?", "No, they weren't."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "support": { "tr": "Dinle ve cevabı seç.", "ar": "استمع واختر الجواب." },
+      "items": [
+        { "audio": "On Sunday, I was at the beach with Biscuit all day. It was lovely.", "voice": "sam", "prompt": "Where was Sam on Sunday?", "options": ["at the café", "at the beach", "in London"], "answer": 1 },
+        { "audio": "Last night, Dorothy and I were at the library. There was a talk about old Boston.", "voice": "rose", "prompt": "Where were Rose and Dorothy?", "options": ["at the cinema", "at home", "at the library"], "answer": 2 },
+        { "audio": "I wasn't at the university yesterday. I was at Grandma Fatima's house.", "voice": "lina", "prompt": "Where was Lina yesterday?", "options": ["at her grandmother's house", "at the university", "at the hospital"], "answer": 0 },
+        { "audio": "Sorry I was late this morning. My bus was twenty minutes late!", "voice": "maya", "prompt": "Why was Maya late?", "options": ["She was sick.", "Her bus was late.", "She was at the market."], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["Where were you yesterday?", "I was at home all day.", "The test wasn't difficult.", "Were you at work last night?"]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "Where were you yesterday?", "voice": "elif" },
+        { "text": "I was sick.", "voice": "lucas" },
+        { "text": "Was the test difficult?", "voice": "lucas" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: Yesterday",
+      "model": {
+        "heading": "Yesterday — Omar",
+        "text": [
+          "Yesterday was Monday.",
+          "At nine in the morning, I was in class with Elif and Lucas. Oh, no, Lucas wasn't there!",
+          "At one o'clock, I was at the supermarket.",
+          "At eight in the evening, I was at the hospital. I was at work all night.",
+          "It was a long day, and now I'm very tired."
+        ]
+      },
+      "frame": ["Yesterday was ___.", "At nine in the morning, I was ___.", "At one o'clock, I was ___ with ___.", "In the evening, I was ___.", "It was a ___ day."],
+      "prompt": "Where were you yesterday? Who were you with? How was your day? Write 5 or 6 sentences.",
+      "support": { "tr": "Dün neredeydin? Kiminle birlikteydin? Günün nasıldı? 5–6 cümle yaz.", "ar": "أين كنتَ أمس؟ مع مَن كنت؟ كيف كان يومك؟ اكتب 5 أو 6 جمل." },
+      "minWords": 30,
+      "checklist": ["I use was and were.", "I use one negative: wasn't / weren't.", "I use times: at nine, in the evening."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

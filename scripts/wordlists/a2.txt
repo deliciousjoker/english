@@ -1,0 +1,63 @@
+# A2 çekirdek kelime listesi (a1.txt'ye ek; seviye kontrolü için, zamanla genişletilir).
+# Çekimli hâller (plans, planned, planning) otomatik tanınır.
+
+# Zaman, sıklık, bağlaçlar
+ago already yet ever just since until while during before after later soon sometimes once twice
+tonight weekend holiday holidays vacation break future past present century moment
+although however maybe perhaps probably actually especially finally suddenly quickly slowly carefully
+enough too almost nearly quite pretty rather each every both either neither own other another
+
+# Planlar, davetler
+plan plans invite invitation party celebrate celebration thanksgiving christmas festival guest host
+ticket flight trip travel journey visit abroad airport luggage suitcase passport hotel reservation book
+decide hope expect arrive leave return stay pack
+
+# Karşılaştırma, sıfatlar
+better best worse worst more most less least than as
+cheap expensive modern ancient noisy quiet crowded safe dangerous clean dirty comfortable uncomfortable
+excellent terrible awful amazing fantastic wonderful perfect popular famous special different similar
+fresh healthy unhealthy delicious spicy sweet salty bitter
+bright dark light heavy large tiny huge wide narrow deep
+careful careless polite rude lucky unlucky kind honest brave shy nervous calm
+excited bored worried surprised afraid angry upset pleased proud tired sleepy
+
+# Sağlık
+health healthy ill sick illness ache headache stomachache toothache backache fever cold flu cough
+pain hurt medicine pill pharmacy chemist appointment dentist nurse patient rest sleep diet exercise
+body head face eye ear nose mouth tooth teeth neck shoulder arm hand finger leg knee foot feet back stomach
+should shouldn't feel well better worse
+
+# Şehir ve ulaşım
+subway underground metro tram train bus stop station platform line map ticket taxi traffic
+corner crossroads bridge square museum gallery castle tower church mosque palace statue monument
+along across past through into out of over under opposite straight turn left right
+walk drive ride cross get off get on take miss catch
+north south east west downtown center centre area neighborhood outside inside
+
+# Hikâyeler, olaylar
+story happen suddenly storm snowstorm thunder lightning ice wind power light lights candle
+lose lost find found fall fell break broke broken drop dropped
+remember forget laugh cry shout scream call wake woke
+
+# Deneyimler
+experience ever never already yet just been gone
+try tried climb swim sail ski skate camp fly
+
+# İş
+job work career office company business manager boss colleague employee interview
+salary pay rule rules must mustn't have to uniform meeting email reply attach
+internship architect design designer project deadline experience skill
+
+# Gelecek
+will won't future predict hope dream maybe probably certainly
+if unless when as soon as
+
+# Diğer
+computer laptop screen keyboard website online app message text internet download upload password
+money price cost change credit card cash receipt
+cook recipe kitchen oven pan bowl knife spoon fork
+turkey pie pumpkin corn potatoes vegetables dessert
+snow snowy icy foggy stormy sunny cloudy windy rainy warm cool freezing temperature degree
+drummer around baklava become exactly far fourth parade hey kiss pity promise midnight cousin
+# İsimler (cümle başında geçen yan karakterler)
+mei

@@ -1,0 +1,228 @@
+{
+  "id": "a1-u7-l4",
+  "level": "a1",
+  "unit": 7,
+  "order": 4,
+  "title": "A message from Elif",
+  "subtitle": "An email to Izmir — writing about your life now",
+  "canDo": [
+    "I can read a personal email.",
+    "I can write an email to a friend about my life now.",
+    "I can use at the moment and these days."
+  ],
+  "teacherNotes": [
+    "Ünitenin son dersi: e-posta yazma görevini ödev verin (Copy my text ile gönderilecek). Gerçek bir arkadaşa ya da aile üyesine yazmalarını önerin.",
+    "these days + present continuous (I'm working a lot these days) yeni bir kullanım. Tanıyıp kullanmaları yeterli, detaya girmeyin.",
+    "Arapçada büyük harf olmadığı için Arap öğrenciler i, zeynep gibi küçük harf hataları yapabilir. E-postalarda bunu özellikle kontrol edin.",
+    "Zeynep yeni bir karakter: Elif'in İzmir'deki en yakın arkadaşı, küçük bir erkek kardeşi var. Sesi İngiliz aksanlı."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["Do you write emails or messages to friends?", "Who do you write to most?", "What do you usually write about?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "at the moment", "pos": "phrase", "example": "At the moment, I'm in the library.", "gloss": { "tr": "şu anda, şu sıralar", "ar": "في هذه اللحظة، حاليًا" } },
+        { "word": "these days", "pos": "phrase", "example": "I'm very busy these days.", "gloss": { "tr": "bu aralar, bugünlerde", "ar": "هذه الأيام" } },
+        { "word": "news", "pos": "noun", "example": "What's your news?", "gloss": { "tr": "haber(ler)", "ar": "أخبار" } },
+        { "word": "everything", "pos": "pronoun", "example": "Everything is fine here.", "gloss": { "tr": "her şey", "ar": "كلّ شيء" } },
+        { "word": "a lot of", "pos": "phrase", "example": "I have a lot of homework.", "gloss": { "tr": "çok, bir sürü", "ar": "الكثير من" } },
+        { "word": "hope", "pos": "verb", "example": "I hope you're well.", "gloss": { "tr": "ummak", "ar": "يأمل، يتمنّى" } },
+        { "word": "soon", "pos": "adverb", "example": "See you soon!", "gloss": { "tr": "yakında", "ar": "قريبًا" } },
+        { "word": "write back", "pos": "phrase", "example": "Please write back soon!", "gloss": { "tr": "cevap yazmak", "ar": "يردّ (على رسالة)" } }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Greetings from Boston!",
+      "intro": "An email from Elif to her best friend, Zeynep, in Izmir.",
+      "voice": "elif",
+      "paragraphs": [
+        ["Dear Zeynep,", "How are you? I hope you're well. Sorry for my late answer. I'm very busy these days!"],
+        ["At the moment, I'm sitting in the library near my school.", "It's raining outside, and it's only nine degrees!"],
+        ["My life here is really good.", "I go to class every morning, and on weekends I work at Sam's café.", "Sam is very funny, and his dog, Biscuit, is always sleeping."],
+        ["I'm wearing my new blue coat right now. It's very warm!", "My neighbor, Mrs. Miller, is helping me a lot. She's like a grandmother to me."],
+        ["What about you? What's your news?", "What's the weather like in Izmir? I miss the sea and the sun … and your mom's cookies!"],
+        ["Please write back soon!", "Love,", "Elif"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Check",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "Where is Elif at the moment?", "options": ["at the café", "in the library", "at home"], "answer": 1 },
+        { "prompt": "What's the weather like in Boston?", "options": ["It's raining.", "It's sunny.", "It's snowing."], "answer": 0 },
+        { "prompt": "When does Elif work at the café?", "options": ["every morning", "on weekends", "at night"], "answer": 1 },
+        { "prompt": "Who is helping Elif a lot?", "options": ["Maya", "Sam", "Mrs. Miller"], "answer": 2 },
+        { "prompt": "What does Elif miss?", "options": ["the snow", "the sea and the sun", "her coat"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Zeynep calls",
+      "scene": "Two days later. Elif is walking to the café. Zeynep calls from Izmir.",
+      "lines": [
+        { "speaker": "zeynep", "text": "Elif! Thanks for your email. Your new coat is beautiful!" },
+        { "speaker": "elif", "text": "Thanks! What are you doing right now?" },
+        { "speaker": "zeynep", "text": "I'm sitting on the beach with my little brother. It's sunny and twenty-three degrees." },
+        { "speaker": "elif", "text": "Oh, I miss the sea!" },
+        { "speaker": "zeynep", "text": "Are you wearing your new coat now?" },
+        { "speaker": "elif", "text": "Yes, I am. I'm walking to the café, and it's windy and very cold." },
+        { "speaker": "zeynep", "text": "Poor you! Is Sam working today?" },
+        { "speaker": "elif", "text": "Yes, he is. He's making his famous cookies." },
+        { "speaker": "zeynep", "text": "Really? Is he making them?" },
+        { "speaker": "elif", "text": "Well … no. His wife makes them. It's a secret!" },
+        { "speaker": "zeynep", "text": "Ha ha! OK, go to work. Call me on Sunday!" },
+        { "speaker": "elif", "text": "OK. Bye, Zeynep!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "True or false?",
+      "instructions": "Read the dialogue again. True or false?",
+      "support": { "tr": "Diyaloğu tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ الحوار مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Zeynep is sitting on the beach.", "answer": true },
+        { "statement": "It's cold in Izmir.", "answer": false },
+        { "statement": "Elif is wearing her new coat.", "answer": true },
+        { "statement": "Sam makes the cookies.", "answer": false }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Writing an email",
+      "look": ["**Dear** Zeynep,", "**At the moment**, I**'m sitting** in the library.", "I**'m** very busy **these days**.", "Please **write back soon**! **Love,** Elif"],
+      "table": {
+        "head": ["Part", "You can write …"],
+        "rows": [
+          ["Start", "**Dear** Zeynep, / **Hi** Omar,"],
+          ["First line", "How are you? I hope you're well."],
+          ["Your news", "**At the moment**, I'm … / **These days**, I'm …"],
+          ["Questions", "What about you? What's your news? Are you …?"],
+          ["End", "Write back soon! / See you soon! **Love,** Elif"]
+        ]
+      },
+      "rules": [
+        "Start with **Dear** or **Hi** + name and a comma (,).",
+        "**At the moment** / **right now** + am / is / are + -ing: At the moment, I'm sitting in the library.",
+        "**These days** + -ing for things happening around now: These days, I'm working a lot.",
+        "Names and **I** always start with a capital letter: **Z**eynep, **I**zmir, **I**'m."
+      ],
+      "examples": ["Dear Zeynep, how are you?", "At the moment, I'm drinking coffee.", "These days, I'm working a lot.", "Please write back soon!"],
+      "support": {
+        "tr": "İngilizce e-posta Dear (Sevgili) veya Hi + isim ve virgülle başlar. Şu anki haberlerini anlatırken at the moment (şu anda) ve these days (bu aralar) ile present continuous kullanılır: These days, I'm working a lot = Bu aralar çok çalışıyorum. Sonunda Write back soon! (Hemen cevap yaz!) ve Love, (Sevgiler,) + adın.",
+        "ar": "تبدأ الرسالة الإلكترونية بـ Dear (عزيزي / عزيزتي) أو Hi + الاسم وفاصلة. وعند الحديث عن أخبارك الآن نستخدم at the moment (في هذه اللحظة) و these days (هذه الأيام) مع present continuous: These days, I'm working a lot = أعمل كثيرًا هذه الأيام. وفي النهاية نكتب Write back soon! (ردّ عليّ قريبًا!) ثم Love, (مع محبّتي) واسمك."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "İngilizcede I her zaman büyük harf; hitaptan sonra virgül koy.",
+          "wrong": ["Dear Zeynep. How are you?", "i'm sitting in the library."],
+          "right": ["Dear Zeynep, how are you?", "I'm sitting in the library."]
+        },
+        "ar": {
+          "note": "لا توجد حروف كبيرة في العربية، لكن في الإنجليزية نكتب الأسماء و I بحرف كبير.",
+          "wrong": ["hi zeynep,", "i miss you."],
+          "right": ["Hi Zeynep,", "I miss you."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "ordering",
+      "title": "Put the email in order",
+      "instructions": "Put the email in order.",
+      "support": { "tr": "E-postayı sıraya koy.", "ar": "رتّب الرسالة." },
+      "items": [
+        "Hi Omar,",
+        "How are you?",
+        "At the moment, I'm sitting in Sam's café.",
+        "It's windy and cold, but I'm wearing my new coat.",
+        "What about you? What's your news?",
+        "Write back soon!",
+        "Elif"
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with the verb. Every day or now?",
+      "support": { "tr": "Fiille tamamla. Her gün mü, şu an mı?", "ar": "أكمل بالفعل. كلّ يوم أم الآن؟" },
+      "items": [
+        "At the moment, I {am sitting|'m sitting} in the library. (sit)",
+        "I {go} to class every morning. (go)",
+        "On weekends, Elif {works} at Sam's café. (work)",
+        "Look! It {is snowing|'s snowing}! (snow)",
+        "These days, Lucas {is writing|'s writing} a lot of songs. (write)",
+        "Zeynep {lives} in Izmir. (live)"
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen to the voice message. Choose the answer.",
+      "support": { "tr": "Sesli mesajı dinle. Cevabı seç.", "ar": "استمع إلى الرسالة الصوتية. اختر الجواب." },
+      "items": [
+        { "audio": "Hi, Elif, it's Omar. I'm at the supermarket. Do you need anything?", "voice": "omar", "prompt": "Where is Omar?", "options": ["at the supermarket", "at the hospital", "at home"], "answer": 0 },
+        { "audio": "Hello, everyone. I'm sorry, I'm sick today. There's no class this morning.", "voice": "maya", "prompt": "What is the message about?", "options": ["a new student", "no class today", "a test"], "answer": 1 },
+        { "audio": "Elif! I'm waiting for you at the café. Where are you?", "voice": "lucas", "prompt": "What is Lucas doing?", "options": ["He's playing the guitar.", "He's sleeping.", "He's waiting for Elif."], "answer": 2 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["I'm writing an email to my friend.", "I'm very busy these days.", "Please write back soon!"]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "At the moment, I'm sitting in the library.", "voice": "elif" },
+        { "text": "What's the weather like in Izmir?", "voice": "elif" },
+        { "text": "Please write back soon!", "voice": "elif" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: An email to a friend",
+      "model": {
+        "heading": "To: Kareem",
+        "text": [
+          "Hi Kareem,",
+          "How are you and Hala? How is little Adam?",
+          "At the moment, I'm writing this at the hospital. It's a quiet night.",
+          "These days, I'm working a lot, but I'm happy.",
+          "It's cold and windy in Boston, so I wear my big coat every day.",
+          "What's the weather like in Dubai? Hot, I think!",
+          "Write back soon!",
+          "Omar"
+        ]
+      },
+      "frame": ["Dear / Hi ___,", "How are you?", "At the moment, I'm ___.", "It's ___ here.", "These days, I'm ___.", "What about you? Are you ___?", "Write back soon! ___"],
+      "prompt": "Write an email to a friend or a family member (7 to 9 sentences). Where are you? What's the weather like? What are you doing these days? Ask two questions.",
+      "support": { "tr": "Bir arkadaşına ya da aile üyene e-posta yaz (7–9 cümle). Neredesin? Hava nasıl? Bu aralar neler yapıyorsun? İki soru sor.", "ar": "اكتب رسالة إلكترونية إلى صديق أو أحد أفراد عائلتك (7 إلى 9 جمل). أين أنت؟ كيف الطقس؟ ماذا تفعل هذه الأيام؟ اسأل سؤالين." },
+      "minWords": 50,
+      "checklist": ["I start with Dear / Hi + name and a comma.", "I use at the moment or these days + -ing.", "I ask two questions.", "I end with Write back soon! and my name."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

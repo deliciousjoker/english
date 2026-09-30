@@ -6,6 +6,7 @@ import { sectionId } from '../../components/lesson/LessonContext'
 import { SectionView } from '../../components/lesson/SectionView'
 import { sectionTitle } from '../../components/lesson/SectionFrame'
 import { Icon } from '../../components/ui/Icon'
+import { splitSubtitle } from '../../lib/text'
 
 /**
  * Sunum modu (Zoom/Teams ekran paylaşımı için): büyük yazı, menüler gizli,
@@ -55,6 +56,7 @@ export function PresentationView({ lesson, onExit }: { lesson: Lesson; onExit: (
   }
 
   const section = slide > 0 ? lesson.sections[slide - 1] : null
+  const { story, focus } = splitSubtitle(lesson.subtitle)
 
   return (
     <div className={`present lv-${lesson.level}`}>
@@ -63,11 +65,24 @@ export function PresentationView({ lesson, onExit }: { lesson: Lesson; onExit: (
           <SectionView key={slide} section={section} id={sectionId(section, slide - 1)} index={slide - 1} />
         ) : (
           <div className="present__title">
-            <p className="kicker">
-              <LevelCode level={lesson.level} /> · Unit {lesson.unit} · Lesson {lesson.order}
-            </p>
-            <h1 className="lesson__title">{lesson.title}</h1>
-            {lesson.subtitle && <p className="lesson__subtitle">{lesson.subtitle}</p>}
+            <div className="banner">
+              <div className="banner__unit" aria-hidden="true">
+                <small>Unit</small>
+                {lesson.unit}
+              </div>
+              <div className="banner__text">
+                <p className="banner__crumb">
+                  <LevelCode level={lesson.level} /> · Lesson {lesson.order}
+                </p>
+                <h1 className="lesson__title">{lesson.title}</h1>
+                {story && <p className="lesson__subtitle">{story}</p>}
+              </div>
+            </div>
+            {focus && (
+              <p className="lesson__focus">
+                <span className="lesson__cando-label">Focus</span> {focus}
+              </p>
+            )}
             <div className="present__cando">
               <span className="lesson__cando-label">Today</span>
               <ul>

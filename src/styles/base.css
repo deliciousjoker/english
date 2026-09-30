@@ -36,9 +36,9 @@ h1,
 h2,
 h3 {
   font-family: var(--font-display);
-  font-weight: var(--display-weight);
-  letter-spacing: var(--display-tracking);
-  line-height: 1.12;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
   margin: 0;
   text-wrap: balance;
 }
@@ -79,21 +79,11 @@ ol {
   list-style: none;
 }
 
+/* Fosforlu kalem: satırın alt yarısını boyar */
 mark {
-  background: linear-gradient(transparent 55%, var(--marker) 55%);
+  background: linear-gradient(transparent var(--mk), var(--marker) var(--mk), var(--marker) 94%, transparent 94%);
   color: inherit;
-  padding: 0 0.08em;
-}
-
-:root[data-theme='minimal'] mark {
-  background: none;
-  box-shadow: inset 0 -0.18em 0 var(--accent);
-}
-
-:root[data-theme='warm'] mark {
-  background: var(--marker);
-  border-radius: 0.3em;
-  padding: 0 0.2em;
+  padding: 0 0.1em;
 }
 
 .sr-only {
@@ -119,27 +109,22 @@ mark {
   top: 8px;
 }
 
-/* ---------- Etiketler ---------- */
+/* ---------- Küçük etiketler ---------- */
 
 .kicker {
   font-family: var(--font-ui);
-  font-size: 0.78rem;
+  font-size: 0.9rem;
   font-weight: 600;
-  text-transform: var(--label-transform);
-  letter-spacing: var(--label-tracking);
   color: var(--ink-3);
 }
 .kicker a {
-  color: var(--lv);
-  text-decoration: none;
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
 }
 .kicker a:hover {
-  text-decoration: underline;
-}
-
-:root[data-theme='minimal'] .kicker {
-  font-family: var(--font-num);
-  font-weight: 500;
+  text-decoration-thickness: 2px;
 }
 
 /* ---------- Düğmeler ---------- */
@@ -149,35 +134,32 @@ mark {
   align-items: center;
   gap: 0.5em;
   padding: 0.55em 1em;
-  border: var(--bw) solid var(--line-strong);
-  border-radius: var(--radius-btn);
+  border: var(--stroke) solid var(--line-strong);
+  border-radius: var(--radius);
   background: transparent;
   font-family: var(--font-ui);
   font-size: 0.95rem;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.2;
   text-decoration: none;
   white-space: nowrap;
-  box-shadow: var(--btn-shadow);
-  transition: background 0.15s, transform 0.08s, box-shadow 0.08s;
+  transition: background 0.15s, transform 0.08s;
 }
 .btn:active:not(:disabled) {
-  transform: var(--btn-press);
-  box-shadow: none;
+  transform: translateY(1px);
 }
 .btn:disabled {
-  opacity: 0.45;
+  opacity: 0.4;
 }
+/* Asıl düğme: baskı mürekkebi */
 .btn--primary {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: var(--accent-ink);
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--bg);
 }
-:root[data-theme='warm'] .btn--primary {
-  border-color: var(--line-strong);
-}
-.btn--primary:hover {
-  filter: brightness(1.06);
+.btn--primary:hover:not(:disabled) {
+  background: var(--ink-2);
+  border-color: var(--ink-2);
 }
 .btn--ghost {
   color: var(--ink);
@@ -196,7 +178,7 @@ mark {
   width: 40px;
   height: 40px;
   border: 0;
-  border-radius: var(--radius-btn);
+  border-radius: var(--radius);
   background: transparent;
   color: var(--ink-2);
 }
@@ -215,9 +197,9 @@ mark {
   justify-content: center;
   gap: 0.4em;
   flex: none;
-  border: var(--bw) solid var(--line-strong);
+  border: var(--stroke) solid var(--line-strong);
   background: var(--surface);
-  color: var(--accent);
+  color: var(--ink);
   transition: background 0.15s, color 0.15s;
 }
 .play--icon {
@@ -225,34 +207,22 @@ mark {
   height: 34px;
   border-radius: 50%;
   border-color: var(--line);
-}
-:root[data-theme='minimal'] .play--icon {
-  border-radius: 0;
-}
-:root[data-theme='warm'] .play--icon {
-  border-color: var(--line-strong);
+  color: var(--pen);
 }
 .play--pill {
   padding: 0.4em 0.9em 0.4em 0.75em;
-  border-radius: var(--radius-chip);
+  border-radius: 999px;
   font-family: var(--font-ui);
   font-size: 0.88rem;
-  font-weight: 600;
-  color: var(--ink);
-  box-shadow: var(--btn-shadow);
-}
-.play--pill svg {
-  color: var(--accent);
+  font-weight: 700;
 }
 .play:hover {
-  background: var(--accent-soft);
+  background: var(--pen-soft);
+  border-color: var(--pen);
 }
 .play.is-active {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: var(--accent-ink);
-}
-.play.is-active svg {
+  background: var(--pen);
+  border-color: var(--pen);
   color: var(--accent-ink);
 }
 .play--icon.is-active {
@@ -260,7 +230,7 @@ mark {
 }
 @keyframes pulse {
   50% {
-    box-shadow: 0 0 0 5px var(--accent-soft);
+    box-shadow: 0 0 0 5px var(--pen-soft);
   }
 }
 
@@ -269,12 +239,16 @@ mark {
   align-items: center;
   gap: 0.4em;
   padding: 0.4em 0.8em;
-  border: var(--bw) solid var(--line);
-  border-radius: var(--radius-chip);
+  border: var(--stroke) solid var(--line);
+  border-radius: 999px;
   background: transparent;
   font-family: var(--font-ui);
   font-size: 0.88rem;
+  font-weight: 600;
   color: var(--ink-2);
+}
+.toggle:hover {
+  border-color: var(--ink-3);
 }
 .toggle.is-on {
   background: var(--ink);
@@ -282,29 +256,30 @@ mark {
   color: var(--bg);
 }
 
-/* Çipler (kelime bankası, cümle kurma) */
+/* Kelime kartları (kelime bankası, cümle kurma): kesilmiş kağıt parçası */
 .chip {
   display: inline-flex;
   align-items: center;
-  padding: 0.35em 0.85em;
-  border: var(--bw) solid var(--line-strong);
-  border-radius: var(--radius-chip);
+  padding: 0.35em 0.8em;
+  border: var(--stroke) solid var(--line-strong);
+  border-radius: var(--radius);
   background: var(--surface);
   font-family: var(--font-read);
   font-size: 1rem;
   line-height: 1.3;
-  box-shadow: var(--btn-shadow);
+  box-shadow: 0 2px 0 var(--line);
 }
 .chip:hover {
-  background: var(--accent-soft);
+  background: var(--pen-soft);
 }
 .chip:active {
-  transform: var(--btn-press);
+  transform: translateY(2px);
   box-shadow: none;
 }
 .chip--placed {
-  background: var(--accent-soft);
-  border-color: var(--accent);
+  background: var(--pen-soft);
+  border-color: var(--pen);
+  box-shadow: none;
 }
 .chip--ghost {
   border-style: dashed;
@@ -317,8 +292,8 @@ mark {
 /* Parçalı seçici */
 .seg {
   display: inline-flex;
-  border: var(--bw) solid var(--line-strong);
-  border-radius: var(--radius-chip);
+  border: var(--stroke) solid var(--line-strong);
+  border-radius: var(--radius);
   overflow: hidden;
   background: var(--surface);
 }
@@ -328,12 +303,15 @@ mark {
   padding: 0.3em 0.75em;
   font-family: var(--font-ui);
   font-size: 0.85rem;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--ink-2);
   min-width: 2.4em;
 }
 .seg__opt + .seg__opt {
   border-left: 1px solid var(--line);
+}
+.seg__opt:hover:not(.is-on) {
+  background: var(--surface-2);
 }
 .seg__opt.is-on {
   background: var(--ink);
@@ -345,7 +323,7 @@ mark {
   line-height: 1;
 }
 
-/* ---------- Ana dil desteği ---------- */
+/* ---------- Ana dil desteği (mavi tükenmezle yazılmış not gibi) ---------- */
 
 .support {
   font-family: var(--font-ui);
@@ -355,12 +333,6 @@ mark {
 [lang='ar'] {
   font-family: var(--font-ar);
   line-height: 1.8;
-}
-.support--tr {
-  font-style: italic;
-}
-:root[data-theme='warm'] .support--tr {
-  font-style: normal;
 }
 
 .error-box {
@@ -376,12 +348,9 @@ mark {
   display: inline-block;
   width: 56px;
   height: 6px;
-  border-radius: 99px;
+  border-radius: 2px;
   background: linear-gradient(90deg, var(--good) var(--p, 0%), var(--line) var(--p, 0%));
   vertical-align: middle;
-}
-:root[data-theme='minimal'] .meter {
-  border-radius: 0;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -400,10 +369,11 @@ mark {
   font-style: normal;
 }
 
-/* Seviye kodları: "A1" asla "AI" gibi okunmasın */
+/* Seviye kodları: "A1" asla "AI" gibi okunmasın (slab yazı tipinde 1 ve I çok farklı) */
 .lvcode {
   font-family: var(--font-num);
+  font-weight: 700;
   font-style: normal;
   font-variant-numeric: lining-nums;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
 }

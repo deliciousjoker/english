@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-theme="notebook">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,11 +7,10 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>Folio English</title>
     <script>
-      // Sayfa açılırken tema/koyu mod yanıp sönmesin diye ayarlar erkenden uygulanır
+      // Sayfa açılırken koyu mod yanıp sönmesin diye ayar erkenden uygulanır
       try {
         var s = JSON.parse(localStorage.getItem('folio:settings') || '{}')
         var r = document.documentElement
-        if (s.theme) r.dataset.theme = s.theme
         var m = s.mode || 'auto'
         r.dataset.scheme = m === 'auto' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : m
       } catch (e) {}

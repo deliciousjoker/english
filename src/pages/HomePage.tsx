@@ -1,83 +1,103 @@
 import { Link } from 'react-router'
 import { allLessons, curriculum, lessonRef } from '../content/loader'
-import { LEVEL_LABEL, SITE_TAGLINE, SPINE_NAME } from '../config'
+import { LEVEL_NAME, SITE_NAME } from '../config'
 import { Icon } from '../components/ui/Icon'
 import { LevelCode } from '../components/ui/LevelCode'
-import { useProgress } from '../state/progress'
-
-const INSIDE = [
-  { title: 'Words', text: 'Hear every new word and see it in a sentence.' },
-  { title: 'Read and listen', text: 'Short texts and dialogues. Tap any word, play any sentence.' },
-  { title: 'Grammar', text: 'One clear pattern at a time — with help in Türkçe or العربية if you want it.' },
-  { title: 'Practice and write', text: 'Check yourself, then write a few sentences about you.' },
-]
+import { completion, useProgress } from '../state/progress'
 
 export function HomePage() {
-  const { lastLesson } = useProgress()
+  const { lastLesson, lessons } = useProgress()
   const last = lastLesson ? lessonRef(lastLesson) : undefined
   const first = allLessons.find((l) => l.available)
 
   return (
     <div className="page home">
-      <section className="home__intro">
-        <p className="kicker">Reading · Listening · Writing</p>
-        <h1 className="home__title">{SITE_TAGLINE}</h1>
-        <p className="home__lead">
-          Short texts, real dialogues and clear grammar — from your very first word to C1. Every sentence has audio,
-          and every lesson ends with something new you can do.
+      <section className="home__hello">
+        <p className="home__greet">
+          <span>Welcome</span>
+          <span className="home__sep" aria-hidden="true">/</span>
+          <span lang="tr">Hoş geldin</span>
+          <span className="home__sep" aria-hidden="true">/</span>
+          <bdi lang="ar">أهلاً بك</bdi>
         </p>
-        <div className="home__cta">
-          {last?.available ? (
-            <Link to={`/lesson/${last.id}`} className="btn btn--primary btn--big">
-              Continue: {last.title} <Icon name="arrowRight" size={18} />
-            </Link>
-          ) : (
-            first && (
+        <h1 className="home__title">Our English coursebook</h1>
+        <p className="home__lead">
+          Free lessons for Turkish and Arabic speakers, from the very first word up to C1. You read, listen and write
+          here. We practise speaking together in class.
+        </p>
+        <p className="home__tip">
+          <span>
+            Tap a word like <mark>breakfast</mark> and see
+          </span>
+          <span className="home__gloss" lang="tr">
+            kahvaltı
+          </span>
+          <span>or</span>
+          <span className="home__gloss" lang="ar">
+            فطور
+          </span>
+        </p>
+        {last?.available ? (
+          <Link to={`/lesson/${last.id}`} className={`resume lv-${last.level}`}>
+            <LevelCode level={last.level} className="resume__code" />
+            <span className="resume__text">
+              <small>
+                Continue · Unit {last.unitNumber}, lesson {last.order}
+              </small>
+              <strong>{last.title}</strong>
+            </span>
+            <Icon name="arrowRight" />
+          </Link>
+        ) : (
+          first && (
+            <div className="home__cta">
               <Link to={`/lesson/${first.id}`} className="btn btn--primary btn--big">
                 Start from zero <Icon name="arrowRight" size={18} />
               </Link>
-            )
-          )}
-          <Link to="/level/a1" className="btn btn--ghost btn--big">
-            Go to <LevelCode level="a1" />
-          </Link>
-        </div>
+              <Link to="/level/a1" className="btn btn--ghost btn--big">
+                I know some English
+              </Link>
+            </div>
+          )
+        )}
       </section>
 
-      <section className="shelf" aria-labelledby="shelf-title">
-        <h2 id="shelf-title" className="shelf__title">
-          Levels
-        </h2>
-        <ul className="shelf__row">
+      <section className="books" aria-labelledby="books-title">
+        <div className="books__head">
+          <h2 id="books-title" className="books__title">
+            The books
+          </h2>
+          <p className="books__note">Six levels, the same steps as the CEFR.</p>
+        </div>
+        <ul className="books__grid">
           {curriculum.levels.map((lv) => {
-            const count = allLessons.filter((l) => l.level === lv.id && l.available).length
-            const planned = allLessons.filter((l) => l.level === lv.id).length
+            const refs = allLessons.filter((l) => l.level === lv.id)
+            const ready = refs.filter((l) => l.available)
+            const done = ready.filter((l) => completion(lessons[l.id]) >= 1).length
+            const pct = ready.length ? Math.round((done / ready.length) * 100) : 0
             return (
               <li key={lv.id}>
-                <Link to={`/level/${lv.id}`} className={`spine lv-${lv.id} ${count ? '' : 'is-soon'}`}>
-                  <span className="spine__code">{lv.id === 'starter' ? 'Pre' : LEVEL_LABEL[lv.id]}</span>
-                  <span className="spine__name">{SPINE_NAME[lv.id]}</span>
-                  <span className="spine__count">{count ? (count < planned ? `${count} of ${planned} lessons` : `${count} lessons`) : 'soon'}</span>
+                <Link to={`/level/${lv.id}`} className={`cover lv-${lv.id} ${ready.length ? '' : 'is-soon'}`}>
+                  <span className="cover__series">{SITE_NAME}</span>
+                  <span className="cover__name">{lv.id === 'starter' ? 'First steps' : LEVEL_NAME[lv.id]}</span>
+                  {lv.id === 'starter' ? (
+                    <span className="cover__code cover__code--word">Starter</span>
+                  ) : (
+                    <LevelCode level={lv.id} className="cover__code" />
+                  )}
+                  <span className="cover__meta">
+                    {ready.length === 0
+                      ? 'Coming soon'
+                      : ready.length < refs.length
+                        ? `${ready.length} of ${refs.length} lessons`
+                        : `${refs.length} lessons`}
+                    {done > 0 && <span className="cover__bar" style={{ ['--p' as string]: `${pct}%` }} title={`${done} done`} />}
+                  </span>
                 </Link>
               </li>
             )
           })}
         </ul>
-      </section>
-
-      <section className="inside" aria-labelledby="inside-title">
-        <h2 id="inside-title" className="inside__title">
-          Inside every lesson
-        </h2>
-        <ol className="inside__list">
-          {INSIDE.map((s, i) => (
-            <li key={s.title}>
-              <span className="inside__num">{String(i + 1).padStart(2, '0')}</span>
-              <span className="inside__name">{s.title}</span>
-              <span className="inside__text">{s.text}</span>
-            </li>
-          ))}
-        </ol>
       </section>
     </div>
   )

@@ -7,7 +7,7 @@
  */
 import { readFileSync, readdirSync, existsSync, writeFileSync } from 'node:fs'
 import { join, relative, basename } from 'node:path'
-import { Characters, Curriculum, Glossary, LEVELS, Lesson, type Level, type Support } from '../src/content/schema.ts'
+import { Characters, Curriculum, Glossary, LEVELS, Lesson, supportPolicy, type Level, type Support } from '../src/content/schema.ts'
 import { countWords, lemmaCandidates, tokenize, wordKey } from '../src/lib/text.ts'
 
 const ROOT = join(import.meta.dirname, '..')
@@ -139,6 +139,8 @@ for (const ref of order) {
   const where = `${lesson.id}`
   const allowed = new Set([...loadWordlist(lesson.level), ...learned])
   const vocabHere = new Set<string>()
+  // A2'den itibaren talimat çevirisi gösterilmiyor; B1'den itibaren gramer özeti de (bkz. supportPolicy)
+  const policy = supportPolicy(lesson.level)
 
   lesson.sections.forEach((s, i) => {
     const at = `bölüm ${i + 1} (${s.type}${s.type === 'exercise' ? '/' + s.kind : ''})`
@@ -149,7 +151,7 @@ for (const ref of order) {
           vocabHere.add(wordKey(v.word))
           if (!v.gloss.tr || !v.gloss.ar) warn(where, `${at}: "${v.word}" için TR/AR anlam eksik`)
         }
-        if (s.instructions) checkSupport(where, at, s.support)
+        if (s.instructions && policy.instructions) checkSupport(where, at, s.support)
         break
       case 'tiles':
         s.items.forEach((t) => t.small && t.small.split(/\s+/).forEach((w) => vocabHere.add(wordKey(w))))
@@ -164,20 +166,22 @@ for (const ref of order) {
         break
       }
       case 'grammar':
-        checkSupport(where, at, s.support)
-        if (!s.watchOut?.tr || !s.watchOut?.ar) warn(where, `${at}: "Watch out" kutusu TR veya AR eksik`)
+        if (policy.grammar) checkSupport(where, at, s.support)
+        if (policy.glosses && (!s.watchOut?.tr || !s.watchOut?.ar)) warn(where, `${at}: "Watch out" kutusu TR veya AR eksik`)
         for (const lang of ['tr', 'ar'] as const) {
           const w = s.watchOut?.[lang]
           if (w && w.wrong.length !== w.right.length) warn(where, `${at}: watchOut.${lang} yanlış/doğru sayıları farklı`)
         }
         break
       case 'exercise':
-        checkSupport(where, at, s.support)
+        if (policy.instructions) checkSupport(where, at, s.support)
         if (s.kind === 'mcq')
           s.items.forEach((it, k) => {
             if (it.answer >= it.options.length) errors.push(`${where}: ${at}: soru ${k + 1} cevap numarası seçeneklerin dışında`)
             if (it.voice && !characterIds.has(it.voice)) errors.push(`${where}: ${at}: bilinmeyen ses "${it.voice}"`)
           })
+        if (s.kind === 'gapfill' && s.bank && new Set(s.bank).size !== s.bank.length)
+          errors.push(`${where}: ${at}: kelime bankasında aynı kelime iki kez var (her kelimeyi bir kez yaz)`)
         if (s.kind === 'gapfill')
           s.items.forEach((it, k) => {
             if (!it.includes('{')) errors.push(`${where}: ${at}: madde ${k + 1} içinde {boşluk} yok`)
@@ -189,7 +193,7 @@ for (const ref of order) {
         if (s.kind === 'dictation') s.items.forEach((it) => it.voice && !characterIds.has(it.voice) && errors.push(`${where}: ${at}: bilinmeyen ses "${it.voice}"`))
         break
       case 'writing':
-        checkSupport(where, at, s.support)
+        if (policy.instructions) checkSupport(where, at, s.support)
         break
     }
   })

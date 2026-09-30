@@ -86,5 +86,13 @@
     "kokoroVoice": "af_kore",
     "fallback": { "lang": "en-US", "gender": "female" },
     "color": "#B0782A"
+  },
+  {
+    "id": "zeynep",
+    "name": "Zeynep",
+    "azureVoice": "en-GB-LibbyNeural",
+    "kokoroVoice": "bf_isabella",
+    "fallback": { "lang": "en-GB", "gender": "female" },
+    "color": "#2F7F86"
   }
 ]

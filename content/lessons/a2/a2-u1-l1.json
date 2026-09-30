@@ -1,0 +1,205 @@
+{
+  "id": "a2-u1-l1",
+  "level": "a2",
+  "unit": 1,
+  "order": 1,
+  "title": "What are you going to do?",
+  "subtitle": "Winter break plans — be going to",
+  "canDo": [
+    "I can talk about my plans with going to.",
+    "I can ask other people about their plans.",
+    "I can understand a short article about plans."
+  ],
+  "teacherNotes": [
+    "A2'nin ilk dersi: talimatlarda artık Türkçe/Arapça çeviri yok. İlk derslerde talimatları siz sesli okuyun, gerekirse açıklayın.",
+    "going to'yu \"önceden kararlaştırılmış plan\" olarak verin; will ile karşılaştırmaya (Ünite 8) şimdilik girmeyin.",
+    "Konuşma: öğrenciler birbirine \"What are you going to do this weekend / in the summer?\" diye sorsun, going to ile cevaplasın.",
+    "Mei yeni bir yan karakter: sınıftaki Çinli öğrenci (A1'de adı geçmeden bahsedilmişti)."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["What are you going to do this weekend?", "When is your next holiday?", "Do you usually travel in the holidays or stay at home?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "items": [
+        { "word": "winter break", "pos": "noun", "example": "The winter break starts on December 20th.", "gloss": { "tr": "kış tatili, yarıyıl tatili", "ar": "عطلة الشتاء" } },
+        { "word": "plan", "pos": "noun / verb", "example": "Do you have any plans?", "gloss": { "tr": "plan; planlamak", "ar": "خطّة؛ يخطّط" } },
+        { "word": "be going to", "pos": "phrase", "example": "I'm going to visit my family.", "gloss": { "tr": "-ecek, -acak (plan)", "ar": "سوف، سـ (لخطّة مقرّرة)" } },
+        { "word": "fly", "pos": "verb", "example": "Omar is going to fly to Amman.", "gloss": { "tr": "uçakla gitmek, uçmak", "ar": "يسافر بالطائرة، يطير" } },
+        { "word": "travel", "pos": "verb", "example": "We aren't going to travel this year.", "gloss": { "tr": "seyahat etmek", "ar": "يسافر" } },
+        { "word": "the whole family", "pos": "phrase", "example": "My grandmother is going to cook for the whole family.", "gloss": { "tr": "bütün aile", "ar": "العائلة كلّها" } },
+        { "word": "in six weeks", "pos": "phrase", "example": "The break starts in six weeks.", "gloss": { "tr": "altı hafta sonra", "ar": "بعد ستّة أسابيع" } },
+        { "word": "next month", "pos": "phrase", "example": "I'm going to buy a ticket next month.", "gloss": { "tr": "gelecek ay", "ar": "الشهر القادم" } },
+        { "word": "Christmas", "pos": "noun", "example": "Dorothy is going to visit Rose at Christmas.", "gloss": { "tr": "Noel", "ar": "عيد الميلاد" } },
+        { "word": "decide", "pos": "verb", "example": "I'm going to decide tonight.", "gloss": { "tr": "karar vermek", "ar": "يقرّر" } },
+        { "word": "not sure", "pos": "phrase", "example": "I'm not sure yet.", "gloss": { "tr": "emin değil", "ar": "غير متأكّد" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Six weeks to go",
+      "scene": "A Saturday in November. Elif is working at Sam's café. Her friends come in for coffee.",
+      "lines": [
+        { "speaker": "sam", "text": "So, the winter break starts in six weeks. What are you all going to do?" },
+        { "speaker": "omar", "text": "I'm going to fly to Amman on December 20th. I'm going to stay for two weeks." },
+        { "speaker": "sam", "text": "Lovely! Your mum is going to be very happy." },
+        { "speaker": "omar", "text": "Yes! And my grandmother is going to cook for the whole family." },
+        { "speaker": "lucas", "text": "Blue Monday is going to play in New York! Three concerts in one week." },
+        { "speaker": "elif", "text": "Wow! Are you going to take the bus with the drum again?" },
+        { "speaker": "lucas", "text": "Ha ha. No, this time Jake is going to drive." },
+        { "speaker": "maya", "text": "I'm going to visit my parents in Florida. It's warm there, and they live near the beach." },
+        { "speaker": "lucas", "text": "And you, Sam? Are you and Emma going to travel?" },
+        { "speaker": "sam", "text": "No, we aren't. We're going to close the café for a week and sleep!" },
+        { "speaker": "maya", "text": "What about you, Elif? Are you going to go home to Izmir?" },
+        { "speaker": "elif", "text": "I'm not sure yet. I'm going to look at the tickets tonight, and then I'm going to decide." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "items": [
+        { "statement": "The winter break starts in six weeks.", "answer": true },
+        { "statement": "Omar is going to stay in Amman for a month.", "answer": false },
+        { "statement": "Blue Monday is going to play three concerts in New York.", "answer": true },
+        { "statement": "Sam and Emma are going to fly to London.", "answer": false },
+        { "statement": "Elif is going to look at the tickets tonight.", "answer": true }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Winter break: what are you going to do?",
+      "intro": "Elif asked people at Harbor English School about their plans. Here is her article for the school newsletter.",
+      "voice": "elif",
+      "paragraphs": [
+        ["The winter break starts on December 20th, and everyone at Harbor English School has plans."],
+        ["Omar is going to fly home to Amman. “I'm going to eat my grandmother's food every day,” he says. “And I'm not going to cook for two weeks!”"],
+        ["Maya, our teacher, is going to visit her parents in Florida. She's going to swim in the sea every morning and read a lot of books."],
+        ["Lucas and his band, Blue Monday, are going to play three concerts in New York. Jake, the drummer, is going to drive.", "“We're going to leave on December 22nd and come back before the New Year,” says Lucas."],
+        ["Mei, our classmate from China, is going to stay in Boston. She's going to work in her uncle's restaurant."],
+        ["And me? I'm not sure yet. The tickets to Izmir are very expensive, so maybe I'm going to stay here too.", "But one thing is sure: I'm going to sleep a lot!"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Who is going to do what?",
+      "instructions": "Read again. Match the person and the plan.",
+      "pairs": [
+        ["Omar", "is going to eat his grandmother's food."],
+        ["Maya", "is going to swim every morning."],
+        ["Lucas", "is going to play three concerts."],
+        ["Jake", "is going to drive to New York."],
+        ["Mei", "is going to work in a restaurant."]
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: be going to",
+      "look": ["I**'m going to fly** to Amman.", "We **aren't going to travel**.", "**Are** you **going to go** home to Izmir?", "What **are** you all **going to do**?"],
+      "table": {
+        "head": ["", "+", "−", "?"],
+        "rows": [
+          ["I", "I**'m going to** stay.", "I**'m not going to** stay.", "**Am** I **going to** …?"],
+          ["he / she / it", "She**'s going to** fly.", "She **isn't going to** fly.", "**Is** she **going to** fly?"],
+          ["you / we / they", "They**'re going to** play.", "They **aren't going to** play.", "**Are** they **going to** play?"]
+        ]
+      },
+      "rules": [
+        "**be going to** + verb: plans and decisions for the future.",
+        "Time words: **tonight, tomorrow, next week, next month, in six weeks, on December 20th**.",
+        "Short answers: Are you going to stay? — Yes, I **am**. / No, I**'m not**.",
+        "With go, you can say *I'm going to go to Florida* or just *I'm going to Florida*."
+      ],
+      "examples": ["I'm going to visit my parents.", "We aren't going to travel this year.", "Is Lucas going to play in New York?", "What are you going to do next weekend?"],
+      "support": {
+        "tr": "be going to, önceden karar verilmiş planlar içindir (Türkçede -ecek / -acak): I'm going to fly to Amman = Amman'a uçacağım. Yapı: am / is / are + going to + fiil. Olumsuz: I'm not going to cook = Yemek yapmayacağım. Soru: Are you going to stay? = Kalacak mısın? in six weeks = altı hafta sonra (\"altı haftada\" değil).",
+        "ar": "نستخدم be going to للخطط والقرارات المسبقة (سوف / سـ): I'm going to fly to Amman = سأسافر إلى عمّان. التركيب: am / is / are + going to + الفعل. النفي: I'm not going to cook = لن أطبخ. السؤال: Are you going to stay? = هل ستبقى؟ و in six weeks = بعد ستّة أسابيع."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "am / is / are'yi unutma; going to'dan sonra fiil yalın kalır.",
+          "wrong": ["I going to visit my family.", "She's going to flies to Amman."],
+          "right": ["I'm going to visit my family.", "She's going to fly to Amman."]
+        },
+        "ar": {
+          "note": "لا تنسَ to بعد going، و«بعد ستّة أسابيع» = in six weeks (وليس after).",
+          "wrong": ["I'm going visit Amman.", "The break starts after six weeks."],
+          "right": ["I'm going to visit Amman.", "The break starts in six weeks."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with be going to and the verb.",
+      "items": [
+        "Next week, I {am going to visit|'m going to visit} my aunt. (visit)",
+        "Omar {is going to fly|'s going to fly} to Amman on December 20th. (fly)",
+        "We {aren't going to travel|are not going to travel} this year. (not travel)",
+        "{Are} you going to stay in Boston? — Yes, I am.",
+        "What {is} Maya going to do in Florida? — She's going to swim.",
+        "Lucas and Jake {are going to play|'re going to play} in New York. (play)"
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen. What are they going to do?",
+      "items": [
+        { "audio": "Dorothy is going to come on Christmas Eve, and we're going to play cards all night!", "voice": "rose", "prompt": "Rose is going to …", "options": ["travel to Florida", "play cards with Dorothy", "cook a big dinner"], "answer": 1 },
+        { "audio": "Omar's plane arrives at six in the morning. We're all going to wait for him at the airport.", "voice": "lina", "prompt": "Lina's family is going to …", "options": ["wait at the airport", "fly to Boston", "sleep late"], "answer": 0 },
+        { "audio": "No coffee, no cookies, no customers. I'm going to sleep until ten every day!", "voice": "sam", "prompt": "Sam is going to …", "options": ["open the café early", "sleep late", "visit London"], "answer": 1 },
+        { "audio": "My parents live near the beach, so I'm going to swim every morning.", "voice": "maya", "prompt": "Maya is going to …", "options": ["work", "ski", "swim"], "answer": 2 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "items": ["What are you going to do?", "I'm not going to cook for two weeks.", "Are you going to go home?", "Jake is going to drive."]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "items": [
+        { "text": "I'm going to fly to Amman.", "voice": "omar" },
+        { "text": "What are you going to do?", "voice": "sam" },
+        { "text": "We aren't going to travel.", "voice": "sam" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: Next weekend",
+      "model": {
+        "heading": "Next weekend — Lina",
+        "text": [
+          "Next weekend is going to be very busy.",
+          "On Friday, we're going to visit Grandma Fatima, as always.",
+          "I'm going to help her in the kitchen.",
+          "On Saturday morning, I'm going to study for my last exam.",
+          "In the evening, my friends and I are going to see a film at the cinema.",
+          "I'm not going to sleep much!"
+        ]
+      },
+      "frame": ["Next weekend, I'm going to ___.", "On Saturday, I'm going to ___.", "On Sunday, I'm going to ___ with ___.", "I'm not going to ___."],
+      "prompt": "What are you going to do next weekend? Write 5 to 7 sentences.",
+      "minWords": 40,
+      "checklist": ["I use going to five times.", "I use one negative: I'm not going to …", "I use time words: on Saturday, in the evening."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

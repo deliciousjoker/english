@@ -22,6 +22,12 @@ const PATHS = {
   copy: 'M8.5 8.5h11v11h-11zM15.5 8.5v-4h-11v11h4',
   expand: 'M4 9.5V4h5.5M20 9.5V4h-5.5M4 14.5V20h5.5M20 14.5V20h-5.5',
   note: 'M5 3.5h10l4 4v13H5zM14.5 3.5v4.5H19M8.5 12h7M8.5 15.5h7',
+  headphones: 'M4.5 17v-4.5a7.5 7.5 0 0 1 15 0V17M4.5 14.5h3v5h-3zM16.5 14.5h3v5h-3z',
+  chat: 'M4.5 5.5h15v10h-8l-4.5 4v-4h-2.5z',
+  table: 'M4 5h16v14H4zM4 10h16M10 10v9',
+  tick: 'M4.5 4.5h15v15h-15zM8.5 12.5l2.5 2.5 4.5-5.5',
+  cards: 'M8 8h11.5v11.5H8zM4.5 16V4.5H16',
+  flag: 'M6 20.5V4M6 4.5h11.5l-2.5 4 2.5 4H6',
 } as const
 
 export type IconName = keyof typeof PATHS

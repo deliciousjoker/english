@@ -13,6 +13,7 @@ import { progress, useLessonProgress, completion } from '../state/progress'
 import { useSettings } from '../state/settings'
 import { PresentationView } from '../features/presentation/PresentationView'
 import { useScrollSpy } from '../lib/useScrollSpy'
+import { splitSubtitle } from '../lib/text'
 
 type Loaded = { id: string; lesson: Lesson; glossary: Glossary }
 
@@ -74,6 +75,7 @@ function LessonView({ lesson, glossary }: { lesson: Lesson; glossary: Glossary }
   }, [lesson.id, exerciseCount])
 
   const done = Math.round(completion({ ...lp, totalExercises: exerciseCount }) * 100)
+  const { story, focus } = splitSubtitle(lesson.subtitle)
 
   return (
     <LessonContext.Provider value={ctx}>
@@ -82,21 +84,38 @@ function LessonView({ lesson, glossary }: { lesson: Lesson; glossary: Glossary }
       ) : (
         <div className={`lesson lv-${lesson.level}`}>
           <header className="lesson__head">
-            <p className="kicker">
-              <Link to={`/level/${lesson.level}`}>
-                <LevelCode level={lesson.level} />
-              </Link>
-              <span aria-hidden="true"> · </span>
-              Unit {lesson.unit}
-              <span aria-hidden="true"> · </span>
-              Lesson {lesson.order}
-              {ref?.unitTitle && <span className="kicker__unit"> — {ref.unitTitle}</span>}
-            </p>
-            <h1 className="lesson__title">{lesson.title}</h1>
-            {lesson.subtitle && <p className="lesson__subtitle">{lesson.subtitle}</p>}
+            <div className="banner">
+              <div className="banner__unit" aria-hidden="true">
+                <small>Unit</small>
+                {lesson.unit}
+              </div>
+              <div className="banner__text">
+                <p className="banner__crumb">
+                  <Link to={`/level/${lesson.level}`}>
+                    <LevelCode level={lesson.level} />
+                  </Link>
+                  <span className="sr-only"> Unit {lesson.unit}</span>
+                  <span aria-hidden="true"> · </span>
+                  {ref?.unitTitle && (
+                    <>
+                      {ref.unitTitle}
+                      <span aria-hidden="true"> · </span>
+                    </>
+                  )}
+                  Lesson {lesson.order}
+                </p>
+                <h1 className="lesson__title">{lesson.title}</h1>
+                {story && <p className="lesson__subtitle">{story}</p>}
+              </div>
+            </div>
             <div className="lesson__meta">
               <div className="lesson__cando">
-                <span className="lesson__cando-label">In this lesson</span>
+                {focus && (
+                  <p className="lesson__focus">
+                    <span className="lesson__cando-label">Focus</span> {focus}
+                  </p>
+                )}
+                <span className="lesson__cando-label">Goals</span>
                 <ul>
                   {lesson.canDo.map((c) => (
                     <li key={c}>{c}</li>
@@ -134,7 +153,7 @@ function LessonView({ lesson, glossary }: { lesson: Lesson; glossary: Glossary }
                 {lesson.sections.map((s, i) => (
                   <li key={ids[i]}>
                     <a href={`#${ids[i]}`} className={`steps__link ${current === ids[i] ? 'is-current' : ''} ${lp.exercises[ids[i]] ? 'is-done' : ''}`}>
-                      <span className="steps__num">{String(i + 1).padStart(2, '0')}</span>
+                      <span className="steps__num">{i + 1}</span>
                       <span className="steps__label">{sectionTitle(s)}</span>
                     </a>
                   </li>

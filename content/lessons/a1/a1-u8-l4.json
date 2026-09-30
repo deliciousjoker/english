@@ -1,0 +1,231 @@
+{
+  "id": "a1-u8-l4",
+  "level": "a1",
+  "unit": 8,
+  "order": 4,
+  "title": "Elif's first month",
+  "subtitle": "Four weeks in Boston — questions with did",
+  "canDo": [
+    "I can ask questions in the past: Did you …? Where did you go?",
+    "I can give short answers: Yes, I did. / No, I didn't.",
+    "I can write about my last month."
+  ],
+  "teacherNotes": [
+    "A1'in son dersi! Yazma görevini (My last month) ödev verin; geri bildirimde Ünite 7–8'in zamanlarını (present continuous, past simple) kontrol edin.",
+    "did ile soru: Türkçedeki -mi ekine benzetin. did soruyu yapar, fiil yalın kalır: Did you buy …? (bought değil).",
+    "Soru zinciri: öğrenciler birbirine \"Did you … yesterday / last weekend?\" diye sorsun; cevap \"Yes, I did / No, I didn't\" + bir cümle.",
+    "Okuma metni A1 hikâyesinin özeti. Öğrencilerle Ünite 1'den bu yana neler olduğunu hatırlayın: Elif'in dairesi, işi, montu, konser, maklube."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["Did you have a good week?", "What was the best day of your last month?", "Do you remember your first English lesson?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "make friends", "pos": "phrase", "example": "Did you make friends?", "gloss": { "tr": "arkadaş edinmek", "ar": "يكوّن صداقات" } },
+        { "word": "meet", "pos": "verb", "example": "I met my classmates on the first day.", "gloss": { "tr": "tanışmak, buluşmak (past: met)", "ar": "يقابل، يتعرّف على (الماضي: met)" } },
+        { "word": "find", "pos": "verb", "example": "I found a small apartment.", "gloss": { "tr": "bulmak (past: found)", "ar": "يجد (الماضي: found)" } },
+        { "word": "get a job", "pos": "phrase", "example": "I got a job at a café.", "gloss": { "tr": "iş bulmak", "ar": "يحصل على عمل" } },
+        { "word": "learn", "pos": "verb", "example": "I learned a lot.", "gloss": { "tr": "öğrenmek", "ar": "يتعلّم" } },
+        { "word": "homework", "pos": "noun", "example": "Did you do your homework?", "gloss": { "tr": "ödev", "ar": "واجب منزلي" } },
+        { "word": "at first", "pos": "phrase", "example": "At first, I didn't have any friends.", "gloss": { "tr": "ilk başta", "ar": "في البداية" } },
+        { "word": "second", "pos": "adjective", "example": "Boston is my second home.", "gloss": { "tr": "ikinci", "ar": "الثاني" } },
+        { "word": "proud", "pos": "adjective", "example": "I'm very proud of you.", "gloss": { "tr": "gururlu (proud of you: seninle gurur duyuyorum)", "ar": "فخور (proud of you: فخور بك)" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "One month!",
+      "scene": "Sunday evening. Elif's mom calls from Izmir.",
+      "lines": [
+        { "speaker": "ayse", "text": "Elif, it's your first month in Boston today! How was it?" },
+        { "speaker": "elif", "text": "It was wonderful, Mom. Really." },
+        { "speaker": "ayse", "text": "Did you make friends?" },
+        { "speaker": "elif", "text": "Yes, I did. Omar, Lucas, Sam … and Mrs. Miller, my neighbor." },
+        { "speaker": "ayse", "text": "Did you find a good job?" },
+        { "speaker": "elif", "text": "Yes! I work at Sam's café on weekends. Did you see my photos?" },
+        { "speaker": "ayse", "text": "Yes, I did. The café is lovely. And did you buy a warm coat?" },
+        { "speaker": "elif", "text": "Yes, I did. A blue one. Mrs. Miller helped me." },
+        { "speaker": "ayse", "text": "Good. Did you go to the sea?" },
+        { "speaker": "elif", "text": "No, I didn't. It's too cold now!" },
+        { "speaker": "ayse", "text": "And your English? Did you learn a lot?" },
+        { "speaker": "elif", "text": "Yes, I did! Listen: yesterday I went to the library, and I read a book about old buildings." },
+        { "speaker": "ayse", "text": "Wonderful! I'm very proud of you." },
+        { "speaker": "elif", "text": "Thanks, Mom. I miss you." },
+        { "speaker": "ayse", "text": "We miss you too. And Pamuk misses you most!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Elif made friends in Boston.", "answer": true },
+        { "statement": "Elif's mom didn't see the photos.", "answer": false },
+        { "statement": "Elif bought a blue coat.", "answer": true },
+        { "statement": "Elif went to the sea.", "answer": false },
+        { "statement": "Yesterday Elif read a book about old buildings.", "answer": true }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "My first month in Boston",
+      "intro": "Elif's article for the school newsletter.",
+      "voice": "elif",
+      "paragraphs": [
+        ["I came to Boston on the first of September. It was hot and sunny, and I didn't have any friends here."],
+        ["On my first day at Harbor English School, I met Maya, our teacher, and my classmates Omar and Lucas.", "I was very quiet, but they were very friendly."],
+        ["In my first week, I found a small apartment on Harbor Street.", "My neighbor, Mrs. Miller, gave me a lamp and three plants."],
+        ["Then I got a job at Sam's café. I worked every weekend, and I made a lot of coffee!", "I went to a Blue Monday concert, I ate Omar's maqluba, and I bought my first winter coat."],
+        ["Was it easy? No, it wasn't. Some days I was tired, and I missed my family.", "But I learned a lot, and now Boston is my second home."],
+        ["By Elif Kaya"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "ordering",
+      "title": "Elif's month",
+      "instructions": "Read again. Put the events in order.",
+      "support": { "tr": "Tekrar oku. Olayları sıraya koy.", "ar": "اقرأ مرة أخرى. رتّب الأحداث." },
+      "items": [
+        "Elif came to Boston.",
+        "She met Maya, Omar and Lucas.",
+        "She found an apartment on Harbor Street.",
+        "She got a job at Sam's café.",
+        "She bought her first winter coat."
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: questions with did",
+      "look": ["**Did** you **make** friends? — Yes, I **did**.", "**Did** you **go** to the sea? — No, I **didn't**.", "**Did** you **see** my photos?", "**Where did** you **go** yesterday?"],
+      "table": {
+        "head": ["Question", "Yes", "No"],
+        "rows": [
+          ["**Did** you **buy** a coat?", "Yes, I **did**.", "No, I **didn't**."],
+          ["**Did** she **work** on Sunday?", "Yes, she **did**.", "No, she **didn't**."],
+          ["**Did** they **like** the concert?", "Yes, they **did**.", "No, they **didn't**."],
+          ["**What did** you **eat**?", "Maqluba!", ""],
+          ["**Where did** you **go**?", "To the library.", ""]
+        ]
+      },
+      "rules": [
+        "Question: **Did** + person + verb: **Did** you **buy** …? (not Did you bought …?)",
+        "Short answers: Yes, I **did**. / No, I **didn't**.",
+        "With a question word: **What / Where / When did** you …?",
+        "With **be**, no did: **Was** it easy? **Were** you tired?"
+      ],
+      "examples": ["Did you have a good weekend?", "Did Elif find a job? — Yes, she did.", "Where did you go yesterday?", "What did you eat for breakfast?"],
+      "support": {
+        "tr": "Geçmişte soru için did başa gelir ve fiil yalın kalır: Did you buy a coat? = Mont aldın mı? Kısa cevap: Yes, I did. / No, I didn't. Soru kelimesiyle: Where did you go? = Nereye gittin? did'i Türkçedeki -mi eki gibi düşün: soruyu did yapar, fiil değişmez. be fiilinde did yok: Was it easy?",
+        "ar": "للسؤال في الماضي نضع did في البداية ويبقى الفعل في صيغته الأصلية: Did you buy a coat? = هل اشتريتَ معطفًا؟ الجواب القصير: Yes, I did. / No, I didn't. ومع أداة الاستفهام: Where did you go? = إلى أين ذهبت؟ فكّر في did مثل «هل»: هي التي تصنع السؤال، والفعل لا يتغيّر. ومع be لا نستخدم did: Was it easy?"
+      },
+      "watchOut": {
+        "tr": {
+          "note": "Soruda did varsa fiil geçmiş hâle girmez. Soru kelimesinden sonra did'i unutma.",
+          "wrong": ["Did you bought a coat?", "Where you went yesterday?"],
+          "right": ["Did you buy a coat?", "Where did you go yesterday?"]
+        },
+        "ar": {
+          "note": "لا تسأل بدون did، ولا تستخدم صيغة الماضي بعد did.",
+          "wrong": ["What you did yesterday?", "Did she found a job?"],
+          "right": ["What did you do yesterday?", "Did she find a job?"]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Short answers",
+      "instructions": "Read the article again. Choose the answer.",
+      "support": { "tr": "Yazıyı tekrar oku. Cevabı seç.", "ar": "اقرأ المقال مرة أخرى. اختر الجواب." },
+      "items": [
+        { "prompt": "Did Elif have friends in Boston on the first of September?", "options": ["Yes, she did.", "No, she didn't."], "answer": 1 },
+        { "prompt": "Did Mrs. Miller give Elif a lamp?", "options": ["Yes, she did.", "No, she didn't."], "answer": 0 },
+        { "prompt": "Was the first month easy?", "options": ["Yes, it was.", "No, it wasn't."], "answer": 1 },
+        { "prompt": "Did Elif learn a lot?", "options": ["Yes, she did.", "No, she didn't."], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete the questions and answers.",
+      "support": { "tr": "Soruları ve cevapları tamamla.", "ar": "أكمل الأسئلة والأجوبة." },
+      "items": [
+        "{Did} you have a good weekend? — Yes, I {did}.",
+        "Where {did} you go? — To the park.",
+        "Did Lucas clean his room? — Yes, he {did}.",
+        "Did Omar sleep on Monday night? — No, he {didn't|did not}.",
+        "What {did} you eat? — Maqluba!",
+        "{Was} the test easy? — Yes, it was."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and answer",
+      "instructions": "Listen to the question. Choose the best answer.",
+      "support": { "tr": "Soruyu dinle. En iyi cevabı seç.", "ar": "استمع إلى السؤال. اختر أفضل جواب." },
+      "items": [
+        { "audio": "Did you do your homework?", "voice": "maya", "prompt": "Answer:", "options": ["Yes, I did.", "Yes, I was.", "Yes, I do it."], "answer": 0 },
+        { "audio": "Where did you go on Sunday?", "voice": "sam", "prompt": "Answer:", "options": ["Yes, I did.", "To the beach.", "At seven."], "answer": 1 },
+        { "audio": "What did you have for lunch?", "voice": "omar", "prompt": "Answer:", "options": ["In the café.", "No, I didn't.", "A sandwich."], "answer": 2 },
+        { "audio": "Was the concert good?", "voice": "rose", "prompt": "Answer:", "options": ["Yes, it did.", "Yes, it was.", "Yes, I went."], "answer": 1 },
+        { "audio": "When did you call Kareem?", "voice": "lina", "prompt": "Answer:", "options": ["Last night.", "In Dubai.", "Yes, I did."], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make questions",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["Did you make friends?", "Where did you go yesterday?", "What did you do last weekend?", "Did she find a job?"]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "Did you buy a warm coat?", "voice": "ayse" },
+        { "text": "Yes, I did.", "voice": "elif" },
+        { "text": "Where did you go?", "voice": "ayse" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: My last month",
+      "model": {
+        "heading": "My first year in Boston — Lucas",
+        "text": [
+          "I came to Boston last year, in August.",
+          "At first, I didn't have any friends, and my English wasn't very good.",
+          "Then I met Jake in a music store, and we started a band, Blue Monday.",
+          "I found an apartment with two roommates, from Korea and Mexico.",
+          "We always speak English at home, so I learned a lot.",
+          "Was it easy? No, it wasn't.",
+          "But I love Boston now … and I'm never late for class! Well, sometimes."
+        ]
+      },
+      "frame": ["Last month, I ___.", "I went to ___.", "I met ___.", "I bought / learned ___.", "I didn't ___.", "It was a ___ month because ___."],
+      "prompt": "Write about your last month (8 to 10 sentences). Where did you go? Who did you meet? What did you learn? How was it?",
+      "support": { "tr": "Geçen ayını anlat (8–10 cümle). Nereye gittin? Kimlerle tanıştın? Ne öğrendin? Nasıldı?", "ar": "اكتب عن شهرك الماضي (8 إلى 10 جمل). إلى أين ذهبت؟ مَن قابلت؟ ماذا تعلّمت؟ كيف كان؟" },
+      "minWords": 60,
+      "checklist": ["I use was / were.", "I use five past verbs: -ed and irregular.", "I use didn't one time.", "I use because one time."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

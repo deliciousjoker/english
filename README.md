@@ -26,8 +26,9 @@ Tarayıcıda http://localhost:5173 açılır.
   **Esc** ile çıkılır. Menüler ve öğretmen notları gizlenir; Zoom/Teams'te bu pencereyi paylaş.
 - **Öğretmen notları:** Adresin sonuna bir kez `?teacher=1` ekle (ör. `…/lesson/a1-u1-l1?teacher=1`).
   Her derste "Öğretmen notları" kutusu çıkar. Kapatmak için ayarlardan **Teacher view → Turn off**.
-- **Tasarım seçimi:** Ayarlar (sağ üst) → **Design (preview)**: Notebook / Minimal / Warm.
-  Birini seçtiğimizde diğerleri kaldırılacak.
+- **Görünüm:** Ayarlar (sağ üst) → **Appearance**: Auto / Light / Dark. Tek tasarım var: "üzerine yazılmış
+  ders kitabı" (her seviyenin kendi kapak rengi; anlamlar mavi kalem, hatalar kırmızı kalem, önemli kelimeler
+  fosforlu kalem).
 - **Öğrenci ilerlemesi:** Şimdilik her öğrencinin kendi tarayıcısında tutulur. Giriş sistemi ve
   öğretmen paneli (Aşama 2) gelince senin ekranına düşecek. Yazma görevlerini öğrenciler şimdilik
   **Copy my text** ile kopyalayıp sana WhatsApp'tan gönderebilir.
@@ -38,11 +39,14 @@ Tarayıcıda http://localhost:5173 açılır.
 2. `content/spec/prompts/lesson-prompt.md` içindeki şablonla dersi AI'a ürettir.
 3. Çıktıyı `content/lessons/<seviye>/<ders-id>.json` olarak kaydet.
 4. `npm run validate` çalıştır; hataları düzelt, uyarıları gözden geçir.
-   "Sözlükte anlamı olmayan kelimeler" varsa `content/glossary/a1.json`'a ekle.
+   "Sözlükte anlamı olmayan kelimeler" varsa seviyenin sözlüğüne ekle (`content/glossary/a1.json`, `a2.json` …).
 5. Dersi sitede baştan sona dene (TR ve AR desteğiyle).
 6. `npm run audio` ile sesleri üret, sonra yayınla.
 
-İçerik kuralları: `content/spec/a1-spec.md`, karakterler: `content/spec/characters.md`.
+İçerik kuralları: `content/spec/a1-spec.md`, `content/spec/a2-spec.md`; karakterler: `content/spec/characters.md`.
+
+**Durum (30 Eylül 2026):** Starter (2 ders) ve A1 (8 ünite, 32 ders) tamam. A2: Ünite 1 (4 ders) hazır, Ünite 2–8
+planlandı (`content/curriculum.json`, `content/spec/a2-spec.md`).
 
 ## Ses (Kokoro — ücretsiz, bilgisayarda)
 
@@ -89,5 +93,5 @@ scripts/                 validate-content.ts, generate-audio.ts, kelime listeler
 public/audio/            Üretilen mp3'ler + manifest.json
 src/content/schema.ts    Ders formatı (tüm bölüm ve alıştırma türleri)
 src/components/          Okuma, diyalog, gramer, alıştırma bileşenleri
-src/styles/              Tasarım (tokens.css + themes.css: üç görünüm, açık/koyu)
+src/styles/              Tasarım (tokens.css: renkler, yazı tipleri, açık/koyu mod)
 ```

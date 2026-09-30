@@ -23,6 +23,7 @@ ara sıra İngiliz ifadeleri olabilir ("lovely", "cheers"), ama metinlerde yazı
 | `ayse` | Ayşe Kaya | Elif'in annesi, İzmir'de İngilizce öğretmeni (İngiliz aksanlı konuşur). Elif'le görüntülü konuşur. | bf_emma |
 | `seller` / `clerk` | — | Pazar yeri satıcısı ve kitapçı kasiyeri gibi küçük roller. | am_fenrir / af_nova |
 | `lina` | Lina Haddad | 22 yaşında, Omar'ın kız kardeşi. Amman'da, University of Jordan'da mühendislik okuyor. Komik, hep meşgul; ağabeyine takılmayı seviyor. | af_kore |
+| `zeynep` | Zeynep | 20 yaşında, İzmirli. Elif'in en yakın arkadaşı (uzun siyah saç, kahverengi göz, küçük bir erkek kardeşi ve iki kedisi var). Ünite 7'den itibaren telefonda konuşurlar. | bf_isabella |
 | `narrator` | — | Okuma metinleri, kelimeler ve örnek cümleler için anlatıcı sesi. | af_heart |
 
 ## Karakterlerin aileleri
@@ -51,6 +52,27 @@ ara sıra İngiliz ifadeleri olabilir ("lovely", "cheers"), ama metinlerde yazı
 - **Mahalle (Harbor Street):** banka, eczane (bankanın yanında), iki kitapçı (Rose küçüğünü sever), üç kafe,
   sinema yok, parkın yanında kütüphane, Cumartesi 8–13 parkta pazar, okulun karşısında büyük süpermarket
   (her gün açık), postane parkın yakınında, Green Street'te cami.
+
+## Ünite 7–8'den eklenen ayrıntılar
+
+- **Zaman çizelgesi:** Elif 1 Eylül'de Boston'a geldi; A1 hikâyesi Eylül–Ekim'i (ilk ayını) anlatır. İlk haftasında
+  Harbor Street'teki daireyi buldu. Ekim'de Boston 8–12 °C, yağmurlu ve rüzgârlı. Boston, İzmir ve Amman'dan 7 saat geride.
+- **Zeynep** (yeni karakter, `zeynep`, ses bf_isabella): Elif'in İzmir'deki en yakın arkadaşı. Küçük bir erkek kardeşi var,
+  denizi seviyor. Elif'le Pazar günleri telefonda konuşur.
+- **Elif:** Kafe işi Cumartesi–Pazar 8.00–14.00. Rose'la Green Street'teki bir giyim mağazasından mavi bir kış montu aldı
+  (normalde 90, indirimde 60 dolar; bedeni small). Eski binalar hakkında kitaplar okur. Okul bülteni için "My first month
+  in Boston" yazısını yazdı.
+- **Omar:** Pazartesi gece vardiyası 20.00–07.00; Salı sabahı derste uyuyabiliyor. Pazar günleri parkta futbol oynar,
+  komşularına yemek yapar. Ağabeyi Kareem'e e-posta yazar.
+- **Lina:** Ürdün'de hafta sonu Cuma–Cumartesi. Cuma günleri aile Büyükanne Fatima'ya gider (Fatima 12 kişilik maklube yapar).
+  Sınavları var; Kareem'in oğlu Adam'la görüntülü oynar.
+- **Lucas:** Boston'a geçen yıl Ağustos'ta geldi. Jake'le bir müzik mağazasında tanıştı, birlikte Blue Monday'i kurdular;
+  gruba yeni bir davul aldılar. Konser günü gitarını evde unuttu. Bir kez odasını topladı (ev arkadaşları çok mutlu).
+- **Maya:** Otobüsle gelir (bazen otobüs gecikir). Cumartesi parkta yürür/koşar, pazara gider; Pazar Rose'u ziyaret eder.
+- **Rose:** 1958 doğumlu. 1978'de Boston'da üniversite öğrencisiydi; Dorothy okul arkadaşı. Harbor Street'teki
+  kütüphanede 40 yıl çalıştı. Dorothy'yle kütüphanedeki söyleşilere gider.
+- **Sam:** Soğukta bile tişörtle dolaşır ("I'm from London!"). Emma bir Cumartesi 200 kurabiye yaptı.
+- **Mahalle:** Green Street'te bir giyim mağazası var (caminin olduğu sokak).
 
 ## Kurallar
 

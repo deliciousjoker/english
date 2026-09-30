@@ -1,0 +1,219 @@
+{
+  "id": "a2-u1-l2",
+  "level": "a2",
+  "unit": 1,
+  "order": 2,
+  "title": "Thanksgiving at Rose's",
+  "subtitle": "An invitation for Elif — Would you like to …?",
+  "canDo": [
+    "I can invite someone and answer an invitation.",
+    "I can offer help: Can I bring anything?",
+    "I can understand a text about a holiday."
+  ],
+  "teacherNotes": [
+    "Thanksgiving 2026'da 26 Kasım Perşembe. ABD'nin en büyük aile bayramlarından; öğrencilere kendi bayramlarında (Ramazan / Kurban Bayramı) neler yaptıklarını sorup karşılaştırın.",
+    "Kibar ret kalıbı çok önemli: \"I'm afraid I can't\" + sebep. Türkçede kısaca \"Gelemem\" demek normal; İngilizcede sebep ve teşekkür beklenir.",
+    "Rol oyunu: bir öğrenci davet etsin (Would you like to…?), diğeri önce kabul etsin, sonra başka bir davete kibarca hayır desin.",
+    "Rose yemek yapmayı sevmez (A1'den biliniyor), bu yüzden hindiyi Maya pişiriyor."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["What's the most important holiday in your country?", "What do families eat on that day?", "Do you like big family dinners?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "items": [
+        { "word": "invite", "pos": "verb", "example": "Rose is going to invite her neighbors.", "gloss": { "tr": "davet etmek", "ar": "يدعو" } },
+        { "word": "Would you like to …?", "pos": "phrase", "example": "Would you like to come to dinner?", "gloss": { "tr": "…-mek ister misin?", "ar": "هل تحبّ أن …؟" } },
+        { "word": "I'd love to!", "pos": "phrase", "example": "Dinner on Thursday? I'd love to!", "gloss": { "tr": "Çok isterim!", "ar": "يسعدني ذلك!" } },
+        { "word": "I'm afraid …", "pos": "phrase", "example": "I'm afraid I can't. I'm working.", "gloss": { "tr": "Maalesef …, korkarım ki …", "ar": "للأسف …" } },
+        { "word": "free", "pos": "adjective", "example": "Are you free on Thursday?", "gloss": { "tr": "boş, müsait; bedava", "ar": "متفرّغ؛ مجاني" } },
+        { "word": "bring", "pos": "verb", "example": "Can I bring anything?", "gloss": { "tr": "getirmek", "ar": "يُحضر، يجلب" } },
+        { "word": "holiday", "pos": "noun", "example": "Thanksgiving is a big American holiday.", "gloss": { "tr": "bayram, tatil", "ar": "عيد، عطلة" } },
+        { "word": "turkey", "pos": "noun", "example": "Maya is going to cook the turkey.", "gloss": { "tr": "hindi", "ar": "ديك رومي" } },
+        { "word": "pumpkin pie", "pos": "noun", "example": "For dessert, there's pumpkin pie.", "gloss": { "tr": "balkabağı turtası", "ar": "فطيرة اليقطين" } },
+        { "word": "thankful", "pos": "adjective", "example": "I'm thankful for my friends.", "gloss": { "tr": "minnettar, şükreden", "ar": "شاكر، ممتنّ" } },
+        { "word": "Let's …", "pos": "phrase", "example": "Let's make baklava together!", "gloss": { "tr": "Hadi …-elim", "ar": "هيّا نـ …" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "A knock on the door",
+      "scene": "Monday evening. Rose knocks on Elif's door.",
+      "lines": [
+        { "speaker": "rose", "text": "Elif, dear, are you free on Thursday, November 26th?" },
+        { "speaker": "elif", "text": "I think so. Why?" },
+        { "speaker": "rose", "text": "It's Thanksgiving. Would you like to come to dinner at my apartment?" },
+        { "speaker": "elif", "text": "Oh, I'd love to! Thank you. But what is Thanksgiving, exactly?" },
+        { "speaker": "rose", "text": "It's a big American holiday. Families eat together and say thank you for the good things in their lives." },
+        { "speaker": "elif", "text": "That's lovely. Can I bring anything?" },
+        { "speaker": "rose", "text": "Well … could you bring a Turkish dessert?" },
+        { "speaker": "elif", "text": "Of course! I'm going to make baklava. Well, I'm going to try!" },
+        { "speaker": "rose", "text": "Wonderful. Maya is going to come, and I'm going to invite Omar and Lucas too." },
+        { "speaker": "elif", "text": "But Rose … you hate cooking!" },
+        { "speaker": "rose", "text": "I know! That's why Maya is going to cook the turkey. I'm going to make the tea." },
+        { "speaker": "elif", "text": "Perfect. Let's make the baklava together on Wednesday!" },
+        { "speaker": "rose", "text": "Me? In the kitchen? Oh, why not." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "items": [
+        { "statement": "Thanksgiving is on a Thursday.", "answer": true },
+        { "statement": "Elif knows a lot about Thanksgiving.", "answer": false },
+        { "statement": "Elif is going to bring a Turkish dessert.", "answer": true },
+        { "statement": "Rose is going to cook the turkey.", "answer": false },
+        { "statement": "Elif and Rose are going to make baklava together.", "answer": true }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "What is Thanksgiving?",
+      "intro": "A short guide for new students at Harbor English School.",
+      "paragraphs": [
+        ["Thanksgiving is one of the biggest holidays in the United States.", "It's always on the fourth Thursday of November, and schools and most offices are closed."],
+        ["On this day, families and friends eat a big dinner together.", "The most famous dish is turkey, but people also eat potatoes, corn and a lot of vegetables.", "For dessert, there's usually pumpkin pie."],
+        ["Before dinner, many families go around the table, and everyone says what they are thankful for: their health, their family, their friends."],
+        ["It's also a very busy time for travel. Millions of people drive or fly home to see their families."],
+        ["In New York, there's a big parade in the morning, and in the afternoon, a lot of people watch American football on TV."],
+        ["For people who live far from home, like students, friends often become their family on Thanksgiving."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "The guide",
+      "instructions": "Read again and choose.",
+      "items": [
+        { "prompt": "When is Thanksgiving?", "options": ["on the last Friday of November", "on the fourth Thursday of November", "on December 25th"], "answer": 1 },
+        { "prompt": "The most famous Thanksgiving dish is …", "options": ["chicken", "turkey", "fish"], "answer": 1 },
+        { "prompt": "What do many families do before dinner?", "options": ["They watch a parade.", "They say what they are thankful for.", "They go shopping."], "answer": 1 },
+        { "prompt": "Who often becomes a student's family on Thanksgiving?", "options": ["their teachers", "their friends", "their neighbors' cats"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: invitations, offers and suggestions",
+      "look": ["**Would you like to come** to dinner?", "**I'd love to!** Thank you.", "**Can I bring** anything?", "**Let's make** the baklava together!"],
+      "table": {
+        "head": ["You want to …", "You say …", "Answers"],
+        "rows": [
+          ["invite", "**Would you like to** come to dinner?", "I'd love to! / Thanks, but **I'm afraid I can't**."],
+          ["offer", "**Can I** bring anything? / **Shall I** make a dessert?", "Yes, please! / No, thanks. That's OK."],
+          ["suggest", "**Let's** make baklava! / **Why don't we** meet at six?", "Good idea! / OK, let's do that."]
+        ]
+      },
+      "rules": [
+        "**Would you like to** + verb? = a polite invitation. (not *Would you like come?*)",
+        "**I'd love to!** = yes (very friendly). **I'm afraid I can't.** = no (polite).",
+        "**Let's** + verb, no *to*: Let's go! · **Why don't we** + verb?: Why don't we go by bus?",
+        "When you say no, say why: *Sorry, I'm afraid I can't. I'm working that day.*"
+      ],
+      "examples": ["Would you like to come to my party?", "I'd love to, thanks!", "I'm afraid I can't. I have a concert.", "Let's meet at the café at six."],
+      "support": {
+        "tr": "Davet: Would you like to + fiil? = …-mek ister misin? (Would you like to come? = Gelmek ister misin?) Kabul: I'd love to! = Çok isterim! Kibar ret: I'm afraid I can't = Maalesef gelemem, ve bir sebep. Öneri: Let's + fiil = Hadi …-elim (Let's go! = Hadi gidelim!). Teklif: Can I / Shall I bring something? = Bir şey getireyim mi?",
+        "ar": "الدعوة: Would you like to + الفعل؟ = هل تحبّ أن …؟ (Would you like to come? = هل تحبّ أن تأتي؟). القبول: I'd love to! = يسعدني ذلك! الرفض المهذّب: I'm afraid I can't = للأسف لا أستطيع، مع ذكر السبب. الاقتراح: Let's + الفعل = هيّا نـ … (Let's go! = هيّا بنا!). العرض: Can I / Shall I bring something? = هل أُحضر شيئًا؟"
+      },
+      "watchOut": {
+        "tr": {
+          "note": "Would you like'tan sonra to + fiil gelir; Let's'ten sonra to yok.",
+          "wrong": ["Would you like come to dinner?", "Let's to go to the park."],
+          "right": ["Would you like to come to dinner?", "Let's go to the park."]
+        },
+        "ar": {
+          "note": "لا تستخدم to بعد Let's، وعند الرفض لا تقل No فقط: قل I'm afraid I can't واذكر السبب.",
+          "wrong": ["Let's to meet at six.", "No. I can't come."],
+          "right": ["Let's meet at six.", "I'm afraid I can't come. I'm working."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Answer the invitation",
+      "instructions": "Match the question and the answer.",
+      "pairs": [
+        ["Would you like to come to dinner?", "I'd love to! Thank you."],
+        ["Can I bring anything?", "Yes, please. Maybe a dessert?"],
+        ["Let's go to the park.", "Good idea!"],
+        ["Why don't we meet at six?", "OK, see you at six."],
+        ["Would you like to see a film tonight?", "I'm afraid I can't. I have an exam tomorrow."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with the words.",
+      "bank": ["Would", "like", "love", "afraid", "Let's", "don't"],
+      "items": [
+        "{Would} you like to come to my party?",
+        "Would you {like} to have some tea?",
+        "Thank you, I'd {love} to!",
+        "I'm {afraid} I can't. I'm working on Saturday.",
+        "{Let's} make baklava together!",
+        "Why {don't} we meet at the café?"
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen to the answers. Choose.",
+      "items": [
+        { "audio": "Thanksgiving dinner? I'd love to, Mrs. Miller! Can I bring some hummus?", "voice": "omar", "prompt": "Omar …", "options": ["says yes", "says no", "isn't sure"], "answer": 0 },
+        { "audio": "Oh, thank you, but I'm afraid I can't. We're going to play at a party in Cambridge that night.", "voice": "lucas", "prompt": "Lucas …", "options": ["is going to come", "can't come", "is going to bring a dessert"], "answer": 1 },
+        { "audio": "Aunt Rose, why don't I cook the turkey? You can make the tea.", "voice": "maya", "prompt": "Maya offers to …", "options": ["make the tea", "cook the turkey", "buy a pie"], "answer": 1 },
+        { "audio": "Would you like to come to the café on Friday? Emma is going to make pumpkin cookies.", "voice": "sam", "prompt": "Sam is …", "options": ["inviting someone", "saying no", "asking for money"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "items": ["Would you like to come to dinner?", "I'm afraid I can't come.", "Can I bring anything?", "Let's make baklava together."]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "items": [
+        { "text": "Would you like to come to dinner?", "voice": "rose" },
+        { "text": "I'd love to!", "voice": "elif" },
+        { "text": "Can I bring anything?", "voice": "elif" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: An invitation",
+      "model": {
+        "heading": "Dinner at my place — Omar",
+        "text": [
+          "Hi everyone!",
+          "Would you like to come to my apartment for dinner on Saturday, December 5th?",
+          "I'm going to cook maqluba again, with my mother's recipe.",
+          "We're going to eat at seven, but come at six thirty for tea.",
+          "Can you bring a dessert or some fruit?",
+          "Please let me know by Thursday.",
+          "Omar"
+        ]
+      },
+      "frame": ["Hi ___!", "Would you like to ___ on ___?", "We're going to ___.", "Let's meet at ___ at ___.", "Can you bring ___?", "Please let me know by ___."],
+      "prompt": "Invite your friends to something: a dinner, a film, a walk or a party. Say when and where, and what you're going to do (6 to 8 sentences).",
+      "minWords": 40,
+      "checklist": ["I use Would you like to …?", "I say when and where.", "I use going to one time.", "I use Let's or Can you …?"]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

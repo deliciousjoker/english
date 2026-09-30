@@ -1,86 +1,128 @@
 /*
-  Tasarım değişkenleri. Varsayılan = "Notebook" (açık).
-  Diğer görünümler ve koyu mod themes.css içinde bu değişkenleri ezer.
+  Tasarım değişkenleri. Tek görünüm: "üzerine yazılmış bir ders kitabı".
+  Baskı siyah mürekkep; öğrencinin notları mavi tükenmez; öğretmenin düzeltmesi kırmızı kalem;
+  önemli kelimeler sarı fosforlu kalem. Her seviyenin kendi kapak rengi var.
 */
+
+/* Atkinson'da sıfır çizgili ("Ø" gibi); saatler garip görünmesin diye sadece "0" Public Sans'tan gelir (OFL) */
+@font-face {
+  font-family: 'Folio Zero';
+  src: url('../assets/fonts/public-sans-zero.woff2') format('woff2');
+  font-weight: 100 900;
+  font-display: swap;
+  unicode-range: U+0030;
+}
 
 :root {
   color-scheme: light;
 
   /* Kağıt ve mürekkep */
-  --bg: #f4efe4;
-  --bg-band: #ece5d6;
-  --surface: #fbf8f1;
-  --surface-2: #efe8d8;
-  --ink: #1d2230;
-  --ink-2: #474c59;
-  --ink-3: #7a7667;
-  --line: #ddd3bf;
-  --line-strong: #bfb298;
+  --bg: #ffffff;
+  --bg-band: #f4f3ef;
+  --surface: #ffffff;
+  --surface-2: #f4f3ef;
+  --ink: #17191e;
+  --ink-2: #454952;
+  --ink-3: #6b6f78;
+  --line: #e3e1db;
+  --line-strong: #17191e;
 
-  --accent: #24408e; /* dolma kalem mavisi */
+  /* Kalemler */
+  --pen: #2152c4; /* mavi tükenmez: anlamlar, seçim, çalan cümle */
+  --pen-soft: #e6edfb;
+  --accent: var(--pen);
   --accent-ink: #ffffff;
-  --accent-soft: #dfe5f4;
-  --good: #2c7447;
-  --good-soft: #dcefe1;
-  --bad: #bd3a2c; /* öğretmenin kırmızı kalemi */
-  --bad-soft: #f6dfda;
-  --marker: #ffe07a;
-  --marker-soft: #fff3c4;
-  --focus: #24408e;
-
-  --rule: rgba(36, 64, 142, 0.1); /* defter çizgisi */
-  --margin-line: rgba(189, 58, 44, 0.35);
+  --accent-soft: var(--pen-soft);
+  --good: #1d7f48;
+  --good-soft: #def2e5;
+  --bad: #cf3326; /* kırmızı kalem */
+  --bad-soft: #fbe3df;
+  --marker: #ffe45c; /* fosforlu kalem */
+  --mk: 56%; /* fosforlu kalemin boyadığı yerin üst sınırı */
+  --marker-soft: #fff6c2;
+  --focus: #2152c4;
 
   /* Yazı tipleri */
-  --font-display: 'Fraunces Variable', 'Iowan Old Style', Georgia, serif;
-  --font-body: 'Literata Variable', Georgia, serif;
-  --font-read: 'Literata Variable', Georgia, serif;
-  --font-ui: 'Literata Variable', Georgia, serif;
-  --font-num: 'Fraunces Variable', Georgia, serif;
+  --font-display: 'Zilla Slab', Rockwell, 'Roboto Slab', Georgia, serif;
+  --font-body: 'Folio Zero', 'Atkinson Hyperlegible Next Variable', 'Atkinson Hyperlegible', Verdana, sans-serif;
+  --font-read: var(--font-body);
+  --font-ui: var(--font-body);
+  --font-num: var(--font-display);
   --font-ar: 'Noto Naskh Arabic Variable', 'Noto Naskh Arabic', 'Traditional Arabic', serif;
-
-  --display-weight: 600;
-  --display-tracking: -0.015em;
-  --label-transform: uppercase;
-  --label-tracking: 0.12em;
-  --num-style: italic;
 
   /* Şekiller */
   --radius: 4px;
   --radius-lg: 6px;
-  --radius-btn: 4px;
-  --radius-chip: 999px;
-  --bw: 1px;
-  --card-border: 1px solid var(--line);
-  --card-shadow: 0 1px 0 rgba(29, 34, 48, 0.05), 0 10px 24px -18px rgba(29, 34, 48, 0.35);
-  --pop-shadow: 0 18px 40px -12px rgba(29, 34, 48, 0.35), 0 2px 6px rgba(29, 34, 48, 0.08);
-  --btn-shadow: none;
-  --btn-press: translateY(1px);
+  --stroke: 1.5px;
+  --pop-shadow: 0 14px 34px -10px rgba(23, 25, 30, 0.3), 0 2px 6px rgba(23, 25, 30, 0.08);
 
-  /* Bölümler */
-  --sec-bg: transparent;
-  --sec-border: none;
-  --sec-top: 1px solid var(--line-strong);
-  --sec-pad: 0;
-  --sec-shadow: none;
-
-  /* Seviye renkleri (kitap sırtları) */
-  --lv-starter: #8b7b63;
-  --lv-a1: #c97a1e;
-  --lv-a2: #b8432f;
-  --lv-b1: #3a7f55;
-  --lv-b2: #2f58a3;
-  --lv-c1: #694a98;
-  --lv: var(--accent);
+  /* Seviye kapakları */
+  --lv-starter: #5f7282;
+  --lv-a1: #f2a516;
+  --lv-a2: #e2553a;
+  --lv-b1: #25804f;
+  --lv-b2: #2d5fc0;
+  --lv-c1: #6b3f9c;
+  --lv: var(--ink);
+  --lv-ink: #ffffff; /* kapak üstündeki yazı rengi */
+  --lv-soft: var(--bg-band);
 
   --topbar-h: 60px;
   --maxw: 1140px;
   --readw: 44rem;
 }
 
-.lv-starter { --lv: var(--lv-starter); }
-.lv-a1 { --lv: var(--lv-a1); }
-.lv-a2 { --lv: var(--lv-a2); }
-.lv-b1 { --lv: var(--lv-b1); }
-.lv-b2 { --lv: var(--lv-b2); }
-.lv-c1 { --lv: var(--lv-c1); }
+:root[data-scheme='dark'] {
+  color-scheme: dark;
+  --bg: #131417;
+  --bg-band: #1b1d21;
+  --surface: #1b1d21;
+  --surface-2: #25282d;
+  --ink: #edece7;
+  --ink-2: #bdbcb6;
+  --ink-3: #8f8e89;
+  --line: #2e3137;
+  --line-strong: #edece7;
+
+  --pen: #93b2ff;
+  --pen-soft: rgba(147, 178, 255, 0.14);
+  --accent-ink: #10152a;
+  --good: #72d39c;
+  --good-soft: rgba(114, 211, 156, 0.14);
+  --bad: #ff8577;
+  --bad-soft: rgba(255, 133, 119, 0.14);
+  --marker: #b89a1e;
+  --mk: 80%; /* koyu zeminde sadece alt çizgi gibi */
+  --marker-soft: rgba(255, 222, 70, 0.1);
+  --focus: #93b2ff;
+  --pop-shadow: 0 18px 40px -12px rgba(0, 0, 0, 0.75);
+
+  --lv-starter: #8198aa;
+  --lv-a1: #f2b035;
+  --lv-a2: #ef7056;
+  --lv-b1: #4fb27f;
+  --lv-b2: #6f96e8;
+  --lv-c1: #a07fd0;
+}
+
+/* Kapak rengi + üstündeki yazı rengi (açık kapaklarda koyu yazı) */
+.lv-starter { --lv: var(--lv-starter); --lv-ink: #ffffff; }
+.lv-a1 { --lv: var(--lv-a1); --lv-ink: #17191e; }
+.lv-a2 { --lv: var(--lv-a2); --lv-ink: #17191e; }
+.lv-b1 { --lv: var(--lv-b1); --lv-ink: #ffffff; }
+.lv-b2 { --lv: var(--lv-b2); --lv-ink: #ffffff; }
+.lv-c1 { --lv: var(--lv-c1); --lv-ink: #ffffff; }
+:root[data-scheme='dark'] .lv-starter,
+:root[data-scheme='dark'] .lv-b1,
+:root[data-scheme='dark'] .lv-b2,
+:root[data-scheme='dark'] .lv-c1 {
+  --lv-ink: #131417;
+}
+.lv-starter,
+.lv-a1,
+.lv-a2,
+.lv-b1,
+.lv-b2,
+.lv-c1 {
+  --lv-soft: color-mix(in srgb, var(--lv) 14%, var(--bg));
+}

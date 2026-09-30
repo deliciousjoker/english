@@ -1,0 +1,225 @@
+{
+  "id": "a1-u7-l2",
+  "level": "a1",
+  "unit": 7,
+  "order": 2,
+  "title": "What's the weather like?",
+  "subtitle": "Rain in Boston, sun in Amman — questions with -ing",
+  "canDo": [
+    "I can ask and talk about the weather.",
+    "I can ask questions like Are you working? and What are you doing?",
+    "I can give short answers: Yes, I am. / No, it isn't."
+  ],
+  "teacherNotes": [
+    "Hava kelimelerini karşılaştırın: rain (isim/fiil) → It's raining / It's rainy. snow → It's snowing / It's snowy. sunny, cloudy, windy ise sadece sıfat.",
+    "ABD'de sıcaklık Fahrenheit ile verilir (50°F ≈ 10°C). Merak eden olursa gösterin; derste Celsius kullandık.",
+    "Kısa cevap çalışması: \"Is it raining now? Are you sitting? Are you drinking tea?\" gibi hızlı sorular sorun; tam cümleyle değil \"Yes, I am. / No, I'm not.\" ile cevaplasınlar.",
+    "Ödev fikri: öğrenciler kendi şehirlerinin bugünkü havasını yazıp WhatsApp'tan göndersin."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["What's the weather like today?", "Do you like hot or cold days?", "What's the weather like in your country in winter?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "What's the weather like?", "pos": "question", "example": "What's the weather like in Amman?", "gloss": { "tr": "Hava nasıl?", "ar": "كيف الطقس؟" } },
+        { "word": "sunny", "pos": "adjective", "example": "It's sunny today.", "gloss": { "tr": "güneşli", "ar": "مشمس" } },
+        { "word": "cloudy", "pos": "adjective", "example": "It's cloudy this morning.", "gloss": { "tr": "bulutlu", "ar": "غائم" } },
+        { "word": "windy", "pos": "adjective", "example": "It's very windy in Boston.", "gloss": { "tr": "rüzgârlı", "ar": "عاصف، فيه رياح" } },
+        { "word": "rain", "pos": "verb / noun", "example": "It's raining again.", "gloss": { "tr": "yağmur; yağmur yağmak", "ar": "مطر؛ تمطر" } },
+        { "word": "snow", "pos": "verb / noun", "example": "Is it snowing?", "gloss": { "tr": "kar; kar yağmak", "ar": "ثلج؛ تثلج" } },
+        { "word": "hot", "pos": "adjective", "example": "It's hot in Amman.", "gloss": { "tr": "sıcak (çok)", "ar": "حارّ" } },
+        { "word": "warm", "pos": "adjective", "example": "It's warm at night.", "gloss": { "tr": "ılık, sıcak", "ar": "دافئ" } },
+        { "word": "cold", "pos": "adjective", "example": "I'm cold!", "gloss": { "tr": "soğuk; üşümüş", "ar": "بارد؛ أشعر بالبرد" } },
+        { "word": "degree", "pos": "noun", "example": "It's twelve degrees.", "gloss": { "tr": "derece", "ar": "درجة" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Rain and sun",
+      "scene": "Omar is walking home from the hospital. His sister Lina calls from Amman.",
+      "lines": [
+        { "speaker": "lina", "text": "Omar! Where are you? I can't see you." },
+        { "speaker": "omar", "text": "I'm walking home from the hospital. It's raining, and it's very windy." },
+        { "speaker": "lina", "text": "Are you using your umbrella?" },
+        { "speaker": "omar", "text": "Yes, I am … but look at it!" },
+        { "speaker": "lina", "text": "Ha ha! Poor Omar. Here it's sunny and hot. It's twenty-eight degrees." },
+        { "speaker": "omar", "text": "Twenty-eight? It's only twelve degrees here. What are you doing?" },
+        { "speaker": "lina", "text": "I'm sitting in the garden with Mom. We're drinking tea." },
+        { "speaker": "omar", "text": "Is Dad with you?" },
+        { "speaker": "lina", "text": "No, he isn't. He's visiting Grandma Fatima." },
+        { "speaker": "omar", "text": "Is it cold at night in Amman now?" },
+        { "speaker": "lina", "text": "No, it isn't. It's warm. What's the weather like in Boston in winter?" },
+        { "speaker": "omar", "text": "Very cold. Sometimes it snows a lot." },
+        { "speaker": "lina", "text": "Snow! Send me a photo, OK?" },
+        { "speaker": "omar", "text": "OK. But now I'm going home. I'm very cold!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "It's raining in Boston.", "answer": true },
+        { "statement": "Omar isn't using his umbrella.", "answer": false },
+        { "statement": "It's twelve degrees in Amman.", "answer": false },
+        { "statement": "Lina and her mom are drinking tea in the garden.", "answer": true },
+        { "statement": "Omar's dad is sitting with them.", "answer": false }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Weather today",
+      "intro": "It's 9 a.m. in Boston. Elif looks at the weather on her phone.",
+      "paragraphs": [
+        ["Boston: It's cloudy and cold this morning, only eight degrees.", "In the afternoon, it's rainy and windy. Take your umbrella!"],
+        ["Izmir: It's sunny and warm, twenty-two degrees.", "It's a good day for the beach."],
+        ["Amman: It's hot and sunny, twenty-eight degrees.", "There's no rain today."],
+        ["London: It's raining, of course!", "It's windy and cool, fourteen degrees."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Four cities",
+      "instructions": "Read again. Match the city and the weather.",
+      "support": { "tr": "Tekrar oku. Şehri havasıyla eşleştir.", "ar": "اقرأ مرة أخرى. صِل المدينة بالطقس." },
+      "pairs": [
+        ["Boston", "cloudy and cold, 8 degrees"],
+        ["Izmir", "sunny and warm, 22 degrees"],
+        ["Amman", "hot and sunny, 28 degrees"],
+        ["London", "rainy and windy, 14 degrees"]
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: questions with -ing",
+      "look": ["**Are** you **using** your umbrella? — Yes, I **am**.", "**What are** you **doing**?", "**Is** it **raining** in Amman? — No, it **isn't**.", "**What's the weather like?** — It's sunny and hot."],
+      "table": {
+        "head": ["Question", "Yes", "No"],
+        "rows": [
+          ["**Are** you work**ing**?", "Yes, I **am**.", "No, I**'m not**."],
+          ["**Is** she sleep**ing**?", "Yes, she **is**.", "No, she **isn't**."],
+          ["**Is** it rain**ing**?", "Yes, it **is**.", "No, it **isn't**."],
+          ["**Are** they study**ing**?", "Yes, they **are**.", "No, they **aren't**."]
+        ]
+      },
+      "rules": [
+        "Question: **Am / Is / Are** + person + verb**-ing**?",
+        "Short answers: Yes, I **am**. (not Yes, I'm.) · No, it **isn't**.",
+        "With a question word: **What are** you do**ing**? **Where is** she go**ing**?",
+        "Weather: **It's** sunny / cloudy / windy. **It's** rain**ing** / snow**ing**."
+      ],
+      "examples": ["Are you walking home?", "Is it snowing in Boston?", "What are you doing?", "What's the weather like in Izmir?"],
+      "support": {
+        "tr": "Soru için am / is / are başa gelir: You are working → Are you working? = Çalışıyor musun? Kısa cevapta sadece am / is / are kullanılır: Yes, I am. / No, I'm not. Hava durumunda Türkçede özne yoktur (Yağmur yağıyor), ama İngilizcede it gerekir: It's raining. It's sunny.",
+        "ar": "للسؤال نضع am / is / are في البداية: You are working → Are you working? = هل تعمل الآن؟ وفي الجواب القصير نستخدم am / is / are فقط: Yes, I am. / No, I'm not. وفي الطقس نقول بالعربية «تمطر» بدون فاعل ظاهر، أمّا بالإنجليزية فلا بدّ من it: It's raining. It's sunny."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "Hava durumunda it'i unutma. Kısa olumlu cevapta I'm değil, I am de.",
+          "wrong": ["Is raining now.", "Yes, I'm."],
+          "right": ["It's raining now.", "Yes, I am."]
+        },
+        "ar": {
+          "note": "في السؤال ضع is / are قبل الفاعل، ولا تنسَ it مع الطقس.",
+          "wrong": ["Why you are laughing?", "Today is very rain."],
+          "right": ["Why are you laughing?", "It's very rainy today."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Short answers",
+      "instructions": "Read the dialogue again. Choose the answer.",
+      "support": { "tr": "Diyaloğu tekrar oku. Cevabı seç.", "ar": "اقرأ الحوار مرة أخرى. اختر الجواب." },
+      "items": [
+        { "prompt": "Is Omar walking home?", "options": ["Yes, he is.", "No, he isn't.", "Yes, he does."], "answer": 0 },
+        { "prompt": "Is it raining in Amman?", "options": ["Yes, it is.", "No, it isn't.", "No, it doesn't."], "answer": 1 },
+        { "prompt": "Are Lina and her mom drinking coffee?", "options": ["Yes, they are.", "No, they aren't.", "No, they don't."], "answer": 1 },
+        { "prompt": "Is Omar's dad visiting his grandmother?", "options": ["Yes, he is.", "Yes, he visits.", "No, he isn't."], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete the questions and answers.",
+      "support": { "tr": "Soruları ve cevapları tamamla.", "ar": "أكمل الأسئلة والأجوبة." },
+      "bank": ["Is", "Are", "are", "is", "isn't", "am"],
+      "items": [
+        "{Is} it snowing in Boston? — No, it isn't.",
+        "{Are} you listening to me? — Yes, I am.",
+        "What {are} they doing? — They're drinking tea.",
+        "Is Omar walking home? — Yes, he {is}.",
+        "Is it hot in Boston today? — No, it {isn't}.",
+        "Are you cold? — Yes, I {am}."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen. What's the weather like?",
+      "support": { "tr": "Dinle. Hava nasıl?", "ar": "استمع. كيف الطقس؟" },
+      "items": [
+        { "audio": "Take your umbrella, everyone. It's raining again!", "voice": "maya", "prompt": "What's the weather like?", "options": ["It's raining.", "It's sunny.", "It's snowing."], "answer": 0 },
+        { "audio": "It's thirty-five degrees today! I'm staying at home.", "voice": "lina", "prompt": "What's the weather like?", "options": ["It's cold.", "It's very hot.", "It's windy."], "answer": 1 },
+        { "audio": "Look outside! Everything is white. Biscuit loves it!", "voice": "sam", "prompt": "What's the weather like?", "options": ["It's cloudy.", "It's hot.", "It's snowing."], "answer": 2 },
+        { "audio": "Oh no, where's my hat? It's in the street! What a day!", "voice": "rose", "prompt": "What's the weather like?", "options": ["It's windy.", "It's warm.", "It's sunny."], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make questions",
+      "instructions": "Put the words in order.",
+      "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
+      "items": ["What's the weather like in London?", "Are you walking home?", "Is it raining in Izmir?", "What is Lina doing?"]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "What's the weather like?", "voice": "lina" },
+        { "text": "It's sunny and hot.", "voice": "lina" },
+        { "text": "Are you using your umbrella?", "voice": "lina" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: A weather message",
+      "model": {
+        "heading": "To: Zeynep",
+        "text": [
+          "Hi Zeynep!",
+          "It's cold and cloudy in Boston today.",
+          "It's only ten degrees!",
+          "I'm sitting in the library, and I'm drinking a hot coffee.",
+          "What's the weather like in Izmir?",
+          "Is it warm and sunny? Tell me!"
+        ]
+      },
+      "frame": ["Hi ___!", "It's ___ in ___ today.", "It's ___ degrees.", "I'm ___ing.", "What's the weather like in ___?", "Are you ___ing?"],
+      "prompt": "Write a message to a friend in another city. What's the weather like? What are you doing? Ask two questions.",
+      "support": { "tr": "Başka bir şehirdeki bir arkadaşına mesaj yaz. Hava nasıl? Ne yapıyorsun? İki soru sor.", "ar": "اكتب رسالة إلى صديق في مدينة أخرى. كيف الطقس؟ ماذا تفعل؟ اسأل سؤالين." },
+      "minWords": 25,
+      "checklist": ["I say what the weather is like.", "I ask a question: Is it …? / Are you …ing?", "I use am / is / are + -ing."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

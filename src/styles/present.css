@@ -59,7 +59,7 @@ html.is-presenting .sitefoot {
   align-items: center;
   gap: 10px;
   padding: 10px clamp(12px, 3vw, 28px);
-  border-top: var(--sec-top);
+  border-top: var(--stroke) solid var(--line-strong);
   background: var(--bg);
   font-family: var(--font-ui);
 }

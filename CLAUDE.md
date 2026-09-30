@@ -2,6 +2,11 @@
 
 CEFR English course site (Starter → C1) for Turkish and Arabic speakers. React 19 + Vite + TypeScript,
 plain CSS with design tokens (no Tailwind/UI kits — the "not AI-looking" design is a hard requirement).
+One design only (the owner rejected theme switching): a printed coursebook someone writes in. Level colours
+= book covers (`--lv`, `--lv-ink`); black print; blue pen (`--pen`) for meanings/selection; red pen for errors;
+yellow highlighter (`--marker`). Fonts: Zilla Slab (headings), Atkinson Hyperlegible Next (text, with a plain
+"0" patched in from Public Sans), Noto Naskh Arabic. Avoid AI tells: no uppercase letter-spaced kickers, no em
+dashes in UI copy, no marketing hero/feature grids, no soft card shadows.
 Plan: C:\Users\furka\.claude\plans\ben-ingilizce-retmenli-i-lisans-tingly-pearl.md
 
 ## Commands

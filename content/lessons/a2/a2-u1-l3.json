@@ -1,0 +1,217 @@
+{
+  "id": "a2-u1-l3",
+  "level": "a2",
+  "unit": 1,
+  "order": 3,
+  "title": "Too expensive!",
+  "subtitle": "No trip home, but a new plan — too and enough",
+  "canDo": [
+    "I can say what the problem is with too and not … enough.",
+    "I can explain a change of plans.",
+    "I can say yes to a new idea: Why don't you …? — I'd love to."
+  ],
+  "teacherNotes": [
+    "too / very ayrımı Türk ve Arap öğrenciler için zor: Türkçede ikisi de \"çok\", Arapçada \"جدًّا\". \"too = bir sorun var\" kuralını tahtaya yazın.",
+    "Saat farkı detayı: İzmir'de gece yarısı olduğunda Boston'da saat 17.00. Öğrencilere kendi ülkeleriyle aradaki farkı sorun.",
+    "Rol oyunu: plan değişikliği. A: \"Would you like to …?\" B: \"I'm afraid I can't. It's too …\" A: \"Why don't we … instead?\"",
+    "ABD'de round-trip ticket, İngiltere'de return ticket denir."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["Do you live far from your family?", "What do you do when a plan doesn't work?", "Is it expensive to fly in your country?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "items": [
+        { "word": "flight", "pos": "noun", "example": "The flight to Izmir is eleven hours.", "gloss": { "tr": "uçuş", "ar": "رحلة جوّية" } },
+        { "word": "round-trip ticket", "pos": "noun", "example": "A round-trip ticket costs $1,400.", "gloss": { "tr": "gidiş-dönüş bilet", "ar": "تذكرة ذهاب وعودة" } },
+        { "word": "cost", "pos": "verb", "example": "How much does it cost?", "gloss": { "tr": "(fiyatı) tutmak, mal olmak", "ar": "يكلّف" } },
+        { "word": "too", "pos": "adverb", "example": "That's too expensive!", "gloss": { "tr": "fazla, aşırı (sorun var)", "ar": "أكثر من اللازم" } },
+        { "word": "enough", "pos": "adjective / adverb", "example": "I don't have enough money.", "gloss": { "tr": "yeterli, yeterince", "ar": "كافٍ، بما يكفي" } },
+        { "word": "save", "pos": "verb", "example": "I'm saving money for the summer.", "gloss": { "tr": "biriktirmek (para)", "ar": "يدّخر" } },
+        { "word": "spend", "pos": "verb", "example": "I don't want to spend all my money.", "gloss": { "tr": "harcamak; (zaman) geçirmek", "ar": "ينفق؛ يقضي (وقتًا)" } },
+        { "word": "disappointed", "pos": "adjective", "example": "Are you disappointed?", "gloss": { "tr": "hayal kırıklığına uğramış", "ar": "خائب الأمل" } },
+        { "word": "extra", "pos": "adjective", "example": "There's an extra seat in the car.", "gloss": { "tr": "fazladan, ekstra", "ar": "إضافي" } },
+        { "word": "seat", "pos": "noun", "example": "Is this seat free?", "gloss": { "tr": "koltuk, oturacak yer", "ar": "مقعد" } },
+        { "word": "instead", "pos": "adverb", "example": "Instead, I'm going to go to New York.", "gloss": { "tr": "onun yerine", "ar": "بدلًا من ذلك" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Bad news, good news",
+      "scene": "The next Monday, in the school break.",
+      "lines": [
+        { "speaker": "lucas", "text": "So, Elif, did you look at the tickets?" },
+        { "speaker": "elif", "text": "Yes, I did. A round-trip ticket to Izmir costs fourteen hundred dollars!" },
+        { "speaker": "lucas", "text": "Fourteen hundred? That's too expensive!" },
+        { "speaker": "elif", "text": "I know. I'm saving money, but I don't have enough. I only work two days a week." },
+        { "speaker": "lucas", "text": "That's a pity. Are you disappointed?" },
+        { "speaker": "elif", "text": "A little. I'm going to miss our family dinner on New Year's Eve." },
+        { "speaker": "lucas", "text": "Hey, I have an idea! Why don't you come to New York with us? There's an extra seat in Jake's car." },
+        { "speaker": "elif", "text": "Really? But New York hotels are too expensive for me too." },
+        { "speaker": "lucas", "text": "We're going to stay at my cousin's apartment. It's small, but it's free!" },
+        { "speaker": "elif", "text": "Is it big enough for five people?" },
+        { "speaker": "lucas", "text": "Well … no. But it's warm enough, and my cousin makes great coffee." },
+        { "speaker": "elif", "text": "Then I'd love to come. I'm going to see New York!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "items": [
+        { "statement": "A ticket to Izmir costs $1,400.", "answer": true },
+        { "statement": "Elif has enough money for the ticket.", "answer": false },
+        { "statement": "There's an extra seat in Jake's car.", "answer": true },
+        { "statement": "They're going to stay in a hotel in New York.", "answer": false },
+        { "statement": "Lucas's cousin's apartment is very big.", "answer": false }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "A change of plans",
+      "intro": "Elif writes to her parents that evening.",
+      "voice": "elif",
+      "paragraphs": [
+        ["Dear Mom and Dad,", "I'm sorry, but I'm not going to come home this winter. The tickets are too expensive, and I don't have enough money yet."],
+        ["Please don't be sad! I have a new plan. Lucas and his band are going to play three concerts in New York, and they invited me.", "We're going to leave on December 22nd in Jake's car, and we're going to stay at Lucas's cousin's apartment."],
+        ["I'm going to see the big bookstores and the old buildings. You know me: I'm going to draw everything!"],
+        ["On New Year's Eve, I'm going to call you at midnight. Your midnight, not mine! It's only five in the afternoon here then."],
+        ["I'm going to save money every month, and next summer I'm going to come home for four weeks. That's a promise.", "Give Pamuk a kiss from me.", "Love,", "Elif"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "The letter",
+      "instructions": "Read again and choose.",
+      "items": [
+        { "prompt": "Why isn't Elif going to go home this winter?", "options": ["She has too much work.", "The tickets are too expensive.", "She doesn't like flying."], "answer": 1 },
+        { "prompt": "How are they going to travel to New York?", "options": ["by bus", "by plane", "by car"], "answer": 2 },
+        { "prompt": "When is Elif going to call her parents?", "options": ["at midnight in Izmir", "at midnight in Boston", "on December 22nd"], "answer": 0 },
+        { "prompt": "What is Elif going to do next summer?", "options": ["play in a band", "go home for four weeks", "work in New York"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: too and enough",
+      "look": ["The ticket is **too expensive**.", "I don't have **enough money**.", "Is it **big enough** for five people?", "It's **warm enough**."],
+      "table": {
+        "head": ["", "Example", "Meaning"],
+        "rows": [
+          ["**too** + adjective", "It's **too** expensive.", "more than you want: a problem"],
+          ["adjective + **enough**", "It's big **enough**.", "OK, the right size"],
+          ["**not** + adjective + **enough**", "It isn't warm **enough**.", "less than you need: a problem"],
+          ["**enough** + noun", "I have **enough** money.", "the right amount"]
+        ]
+      },
+      "rules": [
+        "**too** goes before the adjective: **too** cold, **too** expensive.",
+        "**enough** goes after an adjective (big **enough**) but before a noun (**enough** money).",
+        "Use *very* when there's no problem: *Boston is **very** beautiful.* (not too beautiful)"
+      ],
+      "examples": ["This coat is too big for me.", "The café isn't big enough for a concert.", "I don't have enough time.", "It's too cold to swim."],
+      "support": {
+        "tr": "too + sıfat = fazla, aşırı (bir sorun var): too expensive = çok pahalı (alamam). enough = yeterli: sıfattan sonra gelir (big enough = yeterince büyük), isimden önce gelir (enough money = yeterli para). Dikkat: Türkçedeki \"çok\" bazen very, bazen too'dur. Sorun yoksa very: very beautiful = çok güzel.",
+        "ar": "too + صفة = أكثر من اللازم (توجد مشكلة): too expensive = غالٍ جدًّا (لا أستطيع شراءه). و enough = كافٍ: تأتي بعد الصفة (big enough = كبير بما يكفي) وقبل الاسم (enough money = مال كافٍ). انتبه: «جدًّا» بالعربية قد تكون very أو too؛ إذا لم تكن هناك مشكلة نستخدم very: very beautiful."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "\"çok\" = very (sorun yok) veya too (sorun var). enough sıfattan sonra gelir.",
+          "wrong": ["Boston is too beautiful!", "The room is enough big."],
+          "right": ["Boston is very beautiful!", "The room is big enough."]
+        },
+        "ar": {
+          "note": "enough تأتي قبل الاسم، و too ليست للمدح.",
+          "wrong": ["I don't have money enough.", "This book is too interesting."],
+          "right": ["I don't have enough money.", "This book is very interesting."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with too or enough.",
+      "bank": ["too", "enough"],
+      "items": [
+        "The ticket is {too} expensive for me.",
+        "I don't have {enough} money.",
+        "Is the apartment big {enough} for five people?",
+        "It's {too} cold to swim in the sea.",
+        "We have {enough} time. The bus leaves at ten.",
+        "This coat is {too} small. I need a bigger size."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Very, too or enough?",
+      "instructions": "Choose the correct word.",
+      "items": [
+        { "prompt": "Boston is ___ beautiful in the autumn.", "options": ["very", "too"], "answer": 0 },
+        { "prompt": "I can't drink this tea. It's ___ hot!", "options": ["enough", "too"], "answer": 1 },
+        { "prompt": "Lucas is twenty-one. He's old ___ to drive.", "options": ["too", "enough"], "answer": 1 },
+        { "prompt": "Sorry, I'm ___ tired to go out tonight.", "options": ["too", "enough"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen. What's the problem?",
+      "items": [
+        { "audio": "My suitcase is too heavy! I can't take all these books to Amman.", "voice": "omar", "prompt": "The problem is …", "options": ["the suitcase is too small", "the suitcase is too heavy", "he doesn't have enough books"], "answer": 1 },
+        { "audio": "The café isn't big enough for the band. Let's move the tables.", "voice": "sam", "prompt": "The problem is …", "options": ["the café is too small", "the band is too loud", "there aren't enough tables"], "answer": 0 },
+        { "audio": "Sorry, everyone, we don't have enough time today. Let's finish this on Monday.", "voice": "maya", "prompt": "The problem is …", "options": ["the lesson is too easy", "they need more time", "Monday is too far"], "answer": 1 },
+        { "audio": "Sixteen degrees and sunny in December? That's warm enough for a long walk!", "voice": "lina", "prompt": "In Amman today, it's …", "options": ["too cold to go out", "warm enough for a walk", "too hot"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "items": ["The ticket is too expensive.", "I don't have enough money.", "Why don't you come with us?", "It isn't big enough."]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "items": [
+        { "text": "That's too expensive!", "voice": "lucas" },
+        { "text": "I don't have enough money.", "voice": "elif" },
+        { "text": "There's an extra seat in the car.", "voice": "lucas" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: A change of plans",
+      "model": {
+        "heading": "Sunday — Maya",
+        "text": [
+          "Dear Aunt Rose,",
+          "I'm so sorry, but I'm not going to come on Sunday.",
+          "I have a bad cold, and I'm too tired to take the bus.",
+          "Instead, I'm going to call you on video at four.",
+          "Next Sunday, I'm going to bring you flowers and your favorite cookies.",
+          "Love,",
+          "Maya"
+        ]
+      },
+      "frame": ["Dear ___,", "I'm sorry, but I'm not going to ___.", "It's too ___ / I don't have enough ___.", "Instead, I'm going to ___.", "Next ___, I'm going to ___."],
+      "prompt": "Your plans changed. Write a message to someone (6 to 8 sentences). What can't you do, and why? What are you going to do instead?",
+      "minWords": 45,
+      "checklist": ["I use too or enough.", "I use instead.", "I use going to for my new plan."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

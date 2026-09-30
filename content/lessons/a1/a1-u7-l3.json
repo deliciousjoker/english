@@ -1,0 +1,239 @@
+{
+  "id": "a1-u7-l3",
+  "level": "a1",
+  "unit": 7,
+  "order": 3,
+  "title": "A warm coat",
+  "subtitle": "Shopping with Rose — I wear or I'm wearing?",
+  "canDo": [
+    "I can talk about clothes.",
+    "I can ask for clothes in a store.",
+    "I can say what I usually wear and what I'm wearing today."
+  ],
+  "teacherNotes": [
+    "Present simple / continuous karşılaştırması bu dersin kalbi. Tahtaya iki sütun: usually, every day, on Mondays | now, today, Look! Öğrencilerden kendi örneklerini isteyin.",
+    "Türkler alışkanlık için de -iyor kullandığı için \"I'm wearing jeans every day\" hatası çok yaygın. Arapça konuşanlarda ise tersi sık: \"Look! She wear…\".",
+    "Rol oyunu: bir öğrenci satıcı (Can I help you? What size are you?), diğeri müşteri (I'm looking for… Can I try it on? How much is it?).",
+    "ABD'de pants = pantolon, İngiltere'de trousers. Derste jeans kullandık; sorarlarsa açıklayın."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["What are you wearing today?", "What do you usually wear in winter?", "Where do you buy your clothes?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "clothes", "pos": "noun", "example": "Elif has only summer clothes.", "gloss": { "tr": "giysiler, kıyafetler", "ar": "ملابس" } },
+        { "word": "wear", "pos": "verb", "example": "I usually wear jeans.", "gloss": { "tr": "giymek, takmak", "ar": "يرتدي، يلبس" } },
+        { "word": "coat", "pos": "noun", "example": "You need a warm coat.", "gloss": { "tr": "mont, palto", "ar": "معطف" } },
+        { "word": "sweater", "pos": "noun", "example": "Lucas is wearing two sweaters.", "gloss": { "tr": "kazak", "ar": "كنزة صوفية" } },
+        { "word": "T-shirt", "pos": "noun", "example": "Sam is wearing a T-shirt in October!", "gloss": { "tr": "tişört", "ar": "قميص قصير (تي شيرت)" } },
+        { "word": "jeans", "pos": "noun", "example": "I usually wear a T-shirt and jeans.", "gloss": { "tr": "kot pantolon", "ar": "بنطال جينز" } },
+        { "word": "boots", "pos": "noun", "example": "It's snowing. Wear your boots.", "gloss": { "tr": "bot, çizme", "ar": "جزمة، حذاء طويل" } },
+        { "word": "scarf", "pos": "noun", "example": "Maya is wearing a big scarf.", "gloss": { "tr": "atkı, eşarp", "ar": "وشاح، لفحة" } },
+        { "word": "gloves", "pos": "noun", "example": "Omar is wearing a hat and gloves.", "gloss": { "tr": "eldiven", "ar": "قفّازات" } },
+        { "word": "look for", "pos": "phrase", "example": "I'm looking for a warm coat.", "gloss": { "tr": "aramak (bir şeyi)", "ar": "يبحث عن" } },
+        { "word": "size", "pos": "noun", "example": "What size are you?", "gloss": { "tr": "beden", "ar": "مقاس" } },
+        { "word": "try on", "pos": "phrase", "example": "Can I try it on?", "gloss": { "tr": "(giysiyi) denemek", "ar": "يجرّب (الملابس)" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "In the clothes store",
+      "scene": "Thursday afternoon. Elif and Rose are in a clothes store on Green Street.",
+      "lines": [
+        { "speaker": "rose", "text": "Elif, you're wearing a T-shirt and a summer jacket. In October!" },
+        { "speaker": "elif", "text": "I know. In Izmir, I usually wear T-shirts in October." },
+        { "speaker": "rose", "text": "Well, this is Boston, dear. You need a warm coat." },
+        { "speaker": "clerk", "text": "Hello! Can I help you?" },
+        { "speaker": "elif", "text": "Yes, please. I'm looking for a warm coat." },
+        { "speaker": "clerk", "text": "What size are you?" },
+        { "speaker": "elif", "text": "Small, I think." },
+        { "speaker": "clerk", "text": "What about this one? It's blue, and it's very warm." },
+        { "speaker": "elif", "text": "Can I try it on?" },
+        { "speaker": "clerk", "text": "Of course." },
+        { "speaker": "rose", "text": "Oh, Elif, it's lovely. And the size is perfect." },
+        { "speaker": "elif", "text": "How much is it?" },
+        { "speaker": "clerk", "text": "It's usually ninety dollars, but we're having a sale this week. It's sixty dollars today." },
+        { "speaker": "elif", "text": "Great! I'd like it, please." },
+        { "speaker": "rose", "text": "Good. Now you need a scarf, gloves and boots!" },
+        { "speaker": "elif", "text": "Rose! Next month, OK? I'm a student!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Elif is wearing a warm coat at the start.", "answer": false },
+        { "statement": "In Izmir, Elif usually wears T-shirts in October.", "answer": true },
+        { "statement": "Elif's size is small.", "answer": true },
+        { "statement": "The coat is ninety dollars today.", "answer": false },
+        { "statement": "Elif buys a scarf and boots too.", "answer": false }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "A cold Friday",
+      "intro": "The next morning at Harbor English School.",
+      "paragraphs": [
+        ["It's Friday morning, and it's very cold. Everyone is wearing warm clothes today."],
+        ["Elif usually wears a T-shirt and jeans. Today she's wearing her new blue coat and a sweater."],
+        ["Lucas usually wears a T-shirt too. Today he's wearing two sweaters, and he's still cold."],
+        ["Omar is wearing a black coat, a hat and gloves.", "“I'm ready for winter,” he says."],
+        ["Maya isn't wearing a coat in the classroom. She's wearing a red dress and a big scarf, and she's drinking hot tea."],
+        ["And Sam? He's standing outside the café in a T-shirt.", "“This isn't cold,” he says. “I'm from London!”"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Who is it?",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "Who is wearing gloves?", "options": ["Omar", "Maya", "Sam"], "answer": 0 },
+        { "prompt": "Who is wearing two sweaters?", "options": ["Elif", "Lucas", "Omar"], "answer": 1 },
+        { "prompt": "Who is drinking hot tea?", "options": ["Sam", "Lucas", "Maya"], "answer": 2 },
+        { "prompt": "Who is wearing a T-shirt outside?", "options": ["Sam", "Elif", "Maya"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: I wear or I'm wearing?",
+      "look": ["In Izmir, I **usually wear** T-shirts.", "Today she**'s wearing** her new coat.", "Elif **works** at the café on Saturdays. Today she**'s shopping** with Rose.", "You **need** a warm coat."],
+      "table": {
+        "head": ["", "Present simple", "Present continuous"],
+        "rows": [
+          ["When?", "every day, usually, often, on Mondays", "now, right now, today, Look!"],
+          ["I / you / we / they", "I **wear** jeans every day.", "I**'m wearing** a coat today."],
+          ["he / she / it", "She **works** on Saturdays.", "She**'s working** right now."],
+          ["Question", "**Do** you **wear** a hat?", "**Are** you **wearing** a hat?"]
+        ]
+      },
+      "rules": [
+        "Present simple: habits, things we do again and again. I **work** on weekends.",
+        "Present continuous: things happening **now** or **today**. I**'m working** now.",
+        "Some verbs don't usually take -ing: **like, love, want, need, know, understand**. I **need** a coat. (not I'm needing)"
+      ],
+      "examples": ["I usually wear jeans, but today I'm wearing a dress.", "Omar works at a hospital. Right now he's sleeping.", "Do you wear a scarf in winter?", "What are you wearing today?"],
+      "support": {
+        "tr": "İngilizcede iki şimdiki zaman var. Present simple (I wear) alışkanlıklar içindir: her gün, genellikle, pazartesileri. Türkçedeki geniş zamana benzer: Kot giyerim. Present continuous (I'm wearing) şu an ya da bugün için: Bugün mont giyiyorum. like, want, need, know gibi fiiller genelde -ing almaz: I need a coat.",
+        "ar": "في الإنجليزية زمنان للحاضر. present simple (I wear) للعادات والأشياء المتكرّرة: كلّ يوم، عادةً، أيام الاثنين. present continuous (I'm wearing) لما يحدث الآن أو اليوم: I'm wearing a coat today = ألبس معطفًا اليوم. في العربية نقول «ألبس» في الحالتين، لذلك انظر إلى الكلمات: every day / usually ← simple، و now / today ← continuous. أفعال مثل like, want, need, know لا تأخذ ing عادةً: I need a coat."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "Türkçede alışkanlık için de -iyor kullanırız (\"Her gün kot giyiyorum\"), ama İngilizcede her gün / genellikle = present simple.",
+          "wrong": ["I'm wearing jeans every day.", "I'm needing a warm coat."],
+          "right": ["I wear jeans every day.", "I need a warm coat."]
+        },
+        "ar": {
+          "note": "كلمة usually أو every day ← present simple، وكلمة now أو Look! ← present continuous.",
+          "wrong": ["Look! She wear a new coat.", "He is usually wearing a hat."],
+          "right": ["Look! She's wearing a new coat.", "He usually wears a hat."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Practice",
+      "instructions": "Choose the correct words.",
+      "support": { "tr": "Doğru kelimeleri seç.", "ar": "اختر الكلمات الصحيحة." },
+      "items": [
+        { "prompt": "Sam usually ___ a T-shirt.", "options": ["wears", "is wearing"], "answer": 0 },
+        { "prompt": "Look! Biscuit ___ on Elif's new coat!", "options": ["sleeps", "is sleeping"], "answer": 1 },
+        { "prompt": "I ___ a warm coat for the winter.", "options": ["need", "am needing"], "answer": 0 },
+        { "prompt": "Omar ___ at the hospital on Monday nights.", "options": ["works", "is working"], "answer": 0 },
+        { "prompt": "It's Saturday, so Elif ___ at the café right now.", "options": ["works", "is working"], "answer": 1 },
+        { "prompt": "___ you usually wear a hat in winter?", "options": ["Do", "Are"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Clothes",
+      "instructions": "Complete with the words.",
+      "support": { "tr": "Kelimelerle tamamla.", "ar": "أكمل بالكلمات." },
+      "bank": ["boots", "coat", "size", "scarf", "jeans", "sweater"],
+      "items": [
+        "It's snowing. Wear your {boots}.",
+        "Elif's new {coat} is blue and very warm.",
+        "What {size} are you? — Small.",
+        "Maya is wearing a red dress and a big {scarf}.",
+        "I usually wear a T-shirt and {jeans}.",
+        "It's cold in the house, so I'm wearing a {sweater}."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "ordering",
+      "title": "In the store",
+      "instructions": "Put the dialogue in order.",
+      "support": { "tr": "Diyaloğu sıraya koy.", "ar": "رتّب الحوار." },
+      "items": [
+        "Hello! Can I help you?",
+        "Yes, please. I'm looking for a warm coat.",
+        "What size are you?",
+        "Small, I think.",
+        "What about this one?",
+        "Can I try it on?",
+        "Of course."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen. What are they wearing?",
+      "support": { "tr": "Dinle. Ne giyiyorlar?", "ar": "استمع. ماذا يلبسون؟" },
+      "items": [
+        { "audio": "I'm wearing two sweaters, and I'm still cold!", "voice": "lucas", "prompt": "Lucas is wearing …", "options": ["two sweaters", "a coat and a hat", "a T-shirt"], "answer": 0 },
+        { "audio": "Today I'm wearing my red dress and my big scarf.", "voice": "maya", "prompt": "Maya is wearing …", "options": ["jeans and boots", "a red dress", "a blue coat"], "answer": 1 },
+        { "audio": "A coat? No, thanks. A T-shirt is fine for me!", "voice": "sam", "prompt": "Sam is wearing …", "options": ["a coat", "a sweater", "a T-shirt"], "answer": 2 },
+        { "audio": "A hat, gloves, a scarf and a big coat. I'm ready for winter!", "voice": "omar", "prompt": "Omar is wearing …", "options": ["a lot of warm clothes", "only a coat", "a T-shirt"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "support": { "tr": "Dinle ve cümleyi yaz.", "ar": "استمع واكتب الجملة." },
+      "items": [
+        { "text": "What size are you?", "voice": "clerk" },
+        { "text": "Can I try it on?", "voice": "elif" },
+        { "text": "I'm looking for a warm coat.", "voice": "elif" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: My clothes",
+      "model": {
+        "heading": "My clothes — Maya",
+        "text": [
+          "At school, I usually wear jeans and a sweater.",
+          "On Saturday mornings, I go running, so I wear sports clothes.",
+          "Today I'm wearing my red dress and a big scarf.",
+          "It's cold, so I'm drinking a lot of hot tea.",
+          "I love winter clothes, but I don't like boots."
+        ]
+      },
+      "frame": ["At school / at work, I usually wear ___.", "On weekends, I ___.", "Today I'm wearing ___.", "I love / don't like ___."],
+      "prompt": "What do you usually wear? What are you wearing today? Write 5 or 6 sentences.",
+      "support": { "tr": "Genellikle ne giyersin? Bugün ne giyiyorsun? 5–6 cümle yaz.", "ar": "ماذا تلبس عادةً؟ وماذا تلبس اليوم؟ اكتب 5 أو 6 جمل." },
+      "minWords": 30,
+      "checklist": ["I use usually + present simple.", "I use today + present continuous.", "I use three words for clothes."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

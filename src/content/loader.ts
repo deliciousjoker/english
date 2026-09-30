@@ -60,19 +60,22 @@ export type LessonRef = {
   levelTitle: string
   unitNumber: number
   unitTitle: string
+  /** Ünite içindeki sırası (1'den başlar) */
+  order: number
   available: boolean
 }
 
 /** Müfredattaki tüm dersler, sırayla. */
 export const allLessons: LessonRef[] = curriculum.levels.flatMap((lv) =>
   lv.units.flatMap((u) =>
-    u.lessons.map((l) => ({
+    u.lessons.map((l, i) => ({
       id: l.id,
       title: l.title,
       level: lv.id,
       levelTitle: lv.title,
       unitNumber: u.number,
       unitTitle: u.title,
+      order: i + 1,
       available: lessonExists(l.id),
     })),
   ),

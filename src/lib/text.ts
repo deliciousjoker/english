@@ -62,6 +62,8 @@ const IRREGULAR: Record<string, string> = {
   bought: 'buy', thought: 'think', knew: 'know', told: 'tell', gave: 'give',
   found: 'find', left: 'leave', felt: 'feel', met: 'meet', sat: 'sit',
   stood: 'stand', ran: 'run', began: 'begin', slept: 'sleep', spoke: 'speak',
+  forgot: 'forget', sang: 'sing', swam: 'swim', drove: 'drive', rode: 'ride', flew: 'fly',
+  wore: 'wear', brought: 'bring', paid: 'pay', sold: 'sell', taught: 'teach', heard: 'hear',
   better: 'good', best: 'good', worse: 'bad', worst: 'bad',
 }
 
@@ -78,9 +80,11 @@ export function lemmaCandidates(word: string): string[] {
   if (w.endsWith('ied')) out.push(w.slice(0, -3) + 'y')
   if (w.endsWith('ed')) out.push(w.slice(0, -2), w.slice(0, -1))
   if (w.endsWith('ing')) out.push(w.slice(0, -3), w.slice(0, -3) + 'e')
-  if (/(.)\1(ed|ing)$/.test(w)) out.push(w.replace(/(.)\1(ed|ing)$/, '$1'))
-  if (w.endsWith('er')) out.push(w.slice(0, -2))
-  if (w.endsWith('est')) out.push(w.slice(0, -3))
+  if (/(.)\1(ed|ing|er|est)$/.test(w)) out.push(w.replace(/(.)\1(ed|ing|er|est)$/, '$1'))
+  if (w.endsWith('er')) out.push(w.slice(0, -2), w.slice(0, -1))
+  if (w.endsWith('est')) out.push(w.slice(0, -3), w.slice(0, -2))
+  if (w.endsWith('ier')) out.push(w.slice(0, -3) + 'y')
+  if (w.endsWith('iest')) out.push(w.slice(0, -4) + 'y')
   if (w.endsWith('ly')) out.push(w.slice(0, -2))
   return [...new Set(out)]
 }
@@ -133,4 +137,11 @@ export function parseBold(s: string): { text: string; bold: boolean }[] {
     .split(/(\*\*[^*]+\*\*)/g)
     .filter(Boolean)
     .map((p) => (p.startsWith('**') ? { text: p.slice(2, -2), bold: true } : { text: p, bold: false }))
+}
+
+/** "Lucas is late — telling the time" → hikâye ve odak (dersin konusu) ayrı gösterilir. */
+export function splitSubtitle(s: string | undefined): { story?: string; focus?: string } {
+  if (!s) return {}
+  const i = s.indexOf(' — ')
+  return i < 0 ? { story: s } : { story: s.slice(0, i), focus: s.slice(i + 3) }
 }

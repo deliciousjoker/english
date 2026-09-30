@@ -1,0 +1,205 @@
+{
+  "id": "a2-u1-l4",
+  "level": "a2",
+  "unit": 1,
+  "order": 4,
+  "title": "Holiday plans",
+  "subtitle": "Goodbye for now — I'm leaving on Tuesday",
+  "canDo": [
+    "I can talk about fixed plans: I'm leaving on Tuesday.",
+    "I can say goodbye before a trip.",
+    "I can write an email about my holiday plans."
+  ],
+  "teacherNotes": [
+    "Ünitenin son dersi: e-posta görevini (holiday plans) ödev verin. Geri bildirimde going to ve present continuous (future) kullanımına bakın.",
+    "Türkçede de \"Yarın gidiyorum\" dediğimiz için present continuous'ın gelecek anlamı Türklere kolay gelir. Zaman ifadesinin (tomorrow, on Tuesday) şart olduğunu vurgulayın.",
+    "going to / present continuous farkını fazla zorlamayın: A2'de ikisi de plan için kabul. Sadece saat ve yer belliyse present continuous daha doğal.",
+    "Konuşma: \"What are you doing this weekend?\" diye sorun; öğrenciler ajandalarına bakarak cevap versin."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["What are you doing this weekend?", "Do you like airports and long trips?", "What do you always pack for a trip?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "items": [
+        { "word": "say goodbye", "pos": "phrase", "example": "I came to say goodbye.", "gloss": { "tr": "veda etmek, hoşça kal demek", "ar": "يودّع" } },
+        { "word": "leave for", "pos": "phrase", "example": "When are you leaving for New York?", "gloss": { "tr": "-e doğru yola çıkmak", "ar": "يغادر متوجّهًا إلى" } },
+        { "word": "pick up", "pos": "phrase", "example": "Jake is picking us up at eight.", "gloss": { "tr": "(arabayla) almak", "ar": "يُقِلّ، يأخذ (بالسيّارة)" } },
+        { "word": "trip", "pos": "noun", "example": "Have a good trip!", "gloss": { "tr": "yolculuk, gezi", "ar": "رحلة" } },
+        { "word": "pack", "pos": "verb", "example": "I'm packing my suitcase.", "gloss": { "tr": "bavul hazırlamak, toplamak", "ar": "يحزم (الأمتعة)" } },
+        { "word": "suitcase", "pos": "noun", "example": "My suitcase is too heavy.", "gloss": { "tr": "bavul", "ar": "حقيبة سفر" } },
+        { "word": "museum", "pos": "noun", "example": "I'm going to visit the museums.", "gloss": { "tr": "müze", "ar": "متحف" } },
+        { "word": "gift", "pos": "noun", "example": "This is a small gift for you.", "gloss": { "tr": "hediye", "ar": "هديّة" } },
+        { "word": "Have a good trip!", "pos": "phrase", "example": "Have a good trip, Omar!", "gloss": { "tr": "İyi yolculuklar!", "ar": "رحلة سعيدة!" } },
+        { "word": "See you in …", "pos": "phrase", "example": "See you in January!", "gloss": { "tr": "…-de görüşürüz", "ar": "أراك في …" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Goodbye for now",
+      "scene": "Saturday, December 19th. Omar comes to Sam's café.",
+      "lines": [
+        { "speaker": "omar", "text": "Elif, I came to say goodbye. I'm flying to Amman tomorrow morning." },
+        { "speaker": "elif", "text": "Already? What time is your flight?" },
+        { "speaker": "omar", "text": "At 7:40. I'm leaving home at five!" },
+        { "speaker": "elif", "text": "Five in the morning? That's too early!" },
+        { "speaker": "omar", "text": "I know. And you? When are you leaving for New York?" },
+        { "speaker": "elif", "text": "On Tuesday. Jake is picking us up at eight, and the band is playing in Brooklyn on Wednesday night." },
+        { "speaker": "omar", "text": "Take a lot of photos. Lina wants to see New York too." },
+        { "speaker": "elif", "text": "OK, I promise." },
+        { "speaker": "omar", "text": "This is for you. It's a small gift for the holidays: Arabic coffee and a little cup." },
+        { "speaker": "elif", "text": "Oh, Omar, thank you! I have something for you too. Baklava for your grandmother. Rose and I made it!" },
+        { "speaker": "omar", "text": "She's going to love it. Have a good trip, Elif!" },
+        { "speaker": "elif", "text": "You too! See you in January." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "items": [
+        { "statement": "Omar's flight is at 7:40 in the morning.", "answer": true },
+        { "statement": "Elif is leaving for New York on Monday.", "answer": false },
+        { "statement": "Jake is picking them up at eight.", "answer": true },
+        { "statement": "Omar's gift is a book.", "answer": false },
+        { "statement": "The baklava is for Omar's grandmother.", "answer": true }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Next stop: New York!",
+      "intro": "Elif's email to Zeynep on Monday night.",
+      "voice": "elif",
+      "paragraphs": [
+        ["Hi Zeynep,", "I'm packing my suitcase right now, and it's too small, of course! Tomorrow I'm leaving for New York with Lucas and his band."],
+        ["Here's my plan. Tomorrow we're driving to the city. It's about four hours by car.", "On Wednesday night, the band is playing in a small music café in Brooklyn. I'm selling their T-shirts at the door!"],
+        ["On Thursday, I'm going to visit two museums. Then I'm going to walk in the park and draw the old buildings."],
+        ["On Christmas Day, everything is closed, so we're having a big lunch at Lucas's cousin's apartment. I'm making Turkish rice!"],
+        ["On New Year's Eve, I'm calling my family at five in the afternoon. It's midnight in Izmir then. Why don't you come to our house that night? Then I can say hello to you too."],
+        ["What are you doing for the holidays? Write soon!", "Love,", "Elif"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Elif's week",
+      "instructions": "Read again. Match the day and the plan.",
+      "pairs": [
+        ["Tuesday", "They're driving to New York."],
+        ["Wednesday night", "The band is playing in Brooklyn."],
+        ["Thursday", "Elif is going to visit two museums."],
+        ["Christmas Day", "They're having lunch at the cousin's apartment."],
+        ["New Year's Eve", "Elif is calling her family."]
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: plans with -ing",
+      "look": ["I**'m flying** to Amman **tomorrow morning**.", "When **are** you **leaving** for New York?", "Jake **is picking** us **up** at eight.", "The band **is playing** in Brooklyn **on Wednesday night**."],
+      "table": {
+        "head": ["Form", "Example", "We use it for …"],
+        "rows": [
+          ["present continuous", "I**'m flying** to Amman **tomorrow**.", "a fixed plan (a time, a ticket, other people)"],
+          ["be going to", "I**'m going to** visit two museums.", "a plan or a decision"],
+          ["present continuous", "I**'m packing** my suitcase **right now**.", "now (you know this from A1)"]
+        ]
+      },
+      "rules": [
+        "For fixed plans, we often use **am / is / are + -ing**: *I'm meeting Sam at six.*",
+        "Use a future time word: **tomorrow, on Tuesday, next week, at eight**. Without it, the sentence means *now*.",
+        "**going to** is also OK for plans: *I'm going to fly on Sunday.*"
+      ],
+      "examples": ["What are you doing this weekend?", "We're having dinner at Omar's on Saturday.", "My flight is leaving at 7:40.", "Are you working on Sunday?"],
+      "support": {
+        "tr": "Present continuous (am / is / are + -ing), saati ve yeri belli planlar için de kullanılır: I'm flying to Amman tomorrow = Yarın Amman'a uçuyorum. Türkçede de \"Yarın gidiyorum\" deriz. Yalnız zaman ifadesi (tomorrow, on Tuesday) mutlaka olmalı; yoksa cümle \"şu anda\" anlamına gelir.",
+        "ar": "نستخدم present continuous (am / is / are + ing) أيضًا للخطط المؤكّدة التي لها وقت ومكان: I'm flying to Amman tomorrow = سأسافر إلى عمّان غدًا. يجب أن نذكر كلمة زمن (tomorrow, on Tuesday)، وإلّا فهم المستمع أنّ الفعل يحدث الآن."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "Gelecek için -ing kullanırken de am / is / are gerekli. Soru: When are you …ing?",
+          "wrong": ["I leaving for New York on Tuesday.", "When you are leaving?"],
+          "right": ["I'm leaving for New York on Tuesday.", "When are you leaving?"]
+        },
+        "ar": {
+          "note": "في السؤال: أداة الاستفهام + are + الفاعل + الفعل مع ing.",
+          "wrong": ["What you are doing tomorrow?", "Tomorrow I am travel to Amman."],
+          "right": ["What are you doing tomorrow?", "Tomorrow I'm traveling to Amman."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with the present continuous.",
+      "items": [
+        "Omar {is flying|'s flying} to Amman tomorrow. (fly)",
+        "We {are having|'re having} lunch at Lucas's cousin's apartment on Christmas Day. (have)",
+        "Jake {is picking|'s picking} us up at eight. (pick)",
+        "What {are} you doing this weekend? — I'm working at the café.",
+        "The band {is playing|'s playing} in Brooklyn on Wednesday. (play)",
+        "I {am not working|'m not working} on Sunday. (not work)"
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "items": [
+        { "audio": "Hello, Aunt Rose! My flight to Florida is leaving at six in the evening, so I'm coming to see you at noon.", "voice": "maya", "prompt": "When is Maya visiting Rose?", "options": ["at six", "at noon", "in the evening"], "answer": 1 },
+        { "audio": "We're closing the café on December 24th, and we're opening again on January 2nd.", "voice": "sam", "prompt": "When is the café opening again?", "options": ["on December 24th", "on January 2nd", "on Christmas Day"], "answer": 1 },
+        { "audio": "Lina, my plane lands at six in the morning, not six in the evening! Please don't be late.", "voice": "omar", "prompt": "Omar is arriving …", "options": ["at 6 a.m.", "at 6 p.m.", "at 7:40"], "answer": 0 },
+        { "audio": "Mei and I are meeting at the library tomorrow. Do you want to come?", "voice": "lucas", "prompt": "Lucas is …", "options": ["saying goodbye", "inviting someone", "packing a suitcase"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "items": ["When are you leaving for New York?", "I'm flying to Amman tomorrow.", "Have a good trip!", "What are you doing this weekend?"]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "items": [
+        { "text": "I'm flying to Amman tomorrow morning.", "voice": "omar" },
+        { "text": "When are you leaving?", "voice": "omar" },
+        { "text": "Have a good trip!", "voice": "elif" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: My holiday plans",
+      "model": {
+        "heading": "To: Ana",
+        "text": [
+          "Hi Ana!",
+          "Big news: Blue Monday is playing three concerts in New York next week!",
+          "We're leaving on Tuesday in Jake's car, and we're staying at our cousin Rafael's apartment.",
+          "Elif is coming with us. She's going to sell our T-shirts, and she's going to draw everything.",
+          "I'm not going to sleep much, but I don't care!",
+          "What are you doing for New Year's Eve? Are you going to the beach with Mom and Dad?",
+          "Call me on Sunday.",
+          "Lucas"
+        ]
+      },
+      "frame": ["Hi ___!", "For the holidays, I'm going to ___.", "On ___, I'm ___ing ___.", "I'm not going to ___.", "What are you doing for ___?", "Love, ___"],
+      "prompt": "Write an email to a friend about your plans for the next holiday (80 to 110 words). Use going to and -ing for fixed plans, and ask one question.",
+      "minWords": 70,
+      "checklist": ["I use going to two times.", "I use -ing for a fixed plan: I'm leaving on …", "I use time words: on Tuesday, next week.", "I ask a question about my friend's plans."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}
