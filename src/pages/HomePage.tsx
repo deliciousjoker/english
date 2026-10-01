@@ -4,11 +4,13 @@ import { LEVEL_NAME, SITE_NAME } from '../config'
 import { Icon } from '../components/ui/Icon'
 import { LevelCode } from '../components/ui/LevelCode'
 import { completion, useProgress } from '../state/progress'
+import { dueWords, useWordbook } from '../state/words'
 
 export function HomePage() {
   const { lastLesson, lessons } = useProgress()
   const last = lastLesson ? lessonRef(lastLesson) : undefined
   const first = allLessons.find((l) => l.available)
+  const due = dueWords(useWordbook()).length
 
   return (
     <div className="page home">
@@ -54,11 +56,20 @@ export function HomePage() {
               <Link to={`/lesson/${first.id}`} className="btn btn--primary btn--big">
                 Start from zero <Icon name="arrowRight" size={18} />
               </Link>
-              <Link to="/level/a1" className="btn btn--ghost btn--big">
-                I know some English
+              <Link to="/placement" className="btn btn--ghost btn--big">
+                I know some English: take the level test
               </Link>
             </div>
           )
+        )}
+        {due > 0 && (
+          <Link to="/words/mine" className="mywords-link">
+            <Icon name="bookmarkOn" size={18} />
+            <span>
+              <b>{Math.min(due, 15)}</b> {due === 1 ? 'word' : 'words'} to practice today
+            </span>
+            <Icon name="arrowRight" size={16} />
+          </Link>
         )}
       </section>
 

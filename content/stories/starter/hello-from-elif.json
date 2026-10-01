@@ -1,0 +1,47 @@
+{
+  "id": "hello-from-elif",
+  "level": "starter",
+  "title": "Hello from Elif",
+  "summary": "Elif says hello and spells her name.",
+  "minutes": 2,
+  "characters": ["elif"],
+  "sections": [
+    {
+      "type": "vocabulary",
+      "title": "Words in the story",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "hello", "example": "Hello! I'm Elif.", "gloss": { "tr": "merhaba", "ar": "مرحبًا" } },
+        { "word": "my name is", "pos": "phrase", "example": "My name is Elif.", "gloss": { "tr": "benim adım", "ar": "اسمي" } },
+        { "word": "from", "example": "I'm from Izmir.", "gloss": { "tr": "-den, -dan (nereli)", "ar": "من" } },
+        { "word": "now", "example": "Now I'm in Boston.", "gloss": { "tr": "şimdi", "ar": "الآن" } }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read and listen",
+      "heading": "Hello!",
+      "voice": "elif",
+      "paragraphs": [
+        ["Hello!", "My name is Elif."],
+        ["E, L, I, F. Elif."],
+        ["I am twenty.", "I am from Izmir, in Turkey."],
+        ["Now I am in Boston.", "Goodbye!"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "True or false?",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Her name is Elif.", "answer": true },
+        { "statement": "She is thirty.", "answer": false },
+        { "statement": "She is from Izmir.", "answer": true },
+        { "statement": "Now she is in Izmir.", "answer": false }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Link, useParams } from 'react-router'
+import { Link, useLocation, useParams } from 'react-router'
 import { audio } from '../audio/AudioService'
 import { loadGlossary, loadLesson, lessonRef, neighbours } from '../content/loader'
 import { supportPolicy, type Glossary, type Lesson } from '../content/schema'
@@ -74,6 +74,12 @@ function LessonView({ lesson, glossary }: { lesson: Lesson; glossary: Glossary }
     progress.opened(lesson.id, exerciseCount)
   }, [lesson.id, exerciseCount])
 
+  // Gramer rehberinden ya da sözlükten #bölüm bağlantısıyla gelindiyse o bölüme kay
+  const { hash } = useLocation()
+  useEffect(() => {
+    if (hash) document.getElementById(decodeURIComponent(hash.slice(1)))?.scrollIntoView()
+  }, [hash, lesson.id])
+
   const done = Math.round(completion({ ...lp, totalExercises: exerciseCount }) * 100)
   const { story, focus } = splitSubtitle(lesson.subtitle)
 
@@ -126,6 +132,9 @@ function LessonView({ lesson, glossary }: { lesson: Lesson; glossary: Glossary }
                 <button type="button" className="btn btn--primary" onClick={() => setPresenting(true)}>
                   <Icon name="screen" size={18} /> Present
                 </button>
+                <Link to={`/lesson/${lesson.id}/print`} className="btn btn--ghost">
+                  <Icon name="note" size={18} /> Print
+                </Link>
                 <span className="lesson__done" title="Exercises done">
                   <span className="meter" style={{ ['--p' as string]: `${done}%` }} aria-hidden="true" />
                   {done}% done

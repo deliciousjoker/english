@@ -15,10 +15,12 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, unlinkSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { audioKey } from '../src/audio/hash.ts'
-import { TTS_ENGINE } from '../src/audio/engine.ts'
-import { Characters, Glossary, Lesson } from '../src/content/schema.ts'
-import { collectSpeakables, type Speakable } from '../src/content/speakables.ts'
+import { KOKORO_DTYPE, TTS_ENGINE } from '../src/audio/engine.ts'
+import { Characters, Glossary, Lesson, Placement, Sounds, Story } from '../src/content/schema.ts'
+import { storyToLesson } from '../src/content/stories.ts'
+import { collectPlacementSpeakables, collectSoundSpeakables, collectSpeakables, type Speakable } from '../src/content/speakables.ts'
 import { lemmaCandidates, wordKey } from '../src/lib/text.ts'
+import { createKokoro, type KokoroSynth } from './tts-kokoro.ts'
 
 const ROOT = join(import.meta.dirname, '..')
 const OUT = join(ROOT, 'public', 'audio')
@@ -33,6 +35,8 @@ if (existsSync(join(ROOT, '.env'))) process.loadEnvFile(join(ROOT, '.env'))
 const KEY = process.env.AZURE_SPEECH_KEY
 const REGION = process.env.AZURE_SPEECH_REGION
 const DELAY = Number(process.env.TTS_DELAY_MS ?? 3200)
+// mp3 kalitesi (tek kanal)
+const KOKORO_KBPS = 96
 
 const readJSON = (p: string): unknown => JSON.parse(readFileSync(p, 'utf8'))
 function walk(dir: string): string[] {
@@ -51,8 +55,8 @@ for (const f of walk(join(ROOT, 'content', 'glossary'))) Object.assign(glossary,
 // --lesson a1-u1-l1 ya da virgülle birden fazla: --lesson a1-u4-l1,a1-u4-l2
 const onlyLessons = option('--lesson')?.split(',').map((s) => s.trim())
 const all = new Map<string, Speakable>()
-for (const f of walk(join(ROOT, 'content', 'lessons'))) {
-  const lesson = Lesson.parse(readJSON(f))
+const storyLessons = walk(join(ROOT, 'content', 'stories')).map((f) => storyToLesson(Story.parse(readJSON(f))))
+for (const lesson of [...walk(join(ROOT, 'content', 'lessons')).map((f) => Lesson.parse(readJSON(f))), ...storyLessons]) {
   // Tarayıcıdaki kelime kartıyla aynı kural: dersin kelimeleri + sözlük
   const vocab = new Set(lesson.sections.flatMap((s) => (s.type === 'vocabulary' ? s.items.map((i) => wordKey(i.word)) : [])))
   const isKnown = (w: string) => lemmaCandidates(w).some((c) => vocab.has(c) || !!(glossary[c]?.tr || glossary[c]?.ar))
@@ -65,6 +69,14 @@ for (const f of walk(join(ROOT, 'content', 'lessons'))) {
     }
   }
 }
+
+// Sounds sayfasındaki ses çiftleri ve seviye sınavının dinleme soruları (--lesson verilmediyse)
+if (!onlyLessons)
+  for (const s of [
+    ...collectSoundSpeakables(Sounds.parse(readJSON(join(ROOT, 'content', 'sounds.json'))), characterMap),
+    ...collectPlacementSpeakables(Placement.parse(readJSON(join(ROOT, 'content', 'placement.json'))), characterMap),
+  ])
+    all.set(audioKey(s.voice, s.text), s)
 
 mkdirSync(OUT, { recursive: true })
 
@@ -96,9 +108,10 @@ let todo = [...all.entries()].filter(([key]) => !existsSync(join(OUT, `${key}.mp
 if (flag('--no-words')) todo = todo.filter(([, s]) => s.priority === 'main')
 todo.sort((a, b) => (a[1].priority === b[1].priority ? 0 : a[1].priority === 'main' ? -1 : 1))
 const ready = all.size - todo.length
-// --shard 0/2 ve --shard 1/2: işi iki paralel işleme böler (aynı dosyayı iki kez üretmezler)
+// --shard 0/2 ve --shard 1/2: işi iki paralel işleme böler. Bölme dosya adına göre sabittir; sıraya göre
+// bölünürse, işlemler farklı anlarda başladığında listeler kayar ve aynı dosyalar iki kez üretilir.
 const shard = option('--shard')?.split('/').map(Number)
-if (shard) todo = todo.filter((_, i) => i % shard[1] === shard[0])
+if (shard) todo = todo.filter(([key]) => parseInt(key.slice(-6), 16) % shard[1] === shard[0])
 const limit = Number(option('--limit') ?? Infinity)
 todo = todo.slice(0, limit)
 
@@ -122,37 +135,14 @@ if (TTS_ENGINE === 'azure' && (!KEY || !REGION)) {
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
 
 // ---- Kokoro (ücretsiz, bilgisayarda) ----
-// Paketler isteğe bağlı (optionalDependencies); tipleri burada küçükçe tanımlı ki derleme onlara bağlı olmasın.
-type KokoroModel = { generate(text: string, o: { voice: string }): Promise<{ audio: Float32Array; sampling_rate: number }> }
-type Mp3EncoderCtor = new (ch: number, rate: number, kbps: number) => {
-  encodeBuffer(left: Int16Array): Uint8Array
-  flush(): Uint8Array
-}
-let kokoro: KokoroModel | null = null
-let Mp3Encoder: Mp3EncoderCtor | null = null
+let kokoro: KokoroSynth | null = null
 
 async function synthKokoro(voice: string, text: string): Promise<Buffer> {
   if (!kokoro) {
-    console.log('  Kokoro modeli yükleniyor (ilk seferde ~90 MB indirilir)…')
-    // Modül adı değişkende: derleyici bu isteğe bağlı paketleri aramasın (GitHub'da kurulmuyorlar)
-    const kokoroPkg = 'kokoro-js'
-    const lamePkg = '@breezystack/lamejs'
-    const mod = (await import(kokoroPkg)) as unknown as {
-      KokoroTTS: { from_pretrained(id: string, o: object): Promise<KokoroModel> }
-    }
-    kokoro = await mod.KokoroTTS.from_pretrained('onnx-community/Kokoro-82M-v1.0-ONNX', { dtype: 'q8', device: 'cpu' })
-    Mp3Encoder = ((await import(lamePkg)) as unknown as { Mp3Encoder: Mp3EncoderCtor }).Mp3Encoder
+    console.log(`  Kokoro modeli (${KOKORO_DTYPE}) yükleniyor (ilk seferde indirilir)…`)
+    kokoro = await createKokoro(KOKORO_DTYPE, KOKORO_KBPS)
   }
-  const out = await kokoro.generate(text, { voice })
-  // Float32 → 16 bit → mp3 (tek kanal, 64 kbps)
-  const pcm = new Int16Array(out.audio.length)
-  for (let i = 0; i < pcm.length; i++) pcm[i] = Math.max(-1, Math.min(1, out.audio[i])) * 0x7fff
-  const enc = new Mp3Encoder!(1, out.sampling_rate, 64)
-  const chunks: Buffer[] = []
-  const add = (a: Uint8Array) => chunks.push(Buffer.from(a.buffer, a.byteOffset, a.byteLength))
-  for (let i = 0; i < pcm.length; i += 1152) add(enc.encodeBuffer(pcm.subarray(i, i + 1152)))
-  add(enc.flush())
-  return Buffer.concat(chunks)
+  return kokoro(voice, text)
 }
 
 // ---- Azure ----
@@ -160,7 +150,8 @@ const escapeXml = (s: string) =>
   s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;')
 
 async function synthesize(s: Speakable): Promise<Buffer> {
-  if (s.voice.startsWith('kokoro:')) return synthKokoro(s.voice.slice('kokoro:'.length), s.text)
+  // Ses kimliği: kokoro-fp32:af_heart → ses adı af_heart
+  if (s.voice.startsWith('kokoro')) return synthKokoro(s.voice.slice(s.voice.indexOf(':') + 1), s.text)
   const lang = s.voice.split('-').slice(0, 2).join('-')
   const ssml = `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="${lang}"><voice name="${s.voice}">${escapeXml(s.text)}</voice></speak>`
   for (let attempt = 1; ; attempt++) {

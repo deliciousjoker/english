@@ -22,10 +22,11 @@ html.is-presenting .sitefoot {
   background: var(--bg);
 }
 .present__stage {
+  position: relative;
   overflow-y: auto;
   padding: clamp(24px, 5vh, 56px) clamp(16px, 6vw, 96px) 48px;
 }
-.present__stage > .sec,
+.present__content > .sec,
 .present__title {
   max-width: 1000px;
   margin: 0 auto;
@@ -78,4 +79,84 @@ html.is-presenting .sitefoot {
 }
 .present__spacer {
   flex: 1;
+}
+
+/* Çizim katmanı: araç seçili değilken tıklamalar alttaki alıştırmalara geçer */
+.drawlayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 5;
+  touch-action: none;
+}
+.drawlayer.is-on {
+  pointer-events: auto;
+  cursor: crosshair;
+}
+.drawlayer--eraser.is-on {
+  cursor: cell;
+}
+
+.present__bar {
+  flex-wrap: wrap;
+}
+.present__tools {
+  display: inline-flex;
+  gap: 2px;
+  padding-right: 8px;
+  margin-right: 4px;
+  border-right: 1px solid var(--line);
+}
+.ptool--red {
+  color: var(--bad);
+}
+.ptool--blue {
+  color: var(--pen);
+}
+.ptool--marker {
+  color: #b58f00;
+}
+.ptool.is-on {
+  background: var(--surface-2);
+  box-shadow: inset 0 -3px 0 currentColor;
+}
+
+/* Geri sayım */
+.ptimer {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--ink-2);
+}
+.ptimer__opt {
+  min-width: 30px;
+  height: 30px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  font-weight: 700;
+}
+.ptimer__opt:hover {
+  border-color: var(--ink-3);
+}
+.ptimer--run {
+  padding: 5px 10px;
+  border: var(--stroke) solid var(--line-strong);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--ink);
+  font-weight: 700;
+}
+.ptimer__time {
+  font-family: var(--font-num);
+  font-size: 1.1rem;
+  min-width: 3.2em;
+  text-align: center;
+}
+.ptimer--run.is-over {
+  background: var(--bad);
+  border-color: var(--bad);
+  color: #fff;
+  animation: pulse 1s ease-in-out infinite;
 }

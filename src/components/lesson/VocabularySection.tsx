@@ -4,6 +4,10 @@ import { PlayButton } from '../ui/PlayButton'
 import { SupportText } from '../support/SupportText'
 import { SectionFrame } from './SectionFrame'
 import { useLesson } from './LessonContext'
+import { SaveWordButton } from '../ui/SaveWordButton'
+import { Icon } from '../ui/Icon'
+import { wordKey } from '../../lib/text'
+import { useWordbook, wordbook } from '../../state/words'
 
 /** Örnek cümlede kelimenin geçtiği yeri kalın gösterir. */
 function Highlight({ text, word }: { text: string; word: string }) {
@@ -17,8 +21,19 @@ function Highlight({ text, word }: { text: string; word: string }) {
 }
 
 export function VocabularySection({ section, id, index }: { section: VocabData; id: string; index: number }) {
-  const { policy } = useLesson()
+  const { policy, lesson } = useLesson()
+  const book = useWordbook()
   const words = section.items.map((v, i) => ({ key: `${id}:w${i}`, text: v.say ?? v.word }))
+  const entries = section.items.map((v) => ({
+    key: wordKey(v.word),
+    word: v.word,
+    say: v.say,
+    gloss: v.gloss,
+    example: v.example,
+    level: lesson.level,
+    lessonId: lesson.id,
+  }))
+  const allSaved = entries.every((e) => e.key in book)
 
   return (
     <SectionFrame
@@ -27,14 +42,25 @@ export function VocabularySection({ section, id, index }: { section: VocabData; 
       index={index}
       instructions={section.instructions}
       support={section.support}
-      tools={<PlayButton variant="pill" text="Listen to all" items={words} label="Listen to all the words" />}
+      tools={
+        <>
+          <PlayButton variant="pill" text="Listen to all" items={words} label="Listen to all the words" />
+          <button type="button" className={`save save--pill ${allSaved ? 'is-saved' : ''}`} disabled={allSaved} onClick={() => wordbook.saveMany(entries)}>
+            <Icon name={allSaved ? 'bookmarkOn' : 'bookmark'} size={16} />
+            <span>{allSaved ? 'All saved' : 'Save all'}</span>
+          </button>
+        </>
+      }
     >
       <ul className="vocab">
         {section.items.map((v, i) => (
           <li key={v.word} className="vocab__item">
             <div className="vocab__top">
               <span className="vocab__word">{v.word}</span>
-              <PlayButton items={[words[i]]} label={`Listen: ${v.word}`} />
+              <span className="vocab__buttons">
+                <SaveWordButton word={entries[i]} />
+                <PlayButton items={[words[i]]} label={`Listen: ${v.word}`} />
+              </span>
             </div>
             {v.pos && <span className="vocab__pos">{v.pos}</span>}
             {policy.glosses && <SupportText support={v.gloss} className="vocab__gloss" />}

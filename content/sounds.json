@@ -1,0 +1,70 @@
+{
+  "sets": [
+    {
+      "id": "th",
+      "title": "think or sink?",
+      "sounds": ["th", "t / s"],
+      "for": ["tr", "ar"],
+      "tip": {
+        "tr": "th sesi Türkçede yok. Dilinin ucunu üst dişlerinin arasına koy ve hafifçe üfle: think. Dilini dişlere değdirmezsen \"sink\" ya da \"tank\" gibi başka bir kelime olur.",
+        "ar": "صوت th مثل «ث» في الفصحى: ضع طرف لسانك بين أسنانك وانفخ بلطف: think. في كثير من اللهجات نقول «ت» أو «س»، فتصبح think مثل sink، و thank مثل tank."
+      },
+      "pairs": [["think", "sink"], ["three", "tree"], ["thank", "tank"], ["thin", "tin"], ["path", "pass"], ["mouth", "mouse"]]
+    },
+    {
+      "id": "wv",
+      "title": "west or vest?",
+      "sounds": ["w", "v"],
+      "for": ["tr"],
+      "tip": {
+        "tr": "Türkçede w yok, bu yüzden w'yi v gibi söyleriz. w için dudaklarını yuvarlayıp öne uzat, dişler dudağa değmez: \"u\" ile başlar gibi (west = u-est). v'de ise üst dişler alt dudağa değer.",
+        "ar": "صوت w مثل «و»: الشفتان مستديرتان ولا تلمس الأسنانُ الشفةَ. أمّا v فالأسنان العليا تلمس الشفة السفلى."
+      },
+      "pairs": [["west", "vest"], ["wet", "vet"], ["worse", "verse"], ["wow", "vow"], ["wiper", "viper"], ["while", "vile"]]
+    },
+    {
+      "id": "pb",
+      "title": "pin or bin?",
+      "sounds": ["p", "b"],
+      "for": ["ar"],
+      "tip": {
+        "tr": "Türkçede p ve b ayrı sesler olduğu için bu çift genelde kolaydır. p'de dudaklardan küçük bir hava patlaması çıkar: elini ağzının önüne tut ve hisset.",
+        "ar": "لا يوجد صوت p في العربية، لذلك نقولها غالبًا مثل b. في p لا يهتزّ الحلق، ويخرج هواء قويّ من الشفتين: ضع يدك أمام فمك وستشعر بالهواء في pin وليس في bin."
+      },
+      "pairs": [["pin", "bin"], ["pear", "bear"], ["park", "bark"], ["pie", "buy"], ["cap", "cab"], ["pull", "bull"]]
+    },
+    {
+      "id": "fv",
+      "title": "fan or van?",
+      "sounds": ["f", "v"],
+      "for": ["ar"],
+      "tip": {
+        "tr": "f ve v'de üst dişler alt dudağa değer. v'de ses tellerin titrer: elini boğazına koy ve \"vvv\" de, titreşimi hisset. f'de titreşim yok.",
+        "ar": "لا يوجد صوت v في العربية. في f و v تلمس الأسنانُ العليا الشفةَ السفلى، لكن في v يهتزّ الحلق: ضع يدك على حلقك وقل «vvv» وستشعر بالاهتزاز، أمّا في f فلا اهتزاز."
+      },
+      "pairs": [["fan", "van"], ["fine", "vine"], ["few", "view"], ["leaf", "leave"], ["safe", "save"], ["ferry", "very"]]
+    },
+    {
+      "id": "iee",
+      "title": "ship or sheep?",
+      "sounds": ["short i", "long ee"],
+      "for": ["tr", "ar"],
+      "tip": {
+        "tr": "İngilizcede iki farklı i var: ship kısa ve gevşek (Türkçe i ile ı arası), sheep uzun ve gergin (iii). Uzun sesi söylerken dudaklarını gülümser gibi yay.",
+        "ar": "في الإنجليزية نوعان من i: في ship صوت قصير ومرتخٍ، وفي sheep صوت طويل مثل «ي» الممدودة. عند الصوت الطويل ابتسم قليلًا ومُدّ الصوت."
+      },
+      "pairs": [["ship", "sheep"], ["sit", "seat"], ["live", "leave"], ["fill", "feel"], ["hit", "heat"], ["chip", "cheap"]]
+    },
+    {
+      "id": "eae",
+      "title": "bed or bad?",
+      "sounds": ["e", "a"],
+      "for": ["tr", "ar"],
+      "tip": {
+        "tr": "bad'deki ses Türkçede yok: ağzını \"e\" demek için açıp çeneni biraz daha aşağı indir (e ile a arası). bed'deki ses ise Türkçe e'ye çok yakın.",
+        "ar": "صوت a في bad بين الفتحة والكسرة: افتح فمك أكثر من «e» وأنزل فكّك قليلًا. أمّا bed فصوتها قريب من الكسرة الممالة."
+      },
+      "pairs": [["bed", "bad"], ["men", "man"], ["pen", "pan"], ["set", "sat"], ["head", "had"], ["then", "than"]]
+    }
+  ]
+}

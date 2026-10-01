@@ -3,8 +3,10 @@ import { allLessons, getLevel, lessonExists } from '../content/loader'
 import { LEVEL_NAME, SITE_NAME } from '../config'
 import { Icon } from '../components/ui/Icon'
 import { LevelCode } from '../components/ui/LevelCode'
-import { completion, useProgress } from '../state/progress'
+import { completion, useProgress, type LessonProgress } from '../state/progress'
+import type { Level } from '../content/schema'
 import { NotFoundPage } from './NotFoundPage'
+import { unitTestId } from '../features/tests/buildUnitTest'
 
 export function LevelPage() {
   const { levelId = '' } = useParams()
@@ -35,7 +37,11 @@ export function LevelPage() {
           <h1 className="page__title">{level.description}</h1>
           {done > 0 && (
             <p className="levelhead__progress">
-              <span className="meter" style={{ ['--p' as string]: `${Math.round((done / ready.length) * 100)}%` }} aria-hidden="true" />
+              <span
+                className="meter"
+                style={{ ['--p' as string]: `${Math.round((done / ready.length) * 100)}%` }}
+                aria-hidden="true"
+              />
               {done} of {ready.length} lessons done
             </p>
           )}
@@ -94,9 +100,27 @@ export function LevelPage() {
                 )
               })}
             </ol>
+            {unit.lessons.some((l) => lessonExists(l.id)) && (
+              <UnitTestLink level={level.id} unit={unit.number} result={lessons[unitTestId(level.id, unit.number)]} />
+            )}
           </section>
         ))}
       </div>
     </div>
+  )
+}
+
+/** Ünite sonundaki test bağlantısı; test çözüldüyse son puanı gösterir. */
+function UnitTestLink({ level, unit, result }: { level: Level; unit: number; result: LessonProgress | undefined }) {
+  const r = Object.values(result?.exercises ?? {})
+  const total = r.reduce((n, x) => n + x.total, 0)
+  const pct = total ? Math.round((r.reduce((n, x) => n + x.correct, 0) / total) * 100) : null
+  return (
+    <Link to={`/test/${level}/${unit}`} className="unit__test">
+      <Icon name="tick" size={18} />
+      <span>Unit {unit} test</span>
+      {pct != null && <span className="unit__testscore">{pct}%</span>}
+      <Icon name="arrowRight" size={16} />
+    </Link>
   )
 }

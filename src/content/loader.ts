@@ -1,6 +1,6 @@
 import curriculumJson from '../../content/curriculum.json'
 import charactersJson from '../../content/characters.json'
-import { Characters, Curriculum, Glossary, LEVELS, Lesson, type Character, type Level } from './schema'
+import { Characters, Curriculum, Glossary, LEVELS, Lesson, Story, type Character, type Level } from './schema'
 
 export const curriculum = Curriculum.parse(curriculumJson)
 export const characters = Characters.parse(charactersJson)
@@ -93,4 +93,25 @@ export function neighbours(id: string): { prev?: LessonRef; next?: LessonRef } {
 
 export function getLevel(id: string) {
   return curriculum.levels.find((l) => l.id === id)
+}
+
+/** Bir seviyenin hazır bütün dersleri, müfredat sırasıyla (gramer rehberi, sözlük, testler için). */
+export async function loadLevelLessons(level: Level): Promise<Lesson[]> {
+  const refs = allLessons.filter((l) => l.level === level && l.available)
+  return Promise.all(refs.map((r) => loadLesson(r.id)))
+}
+
+/** İçinde hazır ders olan seviyeler. */
+export const levelsWithLessons: Level[] = curriculum.levels
+  .filter((lv) => allLessons.some((l) => l.level === lv.id && l.available))
+  .map((lv) => lv.id)
+
+// Okuma kütüphanesi: content/stories/<seviye>/<id>.json (seviye sırasıyla, sonra başlığa göre)
+const storyModules = import.meta.glob<{ default: unknown }>('/content/stories/**/*.json', { eager: true })
+export const stories: Story[] = Object.values(storyModules)
+  .map((m) => Story.parse(m.default))
+  .sort((a, b) => LEVELS.indexOf(a.level) - LEVELS.indexOf(b.level) || a.title.localeCompare(b.title, 'en'))
+
+export function getStory(id: string): Story | undefined {
+  return stories.find((s) => s.id === id)
 }

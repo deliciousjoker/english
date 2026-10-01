@@ -377,3 +377,46 @@ mark {
   font-variant-numeric: lining-nums;
   letter-spacing: 0.01em;
 }
+
+/* Kelime defterine kaydet (ayraç) */
+.save {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4em;
+  flex: none;
+  border: var(--stroke) solid var(--line);
+  background: var(--surface);
+  color: var(--ink-3);
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.save--icon {
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius);
+}
+.save--pill {
+  padding: 0.4em 0.9em 0.4em 0.75em;
+  border-radius: 999px;
+  border-color: var(--line-strong);
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+.save:hover:not(:disabled) {
+  border-color: var(--ink-3);
+  color: var(--ink);
+}
+.save.is-saved {
+  color: var(--bad);
+  border-color: var(--line);
+}
+.save--pill.is-saved {
+  color: var(--ink-2);
+}
+.save--pill.is-saved svg {
+  color: var(--bad);
+}
+.save:disabled {
+  cursor: default;
+}

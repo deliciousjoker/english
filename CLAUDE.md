@@ -12,8 +12,11 @@ Plan: C:\Users\furka\.claude\plans\ben-ingilizce-retmenli-i-lisans-tingly-pearl.
 ## Commands
 - `npm run dev` · `npm run build` (tsc -b + vite build) · `npm run lint`
 - `npm run validate` — must pass with no errors after any content change
-- `npm run audio -- --dry` — audio generation with Kokoro (free, local; engine switch in `src/audio/engine.ts`).
-  ~27 files/min on this PC; resumable; `--prune` removes orphans. Kokoro + lamejs are optionalDependencies.
+- `npm run audio -- --dry` — audio generation with Kokoro (free, local; engine + `KOKORO_DTYPE` in `src/audio/engine.ts`,
+  currently fp32, chosen by the owner by ear). Voice ids in file keys are `kokoro-fp32:<voice>`. Run 3 shards in
+  parallel (`--shard k/3`, split by file key) for ~2,700 files in ~30 min; resumable; `--prune` removes orphans.
+  GPU (DirectML) does not work with Kokoro here. Kokoro + lamejs are optionalDependencies.
+- Voice lab (dev only): `npx tsx scripts/voice-samples.ts` then `/voice-lab` to compare voices per character.
 - Deploy: push to `main` → GitHub Actions (`.github/workflows/deploy.yml`) → GitHub Pages under `/<repo>/`
   (`BASE_PATH`; router basename and audio URLs use `import.meta.env.BASE_URL`). Firebase Hosting is a fallback.
 
@@ -29,7 +32,16 @@ Plan: C:\Users\furka\.claude\plans\ben-ingilizce-retmenli-i-lisans-tingly-pearl.
 - `validate` regenerates `content/glossary/vocab.generated.json` from every lesson's vocabulary; hand-written
   glossary files override it. Every word in readings/dialogues should have a TR+AR gloss (validate lists gaps).
 - Character facts (families, schedules, pets) live in `content/spec/characters.md`; keep new lessons consistent.
-- Progress is localStorage-only (`src/state/progress.ts`) until Phase 2 (Firebase Auth + Firestore).
+- Progress is localStorage-only (`src/state/progress.ts`) until Phase 2 (Firebase Auth + Firestore). Non-lesson
+  records use prefixed ids (`test:a1-u3`, `story:<id>`); ids containing ":" never become the "Continue" lesson.
+- Other localStorage state: `src/state/words.ts` (word book, Leitner boxes), `placement` result, `settings`
+  (`voiceMode`: recorded mp3 vs Edge "Natural" voices live).
+- Extra content besides lessons, all validated by `npm run validate` and voiced by `npm run audio`:
+  `content/stories/<level>/<id>.json` (library; a Story is a mini lesson, rendered via `storyToLesson`),
+  `content/sounds.json` (minimal pairs), `content/placement.json` (level test).
+- Routes: /words, /words/mine, /grammar/:level?, /sounds, /library(/:id), /test/:level/:unit, /placement,
+  /lesson/:id/print. Unit tests are built from the unit's own exercises (`src/features/tests/buildUnitTest.ts`).
+- Class-name collision to avoid: `.dict*` belongs to the dictation exercise; the dictionary page uses `.lex*`.
 
 ## Gotchas
 - The folder name contains "İ"; Node's win32 `path.relative` lowercases it to two chars, so ESLint

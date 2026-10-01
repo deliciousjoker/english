@@ -1,0 +1,59 @@
+{
+  "id": "new-york-day-one",
+  "level": "a2",
+  "title": "New York, day one",
+  "summary": "Five people, one drum and a very small car. Elif's diary from the trip.",
+  "minutes": 6,
+  "characters": ["elif", "lucas"],
+  "sections": [
+    {
+      "type": "vocabulary",
+      "title": "Words in the story",
+      "instructions": "Listen and repeat.",
+      "items": [
+        { "word": "diary", "pos": "noun", "example": "Elif writes in her diary every night.", "gloss": { "tr": "günlük", "ar": "مذكّرات، يوميات" } },
+        { "word": "traffic", "pos": "noun", "example": "There was a lot of traffic.", "gloss": { "tr": "trafik", "ar": "زحمة السير" } },
+        { "word": "floor", "pos": "noun", "example": "The apartment is on the fifth floor.", "gloss": { "tr": "kat; yer, zemin", "ar": "طابق؛ أرضية" } },
+        { "word": "elevator", "pos": "noun", "example": "There's no elevator.", "gloss": { "tr": "asansör", "ar": "مصعد" } },
+        { "word": "view", "pos": "noun", "example": "The view from the window is amazing.", "gloss": { "tr": "manzara", "ar": "منظر" } },
+        { "word": "crowded", "pos": "adjective", "example": "The streets were very crowded.", "gloss": { "tr": "kalabalık", "ar": "مزدحم" } }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read and listen",
+      "heading": "Tuesday, December 22nd",
+      "intro": "Elif's diary, written at midnight in Rafael's kitchen.",
+      "voice": "elif",
+      "paragraphs": [
+        [
+          "We left Boston at eight this morning. Jake's car is small, and there were five of us, three guitars and the new drum.",
+          "It was too small for all of us, of course. I sat next to the drum for four hours."
+        ],
+        ["There was a lot of traffic near the city, so we arrived at two instead of twelve. Lucas slept for most of the trip. How?"],
+        [
+          "Rafael's apartment is on the fifth floor, and there's no elevator. We carried the drum up the stairs. It was heavier than Lucas!",
+          "The apartment isn't big enough for five people, but the view from the kitchen window is amazing: roofs, water towers and a little piece of the river."
+        ],
+        [
+          "In the evening, we walked in the city. The streets were very crowded, and everything was bright and loud.",
+          "I drew a small bookstore on the corner. I'm going to go inside tomorrow morning."
+        ],
+        ["Tomorrow night, the band is playing its first concert here. I'm going to sell T-shirts at the door.", "Now I'm going to sleep. On the sofa. With the drum."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "True or false?",
+      "instructions": "Read again. True or false?",
+      "items": [
+        { "statement": "The car was big enough for everyone.", "answer": false },
+        { "statement": "They arrived later than they planned.", "answer": true },
+        { "statement": "There's an elevator in Rafael's building.", "answer": false },
+        { "statement": "Elif likes the view from the kitchen.", "answer": true },
+        { "statement": "The band's first concert was on Tuesday.", "answer": false }
+      ]
+    }
+  ]
+}

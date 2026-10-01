@@ -4,7 +4,7 @@ import { seededShuffle } from '../../lib/text'
 import { ExerciseShell, useReport } from './ExerciseShell'
 
 /** "Where are you from?" → kelimeler ["Where","are","you","from"] ve son noktalama "?" */
-function splitSentence(s: string) {
+export function splitSentence(s: string) {
   const m = s.trim().match(/^(.*?)([.!?]*)$/)!
   return { words: m[1].split(/\s+/).filter(Boolean), end: m[2] }
 }

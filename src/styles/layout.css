@@ -86,6 +86,10 @@
   font-weight: 700;
   color: var(--ink-3);
 }
+.settings__hint {
+  font-size: 0.8rem;
+  color: var(--ink-3);
+}
 .settings__panel .seg {
   width: 100%;
 }
@@ -469,4 +473,916 @@ a.lessonrow:hover .lessonrow__title {
   text-transform: uppercase;
   transform: rotate(-5deg);
   opacity: 0.9;
+}
+
+/* ---------- Ses deneme sayfası (sadece geliştirirken) ---------- */
+
+.voicelab {
+  display: grid;
+  gap: 36px;
+  max-width: 960px;
+}
+.voicelab__head {
+  display: grid;
+  gap: 10px;
+}
+.voicelab__head a {
+  color: var(--pen);
+}
+.voicelab__char {
+  display: grid;
+  gap: 12px;
+  padding-top: 18px;
+  border-top: var(--stroke) solid var(--line-strong);
+}
+.voicelab__name {
+  font-size: 1.5rem;
+}
+.voicelab__name small {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--ink-3);
+}
+.voicelab__sentences {
+  display: grid;
+  gap: 4px;
+}
+.voicelab__n {
+  display: inline-grid;
+  place-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 6px;
+  background: var(--ink);
+  color: var(--bg);
+  border-radius: 2px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.voicelab__table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.voicelab__table th {
+  text-align: left;
+  font-weight: 600;
+  padding: 6px 10px 6px 0;
+}
+.voicelab__table th small {
+  color: var(--ink-3);
+  font-weight: 400;
+}
+.voicelab__table td {
+  padding: 4px 8px;
+  width: 64px;
+}
+.voicelab__table tr {
+  border-bottom: 1px solid var(--line);
+}
+.voicelab__table tr.is-chosen {
+  background: var(--marker-soft);
+}
+.voicelab__table .play:disabled {
+  opacity: 0.25;
+}
+.voicelab__summary {
+  display: grid;
+  gap: 12px;
+  justify-items: start;
+}
+.voicelab__summary pre {
+  margin: 0;
+  padding: 12px 16px;
+  background: var(--bg-band);
+  border-radius: var(--radius);
+  font-size: 0.95rem;
+}
+
+/* ---------- Ana menü ---------- */
+
+.mainnav {
+  display: flex;
+  gap: 2px;
+}
+.mainnav__link {
+  padding: 6px 10px;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--ink-2);
+  text-decoration: none;
+}
+.mainnav__link:hover {
+  background: var(--surface-2);
+  color: var(--ink);
+}
+.mainnav__link.is-on {
+  color: var(--ink);
+  box-shadow: inset 0 -3px 0 var(--ink);
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+.mainnav--bar {
+  margin-right: auto;
+  margin-left: 18px;
+}
+.mainnav--panel .mainnav__link {
+  flex: 1;
+  text-align: center;
+  border: 1px solid var(--line);
+}
+.mainnav--panel .mainnav__link.is-on {
+  box-shadow: none;
+  background: var(--ink);
+  color: var(--bg);
+  border-color: var(--ink);
+  border-radius: var(--radius);
+}
+/* Geniş ekranda menü çubukta; dar ekranda ayarlar panelinin içinde */
+@media (max-width: 719px) {
+  .mainnav--bar {
+    display: none;
+  }
+}
+@media (min-width: 720px) {
+  .settings__nav {
+    display: none;
+  }
+}
+
+/* ---------- Başvuru sayfaları (gramer rehberi, sözlük) ---------- */
+
+.refpage {
+  display: grid;
+  gap: 28px;
+}
+.refhead {
+  display: grid;
+  gap: 10px;
+  padding-bottom: 18px;
+  border-bottom: var(--stroke) solid var(--line-strong);
+}
+.refhead__lead {
+  color: var(--ink-2);
+}
+.levelnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.levelnav__link {
+  display: inline-grid;
+  place-items: center;
+  min-width: 3.2rem;
+  padding: 5px 12px;
+  border: var(--stroke) solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--ink);
+}
+.levelnav__link:hover {
+  border-color: var(--ink-3);
+}
+.levelnav__link.is-on {
+  background: var(--lv, var(--ink));
+  border-color: var(--lv, var(--ink));
+  color: var(--lv-ink, var(--bg));
+}
+.levelnav__link:not([class*='lv-']).is-on {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--bg);
+}
+
+.refpage__layout {
+  display: grid;
+  gap: 28px;
+}
+@media (min-width: 1000px) {
+  .refpage__layout {
+    grid-template-columns: 230px minmax(0, 1fr);
+    gap: 48px;
+    align-items: start;
+  }
+  .toc {
+    position: sticky;
+    top: calc(var(--topbar-h) + 24px);
+    max-height: calc(100vh - var(--topbar-h) - 48px);
+    overflow-y: auto;
+  }
+}
+.toc {
+  display: grid;
+  gap: 14px;
+  font-size: 0.92rem;
+}
+.toc__unitname {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+.toc__unitname .unit__num {
+  min-width: 1.6rem;
+  height: 1.6rem;
+  font-size: 0.9rem;
+}
+.toc ol {
+  display: grid;
+  gap: 2px;
+  padding-left: 2.2rem;
+}
+.toc a {
+  color: var(--ink-2);
+  text-decoration: none;
+}
+.toc a:hover {
+  color: var(--ink);
+  text-decoration: underline;
+}
+@media (max-width: 999px) {
+  .toc {
+    display: none;
+  }
+}
+.refpage__list {
+  display: grid;
+  gap: 40px;
+  max-width: var(--readw);
+  min-width: 0;
+}
+.refunit {
+  display: grid;
+  gap: 26px;
+}
+.refcard {
+  display: grid;
+  gap: 14px;
+  scroll-margin-top: calc(var(--topbar-h) + 20px);
+}
+.refcard__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 4px 16px;
+}
+.refcard__title {
+  font-size: 1.45rem;
+}
+.refcard__from {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--ink-3);
+}
+
+/* Sözlük (sınıf adı lex: .dict dikte alıştırmasında kullanılıyor) */
+.lex__tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 16px;
+}
+.lex__search {
+  flex: 1 1 280px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 12px;
+  border: var(--stroke) solid var(--line-strong);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--ink-3);
+}
+.lex__search:focus-within {
+  border-color: var(--pen);
+  box-shadow: 0 0 0 3px var(--pen-soft);
+}
+.lex__search input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 0;
+  border: 0;
+  background: transparent;
+  font-size: 1.05rem;
+  color: var(--ink);
+  outline: none;
+}
+.lex__count {
+  font-size: 0.88rem;
+  color: var(--ink-3);
+}
+.lex {
+  display: grid;
+  gap: 26px;
+  max-width: 900px;
+}
+.lex__letter {
+  font-size: 1.6rem;
+  padding-bottom: 4px;
+  border-bottom: var(--stroke) solid var(--line-strong);
+}
+.lex__item {
+  display: grid;
+  gap: 4px;
+  padding: 10px 0 10px 12px;
+  border-bottom: 1px solid var(--line);
+  border-left: 4px solid var(--lv, var(--line));
+}
+.lex__item:not([class*='lv-']) {
+  border-left-color: var(--line);
+}
+.lex__main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 12px;
+}
+.lex__word {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.lex__pos {
+  font-size: 0.82rem;
+  font-style: italic;
+  color: var(--ink-3);
+}
+.lex__gloss {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 2px 14px;
+  color: var(--pen);
+  font-weight: 600;
+}
+.lex__gloss [lang='ar'] {
+  font-size: 1.1em;
+}
+.lex__more {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px 16px;
+  padding-left: 46px;
+  font-size: 0.95rem;
+  color: var(--ink-2);
+}
+.lex__example {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.lex__explay {
+  width: 28px;
+  height: 28px;
+}
+.lex__lesson {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--ink-3);
+}
+.lex__save {
+  margin-left: auto;
+}
+.mywords-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  justify-self: start;
+  padding: 8px 14px;
+  border: var(--stroke) solid var(--line-strong);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: var(--ink);
+}
+.mywords-link svg:first-child {
+  color: var(--bad);
+}
+.mywords-link:hover {
+  background: var(--surface-2);
+}
+
+/* ---------- Kelime defterim ---------- */
+
+.mywords {
+  max-width: 860px;
+}
+.mywords__start {
+  display: grid;
+  gap: 14px;
+  justify-items: start;
+  padding: 20px;
+  background: var(--bg-band);
+  border-radius: var(--radius);
+}
+.mywords__big {
+  font-size: 1.15rem;
+}
+.mywords__big a {
+  color: var(--pen);
+}
+.mywords__h {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+.mywords__list {
+  border-top: var(--stroke) solid var(--line-strong);
+}
+.mywords__item {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) minmax(0, 1.2fr) auto auto;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0 8px 10px;
+  border-bottom: 1px solid var(--line);
+  border-left: 4px solid var(--lv, var(--line));
+}
+.mywords__word {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+.mywords__gloss {
+  color: var(--pen);
+  font-weight: 600;
+}
+.mywords__box {
+  display: inline-flex;
+  gap: 3px;
+}
+.mywords__box i {
+  width: 9px;
+  height: 14px;
+  border: 1.5px solid var(--line);
+  border-radius: 1px;
+}
+.mywords__box i.is-on {
+  background: var(--good);
+  border-color: var(--good);
+}
+@media (max-width: 560px) {
+  .mywords__item {
+    grid-template-columns: auto 1fr auto;
+  }
+  .mywords__gloss {
+    grid-column: 2;
+  }
+  .mywords__box {
+    grid-column: 3;
+    grid-row: 1;
+    display: none;
+  }
+}
+
+/* Tekrar oturumu */
+.practice {
+  display: grid;
+  gap: 16px;
+  max-width: 640px;
+}
+.practice__bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 700;
+}
+.practice__meter {
+  flex: 1;
+  height: 6px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--good) var(--p, 0%), var(--line) var(--p, 0%));
+}
+.practice__card {
+  display: grid;
+  gap: 18px;
+  padding: clamp(20px, 4vw, 32px);
+  border: var(--stroke) solid var(--line-strong);
+  border-top: 6px solid var(--marker);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+}
+.practice__ask {
+  font-weight: 700;
+  color: var(--ink-3);
+}
+.practice__prompt {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2rem, 6vw, 2.8rem);
+  line-height: 1.1;
+}
+.practice__prompt--meaning {
+  color: var(--pen);
+  font-family: var(--font-body);
+  font-size: clamp(1.5rem, 4vw, 2rem);
+}
+.practice__prompt--meaning [lang='ar'] {
+  font-family: var(--font-ar);
+  font-size: 1.15em;
+}
+.practice__options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: 10px;
+}
+.practice__opt {
+  padding: 0.8em 1em;
+  font-size: 1.1rem;
+  text-align: left;
+}
+.practice__opt [lang='ar'] {
+  font-size: 1.1em;
+}
+.practice__write {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.practice__write .dict__input {
+  flex: 1 1 220px;
+  font-size: 1.3rem;
+}
+.practice__write .dict__input.is-correct {
+  border-color: var(--good);
+  background: var(--good-soft);
+}
+.practice__write .dict__input.is-wrong {
+  border-color: var(--bad);
+  background: var(--bad-soft);
+}
+.practice__feedback {
+  display: grid;
+  gap: 8px;
+  justify-items: start;
+  padding-top: 14px;
+  border-top: 1px dashed var(--line);
+}
+.practice__verdict {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.practice__feedback.is-correct .practice__verdict {
+  color: var(--good);
+}
+.practice__feedback.is-wrong .practice__verdict {
+  color: var(--bad);
+}
+.practice__answer {
+  font-size: 1.1rem;
+}
+.practice__answer [lang] {
+  color: var(--pen);
+  font-weight: 600;
+}
+.practice__example {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--ink-2);
+}
+.practice--done {
+  justify-items: start;
+  padding: 24px;
+  background: var(--bg-band);
+  border-radius: var(--radius);
+}
+.practice__title {
+  font-size: 1.8rem;
+}
+
+/* ---------- Sesler (ses çiftleri) ---------- */
+
+.sounds__list {
+  display: grid;
+  gap: 36px;
+  max-width: 860px;
+}
+.sset {
+  display: grid;
+  gap: 14px;
+  padding-top: 18px;
+  border-top: var(--stroke) solid var(--line-strong);
+}
+.sset__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 6px 16px;
+}
+.sset__title {
+  font-size: 1.7rem;
+}
+.sset__for {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.sset__for span {
+  padding: 2px 8px;
+  border-radius: 2px;
+  background: var(--marker-soft);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--ink-2);
+}
+.sset__tips {
+  display: grid;
+  gap: 6px;
+}
+.sset__tip {
+  padding: 10px 14px;
+  background: var(--pen-soft);
+  border-left: 4px solid var(--pen);
+  color: var(--ink);
+}
+.sset__tip[dir='rtl'] {
+  border-left: 0;
+  border-right: 4px solid var(--pen);
+  font-size: 1.08rem;
+}
+.sset__play {
+  justify-self: start;
+}
+.sset__pairs {
+  width: 100%;
+  border-collapse: collapse;
+}
+.sset__pairs th {
+  text-align: left;
+  font-size: 0.85rem;
+  color: var(--ink-3);
+  padding: 4px 8px;
+  border-bottom: var(--stroke) solid var(--line-strong);
+}
+.sset__pairs td {
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--line);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.2rem;
+  white-space: nowrap;
+}
+.sset__pairs td .play {
+  vertical-align: middle;
+  margin-right: 6px;
+}
+.sset__pairs td:last-child {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 1rem;
+  white-space: normal;
+}
+.sgame {
+  display: grid;
+  gap: 12px;
+  justify-items: start;
+  padding: 16px 18px;
+  border: var(--stroke) solid var(--line-strong);
+  border-top: 5px solid var(--marker);
+  border-radius: var(--radius);
+}
+.sgame__ask {
+  font-weight: 700;
+  color: var(--ink-2);
+}
+.sgame__options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.sgame__opt {
+  min-width: 8rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.sgame__score {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+@media (max-width: 560px) {
+  .sset__pairs td {
+    font-size: 1.05rem;
+    padding: 6px 4px;
+  }
+}
+.sounds__list > .sset:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+/* Ünite testi bağlantısı ve sonuç kutusu */
+.unit__test {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 4px;
+  padding: 10px 8px;
+  border: 1.5px dashed var(--line);
+  border-radius: var(--radius);
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--ink);
+}
+.unit__test:hover {
+  border-color: var(--lv);
+  background: var(--lv-soft);
+}
+.unit__test span:first-of-type {
+  flex: 1;
+}
+.unit__testscore {
+  font-family: var(--font-num);
+  color: var(--good);
+}
+.test__intro {
+  color: var(--ink-2);
+}
+.testresult {
+  display: grid;
+  gap: 10px;
+  justify-items: start;
+  padding: 20px;
+  border: var(--stroke) solid var(--line-strong);
+  border-radius: var(--radius-lg);
+  background: var(--bg-band);
+}
+.testresult__score {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 1;
+}
+.testresult__score span {
+  font-size: 1.4rem;
+  color: var(--ink-3);
+}
+.testresult.is-pass {
+  border-color: var(--good);
+  background: var(--good-soft);
+}
+.testresult.is-pass .testresult__score {
+  color: var(--good);
+}
+.testresult__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* ---------- Seviye sınavı ---------- */
+
+.placement {
+  display: grid;
+  gap: 28px;
+}
+.placement__intro {
+  display: grid;
+  gap: 18px;
+  justify-items: start;
+  max-width: 640px;
+}
+.placement__intro .pr__bullets {
+  list-style: disc;
+  padding-left: 1.3em;
+  display: grid;
+  gap: 4px;
+  font-size: 1.08rem;
+}
+.placement__prompt {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.4rem, 3.4vw, 1.9rem);
+  line-height: 1.25;
+}
+.placement__dunno {
+  border-style: dashed;
+  color: var(--ink-3);
+}
+.placement__result {
+  display: grid;
+  gap: 22px;
+  max-width: 860px;
+}
+.placement__result .levelhead {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.placement__scores {
+  display: grid;
+  gap: 8px;
+  max-width: 360px;
+}
+.placement__scores li {
+  display: grid;
+  grid-template-columns: 5rem 1fr auto;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+}
+.placement__scores .meter {
+  width: 100%;
+}
+.placement__lv {
+  font-family: var(--font-display);
+}
+.practice__card > .play--pill {
+  justify-self: start;
+}
+
+/* ---------- Okuma kütüphanesi ---------- */
+
+.shelf {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
+  gap: 18px;
+}
+/* Hikâye kartı: ince bir kitap gibi, solda seviye rengi */
+.storycard {
+  position: relative;
+  display: grid;
+  gap: 6px;
+  align-content: start;
+  height: 100%;
+  min-height: 190px;
+  padding: 16px 16px 16px 26px;
+  border: 1px solid var(--line);
+  border-radius: 2px 5px 5px 2px;
+  background: var(--surface);
+  box-shadow: inset 10px 0 0 var(--lv);
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform 0.18s, border-color 0.15s;
+}
+.storycard:hover {
+  transform: translateY(-3px);
+  border-color: var(--ink-3);
+}
+.storycard__meta {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--ink-3);
+}
+.storycard__title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.45rem;
+  line-height: 1.15;
+}
+.storycard__summary {
+  color: var(--ink-2);
+}
+.storycard__who {
+  margin-top: auto;
+  font-size: 0.85rem;
+  color: var(--ink-3);
+}
+.storycard__stamp {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+.banner--story {
+  grid-template-columns: 1fr;
+  box-shadow: inset 14px 0 0 rgba(0, 0, 0, 0.13);
+}
+.banner--story .banner__text {
+  padding-left: clamp(28px, 5vw, 48px);
+}
+.story__foot {
+  display: grid;
+  gap: 16px;
+  justify-items: start;
+  padding-top: 20px;
+  border-top: var(--stroke) solid var(--line-strong);
+}
+.story__more ul {
+  display: grid;
+  gap: 4px;
+  margin-top: 6px;
+}
+.story__more a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.15rem;
+  text-decoration: none;
+  color: var(--ink);
+}
+.story__more a:hover {
+  text-decoration: underline;
 }

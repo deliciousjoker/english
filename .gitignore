@@ -8,3 +8,6 @@ dist
 
 # Claude Code yerel ayarları
 .claude/settings.local.json
+
+# Ses deneme örnekleri (sadece bilgisayarda)
+public/voice-lab/

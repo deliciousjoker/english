@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
-import { Link, Outlet, ScrollRestoration } from 'react-router'
+import { Link, NavLink, Outlet, ScrollRestoration, useLocation } from 'react-router'
 import { SITE_NAME } from '../../config'
-import { useSettings, type Mode, type SupportLang } from '../../state/settings'
+import { useSettings, type Mode, type SupportLang, type VoiceMode } from '../../state/settings'
+import { useNaturalVoicesAvailable } from '../../audio/AudioService'
 import { Icon } from '../ui/Icon'
 import { BrandMark } from './BrandMark'
 
@@ -35,6 +36,31 @@ function Segmented<T extends string>({
   )
 }
 
+/** Ana bölümler. Dersler ve seviye sayfaları da "Lessons" sayılır. */
+function MainNav({ className }: { className: string }) {
+  const { pathname } = useLocation()
+  const inLessons = pathname === '/' || pathname.startsWith('/level') || pathname.startsWith('/lesson')
+  return (
+    <nav className={className} aria-label="Main">
+      <NavLink to="/" className={`mainnav__link ${inLessons ? 'is-on' : ''}`}>
+        Lessons
+      </NavLink>
+      <NavLink to="/words" className={({ isActive }) => `mainnav__link ${isActive ? 'is-on' : ''}`}>
+        Words
+      </NavLink>
+      <NavLink to="/library" className={({ isActive }) => `mainnav__link ${isActive ? 'is-on' : ''}`}>
+        Library
+      </NavLink>
+      <NavLink to="/grammar" className={({ isActive }) => `mainnav__link ${isActive ? 'is-on' : ''}`}>
+        Grammar
+      </NavLink>
+      <NavLink to="/sounds" className={({ isActive }) => `mainnav__link ${isActive ? 'is-on' : ''}`}>
+        Sounds
+      </NavLink>
+    </nav>
+  )
+}
+
 const HELP_OPTIONS: { value: SupportLang; label: string; lang?: string }[] = [
   { value: 'none', label: 'EN' },
   { value: 'tr', label: 'TR', lang: 'tr' },
@@ -44,6 +70,7 @@ const HELP_OPTIONS: { value: SupportLang; label: string; lang?: string }[] = [
 function SettingsMenu() {
   const s = useSettings()
   const [open, setOpen] = useState(false)
+  const natural = useNaturalVoicesAvailable()
   const box = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -65,6 +92,10 @@ function SettingsMenu() {
       </button>
       {open && (
         <div className="settings__panel" role="dialog" aria-label="Settings">
+          <div className="settings__row settings__nav" onClick={(e) => (e.target as HTMLElement).closest('a') && setOpen(false)}>
+            <span className="settings__label">Go to</span>
+            <MainNav className="mainnav mainnav--panel" />
+          </div>
           <div className="settings__row">
             <span className="settings__label">Help language</span>
             <Segmented<SupportLang>
@@ -90,6 +121,21 @@ function SettingsMenu() {
               ]}
             />
           </div>
+          {natural && (
+            <div className="settings__row">
+              <span className="settings__label">Voice</span>
+              <Segmented<VoiceMode>
+                label="Voice"
+                value={s.voiceMode}
+                onChange={(v) => s.update({ voiceMode: v })}
+                options={[
+                  { value: 'recorded', label: 'Recorded' },
+                  { value: 'live', label: 'Edge natural' },
+                ]}
+              />
+              <span className="settings__hint">Edge natural: the best voices in this browser, but only here.</span>
+            </div>
+          )}
           <div className="settings__row">
             <span className="settings__label">Appearance</span>
             <Segmented<Mode>
@@ -129,6 +175,7 @@ export function AppShell() {
           <BrandMark />
           <span className="brand__name">{SITE_NAME}</span>
         </Link>
+        <MainNav className="mainnav mainnav--bar" />
         <div className="topbar__right">
           <div className="topbar__help">
             <span className="topbar__helplabel">Help</span>

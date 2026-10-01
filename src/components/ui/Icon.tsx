@@ -28,12 +28,20 @@ const PATHS = {
   tick: 'M4.5 4.5h15v15h-15zM8.5 12.5l2.5 2.5 4.5-5.5',
   cards: 'M8 8h11.5v11.5H8zM4.5 16V4.5H16',
   flag: 'M6 20.5V4M6 4.5h11.5l-2.5 4 2.5 4H6',
+  search: 'M10.5 4.5a6 6 0 1 0 0 12 6 6 0 0 0 0-12zM15 15l4.5 4.5',
+  bookmark: 'M6.5 3.5h11v17l-5.5-4-5.5 4z',
+  mic: 'M12 3.5a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0v-5a3 3 0 0 0-3-3zM5.5 11a6.5 6.5 0 0 0 13 0M12 17.5v3',
+  compare: 'M4 8.5h14l-3.5-3.5M20 15.5H6l3.5 3.5',
+  highlighter: 'M8.5 14.5l7-7 3 3-7 7zM8.5 14.5l-3 5h5l1-2M13.5 9.5l3 3',
+  eraser: 'M8.5 19.5h11M4.5 15l9-9 5 5-8.5 8.5H9zM9 10.5l5 5',
+  bookmarkOn: 'M6.5 3.5h11v17l-5.5-4-5.5 4z',
+  trash: 'M4.5 6.5h15M9.5 6.5V4h5v2.5M6.5 6.5l1 13.5h9l1-13.5',
 } as const
 
 export type IconName = keyof typeof PATHS
 
 export function Icon({ name, size = 20, className }: { name: IconName; size?: number; className?: string }) {
-  const filled = name === 'play' || name === 'stop'
+  const filled = name === 'play' || name === 'stop' || name === 'bookmarkOn'
   return (
     <svg
       className={className}

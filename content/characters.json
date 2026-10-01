@@ -3,7 +3,7 @@
     "id": "narrator",
     "name": "Narrator",
     "azureVoice": "en-US-JennyNeural",
-    "kokoroVoice": "af_heart",
+    "kokoroVoice": "af_bella",
     "fallback": { "lang": "en-US", "gender": "female" },
     "color": "#6B6358"
   },
@@ -11,7 +11,7 @@
     "id": "elif",
     "name": "Elif",
     "azureVoice": "en-US-EmmaNeural",
-    "kokoroVoice": "af_bella",
+    "kokoroVoice": "af_heart",
     "fallback": { "lang": "en-US", "gender": "female" },
     "color": "#C4572E"
   },
@@ -19,7 +19,7 @@
     "id": "omar",
     "name": "Omar",
     "azureVoice": "en-US-AndrewNeural",
-    "kokoroVoice": "am_michael",
+    "kokoroVoice": "am_fenrir",
     "fallback": { "lang": "en-US", "gender": "male" },
     "color": "#2E7A6B"
   },
@@ -35,7 +35,7 @@
     "id": "sam",
     "name": "Sam",
     "azureVoice": "en-GB-RyanNeural",
-    "kokoroVoice": "bm_george",
+    "kokoroVoice": "bm_fable",
     "fallback": { "lang": "en-GB", "gender": "male" },
     "color": "#8A5A2B"
   },
@@ -43,7 +43,7 @@
     "id": "lucas",
     "name": "Lucas",
     "azureVoice": "en-US-BrianNeural",
-    "kokoroVoice": "am_puck",
+    "kokoroVoice": "am_michael",
     "fallback": { "lang": "en-US", "gender": "male" },
     "color": "#6E4E96"
   },
@@ -75,7 +75,7 @@
     "id": "clerk",
     "name": "Clerk",
     "azureVoice": "en-US-NancyNeural",
-    "kokoroVoice": "af_nova",
+    "kokoroVoice": "af_bella",
     "fallback": { "lang": "en-US", "gender": "female" },
     "color": "#4E6E8E"
   },
@@ -83,7 +83,7 @@
     "id": "lina",
     "name": "Lina",
     "azureVoice": "en-US-MichelleNeural",
-    "kokoroVoice": "af_kore",
+    "kokoroVoice": "af_bella",
     "fallback": { "lang": "en-US", "gender": "female" },
     "color": "#B0782A"
   },

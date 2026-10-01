@@ -1,11 +1,16 @@
+import { useState } from 'react'
 import type { ReadingSection as ReadingData } from '../../content/schema'
 import { useNowPlaying } from '../../audio/AudioService'
 import { PlayButton } from '../ui/PlayButton'
 import { SectionFrame } from '../lesson/SectionFrame'
 import { TokenizedText } from './TokenizedText'
+import { RecordButton } from '../ui/RecordButton'
+import { Icon } from '../ui/Icon'
 
 export function ReadingSection({ section, id, index }: { section: ReadingData; id: string; index: number }) {
   const now = useNowPlaying()
+  // "Read aloud": her paragrafın altında kendi sesini kaydetme düğmesi
+  const [speak, setSpeak] = useState(false)
   const sentences = section.paragraphs.map((p, pi) =>
     p.map((text, si) => ({ key: `${id}:p${pi}:s${si}`, text, voice: section.voice })),
   )
@@ -16,7 +21,15 @@ export function ReadingSection({ section, id, index }: { section: ReadingData; i
       section={section}
       id={id}
       index={index}
-      tools={<PlayButton variant="pill" text="Listen" items={all} label="Listen to the whole text" />}
+      tools={
+        <>
+          <button type="button" className={`toggle ${speak ? 'is-on' : ''}`} onClick={() => setSpeak((s) => !s)} aria-pressed={speak}>
+            <Icon name="mic" size={16} />
+            <span>Read aloud</span>
+          </button>
+          <PlayButton variant="pill" text="Listen" items={all} label="Listen to the whole text" />
+        </>
+      }
     >
       <article className="reading">
         {section.heading && <h3 className="reading__heading">{section.heading}</h3>}
@@ -32,6 +45,7 @@ export function ReadingSection({ section, id, index }: { section: ReadingData; i
                 </span>
               ))}
             </p>
+            {speak && <RecordButton model={para} label={`paragraph ${pi + 1}`} />}
           </div>
         ))}
       </article>

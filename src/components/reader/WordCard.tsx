@@ -5,10 +5,12 @@ import { Icon } from '../ui/Icon'
 import { BidiText } from '../support/BidiText'
 import { spokenWord } from '../../content/speakables'
 import { lookupWord, useLesson } from '../lesson/LessonContext'
+import { SaveWordButton } from '../ui/SaveWordButton'
+import { wordKey } from '../../lib/text'
 
 /** Metinde bir kelimeye dokununca alttan açılan kart: ses, anlam, cümleyi dinle. */
 export function WordCard() {
-  const { selection, selectWord, vocab, glossary, policy } = useLesson()
+  const { selection, selectWord, vocab, glossary, policy, lesson } = useLesson()
   const { supportLang } = useSettings()
 
   useEffect(() => {
@@ -52,12 +54,28 @@ export function WordCard() {
       ) : /^\p{Lu}/u.test(selection.word) && selection.word !== 'I' ? (
         <p className="wordcard__hint">A name.</p>
       ) : null}
-      <PlayButton
-        variant="pill"
-        text="Listen to the sentence"
-        items={[{ key: selection.sentenceKey, text: selection.sentence, voice: selection.voice }]}
-        label="Listen to the sentence"
-      />
+      <div className="wordcard__actions">
+        <PlayButton
+          variant="pill"
+          text="Listen to the sentence"
+          items={[{ key: selection.sentenceKey, text: selection.sentence, voice: selection.voice }]}
+          label="Listen to the sentence"
+        />
+        {(result.tr || result.ar) && (
+          <SaveWordButton
+            variant="pill"
+            word={{
+              key: wordKey(result.headword),
+              word: result.headword,
+              gloss: { tr: result.tr, ar: result.ar },
+              example: selection.sentence,
+              exampleVoice: selection.voice,
+              level: lesson.level,
+              lessonId: lesson.id,
+            }}
+          />
+        )}
+      </div>
     </div>
   )
 }

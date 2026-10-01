@@ -8,7 +8,13 @@ import type { Character } from '../content/schema'
  */
 export const TTS_ENGINE: 'kokoro' | 'azure' = 'kokoro'
 
+/**
+ * Kokoro model hassasiyeti. fp32 daha doğal (Ekim 2026'da ses deneme sayfasında dinlenip seçildi), q8 daha hızlı.
+ * Dosya adının parçasıdır: değişirse bütün sesler yeniden üretilir.
+ */
+export const KOKORO_DTYPE = 'fp32'
+
 /** Ses dosyası adının (hash) parçası olan ses kimliği. */
 export function ttsVoice(c: Character): string {
-  return TTS_ENGINE === 'kokoro' ? `kokoro:${c.kokoroVoice}` : c.azureVoice
+  return TTS_ENGINE === 'kokoro' ? `kokoro-${KOKORO_DTYPE}:${c.kokoroVoice}` : c.azureVoice
 }

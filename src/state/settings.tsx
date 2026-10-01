@@ -4,15 +4,18 @@ import { readJSON, writeJSON } from '../lib/storage'
 
 export type SupportLang = 'none' | 'tr' | 'ar'
 export type Mode = 'auto' | 'light' | 'dark'
+/** recorded = hazır mp3 dosyaları; live = tarayıcının doğal sesleri (Edge'de çok iyi) */
+export type VoiceMode = 'recorded' | 'live'
 
 export type Settings = {
   supportLang: SupportLang
   mode: Mode
   slow: boolean
+  voiceMode: VoiceMode
   teacher: boolean
 }
 
-const DEFAULTS: Settings = { supportLang: 'none', mode: 'auto', slow: false, teacher: false }
+const DEFAULTS: Settings = { supportLang: 'none', mode: 'auto', slow: false, voiceMode: 'recorded', teacher: false }
 
 type Ctx = Settings & { update: (patch: Partial<Settings>) => void }
 
@@ -34,6 +37,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     writeJSON('settings', settings)
     const root = document.documentElement
     audio.rate = settings.slow ? 0.75 : 1
+    audio.preferLive = settings.voiceMode === 'live'
     // "auto" ise sistemin açık/koyu tercihine uyar; CSS sadece data-scheme'e bakar
     const media = window.matchMedia('(prefers-color-scheme: dark)')
     const apply = () => {

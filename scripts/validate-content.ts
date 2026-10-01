@@ -7,7 +7,7 @@
  */
 import { readFileSync, readdirSync, existsSync, writeFileSync } from 'node:fs'
 import { join, relative, basename } from 'node:path'
-import { Characters, Curriculum, Glossary, LEVELS, Lesson, supportPolicy, type Level, type Support } from '../src/content/schema.ts'
+import { Characters, Curriculum, Glossary, LEVELS, Lesson, Placement, Sounds, Story, supportPolicy, type Level, type Support } from '../src/content/schema.ts'
 import { countWords, lemmaCandidates, tokenize, wordKey } from '../src/lib/text.ts'
 
 const ROOT = join(import.meta.dirname, '..')
@@ -30,6 +30,21 @@ function walk(dir: string): string[] {
 const curriculum = Curriculum.parse(readJSON(join(CONTENT, 'curriculum.json')))
 const characters = Characters.parse(readJSON(join(CONTENT, 'characters.json')))
 const characterIds = new Set(characters.map((c) => c.id))
+{
+  const parsed = Sounds.safeParse(readJSON(join(CONTENT, 'sounds.json')))
+  if (!parsed.success) for (const i of parsed.error.issues) errors.push(`content/sounds.json: ${i.path.join('.')} — ${i.message}`)
+}
+{
+  const parsed = Placement.safeParse(readJSON(join(CONTENT, 'placement.json')))
+  if (!parsed.success) for (const i of parsed.error.issues) errors.push(`content/placement.json: ${i.path.join('.')} — ${i.message}`)
+  else
+    parsed.data.sections.forEach((s, si) =>
+      s.items.forEach((it, k) => {
+        if (it.answer >= it.options.length) errors.push(`content/placement.json: bölüm ${si + 1} soru ${k + 1} cevap numarası seçeneklerin dışında`)
+        if (it.voice && !characterIds.has(it.voice)) errors.push(`content/placement.json: bilinmeyen ses "${it.voice}"`)
+      }),
+    )
+}
 
 const glossary: Glossary = {}
 for (const f of walk(join(CONTENT, 'glossary')).filter((f) => !f.endsWith('.generated.json'))) {
@@ -218,6 +233,44 @@ for (const ref of order) {
   if (noGloss.size) warn(where, `Sözlükte anlamı olmayan kelimeler: ${[...noGloss].sort().join(', ')}`)
 
   for (const w of vocabHere) learned.add(w)
+}
+
+// ---- Okuma kütüphanesi (content/stories) ----
+const storyIds = new Set<string>()
+for (const f of walk(join(CONTENT, 'stories'))) {
+  const rel = relative(ROOT, f)
+  const parsed = Story.safeParse(readJSON(f))
+  if (!parsed.success) {
+    for (const i of parsed.error.issues) errors.push(`${rel}: ${i.path.join('.')} — ${i.message}`)
+    continue
+  }
+  const story = parsed.data
+  const where = `hikâye ${story.id}`
+  if (basename(f, '.json') !== story.id) errors.push(`${rel}: dosya adı ile id aynı olmalı ("${story.id}")`)
+  if (storyIds.has(story.id)) errors.push(`${rel}: aynı id iki kez: ${story.id}`)
+  storyIds.add(story.id)
+  for (const c of story.characters) if (!characterIds.has(c)) errors.push(`${rel}: bilinmeyen karakter "${c}"`)
+  const vocab = new Set<string>()
+  for (const sec of story.sections) {
+    if (sec.type === 'vocabulary') for (const v of sec.items) vocab.add(wordKey(v.word))
+    if (sec.type === 'dialogue') for (const l of sec.lines) if (!characterIds.has(l.speaker)) errors.push(`${where}: bilinmeyen konuşmacı "${l.speaker}"`)
+    if (sec.type === 'reading' && sec.voice && !characterIds.has(sec.voice)) errors.push(`${where}: bilinmeyen ses "${sec.voice}"`)
+    if (sec.type === 'exercise' && sec.kind === 'mcq')
+      sec.items.forEach((it, k) => it.answer >= it.options.length && errors.push(`${where}: soru ${k + 1} cevap numarası seçeneklerin dışında`))
+  }
+  const noGloss = new Set<string>()
+  const lesson: Lesson = { id: story.id, level: story.level, unit: 0, order: 0, title: story.title, canDo: [story.summary], sections: story.sections }
+  for (const sentence of allSentences(lesson))
+    tokenize(sentence)
+      .filter((t) => t.kind === 'word')
+      .forEach((t) => {
+        const k = wordKey(t.text)
+        if (names.has(k.replace(/'s$/, '')) || /^\d/.test(k) || (k.length === 1 && k !== 'a' && k !== 'i')) return
+        if (!glossed(t.text, vocab)) noGloss.add(k)
+      })
+  if (noGloss.size) warn(where, `Sözlükte anlamı olmayan kelimeler: ${[...noGloss].sort().join(', ')}`)
+  const n = countWords(story.sections.flatMap((x) => (x.type === 'reading' ? x.paragraphs.flat() : [])).join(' '))
+  if (n > READING_MAX[story.level] * 2) warn(where, `metin ${n} kelime (uzun)`)
 }
 
 // ---- Rapor ----

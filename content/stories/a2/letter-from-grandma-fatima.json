@@ -1,0 +1,72 @@
+{
+  "id": "letter-from-grandma-fatima",
+  "level": "a2",
+  "title": "A letter from Grandma Fatima",
+  "summary": "Omar's grandmother can't write any more, so Lina writes her words down.",
+  "minutes": 6,
+  "characters": ["lina", "omar"],
+  "sections": [
+    {
+      "type": "vocabulary",
+      "title": "Words in the story",
+      "instructions": "Listen and repeat.",
+      "items": [
+        { "word": "eyes", "pos": "noun", "example": "My eyes aren't good enough to write.", "gloss": { "tr": "gözler", "ar": "العينان" } },
+        { "word": "write down", "pos": "phrase", "example": "Lina writes down my words.", "gloss": { "tr": "yazıya geçirmek, not etmek", "ar": "يُدوِّن" } },
+        { "word": "advice", "pos": "noun", "example": "Here is some advice from an old woman.", "gloss": { "tr": "öğüt, tavsiye", "ar": "نصيحة" } },
+        { "word": "brave", "pos": "adjective", "example": "You were always brave.", "gloss": { "tr": "cesur", "ar": "شجاع" } },
+        { "word": "the whole", "pos": "phrase", "example": "The whole family is going to be here.", "gloss": { "tr": "bütün, tamamı", "ar": "كلّ، بأكمله" } },
+        { "word": "pray", "pos": "verb", "example": "I pray for you every night.", "gloss": { "tr": "dua etmek", "ar": "يدعو، يُصلّي" } }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read and listen",
+      "heading": "My dear Omar,",
+      "intro": "Grandma Fatima speaks, and Lina writes. Then Lina reads the letter to Omar on a video call.",
+      "voice": "lina",
+      "paragraphs": [
+        ["My eyes aren't good enough to write letters any more, so Lina is writing down my words. She is laughing at my English, but I don't care."],
+        [
+          "I remember the day you left for America. You were very quiet at the airport, and I didn't cry. I cried at home, for a whole week.",
+          "You were always brave, even when you were a little boy."
+        ],
+        [
+          "Here is some advice from an old woman. Eat well. Winter in Boston is too cold for a boy from Amman, so wear your hat.",
+          "Call your mother every Friday, not only on holidays. And be kind to your patients. A kind nurse is better than good medicine."
+        ],
+        [
+          "Next summer, when you come home, I'm going to cook maqluba for the whole family. Kareem, Hala and little Adam are going to come from Dubai.",
+          "The house is going to be too small and too loud, and it's going to be perfect."
+        ],
+        ["I pray for you every night.", "Your grandmother, Fatima"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Questions",
+      "instructions": "Read again and choose.",
+      "items": [
+        { "prompt": "Why is Lina writing the letter?", "options": ["Fatima can't see well enough to write.", "Fatima doesn't speak English.", "Fatima is too busy."], "answer": 0 },
+        { "prompt": "What did Fatima do when Omar left?", "options": ["She cried at the airport.", "She cried at home for a week.", "She went to America too."], "answer": 1 },
+        { "prompt": "Which advice is NOT in the letter?", "options": ["Wear your hat.", "Call your mother on Fridays.", "Learn to cook."], "answer": 2 },
+        { "prompt": "What is Fatima going to do next summer?", "options": ["fly to Boston", "cook maqluba for the family", "visit Dubai"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "The letter",
+      "instructions": "Complete with words from the letter.",
+      "bank": ["enough", "too", "going", "brave", "kind"],
+      "items": [
+        "My eyes aren't good {enough} to write letters.",
+        "Winter in Boston is {too} cold for a boy from Amman.",
+        "You were always {brave}.",
+        "A {kind} nurse is better than good medicine.",
+        "I'm {going} to cook maqluba for the whole family."
+      ]
+    }
+  ]
+}

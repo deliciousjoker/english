@@ -294,3 +294,41 @@ export function supportPolicy(level: Level) {
       return { glosses: false, grammar: false, instructions: false }
   }
 }
+
+/** Ses çiftleri (Sounds sayfası): Türk ve Arap öğrencilerin karıştırdığı sesler. */
+export const SoundSet = z.object({
+  id: z.string(),
+  title: z.string(),
+  sounds: z.array(z.string()).length(2),
+  /** Kimler için özellikle zor (tr, ar) */
+  for: z.array(z.enum(['tr', 'ar'])).min(1),
+  tip: Support,
+  pairs: z.array(z.tuple([z.string(), z.string()])).min(3),
+})
+export type SoundSet = z.infer<typeof SoundSet>
+export const Sounds = z.object({ sets: z.array(SoundSet).min(1) })
+export type Sounds = z.infer<typeof Sounds>
+
+/** Seviye belirleme sınavı: her seviyeden birkaç soru; geçme sınırının altında kalınca durur. */
+export const Placement = z.object({
+  /** Bir bölümü geçmek için gereken doğru sayısı */
+  pass: z.number().int().min(1),
+  sections: z.array(z.object({ level: Level, items: z.array(McqItem).min(4) })).min(2),
+})
+export type Placement = z.infer<typeof Placement>
+
+/**
+ * Okuma kütüphanesi hikâyesi: content/stories/<seviye>/<id>.json
+ * Küçük bir ders gibidir (kelimeler, metin, sorular); aynı bölüm türlerini kullanır.
+ */
+export const Story = z.object({
+  id: z.string(),
+  level: Level,
+  title: z.string(),
+  summary: z.string(),
+  minutes: z.number().int().min(1),
+  /** Hikâyedeki karakterler (kapakta gösterilir) */
+  characters: z.array(z.string()).default([]),
+  sections: z.array(Section).min(1),
+})
+export type Story = z.infer<typeof Story>

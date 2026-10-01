@@ -37,9 +37,13 @@ function subscribe(fn: () => void) {
   }
 }
 
+/** Ünite testleri "test:", hikâyeler "story:" önekiyle kaydedilir; "Continue" için son ders sayılmazlar. */
+export const TEST_PREFIX = 'test:'
+
 function updateLesson(id: string, fn: (p: LessonProgress) => LessonProgress) {
   const current = state.lessons[id] ?? EMPTY_LESSON
-  commit({ ...state, lastLesson: id, lessons: { ...state.lessons, [id]: { ...fn(current), updatedAt: Date.now() } } })
+  const lastLesson = id.includes(':') ? state.lastLesson : id
+  commit({ ...state, lastLesson, lessons: { ...state.lessons, [id]: { ...fn(current), updatedAt: Date.now() } } })
 }
 
 export const progress = {

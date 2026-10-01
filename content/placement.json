@@ -1,0 +1,57 @@
+{
+  "pass": 6,
+  "sections": [
+    {
+      "level": "starter",
+      "items": [
+        { "audio": "B, O, O, K.", "prompt": "Listen. Which word is it?", "options": ["book", "look", "cook"], "answer": 0 },
+        { "audio": "Forty-five.", "prompt": "Listen. Which number is it?", "options": ["14", "45", "54"], "answer": 1 },
+        { "prompt": "Hello! My name ___ Sam.", "options": ["is", "am", "are"], "answer": 0 },
+        { "prompt": "Good morning! How are you?", "options": ["I'm fine, thank you.", "I'm Sam.", "Goodbye!"], "answer": 0 },
+        { "prompt": "Your teacher says, \"Please sit down.\" You …", "options": ["stand up", "sit on your chair", "open the door"], "answer": 1 },
+        { "prompt": "Three and four is ___.", "options": ["seven", "six", "eleven"], "answer": 0 },
+        { "audio": "Goodbye! See you tomorrow.", "voice": "maya", "prompt": "Listen. She is …", "options": ["saying hello", "saying goodbye", "saying sorry"], "answer": 1 },
+        { "prompt": "I ___ a student.", "options": ["am", "is", "are"], "answer": 0 }
+      ]
+    },
+    {
+      "level": "a1",
+      "items": [
+        { "prompt": "She ___ from Brazil.", "options": ["are", "is", "am"], "answer": 1 },
+        { "prompt": "This is Omar. ___ sister lives in Amman.", "options": ["His", "Her", "He"], "answer": 0 },
+        { "prompt": "Elif ___ breakfast at eight every day.", "options": ["have", "has", "having"], "answer": 1 },
+        { "prompt": "___ there a bank near here? — Yes, there is.", "options": ["Are", "Is", "Do"], "answer": 1 },
+        { "prompt": "I can't swim, but I ___ ride a bike.", "options": ["can", "am", "do"], "answer": 0 },
+        { "prompt": "Look outside! It ___.", "options": ["snows", "is snowing", "snowing"], "answer": 1 },
+        { "audio": "I got up at six, and I didn't have breakfast.", "voice": "lucas", "prompt": "Listen. What did he do?", "options": ["He had a big breakfast.", "He didn't eat in the morning.", "He got up late."], "answer": 1 },
+        { "audio": "The café opens at seven from Monday to Friday, and at eight on Saturdays.", "voice": "sam", "prompt": "Listen. When does the café open on Saturdays?", "options": ["at seven", "at eight", "It's closed."], "answer": 1 }
+      ]
+    },
+    {
+      "level": "a2",
+      "items": [
+        { "prompt": "Next summer I ___ visit my grandparents.", "options": ["am going to", "going to", "will to"], "answer": 0 },
+        { "prompt": "New York is ___ than Boston.", "options": ["big", "bigger", "the biggest"], "answer": 1 },
+        { "prompt": "This is the ___ café in town.", "options": ["better", "best", "good"], "answer": 1 },
+        { "prompt": "You look ill. You ___ see a doctor.", "options": ["should", "shouldn't", "don't"], "answer": 0 },
+        { "prompt": "I ___ TV when the lights went out.", "options": ["watched", "was watching", "am watching"], "answer": 1 },
+        { "prompt": "Have you ever ___ snow?", "options": ["see", "saw", "seen"], "answer": 2 },
+        { "audio": "Take the subway to Park Street, then walk along the river for five minutes.", "voice": "omar", "prompt": "Listen. How do you get there?", "options": ["by bus, then on foot", "by subway, then on foot", "by taxi"], "answer": 1 },
+        { "audio": "I'm afraid I can't come on Friday. I have to work late.", "voice": "maya", "prompt": "Listen. Maya …", "options": ["says yes to an invitation", "says no politely", "invites someone to dinner"], "answer": 1 }
+      ]
+    },
+    {
+      "level": "b1",
+      "items": [
+        { "prompt": "If I ___ more time, I would learn Japanese.", "options": ["have", "had", "will have"], "answer": 1 },
+        { "prompt": "The museum ___ in 1890.", "options": ["built", "was built", "has built"], "answer": 1 },
+        { "prompt": "She told me that she ___ tired.", "options": ["is", "was", "be"], "answer": 1 },
+        { "prompt": "I ___ in Boston since 2024.", "options": ["live", "am living", "have lived"], "answer": 2 },
+        { "prompt": "When I was a child, I used to ___ in Izmir.", "options": ["live", "living", "lived"], "answer": 0 },
+        { "prompt": "You ___ wear a uniform at our school. It's your choice.", "options": ["mustn't", "don't have to", "can't"], "answer": 1 },
+        { "audio": "I've been reading this book for three weeks, and I still haven't finished it.", "voice": "rose", "prompt": "Listen. Rose …", "options": ["finished the book three weeks ago", "is still reading the book", "didn't like the book"], "answer": 1 },
+        { "audio": "If it rains tomorrow, we'll move the concert inside the café.", "voice": "sam", "prompt": "Listen. What will happen if it rains?", "options": ["They will cancel the concert.", "The concert will be inside.", "The concert will be next week."], "answer": 1 }
+      ]
+    }
+  ]
+}

@@ -6,8 +6,9 @@ import { ttsVoice } from './engine'
 
 /**
  * Tek bir yerden ses çalma:
- *  1. public/audio/<hash>.mp3 varsa (Azure ile üretilmiş) onu çalar,
- *  2. yoksa tarayıcının kendi sesiyle (speechSynthesis) okur.
+ *  1. "Edge natural" modu açıksa ve tarayıcıda karaktere uygun doğal ses varsa onunla okur,
+ *  2. yoksa public/audio/<hash>.mp3 varsa onu çalar,
+ *  3. o da yoksa tarayıcının kendi sesiyle (speechSynthesis) okur.
  * Aynı anda tek bir şey çalar; hangi öğenin çaldığı `useNowPlaying` ile izlenir.
  */
 
@@ -20,6 +21,8 @@ class AudioService {
   private playingKey: string | null = null
   private listeners = new Set<() => void>()
   rate = 1
+  /** Ayarlardaki "Edge natural" modu: kayıtlı ses yerine tarayıcının doğal sesleri */
+  preferLive = false
 
   subscribe = (fn: () => void) => {
     this.listeners.add(fn)
@@ -68,6 +71,10 @@ class AudioService {
 
   private async speakOne(item: SpeakItem, gen: number) {
     const character = getCharacter(item.voice)
+    if (this.preferLive && naturalVoiceFor(character)) {
+      await speakWithBrowser(item.text, character, this.rate)
+      return
+    }
     const key = audioKey(ttsVoice(character), item.text)
     const manifest = await this.loadManifest()
     if (gen !== this.generation) return
@@ -167,6 +174,38 @@ function pickVoice(c: Character): SpeechSynthesisVoice | null {
   const choice = candidates[hashString(c.id) % candidates.length].v
   picked.set(c.id, choice)
   return choice
+}
+
+/** Karakter için doğal (Natural / neural) bir tarayıcı sesi varsa onu döndürür. */
+export function naturalVoiceFor(c: Character): SpeechSynthesisVoice | null {
+  const v = typeof speechSynthesis === 'undefined' ? null : pickVoice(c)
+  return v && quality(v) >= 30 ? v : null
+}
+
+const naturalVoicesListeners = new Set<() => void>()
+const hasNaturalVoices = () =>
+  voices.some((v) => v.lang.toLowerCase().startsWith('en') && quality(v) >= 30)
+if (typeof speechSynthesis !== 'undefined')
+  speechSynthesis.addEventListener?.('voiceschanged', () => naturalVoicesListeners.forEach((fn) => fn()))
+
+/** Tarayıcıda İngilizce doğal ses var mı (Edge'de evet, çoğu telefonda hayır)? Sesler geç yüklenebilir. */
+export function useNaturalVoicesAvailable(): boolean {
+  return useSyncExternalStore(
+    (fn) => {
+      naturalVoicesListeners.add(fn)
+      return () => naturalVoicesListeners.delete(fn)
+    },
+    hasNaturalVoices,
+    () => false,
+  )
+}
+
+/** Ses deneme sayfası için: bir cümleyi karakterin doğal tarayıcı sesiyle okur, seçilen sesin adını döndürür. */
+export function speakLive(text: string, characterId: string): string | null {
+  audio.stop()
+  const c = getCharacter(characterId)
+  void speakWithBrowser(text, c, 1)
+  return naturalVoiceFor(c)?.name ?? null
 }
 
 function speakWithBrowser(text: string, c: Character, rate: number): Promise<void> {

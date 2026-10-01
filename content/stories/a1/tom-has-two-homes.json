@@ -1,0 +1,67 @@
+{
+  "id": "tom-has-two-homes",
+  "level": "a1",
+  "title": "Tom has two homes",
+  "summary": "Rose's lazy gray cat has a busy day, and a secret door.",
+  "minutes": 4,
+  "characters": ["rose", "elif"],
+  "sections": [
+    {
+      "type": "vocabulary",
+      "title": "Words in the story",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "bird", "pos": "noun", "example": "Tom watches the birds.", "gloss": { "tr": "kuş", "ar": "طائر، عصفور" } },
+        { "word": "climb", "pos": "verb", "example": "He climbs a small tree.", "gloss": { "tr": "tırmanmak", "ar": "يتسلّق" } },
+        { "word": "tree", "pos": "noun", "example": "There's a small tree in the garden.", "gloss": { "tr": "ağaç", "ar": "شجرة" } },
+        { "word": "quietly", "pos": "adverb", "example": "He walks quietly to 4B.", "gloss": { "tr": "sessizce", "ar": "بهدوء" } },
+        { "word": "only", "pos": "adverb", "example": "Rose only knows about one home.", "gloss": { "tr": "sadece", "ar": "فقط" } }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read and listen",
+      "heading": "Tom has two homes",
+      "paragraphs": [
+        ["Tom is Rose's cat. He's gray, and he's very lazy.", "He sleeps on Rose's bed until nine o'clock every morning."],
+        ["At ten, he eats his breakfast in the kitchen.", "At noon, he sits in the window and watches the birds in the garden."],
+        ["In the afternoon, Tom goes out into the garden. He climbs the small tree, but he never catches a bird."],
+        [
+          "At seven in the evening, Rose goes to bed with a book.",
+          "Then Tom walks quietly to the door of apartment 4B.",
+          "Elif opens the door, and Tom sits on her desk next to her drawings."
+        ],
+        ["Tom has two homes, and two friends.", "But Rose only knows about one of them!"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "True or false?",
+      "instructions": "Read again. True or false?",
+      "support": { "tr": "Tekrar oku. Doğru mu, yanlış mı?", "ar": "اقرأ مرة أخرى. صح أم خطأ؟" },
+      "items": [
+        { "statement": "Tom sleeps until nine o'clock.", "answer": true },
+        { "statement": "At noon, Tom is in the garden.", "answer": false },
+        { "statement": "Tom catches a lot of birds.", "answer": false },
+        { "statement": "In the evening, Tom visits Elif.", "answer": true },
+        { "statement": "Rose knows about Tom's second home.", "answer": false }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "ordering",
+      "title": "Tom's day",
+      "instructions": "Put Tom's day in order.",
+      "support": { "tr": "Tom'un gününü sıraya koy.", "ar": "رتّب يوم توم." },
+      "items": [
+        "He sleeps on Rose's bed.",
+        "He eats his breakfast.",
+        "He watches the birds from the window.",
+        "He climbs the tree in the garden.",
+        "He visits Elif in 4B."
+      ]
+    }
+  ]
+}

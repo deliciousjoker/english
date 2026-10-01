@@ -1,0 +1,69 @@
+{
+  "id": "omars-first-day",
+  "level": "a1",
+  "title": "Omar's first day in Boston",
+  "summary": "Snow, a lost bag and a very kind taxi driver.",
+  "minutes": 5,
+  "characters": ["omar"],
+  "sections": [
+    {
+      "type": "vocabulary",
+      "title": "Words in the story",
+      "instructions": "Listen and repeat.",
+      "support": { "tr": "Dinle ve tekrar et.", "ar": "استمع وكرّر." },
+      "items": [
+        { "word": "airport", "pos": "noun", "example": "I arrived at the airport at night.", "gloss": { "tr": "havalimanı", "ar": "مطار" } },
+        { "word": "arrive", "pos": "verb", "example": "I arrived in January.", "gloss": { "tr": "varmak, gelmek", "ar": "يصل" } },
+        { "word": "lose", "pos": "verb", "example": "The airline lost my bag.", "gloss": { "tr": "kaybetmek (past: lost)", "ar": "يُضيِّع، يفقد (الماضي: lost)" } },
+        { "word": "taxi driver", "pos": "noun", "example": "The taxi driver was from Morocco.", "gloss": { "tr": "taksi şoförü", "ar": "سائق سيارة أجرة" } },
+        { "word": "laugh", "pos": "verb", "example": "We laughed a lot.", "gloss": { "tr": "gülmek", "ar": "يضحك" } }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read and listen",
+      "heading": "My first day in Boston",
+      "intro": "Omar remembers his first day, two years ago.",
+      "voice": "omar",
+      "paragraphs": [
+        ["I arrived in Boston on a cold night in January.", "It was my first time in America, and it was my first time in the snow!"],
+        ["At the airport, I waited and waited for my bag, but it didn't come.", "The airline lost it. I only had my phone, my passport and a small backpack."],
+        [
+          "I took a taxi to my new apartment.",
+          "The taxi driver was from Morocco, and we talked in Arabic all the way.",
+          "He saw my summer jacket and laughed. “You need a real coat, my brother!”"
+        ],
+        ["The next morning, he came back with a big old coat. “It's my son's coat. He doesn't need it,” he said."],
+        ["My bag arrived three days later.", "But I still wear that coat every winter."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "ordering",
+      "title": "What happened?",
+      "instructions": "Put the story in order.",
+      "support": { "tr": "Hikâyeyi sıraya koy.", "ar": "رتّب القصّة." },
+      "items": [
+        "Omar arrived in Boston.",
+        "His bag didn't come.",
+        "He took a taxi.",
+        "The taxi driver laughed at his jacket.",
+        "The taxi driver brought him a coat.",
+        "His bag arrived."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Questions",
+      "instructions": "Read again and choose.",
+      "support": { "tr": "Tekrar oku ve seç.", "ar": "اقرأ مرة أخرى واختر." },
+      "items": [
+        { "prompt": "When did Omar arrive in Boston?", "options": ["in the summer", "in January", "last week"], "answer": 1 },
+        { "prompt": "What did the airline lose?", "options": ["his passport", "his phone", "his bag"], "answer": 2 },
+        { "prompt": "Where was the taxi driver from?", "options": ["Jordan", "Morocco", "Turkey"], "answer": 1 },
+        { "prompt": "Whose coat did Omar get?", "options": ["the taxi driver's son's", "Sam's", "his brother's"], "answer": 0 }
+      ]
+    }
+  ]
+}

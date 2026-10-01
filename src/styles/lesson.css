@@ -1028,3 +1028,64 @@
   font-size: 0.95rem;
   line-height: 1.4;
 }
+
+.vocab__buttons {
+  display: inline-flex;
+  gap: 4px;
+}
+.wordcard__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* ---------- Kendi sesini kaydet ---------- */
+
+.rec {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+.rec__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0.3em 0.75em;
+  border: var(--stroke) solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--ink-2);
+}
+.rec__btn:hover:not(:disabled) {
+  border-color: var(--ink-3);
+  color: var(--ink);
+}
+.rec__btn svg {
+  color: var(--bad);
+}
+.rec__btn--stop {
+  background: var(--bad);
+  border-color: var(--bad);
+  color: #fff;
+  animation: pulse 1.2s ease-in-out infinite;
+}
+.rec__btn--stop svg {
+  color: #fff;
+}
+.rec--blocked {
+  font-size: 0.85rem;
+  color: var(--bad);
+}
+.dialogue.is-speaking .line {
+  grid-template-areas: 'av name play' 'av text play' 'av rec rec';
+  row-gap: 4px;
+}
+.line__rec {
+  grid-area: rec;
+}
+.reading__para .rec {
+  margin-top: 6px;
+}

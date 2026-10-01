@@ -1,0 +1,362 @@
+/* ---------- Yazdırılabilir çalışma kâğıdı (/lesson/:id/print) ---------- */
+
+.printpage {
+  display: grid;
+  gap: 24px;
+  justify-items: center;
+  padding: 24px 16px 64px;
+  background: var(--bg-band);
+}
+.printbar {
+  position: sticky;
+  top: calc(var(--topbar-h) + 8px);
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 16px;
+  width: min(210mm, 100%);
+  padding: 10px 14px;
+  background: var(--surface);
+  border: var(--stroke) solid var(--line-strong);
+  border-radius: var(--radius);
+}
+.printbar__opt {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+}
+.printbar__note {
+  flex: 1;
+  font-size: 0.85rem;
+  color: var(--ink-3);
+}
+
+/* Kâğıt her zaman açık renkte basılır */
+.sheet {
+  --ink: #17191e;
+  --ink-2: #3c4048;
+  --ink-3: #62666e;
+  --line: #d6d4ce;
+  --line-strong: #17191e;
+  --surface: #fff;
+  --bg-band: #f1f0ec;
+  width: min(210mm, 100%);
+  padding: 16mm 15mm;
+  background: #fff;
+  color: var(--ink);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  font-size: 11.5pt;
+  line-height: 1.5;
+}
+.sheet__head {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 8mm;
+}
+.sheet__band {
+  padding: 4px 10px;
+  background: var(--lv);
+  color: var(--lv-ink);
+  font-weight: 700;
+  font-size: 10pt;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.sheet__title {
+  font-size: 24pt;
+}
+.sheet__name {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.pr__sec {
+  margin-bottom: 7mm;
+  break-inside: avoid-page;
+}
+.pr__head {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  align-items: start;
+  margin-bottom: 3mm;
+}
+.pr__num {
+  display: grid;
+  place-items: center;
+  width: 8mm;
+  height: 8mm;
+  background: var(--lv);
+  color: var(--lv-ink);
+  font-family: var(--font-num);
+  font-weight: 700;
+  border-radius: 2px;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.pr__title {
+  font-size: 14pt;
+}
+.pr__instr {
+  color: var(--ink-2);
+}
+.pr__help {
+  color: var(--ink-3);
+  margin-left: 6px;
+}
+.pr__help[lang='ar'] {
+  font-size: 1.05em;
+}
+.pr__bullets {
+  list-style: disc;
+  padding-left: 6mm;
+  display: grid;
+  gap: 2px;
+}
+.pr__items {
+  list-style: decimal;
+  padding-left: 6mm;
+  display: grid;
+  gap: 3mm;
+}
+.pr__items li {
+  break-inside: avoid;
+}
+.pr__listen {
+  font-weight: 700;
+  color: var(--ink-3);
+}
+.pr__options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2mm 6mm;
+  margin-top: 1mm;
+}
+.pr__box::before {
+  content: '';
+  display: inline-block;
+  width: 3.4mm;
+  height: 3.4mm;
+  margin-right: 1.5mm;
+  border: 1px solid var(--ink);
+  vertical-align: -0.4mm;
+}
+.pr__tf,
+.pr__cando li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2mm 6mm;
+}
+.pr__tf .pr__options,
+.pr__cando .pr__options {
+  margin-top: 0;
+}
+.pr__cando {
+  list-style: none;
+  padding-left: 0;
+}
+.pr__gap {
+  display: inline-block;
+  width: 26mm;
+  border-bottom: 1px solid var(--ink);
+  margin: 0 1mm;
+}
+.pr__gap--long {
+  width: 60mm;
+}
+.pr__bank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2mm;
+  margin-bottom: 3mm;
+  padding: 2mm 3mm;
+  border: 1px dashed var(--ink-3);
+}
+.pr__bank span {
+  padding: 0 2mm;
+}
+.pr__jumble {
+  font-weight: 600;
+}
+.pr__lines {
+  display: grid;
+  gap: 0;
+}
+.pr__lines span {
+  height: 9mm;
+  border-bottom: 1px solid var(--line);
+}
+.pr__answerbox {
+  display: inline-block;
+  width: 7mm;
+  height: 6mm;
+  margin-right: 2mm;
+  border: 1px solid var(--ink);
+  vertical-align: middle;
+}
+.pr__match {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6mm;
+}
+.pr__match ol {
+  display: grid;
+  gap: 2.5mm;
+  padding-left: 6mm;
+  list-style: decimal;
+}
+.pr__match .pr__letters {
+  list-style: none;
+  padding-left: 0;
+}
+.pr__order {
+  list-style: none;
+  padding-left: 0;
+}
+.pr__vocab {
+  width: 100%;
+  border-collapse: collapse;
+}
+.pr__vocab th,
+.pr__vocab td {
+  padding: 1.6mm 2mm;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: bottom;
+}
+.pr__vocab th {
+  font-family: var(--font-display);
+  font-size: 12pt;
+  white-space: nowrap;
+}
+.pr__pos {
+  font-style: italic;
+  color: var(--ink-3);
+  font-size: 9pt;
+}
+.pr__ex {
+  color: var(--ink-2);
+  font-size: 10pt;
+}
+.pr__tiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2mm 6mm;
+}
+.pr__text {
+  padding: 3mm 4mm;
+  border-left: 3px solid var(--lv);
+}
+.pr__text h3 {
+  font-size: 13pt;
+  margin-bottom: 1mm;
+}
+.pr__text p + p {
+  margin-top: 2mm;
+}
+.pr__intro {
+  font-style: italic;
+  color: var(--ink-3);
+}
+.pr__script {
+  margin: 2mm 0 0;
+  display: grid;
+  gap: 1.5mm;
+}
+.pr__script div {
+  display: grid;
+  grid-template-columns: 26mm 1fr;
+  gap: 3mm;
+}
+.pr__script dt {
+  font-weight: 700;
+}
+.pr__script dd {
+  margin: 0;
+}
+.pr__model {
+  margin: 0 0 3mm;
+  padding: 2mm 4mm;
+  background: var(--bg-band);
+}
+.pr__model figcaption {
+  font-size: 9pt;
+  font-weight: 700;
+  color: var(--ink-3);
+}
+.sheet .play {
+  display: none;
+}
+.sheet .grammar {
+  gap: 3mm;
+}
+.sheet .grammar__look li,
+.sheet .grammar__table {
+  font-size: 11pt;
+}
+.sheet--key h3 {
+  font-size: 12pt;
+  margin: 4mm 0 1mm;
+}
+.pr__keysec ul {
+  display: grid;
+  gap: 1mm;
+  font-size: 10.5pt;
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm;
+  }
+  html.is-printpage body {
+    background: #fff;
+  }
+  html.is-printpage .topbar,
+  html.is-printpage .sitefoot,
+  html.is-printpage .printbar {
+    display: none !important;
+  }
+  .printpage {
+    padding: 0;
+    background: none;
+    display: block;
+  }
+  .sheet {
+    width: auto;
+    padding: 0;
+    box-shadow: none;
+  }
+  .sheet--key {
+    break-before: page;
+  }
+}
+
+/* Telefonda önizleme: kâğıt ekrana sığsın (yazdırma zaten A4) */
+@media screen and (max-width: 760px) {
+  .sheet {
+    padding: 18px 14px;
+    overflow-x: auto;
+  }
+  .pr__match {
+    grid-template-columns: 1fr;
+  }
+  .pr__vocab th {
+    white-space: normal;
+  }
+  .pr__vocab .pr__ex {
+    display: none;
+  }
+  .pr__script div {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .pr__gap--long {
+    width: 40vw;
+  }
+}

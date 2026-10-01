@@ -1,5 +1,5 @@
 import { tokenize } from '../lib/text'
-import type { Character, Lesson } from './schema'
+import type { Character, Lesson, Placement, Sounds } from './schema'
 import { ttsVoice } from '../audio/engine'
 
 /**
@@ -72,4 +72,22 @@ export function collectSpeakables(
     }
   }
   return out
+}
+
+/** Sounds sayfasındaki ses çiftleri (anlatıcı sesi, kelime kelime). */
+export function collectSoundSpeakables(sounds: Sounds, characters: Map<string, Character>): Speakable[] {
+  const narrator = characters.get(VOICE.narrator)!
+  return sounds.sets
+    .flatMap((s) => s.pairs.flat())
+    .map((text) => ({ text, voice: ttsVoice(narrator), priority: 'main' as const }))
+}
+
+/** Seviye sınavındaki dinleme soruları. */
+export function collectPlacementSpeakables(placement: Placement, characters: Map<string, Character>): Speakable[] {
+  const narrator = characters.get(VOICE.narrator)!
+  return placement.sections.flatMap((s) =>
+    s.items.flatMap((it) =>
+      it.audio ? [{ text: it.audio, voice: ttsVoice(characters.get(it.voice ?? '') ?? narrator), priority: 'main' as const }] : [],
+    ),
+  )
 }

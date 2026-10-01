@@ -16,6 +16,7 @@ import './styles/layout.css'
 import './styles/lesson.css'
 import './styles/exercises.css'
 import './styles/present.css'
+import './styles/print.css'
 
 import { SettingsProvider } from './state/settings'
 import { AppShell } from './components/layout/AppShell'
@@ -23,6 +24,15 @@ import { HomePage } from './pages/HomePage'
 import { LevelPage } from './pages/LevelPage'
 import { LessonPage } from './pages/LessonPage'
 import { NotFoundPage } from './pages/NotFoundPage'
+import { VoiceLabPage } from './pages/VoiceLabPage'
+import { GrammarPage } from './pages/GrammarPage'
+import { WordsPage } from './pages/WordsPage'
+import { MyWordsPage } from './pages/MyWordsPage'
+import { PrintLessonPage } from './pages/PrintLessonPage'
+import { SoundsPage } from './pages/SoundsPage'
+import { UnitTestPage } from './pages/UnitTestPage'
+import { PlacementPage } from './pages/PlacementPage'
+import { LibraryPage, StoryPage } from './pages/LibraryPage'
 import { audio } from './audio/AudioService'
 
 // Ses listesini erkenden yükle (ilk tıklamada gecikme olmasın)
@@ -36,6 +46,17 @@ const router = createBrowserRouter(
         { index: true, element: <HomePage /> },
         { path: 'level/:levelId', element: <LevelPage /> },
         { path: 'lesson/:lessonId', element: <LessonPage /> },
+        { path: 'lesson/:lessonId/print', element: <PrintLessonPage /> },
+        { path: 'words', element: <WordsPage /> },
+        { path: 'words/mine', element: <MyWordsPage /> },
+        { path: 'grammar/:level?', element: <GrammarPage /> },
+        { path: 'sounds', element: <SoundsPage /> },
+        { path: 'test/:level/:unit', element: <UnitTestPage /> },
+        { path: 'placement', element: <PlacementPage /> },
+        { path: 'library', element: <LibraryPage /> },
+        { path: 'library/:storyId', element: <StoryPage /> },
+        // Ses deneme sayfası sadece geliştirirken (npm run dev) açılır
+        ...(import.meta.env.DEV ? [{ path: 'voice-lab', element: <VoiceLabPage /> }] : []),
         { path: '*', element: <NotFoundPage /> },
       ],
     },
