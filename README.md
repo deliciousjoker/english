@@ -129,3 +129,5 @@ src/content/schema.ts    Ders formatı (tüm bölüm ve alıştırma türleri)
 src/components/          Okuma, diyalog, gramer, alıştırma bileşenleri
 src/styles/              Tasarım (tokens.css: renkler, yazı tipleri, açık/koyu mod)
 ```
+
+**Lisans:** Tüm hakları saklıdır (bkz. `LICENSE`). Sitenin altında ve çalışma kâğıtlarında telif satırı var.

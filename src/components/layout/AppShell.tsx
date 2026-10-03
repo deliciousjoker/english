@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, NavLink, Outlet, ScrollRestoration, useLocation } from 'react-router'
-import { SITE_NAME } from '../../config'
+import { COPYRIGHT, SITE_NAME } from '../../config'
 import { useSettings, type Mode, type SupportLang, type VoiceMode } from '../../state/settings'
 import { useNaturalVoicesAvailable } from '../../audio/AudioService'
 import { Icon } from '../ui/Icon'
@@ -196,7 +196,7 @@ export function AppShell() {
         <span>
           {SITE_NAME} · free English lessons for our class
         </span>
-        <span>Starter, A1, A2, B1, B2, C1 (CEFR)</span>
+        <span>{COPYRIGHT}</span>
       </footer>
       <ScrollRestoration />
     </>

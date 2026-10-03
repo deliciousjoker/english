@@ -2,6 +2,8 @@ import type { Level } from './content/schema'
 
 /** Site adı tek yerden değişir. */
 export const SITE_NAME = 'Folio'
+/** Telif satırı: sitenin altında ve çalışma kâğıtlarında */
+export const COPYRIGHT = `© 2026 ${SITE_NAME}. All rights reserved.`
 
 export const LEVEL_LABEL: Record<Level, string> = {
   starter: 'Starter',

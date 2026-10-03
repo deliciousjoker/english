@@ -12,7 +12,7 @@ import { Icon } from '../components/ui/Icon'
 import { LevelCode } from '../components/ui/LevelCode'
 import { fillGaps, parseGaps, seededShuffle } from '../lib/text'
 import { useSettings, type SupportLang } from '../state/settings'
-import { SITE_NAME } from '../config'
+import { COPYRIGHT, SITE_NAME } from '../config'
 
 /**
  * Yazdırılabilir çalışma kâğıdı: /lesson/:id/print
@@ -374,6 +374,7 @@ function PrintView({ lesson, lang }: { lesson: Lesson; lang: SupportLang }) {
           </p>
         </header>
         {body}
+        <p className="sheet__copy">{COPYRIGHT}</p>
       </div>
 
       {withKey && answers.length > 0 && (

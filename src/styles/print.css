@@ -50,6 +50,12 @@
   font-size: 11.5pt;
   line-height: 1.5;
 }
+.sheet__copy {
+  margin-top: 8mm;
+  font-size: 0.75rem;
+  color: var(--ink-3);
+  text-align: center;
+}
 .sheet__head {
   display: grid;
   gap: 8px;
