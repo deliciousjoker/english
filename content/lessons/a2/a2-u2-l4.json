@@ -1,0 +1,244 @@
+{
+  "id": "a2-u2-l4",
+  "level": "a2",
+  "unit": 2,
+  "order": 4,
+  "title": "My city",
+  "subtitle": "Omar writes about Amman — comparatives and superlatives together",
+  "canDo": [
+    "I can describe my city: its size, weather, places and food.",
+    "I can use comparatives and superlatives together in a text.",
+    "I can write a short article for a school newsletter."
+  ],
+  "teacherNotes": [
+    "Bu ders bir yazma dersi: okuma metnindeki sıra (yer, ünlü olduğu şey, hava, yemek, en sevilen yer) öğrencilerin kendi metninin planı olur.",
+    "much + comparative (much bigger) ve one of the + superlative + çoğul isim (one of the oldest cities) en sık yapılan hatalar.",
+    "Amman yedi tepe üzerine kurulmuştur; şehir merkezindeki Roma tiyatrosu yaklaşık 1850 yıllık. Arap öğrenciler kendi şehirlerinden benzer bilgiler ekleyebilir.",
+    "İzmir ile ilgili bilgiler: Türkiye'nin üçüncü büyük şehri, 3000 yıldan eski; Kordon deniz kenarındaki yürüyüş yolu."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["What is your city famous for?", "What's the best time of year to visit your city?", "Where can you see the best view of your city?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "items": [
+        { "word": "capital", "pos": "noun", "example": "Amman is the capital of Jordan.", "gloss": { "tr": "başkent", "ar": "عاصمة" } },
+        { "word": "million", "pos": "number", "example": "About four million people live in Izmir.", "gloss": { "tr": "milyon", "ar": "مليون" } },
+        { "word": "hill", "pos": "noun", "example": "Amman is famous for its hills.", "gloss": { "tr": "tepe", "ar": "تلّة" } },
+        { "word": "famous for", "pos": "phrase", "example": "Izmir is famous for its sunsets.", "gloss": { "tr": "… ile ünlü", "ar": "مشهور بـ" } },
+        { "word": "ancient", "pos": "adjective", "example": "There's an ancient Roman theater in the center.", "gloss": { "tr": "antik, çok eski", "ar": "قديم جدًّا، أثري" } },
+        { "word": "theater", "pos": "noun", "example": "The Roman theater is almost two thousand years old.", "gloss": { "tr": "tiyatro", "ar": "مسرح" } },
+        { "word": "coast", "pos": "noun", "example": "Izmir is on the west coast of Turkey.", "gloss": { "tr": "kıyı, sahil", "ar": "ساحل" } },
+        { "word": "mild", "pos": "adjective", "example": "Winters in Izmir are mild.", "gloss": { "tr": "ılıman, yumuşak (hava)", "ar": "معتدل (الطقس)" } },
+        { "word": "sunset", "pos": "noun", "example": "We watched the sunset from the hill.", "gloss": { "tr": "gün batımı", "ar": "غروب الشمس" } },
+        { "word": "view", "pos": "noun", "example": "The view from the top is amazing.", "gloss": { "tr": "manzara", "ar": "منظر" } },
+        { "word": "neighborhood", "pos": "noun", "example": "Our neighborhood has a small market.", "gloss": { "tr": "mahalle, semt", "ar": "حيّ" } },
+        { "word": "one of the …", "pos": "phrase", "example": "It's one of the oldest cities in the world.", "gloss": { "tr": "… -lerden biri", "ar": "واحد من، من بين" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Twelve degrees and sunny",
+      "scene": "Sunday afternoon. Elif and Zeynep are on a video call.",
+      "lines": [
+        { "speaker": "zeynep", "text": "Elif! It's nine o'clock at night here. What time is it in Boston?" },
+        { "speaker": "elif", "text": "Two in the afternoon. And it's minus three degrees!" },
+        { "speaker": "zeynep", "text": "Minus three? Here it's twelve degrees and sunny. Winters in Izmir are much milder." },
+        { "speaker": "elif", "text": "I know. But Boston has snow. It's the most beautiful thing in winter." },
+        { "speaker": "zeynep", "text": "Is Boston as big as Izmir?" },
+        { "speaker": "elif", "text": "No, it isn't. Izmir is much bigger. About four million people live there, and only 650,000 people live in Boston." },
+        { "speaker": "zeynep", "text": "Really? I thought Boston was bigger!" },
+        { "speaker": "elif", "text": "It feels big because it's so busy. And Izmir is much older. Boston is only about four hundred years old." },
+        { "speaker": "zeynep", "text": "So what's the best thing about Boston?" },
+        { "speaker": "elif", "text": "The libraries. And Sam's cookies, of course. What's the best thing about Izmir?" },
+        { "speaker": "zeynep", "text": "The sea, the sunsets … and me!" },
+        { "speaker": "elif", "text": "Ha! You're right. You're the best thing in Izmir." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "items": [
+        { "statement": "It's evening in Izmir.", "answer": true },
+        { "statement": "It's warmer in Boston than in Izmir.", "answer": false },
+        { "statement": "Boston is bigger than Izmir.", "answer": false },
+        { "statement": "Boston is older than Izmir.", "answer": false },
+        { "statement": "For Elif, the libraries are one of the best things about Boston.", "answer": true }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "My city: Amman",
+      "intro": "A new series in the school newsletter. This week: Omar Haddad.",
+      "voice": "omar",
+      "paragraphs": [
+        [
+          "Amman is the capital of Jordan, and it's my home. About four million people live there, so it's much bigger than Boston. But it isn't as big as Cairo or Istanbul."
+        ],
+        [
+          "Amman is famous for its hills. The old city was built on seven hills, and today there are many more.",
+          "Walking in Amman is harder than walking in Boston: you go up and down all day! But from the top of a hill, the views are the best in the world. I'm not joking."
+        ],
+        [
+          "Amman is also one of the oldest cities in the world. In the center, there's an ancient Roman theater. It's almost two thousand years old, much older than any building in Boston."
+        ],
+        [
+          "The weather is drier and sunnier than here. Summers are hot, but the evenings are cooler because the city is high. In winter, it sometimes snows, but not as much as in Boston."
+        ],
+        [
+          "The most famous dish is mansaf: rice and meat with a yogurt sauce. But for me, the best food in Amman is my grandmother's maqluba."
+        ],
+        [
+          "My favorite place is the Citadel at sunset. You can see the whole city from there, and you can hear the call to prayer from hundreds of mosques at the same time.",
+          "Come and visit!"
+        ]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "The article",
+      "instructions": "Read again and choose.",
+      "items": [
+        { "prompt": "Which city is bigger than Amman?", "options": ["Boston", "Cairo", "both"], "answer": 1 },
+        { "prompt": "Why is walking in Amman hard?", "options": ["It's very hot.", "There are a lot of hills.", "There's a lot of traffic."], "answer": 1 },
+        { "prompt": "How old is the Roman theater?", "options": ["about two hundred years", "almost two thousand years", "about four hundred years"], "answer": 1 },
+        { "prompt": "What is Omar's favorite place?", "options": ["the Roman theater", "the Citadel", "his grandmother's kitchen"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: comparing places",
+      "look": ["Amman is **much bigger than** Boston.", "It **isn't as big as** Cairo.", "The views are **the best** in the world.", "It's **one of the oldest cities** in the world."],
+      "table": {
+        "head": ["", "Structure", "Example"],
+        "rows": [
+          ["two things", "-er / more … **than**", "Amman is **drier than** Boston."],
+          ["the same or less", "(not) **as** … **as**", "It **doesn't snow as much as** in Boston."],
+          ["one of a group", "**the** …-est / **the most**", "the **most famous** dish"],
+          ["a big difference", "**much** + comparative", "It's **much older**."],
+          ["one in a group", "**one of the** + superlative + plural noun", "**one of the oldest cities**"]
+        ]
+      },
+      "rules": [
+        "Use **much** or **a lot** before a comparative for a big difference: *much bigger*, *a lot cheaper*.",
+        "Don't use *very* with a comparative: *much colder* (not *very colder*).",
+        "After **one of the** + superlative, the noun is plural: *one of the best **cities***."
+      ],
+      "examples": ["Izmir is much warmer than Boston in winter.", "It's one of the oldest cities in the world.", "My town isn't as busy as the capital.", "The best time to visit is in the spring."],
+      "support": {
+        "tr": "Bir şehri anlatırken üç yapı birlikte kullanılır: -er / more … than (daha), as … as (kadar), the …-est / the most (en). Farkı büyütmek için much: much bigger = çok daha büyük (very bigger denmez). one of the best cities = en iyi şehirlerden biri: isim çoğul olur.",
+        "ar": "عند وصف مدينة نستخدم: ‎-er‎ / more … than (أكثر من)، as … as (مثل)، the …-est / the most (الأكثر). لتكبير الفرق نستخدم much: much bigger = أكبر بكثير (ولا نقول very bigger). one of the best cities = من أفضل المدن: الاسم بعدها جمع."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "very + comparative olmaz; one of the'den sonra isim çoğul.",
+          "wrong": ["Amman is very bigger than Boston.", "It's one of the best city in the world."],
+          "right": ["Amman is much bigger than Boston.", "It's one of the best cities in the world."]
+        },
+        "ar": {
+          "note": "لا نستخدم very مع المقارنة، والاسم بعد one of the جمع.",
+          "wrong": ["Boston is very colder than Amman.", "Petra is one of the most beautiful place in Jordan."],
+          "right": ["Boston is much colder than Amman.", "Petra is one of the most beautiful places in Jordan."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Choose",
+      "instructions": "Choose the correct word.",
+      "items": [
+        { "prompt": "Amman is ___ bigger than Boston.", "options": ["much", "very"], "answer": 0 },
+        { "prompt": "It's one of the oldest ___ in the world.", "options": ["city", "cities"], "answer": 1 },
+        { "prompt": "Boston isn't as warm ___ Amman.", "options": ["as", "than"], "answer": 0 },
+        { "prompt": "This is the ___ view in the city!", "options": ["best", "better"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with the correct form of the adjective.",
+      "items": [
+        "Izmir is {warmer} than Boston in winter. (warm)",
+        "For Zeynep, the sunsets in Izmir are {the most beautiful} in Turkey. (beautiful)",
+        "Boston isn't as {big} as Izmir. (big)",
+        "The traffic is {worse} in the evening than in the morning. (bad)",
+        "The Kordon is {the most popular} place for a walk in Izmir. (popular)",
+        "Istanbul is much {more crowded} than Izmir. (crowded)"
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "ordering",
+      "title": "The plan of the article",
+      "instructions": "Read again. Put the topics in the order of Omar's article.",
+      "items": ["Where is it, and how big is it?", "What is it famous for?", "How old is it?", "What's the weather like?", "What's the best food?", "What's your favorite place?"]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "items": [
+        { "audio": "São Paulo is much bigger than Boston. It's one of the biggest cities in the world!", "voice": "lucas", "prompt": "São Paulo is …", "options": ["smaller than Boston", "one of the biggest cities in the world", "the same size as Boston"], "answer": 1 },
+        { "audio": "London is rainier than Boston, but it isn't as cold. I never wear a coat there!", "voice": "sam", "prompt": "Compared to Boston, London is …", "options": ["colder", "rainier", "sunnier"], "answer": 1 },
+        { "audio": "Amman isn't as green as Boston, but our sunsets are much more beautiful.", "voice": "lina", "prompt": "What does Lina say about Amman?", "options": ["It's greener than Boston.", "Its sunsets are more beautiful.", "It's colder than Boston."], "answer": 1 },
+        { "audio": "The best time to visit Boston is in October. The trees are red and orange, and it isn't too cold yet.", "voice": "maya", "prompt": "Why is October the best time to visit?", "options": ["It's the hottest month.", "The trees are beautiful and it isn't too cold.", "There's a lot of snow."], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "items": [
+        "It's one of the oldest cities in the world.",
+        "The views are the best in the world.",
+        "Winters in Izmir are much milder.|In Izmir winters are much milder.",
+        "What's the best thing about your city?"
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "items": [
+        { "text": "Amman is famous for its hills.", "voice": "omar" },
+        { "text": "It's much older than Boston.", "voice": "omar" },
+        { "text": "Winters in Izmir are much milder.", "voice": "zeynep" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: My city",
+      "model": {
+        "heading": "My city: Izmir — Elif Kaya",
+        "text": [
+          "Izmir is on the west coast of Turkey. About four million people live there, so it's the third biggest city in the country.",
+          "It's famous for the sea and the sunsets. The best place for a walk is the Kordon, next to the sea.",
+          "Izmir is more than three thousand years old: much older than Boston!",
+          "Winters are much milder than here, and summers are very hot.",
+          "The best food? A Turkish breakfast with olives, cheese and tea, on a Sunday morning with my family.",
+          "My favorite place is my grandmother's balcony. You can see the sea from there."
+        ]
+      },
+      "frame": ["My city: ___", "___ is in ___. About ___ people live there.", "It's famous for ___.", "The weather is ___er than ___.", "The best ___ is ___.", "My favorite place is ___ because ___."],
+      "prompt": "Write about your city or town for the school newsletter (80 to 120 words). Use the topics from the plan exercise.",
+      "minWords": 80,
+      "checklist": ["I use comparatives (-er / more … than / as … as).", "I use superlatives (the …-est / the most / one of the …).", "I write about the size, the weather, places and food."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

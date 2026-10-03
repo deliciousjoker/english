@@ -360,3 +360,32 @@
     width: 40vw;
   }
 }
+
+.pr__pic {
+  width: 30mm;
+  height: 30mm;
+  margin: 1mm 0 2mm;
+  --pic-paper: #fff;
+}
+.pr__items > li:has(> .pr__pic) {
+  display: grid;
+  grid-template-columns: 30mm 1fr;
+  column-gap: 5mm;
+  align-items: center;
+  break-inside: avoid;
+}
+.pr__items > li:has(> .pr__pic) > .pr__pic {
+  grid-row: span 2;
+  margin: 0;
+}
+/* grid olunca liste numarası kaybolur: elle yaz */
+.pr__items > li:has(> .pr__pic) {
+  position: relative;
+  counter-increment: list-item;
+}
+.pr__items > li:has(> .pr__pic)::before {
+  content: counter(list-item) '.';
+  position: absolute;
+  top: 0;
+  left: -6mm;
+}

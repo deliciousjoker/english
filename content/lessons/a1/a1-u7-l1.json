@@ -188,7 +188,7 @@
       "title": "Make sentences",
       "instructions": "Put the words in order.",
       "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
-      "items": ["Elif is talking on the phone.", "They aren't studying right now.", "What are you doing?", "Rose is looking at the photos."]
+      "items": ["Elif is talking on the phone.", "They aren't studying right now.|Right now they aren't studying.", "What are you doing?", "Rose is looking at the photos."]
     },
     {
       "type": "exercise",

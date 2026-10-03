@@ -1,0 +1,242 @@
+{
+  "id": "a2-u2-l3",
+  "level": "a2",
+  "unit": 2,
+  "order": 3,
+  "title": "A new laptop",
+  "subtitle": "Choosing a laptop for the drawing course — as … as, the same, different from",
+  "canDo": [
+    "I can say two things are the same or different with as … as.",
+    "I can ask which one is better and explain my choice.",
+    "I can ask about prices and a guarantee in a shop."
+  ],
+  "teacherNotes": [
+    "as … as = Türkçede \"kadar\", Arapçada \"مثل / بنفس درجة\". not as … as yapısını \"daha az\" olarak gösterin: Boston isn't as big as New York = Boston daha küçük.",
+    "as … as arasında sıfatın normal hâli kullanılır; öğrenciler sık sık \"as bigger as\" der. Kırmızı kalemle düzeltme alıştırması yapın.",
+    "Rol oyunu: bir dükkânda iki ürünü karşılaştırma (telefon, ayakkabı, bisiklet). Öğrenciler fiyat ve garanti sorsun.",
+    "\"I'll take it\" alışverişte kullanılan kalıp bir ifade; will Ünite 8'de ayrıca işlenecek."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["How old is your phone or laptop? Is it fast enough?", "Do you buy new or used things? Why?", "What's more important for you: the price or how something looks?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "items": [
+        { "word": "laptop", "pos": "noun", "example": "I need a laptop for my course.", "gloss": { "tr": "dizüstü bilgisayar", "ar": "حاسوب محمول" } },
+        { "word": "screen", "pos": "noun", "example": "The screen isn't very big.", "gloss": { "tr": "ekran", "ar": "شاشة" } },
+        { "word": "battery", "pos": "noun", "example": "The battery is new.", "gloss": { "tr": "pil, batarya", "ar": "بطارية" } },
+        { "word": "light", "pos": "adjective", "example": "This laptop is very light. It's only one kilo.", "gloss": { "tr": "hafif", "ar": "خفيف" } },
+        { "word": "slow", "pos": "adjective", "example": "My old laptop is too slow.", "gloss": { "tr": "yavaş", "ar": "بطيء" } },
+        { "word": "used", "pos": "adjective", "example": "The black one is used, but it's like new.", "gloss": { "tr": "kullanılmış, ikinci el", "ar": "مستعمل" } },
+        { "word": "guarantee", "pos": "noun", "example": "There's a one-year guarantee.", "gloss": { "tr": "garanti", "ar": "ضمان" } },
+        { "word": "choose", "pos": "verb", "example": "I can't choose. They're both nice.", "gloss": { "tr": "seçmek", "ar": "يختار" } },
+        { "word": "course", "pos": "noun", "example": "The drawing course starts on Tuesday.", "gloss": { "tr": "kurs", "ar": "دورة تدريبية" } },
+        { "word": "program", "pos": "noun", "example": "We're going to learn a drawing program.", "gloss": { "tr": "program (bilgisayar)", "ar": "برنامج (حاسوب)" } },
+        { "word": "the same", "pos": "phrase", "example": "They have the same memory.", "gloss": { "tr": "aynı", "ar": "نفس، ذات" } },
+        { "word": "which one", "pos": "phrase", "example": "Which one do you want?", "gloss": { "tr": "hangisi", "ar": "أيّهما، أيّ واحد" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "The silver one or the black one?",
+      "scene": "Saturday afternoon. Elif and Lucas are in a computer shop on Green Street.",
+      "lines": [
+        { "speaker": "clerk", "text": "Hi there. Can I help you?" },
+        { "speaker": "elif", "text": "Yes, please. I need a laptop for a drawing course. My old one is too slow." },
+        { "speaker": "clerk", "text": "OK. What about these two? The silver one is new, and the black one is used." },
+        { "speaker": "elif", "text": "Is the black one as fast as the silver one?" },
+        { "speaker": "clerk", "text": "Yes, it is. They have the same memory. But the black one isn't as light. It's about half a kilo heavier." },
+        { "speaker": "lucas", "text": "And the screen isn't as big." },
+        { "speaker": "elif", "text": "How much are they?" },
+        { "speaker": "clerk", "text": "The silver one is six hundred and fifty dollars. The black one is four hundred and fifty." },
+        { "speaker": "elif", "text": "Four hundred and fifty. That's much better. Does it have a guarantee?" },
+        { "speaker": "clerk", "text": "Yes. All our used laptops have a one-year guarantee, and the battery is new." },
+        { "speaker": "lucas", "text": "But the silver one is nicer, Elif." },
+        { "speaker": "elif", "text": "It's nicer, but it isn't as cheap! I'm saving for my ticket home, remember? I'll take the black one." },
+        { "speaker": "clerk", "text": "Good choice. It's as good as new." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "items": [
+        { "statement": "Elif's old laptop is too slow.", "answer": true },
+        { "statement": "The black laptop is as fast as the silver one.", "answer": true },
+        { "statement": "The black laptop is lighter than the silver one.", "answer": false },
+        { "statement": "The silver laptop is cheaper.", "answer": false },
+        { "statement": "Elif buys the black laptop.", "answer": true }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Good news, Dad!",
+      "intro": "Elif writes to her father the next day.",
+      "voice": "elif",
+      "paragraphs": [
+        [
+          "Hi Dad,",
+          "Good news: I'm starting a drawing course for future architects! It's free, and it's at the public library on Tuesday and Thursday evenings."
+        ],
+        [
+          "We're going to learn a drawing program, so I needed a new laptop. My old one was a present from you six years ago, and now it's slower than a turtle!"
+        ],
+        [
+          "Yesterday Lucas came with me to a computer shop on Green Street. The new laptops were too expensive, so I bought a used one.",
+          "It isn't as light as the new ones, and the screen isn't as big. But it's as fast as a new laptop, and it was two hundred dollars cheaper. There's a one-year guarantee too."
+        ],
+        ["It cost $450. I paid with my café money. I know you want to pay half, but please don't. I can do it!"],
+        [
+          "The course starts next Tuesday. I'm a little nervous: the other students are older than me, and some of them already work in architecture offices.",
+          "But I'm as excited as a child!",
+          "Love,",
+          "Elif"
+        ]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "The message",
+      "instructions": "Read again and choose.",
+      "items": [
+        { "prompt": "Where is the drawing course?", "options": ["at the school", "at the public library", "at an architecture office"], "answer": 1 },
+        { "prompt": "Who gave Elif her old laptop?", "options": ["her dad", "Lucas", "Rose"], "answer": 0 },
+        { "prompt": "Which sentence is true about the used laptop?", "options": ["It's as light as a new one.", "It's as fast as a new one.", "Its screen is as big as a new one."], "answer": 1 },
+        { "prompt": "Who paid for the laptop?", "options": ["Elif", "her dad", "Elif and her dad"], "answer": 0 },
+        { "prompt": "Why is Elif a little nervous?", "options": ["The course is expensive.", "The other students are older.", "Her laptop is slow."], "answer": 1 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: as … as, the same, different from",
+      "look": ["It's **as fast as** a new laptop.", "It **isn't as light as** the new ones.", "They have **the same** memory.", "I'm **as excited as** a child!"],
+      "table": {
+        "head": ["", "Example", "Meaning"],
+        "rows": [
+          ["**as** + adjective + **as**", "The black one is **as fast as** the silver one.", "the same"],
+          ["**not as** + adjective + **as**", "It **isn't as light as** the silver one.", "less (it's heavier)"],
+          ["**the same** (+ noun) **as**", "My phone is **the same as** yours.", "not different"],
+          ["**different from**", "New York is very **different from** Boston.", "not the same"]
+        ]
+      },
+      "rules": [
+        "Use the normal adjective between **as … as**: *as fast as* (not *as faster as*).",
+        "**not as … as** = less: *Boston isn't as big as New York* = Boston is smaller.",
+        "**Which one …?** = which of these things: *Which one do you want?*"
+      ],
+      "examples": ["My English isn't as good as Omar's.", "Is the bus as fast as the subway?", "Your phone is the same as mine.", "Izmir is very different from Boston."],
+      "support": {
+        "tr": "as + sıfat + as = \"kadar\": as fast as = kadar hızlı. Olumsuzu not as … as = \"… kadar … değil\": Boston isn't as big as New York = Boston New York kadar büyük değil (yani daha küçük). Arada sıfatın normal hâli kullanılır: as big as (as bigger as değil). the same as = ile aynı, different from = -den farklı. Which one? = hangisi?",
+        "ar": "as + صفة + as = «مثل» أو «بنفس درجة»: as fast as = سريع مثل. والنفي not as … as = «ليس … مثل»: Boston isn't as big as New York = بوسطن ليست كبيرة مثل نيويورك (أي أصغر). نستخدم الصفة العادية: as big as (وليس as bigger as). the same as = نفس، different from = مختلف عن. Which one? = أيّهما؟"
+      },
+      "watchOut": {
+        "tr": {
+          "note": "as … as arasında -er kullanılmaz; iki as da gerekir.",
+          "wrong": ["My laptop is as faster as yours.", "It isn't big as my old one."],
+          "right": ["My laptop is as fast as yours.", "It isn't as big as my old one."]
+        },
+        "ar": {
+          "note": "نحتاج as مرتين، و the قبل same.",
+          "wrong": ["Her phone is same as mine.", "He is tall as his brother."],
+          "right": ["Her phone is the same as mine.", "He is as tall as his brother."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with as … as or not as … as and the adjective.",
+      "items": [
+        "The black laptop is {as fast as} the silver one. (fast: the same)",
+        "The black laptop {isn't as light as|is not as light as} the silver one. (light: less)",
+        "Boston {isn't as big as|is not as big as} New York. (big: less)",
+        "My new coat is {as warm as} my old one. (warm: the same)",
+        "Lucas {isn't as tall as|is not as tall as} Omar. (tall: less)"
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Choose",
+      "instructions": "Choose the correct word.",
+      "items": [
+        { "prompt": "My phone is ___ as yours.", "options": ["the same", "same"], "answer": 0 },
+        { "prompt": "New York is very different ___ Boston.", "options": ["from", "as"], "answer": 0 },
+        { "prompt": "This laptop isn't as ___ as that one.", "options": ["cheap", "cheaper"], "answer": 0 },
+        { "prompt": "___ one do you want, the black one or the silver one?", "options": ["Which", "What"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Same meaning",
+      "instructions": "Match the sentences with the same meaning.",
+      "pairs": [
+        ["Boston isn't as big as New York.", "New York is bigger than Boston."],
+        ["The black laptop is as fast as the silver one.", "The two laptops are the same speed."],
+        ["The old laptop isn't as fast as the new one.", "The old laptop is slower."],
+        ["The silver laptop isn't as cheap as the black one.", "The black laptop costs less."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "items": [
+        { "audio": "This phone is as good as the new model, and it's a hundred dollars cheaper.", "voice": "clerk", "prompt": "The phone is …", "options": ["worse than the new model", "as good as the new model", "more expensive than the new model"], "answer": 1 },
+        { "audio": "My new guitar isn't as expensive as Pedro's, but it sounds just as good.", "voice": "lucas", "prompt": "Lucas's new guitar is …", "options": ["cheaper than Pedro's", "more expensive than Pedro's", "worse than Pedro's"], "answer": 0 },
+        { "audio": "Don't worry. The new textbook isn't as difficult as the old one. You're going to like it!", "voice": "maya", "prompt": "The new textbook is …", "options": ["easier", "more difficult", "the same"], "answer": 0 },
+        { "audio": "Wait, your new laptop looks the same as mine! Is it the same color too?", "voice": "zeynep", "prompt": "Zeynep's laptop …", "options": ["looks very different", "looks the same as Elif's", "is older than Elif's"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "items": ["It isn't as light as the new one.", "Which one do you want?", "My phone is the same as yours.", "I'm as excited as a child."]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "items": [
+        { "text": "Is it as fast as the new one?", "voice": "elif" },
+        { "text": "The screen isn't as big.", "voice": "lucas" },
+        { "text": "Which one do you want?", "voice": "clerk" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: Which one?",
+      "model": {
+        "heading": "Two guitars — Lucas",
+        "text": [
+          "I want a new guitar, and I can't choose.",
+          "The red one is as good as the black one, and it's cheaper: three hundred dollars.",
+          "But it isn't as light, and the sound isn't as warm.",
+          "The black one is four hundred and twenty dollars. It's more beautiful, but it's also much more expensive.",
+          "Pedro says, \"Buy the red one and save the money.\" I think he's right.",
+          "I'm going to buy the red one."
+        ]
+      },
+      "frame": ["I want to buy ___.", "The first one is as ___ as the second one.", "But it isn't as ___ as ___.", "The second one is ___er / more ___.", "I'm going to buy ___ because ___."],
+      "prompt": "Compare two things you want to buy (6 to 8 sentences): two phones, two bikes, two coats … Which one are you going to buy?",
+      "minWords": 50,
+      "checklist": ["I use as … as and not as … as.", "I use a comparative (-er / more).", "I say which one I'm going to buy and why."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

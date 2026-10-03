@@ -40,9 +40,10 @@ Elif'in Boston'daki ilk okul yılının geri kalanını anlatır.
 
 1. **Plans (Kasım):** Rose herkesi Thanksgiving yemeğine davet eder. Kış tatili planları: Omar Amman'a gidecek,
    Sam ve Emma Noel'de Londra'ya, Lucas'ın grubu New York'ta çalacak; Elif Boston'da kalacak (bilet çok pahalı).
-2. **Better and best (Aralık):** Elif Boston'u İzmir'le karşılaştırır; bülten için "mahallenin en iyi kafesi" anketi;
-   Elif mimarlık programı için dizüstü bilgisayar alır.
-3. **Healthy life (Ocak):** Lucas grip olur; Omar hemşire olarak tavsiye verir; Maya'nın sağlıklı yaşam dersi.
+2. **Better and best (Ocak, New York dönüşü):** Elif New York'u Boston'la karşılaştırır; bülten için "Harbor Street'in en iyi
+   kafesi" anketi; Elif çizim kursu için ikinci el laptop alır; Zeynep'le İzmir–Boston, Omar'ın "My city: Amman" yazısı.
+3. **Healthy life (Ocak sonu):** Lucas grip olur; Omar hemşire olarak tavsiye verir; Elif eczaneden ilaç alır;
+   Maya'nın sağlıklı alışkanlıklar dersi; bültende "Dear Omar" tavsiye köşesi.
 4. **Getting around (Ocak–Şubat):** Zeynep'in kuzeni Boston'a gelir; Elif ona şehri gezdirir (metro, tarihi yürüyüş yolu).
 5. **Stories (Şubat):** Kar fırtınası: elektrikler kesilir; herkes o gece ne yapıyordu? Rose'un kedisi Tom kaybolur.
 6. **Experiences (Mart):** Omar'ın ve Lina'nın ilk kar deneyimi; "Have you ever…?" sınıf anketi; Elif ilk kez mimarlık ofisine gider.

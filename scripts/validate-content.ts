@@ -9,6 +9,8 @@ import { readFileSync, readdirSync, existsSync, writeFileSync } from 'node:fs'
 import { join, relative, basename } from 'node:path'
 import { Characters, Curriculum, Glossary, LEVELS, Lesson, Placement, Sounds, Story, supportPolicy, type Level, type Support } from '../src/content/schema.ts'
 import { countWords, lemmaCandidates, tokenize, wordKey } from '../src/lib/text.ts'
+import { sentenceForms } from '../src/components/exercises/sentenceForms.ts'
+import { PICS } from '../src/illustrations/pics.ts'
 
 const ROOT = join(import.meta.dirname, '..')
 const CONTENT = join(ROOT, 'content')
@@ -194,6 +196,7 @@ for (const ref of order) {
           s.items.forEach((it, k) => {
             if (it.answer >= it.options.length) errors.push(`${where}: ${at}: soru ${k + 1} cevap numarası seçeneklerin dışında`)
             if (it.voice && !characterIds.has(it.voice)) errors.push(`${where}: ${at}: bilinmeyen ses "${it.voice}"`)
+            if (it.image && !PICS[it.image]) errors.push(`${where}: ${at}: soru ${k + 1} — "${it.image}" adında çizim yok (src/illustrations/pics.ts)`)
           })
         if (s.kind === 'gapfill' && s.bank && new Set(s.bank).size !== s.bank.length)
           errors.push(`${where}: ${at}: kelime bankasında aynı kelime iki kez var (her kelimeyi bir kez yaz)`)
@@ -206,6 +209,16 @@ for (const ref of order) {
             }
           })
         if (s.kind === 'dictation') s.items.forEach((it) => it.voice && !characterIds.has(it.voice) && errors.push(`${where}: ${at}: bilinmeyen ses "${it.voice}"`))
+        // Cümle kurmada diğer doğru sıralar aynı kelimelerden oluşmalı
+        if (s.kind === 'wordorder')
+          s.items.forEach((it, k) => {
+            const forms = sentenceForms(it).map((f) => {
+              const m = f.match(/^(.*?)([.!?]*)$/)!
+              return { bag: m[1].toLowerCase().split(/\s+/).filter(Boolean).sort().join(' '), end: m[2] }
+            })
+            if (forms.some((f) => f.bag !== forms[0].bag || f.end !== forms[0].end))
+              errors.push(`${where}: ${at}: madde ${k + 1} — "|" ile yazılan sıralar aynı kelimelerden oluşmuyor`)
+          })
         break
       case 'writing':
         if (policy.instructions) checkSupport(where, at, s.support)

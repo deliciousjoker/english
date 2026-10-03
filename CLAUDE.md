@@ -42,6 +42,14 @@ Plan: C:\Users\furka\.claude\plans\ben-ingilizce-retmenli-i-lisans-tingly-pearl.
 - Routes: /words, /words/mine, /grammar/:level?, /sounds, /library(/:id), /test/:level/:unit, /placement,
   /lesson/:id/print. Unit tests are built from the unit's own exercises (`src/features/tests/buildUnitTest.ts`).
 - Class-name collision to avoid: `.dict*` belongs to the dictation exercise; the dictionary page uses `.lex*`.
+- Exercises must have exactly one sensible answer per item (the owner checks this as a teacher). Gap-fill banks are
+  reusable chips, so every sentence must be unambiguous on its own (add context or a "(verb)" hint). Word order items
+  list other correct orders after "|" ("I'm flying tomorrow.|Tomorrow I'm flying."); validate checks the word sets.
+  Unit-test word questions are generated with the example's audio + the gloss as a hint, and synonyms (overlapping
+  glosses, `glossOverlap`) are never distractors.
+- Illustrations: `src/illustrations/pics.ts` (hand-written SVG data, 100×100, ink + offset spot colour in the level
+  colour). Vocabulary cards show a picture when `picForWord(word)` finds one; mcq items can have `image` and `hint`.
+- Presentation drawing layer: pens, highlighter, text (A, colour = last pen), eraser, undo (Ctrl+Z), clear; timer (T).
 
 ## Gotchas
 - The folder name contains "İ"; Node's win32 `path.relative` lowercases it to two chars, so ESLint

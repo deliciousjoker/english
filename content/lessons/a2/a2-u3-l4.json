@@ -1,0 +1,253 @@
+{
+  "id": "a2-u3-l4",
+  "level": "a2",
+  "unit": 3,
+  "order": 4,
+  "title": "Dear Omar",
+  "subtitle": "An advice page for the newsletter — should, Why don't you …?, Try to …",
+  "canDo": [
+    "I can understand a short problem letter and the answer.",
+    "I can give advice in different ways.",
+    "I can write a reply with advice."
+  ],
+  "teacherNotes": [
+    "Dört tavsiye kalıbı: should, Why don't you …?, Try to …, It's a good idea to … Hangilerinden sonra to geldiğini tabloda renkle ayırın.",
+    "advice sayılamaz bir isim: \"an advice / advices\" hem Türk hem Arap öğrencilerde çok sık görülür (Türkçede \"bir tavsiye\", Arapçada \"نصيحة / نصائح\" sayılabilir).",
+    "Sıla hasreti (homesick) konusu yurt dışında okuyan öğrenciler için gerçek bir konu; isteyen öğrenci kendi deneyimini anlatabilir, kimse zorlanmasın.",
+    "Yazma görevini eşli yaptırın: biri sorun mektubunu, diğeri cevabı yazsın, sonra yer değiştirsinler."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["Who do you ask for advice: friends, family or a teacher?", "What do you do when you're stressed?", "What advice can you give a new student in your city?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "items": [
+        { "word": "advice", "pos": "noun", "example": "Can you give me some advice?", "gloss": { "tr": "tavsiye, öğüt (sayılamaz)", "ar": "نصيحة (غير معدودة في الإنجليزية)" } },
+        { "word": "stressed", "pos": "adjective", "example": "I'm stressed about my exam.", "gloss": { "tr": "stresli", "ar": "متوتّر، مضغوط" } },
+        { "word": "homesick", "pos": "adjective", "example": "I miss my family. I'm homesick.", "gloss": { "tr": "sıla hasreti çeken, evini özleyen", "ar": "يشتاق إلى الوطن، يحنّ إلى بيته" } },
+        { "word": "lonely", "pos": "adjective", "example": "In the evenings, I feel lonely.", "gloss": { "tr": "yalnız (hissetmek)", "ar": "وحيد (يشعر بالوحدة)" } },
+        { "word": "worry", "pos": "verb", "example": "Don't worry. You can do it.", "gloss": { "tr": "endişelenmek, kaygılanmak", "ar": "يقلق" } },
+        { "word": "relax", "pos": "verb", "example": "I can't relax before an exam.", "gloss": { "tr": "rahatlamak, dinlenmek", "ar": "يسترخي، يرتاح" } },
+        { "word": "take a break", "pos": "phrase", "example": "Study for forty-five minutes, then take a break.", "gloss": { "tr": "mola vermek", "ar": "يأخذ استراحة" } },
+        { "word": "fresh air", "pos": "noun", "example": "Get some fresh air every day.", "gloss": { "tr": "temiz hava", "ar": "هواء نقي" } },
+        { "word": "join", "pos": "verb", "example": "Why don't you join our music evening?", "gloss": { "tr": "katılmak", "ar": "ينضمّ، يشارك" } },
+        { "word": "Why don't you …?", "pos": "phrase", "example": "Why don't you take a break?", "gloss": { "tr": "Neden … -mıyorsun? (öneri: …-sana)", "ar": "لماذا لا …؟ (اقتراح)" } },
+        { "word": "try to", "pos": "phrase", "example": "Try to sleep eight hours.", "gloss": { "tr": "…-meye çalışmak", "ar": "يحاول أن" } },
+        { "word": "It's a good idea to …", "pos": "phrase", "example": "It's a good idea to make a plan.", "gloss": { "tr": "…-mek iyi bir fikir", "ar": "من الجيد أن …" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "A job for Omar",
+      "scene": "Friday afternoon at Sam's café.",
+      "lines": [
+        { "speaker": "elif", "text": "Omar, I have a question for you. The newsletter wants an advice page. Students write about their problems, and someone answers." },
+        { "speaker": "omar", "text": "That sounds nice. Who's going to answer?" },
+        { "speaker": "elif", "text": "You! You're a nurse, and everyone trusts you." },
+        { "speaker": "omar", "text": "Me? But I'm not a doctor, Elif." },
+        { "speaker": "elif", "text": "The problems aren't very serious. Listen to this one: \"I'm always tired, but I can't sleep at night.\"" },
+        { "speaker": "omar", "text": "Hmm. He should stop drinking coffee after lunch. And it's a good idea to turn off your phone an hour before bed." },
+        { "speaker": "elif", "text": "See? You're perfect for this." },
+        { "speaker": "omar", "text": "OK, I can do it. But what's the name of the page?" },
+        { "speaker": "elif", "text": "\"Dear Omar.\"" },
+        { "speaker": "omar", "text": "\"Dear Omar\"? That's terrible! Why don't you call it \"Ask the nurse\"?" },
+        { "speaker": "elif", "text": "No. \"Dear Omar\" is better. Everyone knows you." },
+        { "speaker": "sam", "text": "I have a problem, Omar! I eat too many cookies." },
+        { "speaker": "omar", "text": "Try to eat fruit instead, Sam." },
+        { "speaker": "sam", "text": "Never!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "items": [
+        { "statement": "The newsletter wants an advice page.", "answer": true },
+        { "statement": "Omar is a doctor.", "answer": false },
+        { "statement": "Omar likes the name \"Dear Omar\".", "answer": false },
+        { "statement": "Omar says it's a good idea to turn off your phone before bed.", "answer": true },
+        { "statement": "Sam is going to eat fruit instead of cookies.", "answer": false }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Dear Omar",
+      "intro": "The first advice page in the school newsletter.",
+      "voice": "narrator",
+      "paragraphs": [
+        [
+          "Dear Omar,",
+          "I came to Boston three weeks ago. Everyone is friendly, but I'm homesick. I miss my family and my food, and in the evenings I feel lonely. What should I do?",
+          "Lonely in Boston"
+        ],
+        [
+          "Dear Lonely,",
+          "First, you're not alone. Almost every student here feels like this in the first month. I was homesick for a year!",
+          "Call your family, but not every day, because it can make you sadder. Try to make one plan with a classmate every week: a walk, a coffee, a film.",
+          "Why don't you join the Friday music evening at Sam's café? It's free, and the people are kind.",
+          "And cook your favorite food from home. It's a good idea to invite someone: food is the best way to make friends.",
+          "Omar"
+        ],
+        [
+          "Dear Omar,",
+          "I have an important exam in two weeks, and I'm very stressed. I study until two in the morning, and I drink a lot of coffee. I can't relax.",
+          "Stressed Sara"
+        ],
+        [
+          "Dear Sara,",
+          "You should study, but you should also sleep! Your brain needs at least seven hours to remember things.",
+          "Try to study in short parts: forty-five minutes, then take a ten-minute break. Get some fresh air every day, even when it's cold.",
+          "And please, no coffee after 4 p.m. You can do it!",
+          "Omar"
+        ]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "The letters",
+      "instructions": "Read again and choose.",
+      "items": [
+        { "prompt": "Why is the first student unhappy?", "options": ["The classes are difficult.", "The student is homesick and lonely.", "The food in Boston is bad."], "answer": 1 },
+        { "prompt": "What does Omar say about calling family?", "options": ["Call them every day.", "Don't call them every day.", "Never call them."], "answer": 1 },
+        { "prompt": "Where can the student go on Friday evenings?", "options": ["to the library", "to Sam's café", "to the hospital"], "answer": 1 },
+        { "prompt": "How should Sara study?", "options": ["all night", "in short parts with breaks", "with a lot of coffee"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: giving advice",
+      "look": ["You **should sleep**.", "**Try to study** in short parts.", "**Why don't you join** the music evening?", "**It's a good idea to invite** someone."],
+      "table": {
+        "head": ["", "Example"],
+        "rows": [
+          ["**should** + verb", "You **should** call your family."],
+          ["**shouldn't** + verb", "You **shouldn't** drink coffee after 4 p.m."],
+          ["**Why don't you** + verb?", "**Why don't you** take a break?"],
+          ["**Try to** + verb", "**Try to** sleep eight hours."],
+          ["**It's a good idea to** + verb", "**It's a good idea to** get some fresh air."]
+        ]
+      },
+      "rules": [
+        "After **should** and **Why don't you**, use the verb without *to*: *Why don't you **call** her?*",
+        "After **try** and **It's a good idea**, use **to** + verb: *Try **to** relax.*",
+        "**advice** is uncountable: *some advice*, *a lot of advice* (not *an advice* or *advices*)."
+      ],
+      "examples": ["Why don't you talk to your teacher?", "Try to go to bed before midnight.", "It's a good idea to make a study plan.", "Can you give me some advice?"],
+      "support": {
+        "tr": "Tavsiye vermenin yolları: You should … (…-melisin), Why don't you …? (Neden … -mıyorsun? = …-sana, öneri), Try to … (…-meye çalış), It's a good idea to … (…-mek iyi bir fikir). should ve Why don't you'dan sonra to yok; try ve good idea'dan sonra to var. advice sayılamaz: an advice veya advices denmez; some advice denir.",
+        "ar": "طرق تقديم النصيحة: You should … (من الأفضل أن)، Why don't you …? (لماذا لا …؟ = اقتراح)، Try to … (حاول أن …)، It's a good idea to … (من الجيد أن …). بعد should و Why don't you لا نضع to، وبعد try و good idea نضع to. كلمة advice غير معدودة: لا نقول an advice ولا advices، بل some advice."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "advice sayılamaz; Why don't you'dan sonra to yok.",
+          "wrong": ["Can you give me an advice?", "Why don't you to call her?"],
+          "right": ["Can you give me some advice?", "Why don't you call her?"]
+        },
+        "ar": {
+          "note": "advice غير معدودة، و try تحتاج to.",
+          "wrong": ["He gave me many advices.", "Try relax before the exam."],
+          "right": ["He gave me a lot of advice.", "Try to relax before the exam."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Choose",
+      "instructions": "Choose the correct words.",
+      "items": [
+        { "prompt": "Why don't you ___ a break?", "options": ["take", "to take"], "answer": 0 },
+        { "prompt": "Try ___ eight hours.", "options": ["sleep", "to sleep"], "answer": 1 },
+        { "prompt": "It's a good idea ___ some fresh air.", "options": ["to get", "get"], "answer": 0 },
+        { "prompt": "Can I give you some ___?", "options": ["advice", "advices"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete the advice with the words.",
+      "bank": ["should", "shouldn't", "Why don't", "Try", "good idea"],
+      "items": [
+        "Your cough is very bad. You {should} see a doctor.",
+        "You {shouldn't} study all night. You need sleep.",
+        "{Why don't} you ask Maya for help?",
+        "{Try} to relax before the test.",
+        "It's a {good idea} to drink water during the day."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Problems and advice",
+      "instructions": "Match the problem and the advice.",
+      "pairs": [
+        ["I'm homesick.", "Why don't you cook your favorite food from home?"],
+        ["I'm stressed about my exam.", "Try to study in short parts and take breaks."],
+        ["I can't sleep at night.", "You shouldn't drink coffee after 4 p.m."],
+        ["I don't know anyone in my building.", "It's a good idea to say hello to your neighbors."],
+        ["My English isn't getting better.", "Why don't you watch films in English?"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "items": [
+        { "audio": "Omar, I'm so stressed about my exams! I can't eat, and I can't sleep.", "voice": "lina", "prompt": "What's Lina's problem?", "options": ["She's stressed about her exams.", "She's homesick.", "She has the flu."], "answer": 0 },
+        { "audio": "Lina, why don't you study with a friend? And take a walk every evening.", "voice": "omar", "prompt": "What does Omar suggest?", "options": ["studying alone all night", "studying with a friend and walking", "stopping her studies"], "answer": 1 },
+        { "audio": "Elif, you should call your grandmother this weekend. She misses you very much.", "voice": "ayse", "prompt": "Elif's mother thinks Elif should …", "options": ["visit Izmir", "call her grandmother", "write a letter"], "answer": 1 },
+        { "audio": "It's a good idea to read in English for fifteen minutes every day. Just fifteen!", "voice": "maya", "prompt": "Maya's advice is to …", "options": ["read in English every day", "read for two hours", "watch TV in English"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "items": ["Why don't you take a break?", "Try to sleep eight hours.", "Can you give me some advice?", "It's a good idea to get some fresh air."]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "items": [
+        { "text": "I'm homesick.", "voice": "elif" },
+        { "text": "Why don't you take a break?", "voice": "omar" },
+        { "text": "Try to relax.", "voice": "omar" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: A letter and an answer",
+      "model": {
+        "heading": "Dear Omar — and the answer",
+        "text": [
+          "Dear Omar, I want to get fit, but I hate running, and the gym is too expensive. — Lazy Lucas",
+          "Dear Lucas,",
+          "You don't need a gym! Try to walk to school every day. It's only twenty minutes.",
+          "Why don't you take the stairs, not the elevator?",
+          "It's also a good idea to dance. You love dancing!",
+          "And you should go to bed earlier, so you have more energy.",
+          "Start this week. — Omar"
+        ]
+      },
+      "frame": ["Dear ___,", "Thank you for your letter. A lot of people have this problem.", "You should ___.", "Why don't you ___?", "Try to ___.", "It's a good idea to ___.", "Good luck!"],
+      "prompt": "Choose a problem: tired, stressed, homesick, can't sleep, wants to get fit … Write the letter and Omar's answer (80 to 120 words).",
+      "minWords": 80,
+      "checklist": ["I use should or shouldn't.", "I use Why don't you …? and Try to …", "I use It's a good idea to …"]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

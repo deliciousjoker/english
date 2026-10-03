@@ -145,3 +145,28 @@ export function splitSubtitle(s: string | undefined): { story?: string; focus?: 
   const i = s.indexOf(' — ')
   return i < 0 ? { story: s } : { story: s.slice(0, i), focus: s.slice(i + 3) }
 }
+
+/** Anlamın parçaları: "kat; yer, zemin" → ["kat", "yer", "zemin"] */
+function glossParts(s: string | undefined): string[] {
+  return (s ?? '')
+    .toLocaleLowerCase('tr')
+    .split(/[,;،؛/()]/)
+    .map((x) => x.trim())
+    .filter((x) => x.length > 1)
+}
+
+/**
+ * İki kelimenin anlamı örtüşüyor mu? ("hoş, güzel" ~ "çok güzel, hoş", "büyük" ~ "çok büyük")
+ * Eş anlamlılar aynı sorunun şıkları olmasın diye.
+ */
+export function glossOverlap(a: { tr?: string; ar?: string }, b: { tr?: string; ar?: string }): boolean {
+  for (const k of ['tr', 'ar'] as const) {
+    const pa = glossParts(a[k])
+    const pb = glossParts(b[k])
+    const wordsB = new Set(pb.flatMap((p) => p.split(/\s+/)))
+    const wordsA = new Set(pa.flatMap((p) => p.split(/\s+/)))
+    if (pa.some((p) => pb.includes(p) || (!p.includes(' ') && wordsB.has(p)))) return true
+    if (pb.some((p) => !p.includes(' ') && wordsA.has(p))) return true
+  }
+  return false
+}

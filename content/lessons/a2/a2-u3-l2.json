@@ -1,0 +1,246 @@
+{
+  "id": "a2-u3-l2",
+  "level": "a2",
+  "unit": 3,
+  "order": 2,
+  "title": "At the pharmacy",
+  "subtitle": "Medicine for Lucas — How much / How many, twice a day, every six hours",
+  "canDo": [
+    "I can ask for medicine at a pharmacy.",
+    "I can understand instructions: how much, how many and how often.",
+    "I can write simple instructions for someone."
+  ],
+  "teacherNotes": [
+    "How much / How many ayrımı sayılabilen–sayılamayan isimlere dayanır. Masaya birkaç kalem (sayılabilir) ve bir bardak su (sayılamaz) koyup gösterin.",
+    "once / twice / three times a day kalıbını Türkçedeki \"günde bir/iki kez\" ile karşılaştırın: \"a day\" = \"günde\". Arapçada \"مرتين في اليوم\".",
+    "Gerçek bir ilaç kutusu ya da prospektüsün fotoğrafını gösterip \"every six hours\" gibi ifadeleri bulmalarını isteyin (ilacı kullanmalarını değil!).",
+    "Okumadaki ilaç adları uydurmadır; derste gerçek marka adı kullanmaya gerek yok."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["Is there a pharmacy near your home?", "Do you read the instructions on a medicine box?", "What medicine do you always have at home?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "items": [
+        { "word": "pharmacist", "pos": "noun", "example": "Ask the pharmacist. She can help you.", "gloss": { "tr": "eczacı", "ar": "صيدلاني، صيدلانية" } },
+        { "word": "prescription", "pos": "noun", "example": "Do I need a prescription for this?", "gloss": { "tr": "reçete", "ar": "وصفة طبية" } },
+        { "word": "tablet", "pos": "noun", "example": "Take two tablets with water.", "gloss": { "tr": "tablet, hap", "ar": "قرص، حبّة دواء" } },
+        { "word": "painkiller", "pos": "noun", "example": "These tablets are painkillers.", "gloss": { "tr": "ağrı kesici", "ar": "مسكّن للألم" } },
+        { "word": "cough syrup", "pos": "noun", "example": "This cough syrup is good.", "gloss": { "tr": "öksürük şurubu", "ar": "شراب السعال" } },
+        { "word": "teaspoon", "pos": "noun", "example": "Take two teaspoons after meals.", "gloss": { "tr": "çay kaşığı", "ar": "ملعقة صغيرة" } },
+        { "word": "allergic", "pos": "adjective", "example": "Are you allergic to anything?", "gloss": { "tr": "alerjisi olan (allergic to: … -e alerjisi olan)", "ar": "لديه حساسية (allergic to: لديه حساسية من)" } },
+        { "word": "sleepy", "pos": "adjective", "example": "This medicine can make you sleepy.", "gloss": { "tr": "uykulu", "ar": "نعسان" } },
+        { "word": "every … hours", "pos": "phrase", "example": "Take one tablet every six hours.", "gloss": { "tr": "… saatte bir", "ar": "كل … ساعات" } },
+        { "word": "twice", "pos": "adverb", "example": "Take it twice a day.", "gloss": { "tr": "iki kez", "ar": "مرّتين" } },
+        { "word": "after meals", "pos": "phrase", "example": "Take the syrup after meals.", "gloss": { "tr": "yemeklerden sonra", "ar": "بعد الوجبات" } },
+        { "word": "label", "pos": "noun", "example": "Read the label first.", "gloss": { "tr": "etiket", "ar": "مُلصق، بطاقة" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Medicine for Lucas",
+      "scene": "Tuesday afternoon. Elif is at the pharmacy on Harbor Street, next to the bank.",
+      "lines": [
+        { "speaker": "pharmacist", "text": "Good afternoon. How can I help you?" },
+        { "speaker": "elif", "text": "Hi. My friend has the flu. He has a fever and a bad cough. What should he take?" },
+        { "speaker": "pharmacist", "text": "Is he allergic to anything?" },
+        { "speaker": "elif", "text": "I don't think so." },
+        { "speaker": "pharmacist", "text": "OK. For the fever, he can take these tablets. They're painkillers too, so they're good for his headache." },
+        { "speaker": "elif", "text": "How many tablets should he take?" },
+        { "speaker": "pharmacist", "text": "Two tablets every six hours. But not more than eight tablets in one day." },
+        { "speaker": "elif", "text": "And for the cough?" },
+        { "speaker": "pharmacist", "text": "This cough syrup is good. Two teaspoons, three times a day, after meals." },
+        { "speaker": "elif", "text": "Do I need a prescription?" },
+        { "speaker": "pharmacist", "text": "No, not for these. The syrup is nine fifty, and the tablets are six twenty-five. One more thing: the syrup can make him sleepy, so he shouldn't drive." },
+        { "speaker": "elif", "text": "Drive? He can't even get out of bed!" },
+        { "speaker": "pharmacist", "text": "Then he's going to sleep very well. I hope he feels better soon." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Check",
+      "instructions": "Read again and choose.",
+      "items": [
+        { "prompt": "How many tablets can Lucas take in one day?", "options": ["two", "six", "eight"], "answer": 2 },
+        { "prompt": "When should he take the cough syrup?", "options": ["before meals", "after meals", "only at night"], "answer": 1 },
+        { "prompt": "How much does Elif pay for everything?", "options": ["$9.50", "$6.25", "$15.75"], "answer": 2 },
+        { "prompt": "Why shouldn't Lucas drive?", "options": ["The syrup can make him sleepy.", "He doesn't have a car.", "He needs a prescription."], "answer": 0 }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "How to read a medicine label",
+      "intro": "From a health page on the pharmacy's website.",
+      "voice": "narrator",
+      "paragraphs": [
+        ["Before you take any medicine, read the label. It tells you four important things."],
+        ["First: what is it for? For example, \"for fever and headache\" or \"for coughs\"."],
+        [
+          "Second: how much should you take? The label tells you how many tablets, or how much syrup. For children, it's usually less."
+        ],
+        [
+          "Third: how often should you take it? \"Every six hours\" means four times a day. \"Twice a day\" means in the morning and in the evening."
+        ],
+        [
+          "Fourth: the warnings. Some medicines can make you sleepy, so you shouldn't drive. Some aren't good for people with allergies."
+        ],
+        [
+          "Never take more than the label says. More medicine doesn't make you better faster!",
+          "And if you have questions, ask the pharmacist. That's their job, and it's free."
+        ]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "The label",
+      "instructions": "Read again and choose.",
+      "items": [
+        { "prompt": "\"Every six hours\" means …", "options": ["twice a day", "four times a day", "six times a day"], "answer": 1 },
+        { "prompt": "\"Twice a day\" means …", "options": ["in the morning and in the evening", "every hour", "once a week"], "answer": 0 },
+        { "prompt": "Why should you read the warnings?", "options": ["Some medicines can make you sleepy.", "The label is very short.", "Medicine is expensive."], "answer": 0 },
+        { "prompt": "Who can answer your questions for free?", "options": ["the pharmacist", "the label", "your friends"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: How much / How many, how often",
+      "look": ["**How many tablets** should he take?", "**How much** is the syrup?", "Two teaspoons, **three times a day**.", "Two tablets **every six hours**."],
+      "table": {
+        "head": ["", "Use with", "Example"],
+        "rows": [
+          ["**How many** …?", "plural nouns (you can count them)", "How many **tablets**? How many **days**?"],
+          ["**How much** …?", "uncountable nouns", "How much **syrup**? How much **water**?"],
+          ["**How much** is / are …?", "prices", "How much **is** it? — $9.50."],
+          ["How often?", "**once / twice / three times** a day, **every** six hours", "Take it **twice a day**."]
+        ]
+      },
+      "rules": [
+        "Countable nouns have a plural: *tablet → tablets*. Uncountable nouns don't: *water, medicine, syrup, sleep*.",
+        "**once** = one time, **twice** = two times, then **three times, four times** …",
+        "**every** + number + plural: *every six hours*. But *every day* (singular)."
+      ],
+      "examples": ["How many hours do you sleep?", "How much water do you drink?", "Take one tablet twice a day.", "How much are the tablets?"],
+      "support": {
+        "tr": "How many = kaç tane (sayılabilen, çoğul isimlerle: tablets, days). How much = ne kadar (sayılamayan isimlerle: water, syrup) ve fiyat için (How much is it?). Sıklık: once a day = günde bir kez, twice a day = günde iki kez, three times a day = günde üç kez. every six hours = altı saatte bir.",
+        "ar": "How many = كم عدد (مع الأسماء المعدودة الجمع: tablets، days). How much = كم كمية (مع غير المعدودة: water، syrup) وللسعر (How much is it?). التكرار: once a day = مرة في اليوم، twice a day = مرتين في اليوم، three times a day = ثلاث مرات في اليوم. every six hours = كل ست ساعات."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "How many'den sonra isim çoğul olur; \"günde iki kez\" = twice a day.",
+          "wrong": ["How many tablet should I take?", "Take it two times in a day."],
+          "right": ["How many tablets should I take?", "Take it twice a day."]
+        },
+        "ar": {
+          "note": "water و medicine غير معدودة، فنستخدم How much.",
+          "wrong": ["How many water do you drink?", "How much tablets do you need?"],
+          "right": ["How much water do you drink?", "How many tablets do you need?"]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with How much or How many.",
+      "bank": ["How much", "How many"],
+      "items": [
+        "{How many} tablets should I take?",
+        "{How much} syrup is in the bottle?",
+        "{How much} is the cough syrup? — $9.50.",
+        "{How many} hours do you sleep at night?",
+        "{How much} water do you drink every day?",
+        "{How many} times a day should he take it?"
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Read the instructions",
+      "instructions": "Read the instructions and choose the answer.",
+      "items": [
+        { "prompt": "\"Take one tablet every eight hours.\" How many tablets is that in one day?", "options": ["one", "three", "eight"], "answer": 1 },
+        { "prompt": "\"Two teaspoons, twice a day.\" How many teaspoons is that in one day?", "options": ["two", "four", "six"], "answer": 1 },
+        { "prompt": "\"Not more than six tablets in one day.\" You took six tablets today. Can you take one more?", "options": ["Yes, you can.", "No, you can't."], "answer": 1 },
+        { "prompt": "\"Take after meals.\" When should you take it?", "options": ["before breakfast", "after lunch", "in the middle of the night"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "How often?",
+      "instructions": "Match the words and the meaning.",
+      "pairs": [
+        ["once a day", "one time every day"],
+        ["twice a day", "in the morning and in the evening"],
+        ["three times a day", "with breakfast, lunch and dinner"],
+        ["every six hours", "four times a day"],
+        ["once a week", "every Monday, for example"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "items": [
+        { "audio": "Take one tablet in the morning and one in the evening, with food.", "voice": "pharmacist", "prompt": "How often should you take it?", "options": ["once a day", "twice a day", "three times a day"], "answer": 1 },
+        { "audio": "This medicine can make you sleepy. Don't take it before work.", "voice": "omar", "prompt": "When shouldn't you take it?", "options": ["before bed", "before work", "after dinner"], "answer": 1 },
+        { "audio": "The small bottle is eight dollars, and the big one is twelve fifty.", "voice": "pharmacist", "prompt": "How much is the big bottle?", "options": ["$8.00", "$12.50", "$12.15"], "answer": 1 },
+        { "audio": "Emma is allergic to nuts, so there aren't any nuts in our cookies.", "voice": "sam", "prompt": "Why are there no nuts in Sam's cookies?", "options": ["Emma is allergic to them.", "Nuts are too expensive.", "Biscuit doesn't like them."], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "items": [
+        "How many tablets should I take?",
+        "Do I need a prescription?",
+        "Take two teaspoons after meals.|After meals take two teaspoons.",
+        "He shouldn't drive after this."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "items": [
+        { "text": "How much is the syrup?", "voice": "elif" },
+        { "text": "Take two tablets every six hours.", "voice": "pharmacist" },
+        { "text": "Are you allergic to anything?", "voice": "pharmacist" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: Instructions",
+      "model": {
+        "heading": "A note on Lucas's table — Elif",
+        "text": [
+          "Lucas, here's your medicine.",
+          "The white tablets are for your fever and your headache. Take two every six hours, but not more than eight in one day.",
+          "The syrup is for your cough. Take two teaspoons three times a day, after meals.",
+          "It can make you sleepy, so don't drive! (Ha ha.)",
+          "You should also drink a lot of water and eat Omar's soup.",
+          "Feel better!",
+          "Elif"
+        ]
+      },
+      "frame": ["___, here's your medicine.", "The ___ are for ___.", "Take ___ every ___ hours / ___ times a day.", "Don't ___.", "You should also ___."],
+      "prompt": "Write a note for a friend or a family member with instructions for their medicine (6 to 8 sentences).",
+      "minWords": 45,
+      "checklist": ["I say how much or how many to take.", "I say how often (twice a day, every … hours).", "I use don't or shouldn't for a warning."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

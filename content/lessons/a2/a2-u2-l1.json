@@ -1,0 +1,238 @@
+{
+  "id": "a2-u2-l1",
+  "level": "a2",
+  "unit": 2,
+  "order": 1,
+  "title": "Boston or New York?",
+  "subtitle": "Back from the holidays — comparatives: -er, more … than",
+  "canDo": [
+    "I can compare two cities, people or things.",
+    "I can use -er, more … than and better / worse.",
+    "I can say which place I prefer and why."
+  ],
+  "teacherNotes": [
+    "Türkçede \"-den daha büyük\", Arapçada \"أكبر من\" denir; İngilizcede sıra \"bigger than\". Tahtaya iki dilin sırasını alt alta yazmak işe yarar.",
+    "Tek heceli sıfatlarda son harf ikilenmesini (big → bigger, hot → hotter) tahtada renkli kalemle gösterin.",
+    "Konuşma: öğrenciler kendi şehirlerini başkentle veya Boston'la karşılaştırsın. \"Which do you prefer?\" sorusuyla bitirin.",
+    "Boston metrosu (1897) gerçekten ABD'nin en eski metrosu; New York'unki 1904'te açıldı. Öğrencilere küçük bir bilgi yarışması yapılabilir."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["Which two cities do you know well? Which one is bigger?", "What do you like about big cities? What don't you like?", "Where did you go on your last holiday?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "items": [
+        { "word": "than", "pos": "preposition", "example": "New York is bigger than Boston.", "gloss": { "tr": "-den, -dan (daha … -den)", "ar": "من (في المقارنة)" } },
+        { "word": "compare", "pos": "verb", "example": "Let's compare the two cities.", "gloss": { "tr": "karşılaştırmak", "ar": "يقارن" } },
+        { "word": "noisy", "pos": "adjective", "example": "The street is very noisy at night.", "gloss": { "tr": "gürültülü", "ar": "صاخب" } },
+        { "word": "crowded", "pos": "adjective", "example": "The subway was very crowded.", "gloss": { "tr": "kalabalık", "ar": "مزدحم" } },
+        { "word": "dirty", "pos": "adjective", "example": "My shoes are dirty after the walk.", "gloss": { "tr": "kirli", "ar": "وسخ، متّسخ" } },
+        { "word": "modern", "pos": "adjective", "example": "The new library is very modern.", "gloss": { "tr": "modern, yeni tarz", "ar": "حديث، عصري" } },
+        { "word": "skyscraper", "pos": "noun", "example": "I drew twenty skyscrapers!", "gloss": { "tr": "gökdelen", "ar": "ناطحة سحاب" } },
+        { "word": "subway", "pos": "noun", "example": "We took the subway to the museum.", "gloss": { "tr": "metro", "ar": "مترو الأنفاق" } },
+        { "word": "exciting", "pos": "adjective", "example": "New York is more exciting.", "gloss": { "tr": "heyecan verici", "ar": "مثير، ممتع" } },
+        { "word": "relaxed", "pos": "adjective", "example": "Boston feels more relaxed.", "gloss": { "tr": "sakin, rahat", "ar": "هادئ، مريح" } },
+        { "word": "prefer", "pos": "verb", "example": "Which city do you prefer?", "gloss": { "tr": "tercih etmek, daha çok sevmek", "ar": "يفضّل" } },
+        { "word": "worse", "pos": "adjective", "example": "The traffic is worse in the evening.", "gloss": { "tr": "daha kötü (bad)", "ar": "أسوأ (bad)" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Welcome back!",
+      "scene": "Monday, January 4th. The first class after the holidays.",
+      "lines": [
+        { "speaker": "maya", "text": "Welcome back, everyone, and happy New Year! So, Elif, how was New York?" },
+        { "speaker": "elif", "text": "Amazing! But it's very different from Boston." },
+        { "speaker": "maya", "text": "Different? How?" },
+        { "speaker": "elif", "text": "Well, New York is bigger and noisier. The streets are more crowded, and everything is more expensive." },
+        { "speaker": "lucas", "text": "But the pizza is better! And it's cheaper." },
+        { "speaker": "elif", "text": "That's true. And the buildings are taller. I drew twenty skyscrapers!" },
+        { "speaker": "maya", "text": "So which city do you prefer?" },
+        { "speaker": "elif", "text": "Hmm. New York is more exciting, but Boston is more relaxed. I prefer Boston. It feels like home now." },
+        { "speaker": "lucas", "text": "I prefer New York. The music is louder!" },
+        { "speaker": "maya", "text": "And you, Omar? How was Amman?" },
+        { "speaker": "omar", "text": "Wonderful. Amman is sunnier and drier than Boston. It was fifteen degrees every day!" },
+        { "speaker": "maya", "text": "Fifteen? It's minus five here today." },
+        { "speaker": "omar", "text": "I know. Boston is colder than I remember! And the coffee at my grandmother's house is much better than here." },
+        { "speaker": "lucas", "text": "Shh! Don't tell Sam!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "items": [
+        { "statement": "Elif thinks New York is quieter than Boston.", "answer": false },
+        { "statement": "Lucas says the pizza in New York is better.", "answer": true },
+        { "statement": "Elif prefers New York.", "answer": false },
+        { "statement": "The weather in Amman was warmer than in Boston.", "answer": true },
+        { "statement": "It's five degrees in Boston today.", "answer": false }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Two cities, one week",
+      "intro": "Elif's article for the school newsletter.",
+      "voice": "elif",
+      "paragraphs": [
+        ["New York is only four hours from Boston by car, but the two cities are very different. Here are my notes from one week in the Big Apple."],
+        [
+          "First, New York is much bigger. More than eight million people live there. Boston has about 650,000 people, so New York is about twelve times bigger!",
+          "The buildings are taller, the streets are busier, and everybody walks faster."
+        ],
+        [
+          "Did you know that Boston's subway is older than New York's? It opened in 1897, seven years before the New York subway.",
+          "But the New York subway is bigger, and it runs all night. In Boston, the last train leaves after midnight."
+        ],
+        [
+          "New York is more expensive too. A coffee in Manhattan was four dollars. At Sam's café, it's only $2.50, and the cookies are better.",
+          "The pizza is cheaper in New York, though. Lucas ate pizza every day!"
+        ],
+        [
+          "So, which city is better? New York is more exciting, and the museums are bigger. But Boston is quieter and friendlier, and it's easier to walk everywhere.",
+          "For a holiday, I prefer New York. For life, I prefer Boston. What about you?"
+        ]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "The article",
+      "instructions": "Read again and choose.",
+      "items": [
+        { "prompt": "How many people live in New York?", "options": ["about 650,000", "more than eight million", "about twelve million"], "answer": 1 },
+        { "prompt": "Which subway is older?", "options": ["Boston's", "New York's", "They're the same age."], "answer": 0 },
+        { "prompt": "Where is a coffee cheaper?", "options": ["in Manhattan", "at Sam's café", "It's the same price."], "answer": 1 },
+        { "prompt": "Which city does Elif prefer for life?", "options": ["New York", "Boston", "Izmir"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: comparatives",
+      "look": ["New York is **bigger than** Boston.", "The streets are **more crowded**.", "The pizza is **better**!", "Boston is **colder than** I remember."],
+      "table": {
+        "head": ["Adjective", "Comparative", "Rule"],
+        "rows": [
+          ["small, cold", "small**er**, cold**er**", "short adjective + -er"],
+          ["big, hot", "big**ger**, hot**ter**", "vowel + consonant at the end: double it"],
+          ["nice, safe", "nice**r**, safe**r**", "ends in -e: + r"],
+          ["easy, noisy", "eas**ier**, nois**ier**", "-y → -ier"],
+          ["expensive, crowded", "**more** expensive, **more** crowded", "long adjective: more + adjective"],
+          ["good, bad, far", "**better**, **worse**, **farther**", "irregular"]
+        ]
+      },
+      "rules": [
+        "Use **than** after the comparative: *New York is bigger **than** Boston.*",
+        "Don't use *more* and *-er* together: *bigger* (not *more bigger*).",
+        "**much** makes the difference bigger: *Amman is **much** warmer than Boston.*"
+      ],
+      "examples": ["My sister is younger than me.", "The subway is faster than the bus.", "This coffee is more expensive than Sam's.", "Is Izmir hotter than Boston?"],
+      "support": {
+        "tr": "Karşılaştırma (daha): kısa sıfatlar -er alır (cold → colder = daha soğuk), uzun sıfatların önüne more gelir (more expensive = daha pahalı). \"-den/-dan\" ekinin karşılığı than'dır ve sıfattan sonra gelir: New York is bigger than Boston = New York Boston'dan daha büyük. Türkçede önce \"Boston'dan\", sonra \"daha büyük\" gelir; İngilizcede önce bigger, sonra than Boston. Düzensizler: good → better, bad → worse, far → farther.",
+        "ar": "المقارنة: الصفات القصيرة تأخذ ‎-er‎ (cold → colder = أبرد)، والصفات الطويلة نضع قبلها more (more expensive = أغلى). كلمة than تعني «من» في المقارنة: New York is bigger than Boston = نيويورك أكبر من بوسطن. الترتيب مثل العربية: الصفة ثم than ثم الشيء الثاني. العربية تستخدم وزن «أفعل» (أكبر، أبرد)، والإنجليزية ‎-er‎ أو more. الشاذة: good → better، bad → worse، far → farther."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "\"daha\" için more ve -er birlikte kullanılmaz; \"-den\" = than (from değil).",
+          "wrong": ["New York is more bigger than Boston.", "Boston is colder from Izmir."],
+          "right": ["New York is bigger than Boston.", "Boston is colder than Izmir."]
+        },
+        "ar": {
+          "note": "لا نجمع more مع ‎-er‎، و«من» في المقارنة هي than وليست from.",
+          "wrong": ["Amman is more warmer than Boston.", "My city is more big than your city."],
+          "right": ["Amman is warmer than Boston.", "My city is bigger than your city."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Write the comparative.",
+      "items": [
+        "New York is {bigger} than Boston. (big)",
+        "The subway is {faster} than the bus. (fast)",
+        "Amman is {sunnier} than Boston in winter. (sunny)",
+        "Hotels in New York are {more expensive} than in Boston. (expensive)",
+        "The pizza in New York was {better} than here. (good)",
+        "The traffic is {worse} in the evening than in the morning. (bad)",
+        "Is your city {more crowded} than Izmir? (crowded)"
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Which one is correct?",
+      "instructions": "Choose the correct sentence.",
+      "items": [
+        { "prompt": "Weather", "options": ["Boston is colder than Izmir.", "Boston is more cold than Izmir.", "Boston is colder from Izmir."], "answer": 0 },
+        { "prompt": "Cities", "options": ["New York is excitinger than Boston.", "New York is more exciting than Boston.", "New York is more excitinger than Boston."], "answer": 1 },
+        { "prompt": "Family", "options": ["My brother is more young than me.", "My brother is younger that me.", "My brother is younger than me."], "answer": 2 },
+        { "prompt": "Today", "options": ["The weather is worse today.", "The weather is badder today.", "The weather is more bad today."], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "items": [
+        { "audio": "It's fourteen degrees in Izmir today. That's much warmer than Boston, but it's very windy.", "voice": "zeynep", "prompt": "The weather in Izmir is …", "options": ["colder than in Boston", "warmer than in Boston", "the same as in Boston"], "answer": 1 },
+        { "audio": "My café is smaller than the other two on Harbor Street, but my cookies are much better!", "voice": "sam", "prompt": "Sam's café is …", "options": ["bigger than the other cafés", "smaller than the other cafés", "the same size as the other cafés"], "answer": 1 },
+        { "audio": "Well, the new bus is faster than the old one, but it's more crowded. I never get a seat!", "voice": "maya", "prompt": "What's the problem with Maya's new bus?", "options": ["It's slower.", "It's more crowded.", "It's more expensive."], "answer": 1 },
+        { "audio": "Amman has a lot more hills than Boston. You walk up and down all day!", "voice": "omar", "prompt": "Walking in Amman is …", "options": ["easier than in Boston", "harder than in Boston", "the same as in Boston"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "items": [
+        "Which city do you prefer?",
+        "Everything is more expensive in New York.|In New York everything is more expensive.",
+        "The pizza is much better here.|Here the pizza is much better.",
+        "Amman is much sunnier in winter.|In winter Amman is much sunnier."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "items": [
+        { "text": "New York is bigger and noisier.", "voice": "elif" },
+        { "text": "Which city do you prefer?", "voice": "maya" },
+        { "text": "Amman is much warmer than Boston.", "voice": "omar" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: Two places",
+      "model": {
+        "heading": "São Paulo and Boston — Lucas",
+        "text": [
+          "São Paulo is much bigger than Boston. About twelve million people live there.",
+          "It's also hotter and noisier, and the traffic is worse.",
+          "Boston is cleaner and quieter, but the winter is much colder!",
+          "The food in São Paulo is better, of course.",
+          "But in Boston, my band plays every Friday at Sam's café.",
+          "São Paulo is more exciting, but for now, I prefer Boston."
+        ]
+      },
+      "frame": ["___ is bigger / smaller than ___.", "The weather in ___ is ___er than in ___.", "___ is more ___ than ___.", "The food in ___ is better / worse.", "I prefer ___ because ___."],
+      "prompt": "Compare your city with another city you know (6 to 8 sentences). Which one do you prefer, and why?",
+      "minWords": 50,
+      "checklist": ["I use than.", "I use -er and more.", "I say which city I prefer and why."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

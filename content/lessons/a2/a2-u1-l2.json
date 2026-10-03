@@ -142,11 +142,11 @@
       "title": "Answer the invitation",
       "instructions": "Match the question and the answer.",
       "pairs": [
-        ["Would you like to come to dinner?", "I'd love to! Thank you."],
+        ["Would you like to come to dinner on Saturday?", "I'd love to! What time is dinner?"],
         ["Can I bring anything?", "Yes, please. Maybe a dessert?"],
-        ["Let's go to the park.", "Good idea!"],
-        ["Why don't we meet at six?", "OK, see you at six."],
-        ["Would you like to see a film tonight?", "I'm afraid I can't. I have an exam tomorrow."]
+        ["Let's go to the park.", "Good idea! It's a lovely day."],
+        ["Why don't we meet at the café?", "OK, see you at the café."],
+        ["Would you like to see a film tonight?", "I'm afraid I can't. I'm working tonight."]
       ]
     },
     {

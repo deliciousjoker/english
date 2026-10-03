@@ -174,7 +174,7 @@
         "I'm Omar. {My} sister is Lina.",
         "Lina is a student. {Her} university is in Amman.",
         "Kareem and Hala are in Dubai. {Their} son is four.",
-        "Elif, is this {your} bag?",
+        "Elif, is this {your} bag? — Yes, it is. Thank you!",
         "We're classmates. {Our} teacher is Maya.",
         "Omar is a nurse. {His} hospital is in Boston."
       ]
@@ -197,7 +197,7 @@
       "title": "Make sentences",
       "instructions": "Put the words in order.",
       "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
-      "items": ["Her name is Lina.", "This is my brother.", "Their son is four.", "Where are your parents?"]
+      "items": ["Her name is Lina.|Lina is her name.", "This is my brother.", "Their son is four.", "Where are your parents?"]
     },
     {
       "type": "exercise",

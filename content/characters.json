@@ -94,5 +94,13 @@
     "kokoroVoice": "bf_isabella",
     "fallback": { "lang": "en-GB", "gender": "female" },
     "color": "#2F7F86"
+  },
+  {
+    "id": "pharmacist",
+    "name": "Pharmacist",
+    "azureVoice": "en-US-SaraNeural",
+    "kokoroVoice": "af_nicole",
+    "fallback": { "lang": "en-US", "gender": "female" },
+    "color": "#3E7D5E"
   }
 ]

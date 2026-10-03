@@ -179,7 +179,7 @@
       "title": "Make sentences",
       "instructions": "Put the words in order.",
       "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
-      "items": ["Lina is Omar's sister.", "Sam's café is small.", "Her brother is very tall.", "Is that Maya's bag?"]
+      "items": ["Lina is Omar's sister.|Omar's sister is Lina.", "Sam's café is small.", "Her brother is very tall.", "Is that Maya's bag?"]
     },
     {
       "type": "exercise",

@@ -90,8 +90,8 @@
       "type": "exercise",
       "kind": "ordering",
       "title": "Elif's morning",
-      "instructions": "Put Elif's morning in order.",
-      "support": { "tr": "Elif'in sabahını sıraya koy.", "ar": "رتّب صباح إليف." },
+      "instructions": "Read again. Put Elif's morning in order.",
+      "support": { "tr": "Tekrar oku. Elif'in sabahını sıraya koy.", "ar": "اقرأ مرة أخرى. رتّب صباح إليف." },
       "items": ["I get up at eight.", "I take a shower.", "I get dressed.", "I have a big breakfast.", "I walk to school."]
     },
     {
@@ -136,14 +136,14 @@
       "title": "Practice",
       "instructions": "Complete the sentences.",
       "support": { "tr": "Cümleleri tamamla.", "ar": "أكمل الجمل." },
-      "bank": ["get up", "have", "walk", "start", "drink", "finish"],
+      "bank": ["get up", "take", "walk", "start", "drink", "finish"],
       "items": [
-        "I {get up} at seven.",
-        "We {have} breakfast at home.",
-        "They {walk} to school.",
-        "Classes {start} at nine.",
-        "I {drink} tea in the morning.",
-        "We {finish} class at twelve."
+        "{Get up}, Lucas! You're late for class!",
+        "I {take} a shower and get dressed.",
+        "Lucas and his roommates don't {walk} to school. They run!",
+        "We {start} class at nine and finish at twelve.",
+        "I {drink} tea at breakfast, but Omar drinks coffee.",
+        "We {finish} class at twelve, and then we go to Sam's café."
       ]
     },
     {
@@ -178,7 +178,7 @@
       "title": "Make sentences",
       "instructions": "Put the words in order.",
       "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
-      "items": ["I get up at seven.", "We have breakfast at home.", "They walk to school.", "I drink tea every day."]
+      "items": ["I get up at seven.", "We have breakfast at home.", "They walk to school.", "I drink tea every day.|Every day I drink tea."]
     },
     {
       "type": "exercise",

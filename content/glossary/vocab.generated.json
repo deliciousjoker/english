@@ -1,4 +1,8 @@
 {
+ "a cold": {
+  "tr": "soğuk algınlığı, nezle",
+  "ar": "زكام، نزلة برد"
+ },
  "a little": {
   "tr": "biraz",
   "ar": "قليلًا"
@@ -10,6 +14,14 @@
  "add": {
   "tr": "eklemek",
   "ar": "يضيف"
+ },
+ "advice": {
+  "tr": "tavsiye, öğüt (sayılamaz)",
+  "ar": "نصيحة (غير معدودة في الإنجليزية)"
+ },
+ "after meals": {
+  "tr": "yemeklerden sonra",
+  "ar": "بعد الوجبات"
  },
  "after": {
   "tr": "-den sonra",
@@ -23,6 +35,10 @@
   "tr": "bütün gece",
   "ar": "طوال الليل"
  },
+ "allergic": {
+  "tr": "alerjisi olan (allergic to: … -e alerjisi olan)",
+  "ar": "لديه حساسية (allergic to: لديه حساسية من)"
+ },
  "always": {
   "tr": "her zaman (%100)",
   "ar": "دائمًا"
@@ -30,6 +46,10 @@
  "american": {
   "tr": "Amerikalı",
   "ar": "أمريكي"
+ },
+ "ancient": {
+  "tr": "antik, çok eski",
+  "ar": "قديم جدًّا، أثري"
  },
  "any": {
   "tr": "hiç (olumsuz / soru cümlesinde)",
@@ -55,6 +75,10 @@
   "tr": "ilk başta",
   "ar": "في البداية"
  },
+ "at least": {
+  "tr": "en az",
+  "ar": "على الأقل"
+ },
  "at the moment": {
   "tr": "şu anda, şu sıralar",
   "ar": "في هذه اللحظة، حاليًا"
@@ -74,6 +98,10 @@
  "bathroom": {
   "tr": "banyo",
   "ar": "حمّام"
+ },
+ "battery": {
+  "tr": "pil, batarya",
+  "ar": "بطارية"
  },
  "be born": {
   "tr": "doğmak (I was born: doğdum)",
@@ -175,6 +203,10 @@
   "tr": "-ebilmek",
   "ar": "يستطيع"
  },
+ "capital": {
+  "tr": "başkent",
+  "ar": "عاصمة"
+ },
  "card": {
   "tr": "kart; banka kartı",
   "ar": "بطاقة"
@@ -216,8 +248,8 @@
   "ar": "دجاج"
  },
  "choose": {
-  "tr": "seç",
-  "ar": "اختر"
+  "tr": "seçmek",
+  "ar": "يختار"
  },
  "christmas": {
   "tr": "Noel",
@@ -263,6 +295,10 @@
   "tr": "bulutlu",
   "ar": "غائم"
  },
+ "coast": {
+  "tr": "kıyı, sahil",
+  "ar": "ساحل"
+ },
  "coat": {
   "tr": "mont, palto",
   "ar": "معطف"
@@ -270,6 +306,14 @@
  "cold": {
   "tr": "soğuk; üşümüş",
   "ar": "بارد؛ أشعر بالبرد"
+ },
+ "comfortable": {
+  "tr": "rahat (koltuk, ayakkabı)",
+  "ar": "مريح"
+ },
+ "compare": {
+  "tr": "karşılaştırmak",
+  "ar": "يقارن"
  },
  "complete": {
   "tr": "tamamla",
@@ -283,9 +327,29 @@
   "tr": "(fiyatı) tutmak, mal olmak",
   "ar": "يكلّف"
  },
+ "cough syrup": {
+  "tr": "öksürük şurubu",
+  "ar": "شراب السعال"
+ },
+ "cough": {
+  "tr": "öksürük; öksürmek",
+  "ar": "سعال؛ يسعل"
+ },
  "country": {
   "tr": "ülke",
   "ar": "دولة، بلد"
+ },
+ "course": {
+  "tr": "kurs",
+  "ar": "دورة تدريبية"
+ },
+ "cozy": {
+  "tr": "sıcak, rahat, samimi (mekân)",
+  "ar": "دافئ ومريح"
+ },
+ "crowded": {
+  "tr": "kalabalık",
+  "ar": "مزدحم"
  },
  "cup": {
   "tr": "fincan, bardak",
@@ -347,6 +411,10 @@
   "tr": "akşam yemeği",
   "ar": "عشاء"
  },
+ "dirty": {
+  "tr": "kirli",
+  "ar": "وسخ، متّسخ"
+ },
  "disappointed": {
   "tr": "hayal kırıklığına uğramış",
   "ar": "خائب الأمل"
@@ -403,6 +471,10 @@
   "tr": "patlıcan",
   "ar": "باذنجان"
  },
+ "energy": {
+  "tr": "enerji",
+  "ar": "طاقة"
+ },
  "engineer": {
   "tr": "mühendis",
   "ar": "مهندس / مهندسة"
@@ -423,6 +495,10 @@
   "tr": "her gün",
   "ar": "كلّ يوم"
  },
+ "every … hours": {
+  "tr": "… saatte bir",
+  "ar": "كل … ساعات"
+ },
  "everything": {
   "tr": "her şey",
   "ar": "كلّ شيء"
@@ -431,9 +507,17 @@
   "tr": "sınav",
   "ar": "امتحان"
  },
+ "exciting": {
+  "tr": "heyecan verici",
+  "ar": "مثير، ممتع"
+ },
  "excuse me": {
   "tr": "affedersiniz",
   "ar": "عفوًا، لو سمحت"
+ },
+ "exercise": {
+  "tr": "egzersiz, spor; egzersiz yapmak",
+  "ar": "تمرين، رياضة؛ يتمرّن"
  },
  "expensive": {
   "tr": "pahalı",
@@ -455,6 +539,10 @@
   "tr": "aile",
   "ar": "عائلة، أسرة"
  },
+ "famous for": {
+  "tr": "… ile ünlü",
+  "ar": "مشهور بـ"
+ },
  "father": {
   "tr": "baba",
   "ar": "أب"
@@ -462,6 +550,14 @@
  "feed": {
   "tr": "(hayvanı) beslemek, yem vermek",
   "ar": "يُطعِم"
+ },
+ "feel": {
+  "tr": "hissetmek (I don't feel well: kendimi iyi hissetmiyorum)",
+  "ar": "يشعر (I don't feel well: لا أشعر أنني بخير)"
+ },
+ "fever": {
+  "tr": "ateş (hastalıkta)",
+  "ar": "حمّى، حرارة"
  },
  "film": {
   "tr": "film",
@@ -503,6 +599,10 @@
   "tr": "boş, müsait; bedava",
   "ar": "متفرّغ؛ مجاني"
  },
+ "fresh air": {
+  "tr": "temiz hava",
+  "ar": "هواء نقي"
+ },
  "friday": {
   "tr": "Cuma",
   "ar": "الجمعة"
@@ -543,6 +643,10 @@
   "tr": "iş bulmak",
   "ar": "يحصل على عمل"
  },
+ "get better": {
+  "tr": "iyileşmek",
+  "ar": "يتحسّن، يتعافى"
+ },
  "get dressed": {
   "tr": "giyinmek",
   "ar": "يرتدي ملابسه"
@@ -554,6 +658,10 @@
  "gift": {
   "tr": "hediye",
   "ar": "هديّة"
+ },
+ "glass": {
+  "tr": "bardak",
+  "ar": "كوب، كأس"
  },
  "glasses": {
   "tr": "gözlük",
@@ -595,6 +703,10 @@
   "tr": "büyükanne, nine",
   "ar": "جدّة"
  },
+ "guarantee": {
+  "tr": "garanti",
+  "ar": "ضمان"
+ },
  "guest": {
   "tr": "misafir",
   "ar": "ضيف"
@@ -627,6 +739,14 @@
   "tr": "kahvaltı yapmak",
   "ar": "يتناول الفطور"
  },
+ "headache": {
+  "tr": "baş ağrısı",
+  "ar": "صداع"
+ },
+ "healthy": {
+  "tr": "sağlıklı",
+  "ar": "صحّي"
+ },
  "hello": {
   "tr": "merhaba",
   "ar": "مرحبًا"
@@ -643,6 +763,10 @@
   "tr": "selam",
   "ar": "أهلًا"
  },
+ "hill": {
+  "tr": "tepe",
+  "ar": "تلّة"
+ },
  "hobby": {
   "tr": "hobi, uğraş",
   "ar": "هواية"
@@ -650,6 +774,10 @@
  "holiday": {
   "tr": "bayram, tatil",
   "ar": "عيد، عطلة"
+ },
+ "homesick": {
+  "tr": "sıla hasreti çeken, evini özleyen",
+  "ar": "يشتاق إلى الوطن، يحنّ إلى بيته"
  },
  "homework": {
   "tr": "ödev",
@@ -731,6 +859,10 @@
   "tr": "davet etmek",
   "ar": "يدعو"
  },
+ "it's a good idea to …": {
+  "tr": "…-mek iyi bir fikir",
+  "ar": "من الجيد أن …"
+ },
  "jacket": {
   "tr": "ceket, mont",
   "ar": "سترة، جاكيت"
@@ -743,6 +875,10 @@
   "tr": "iş, meslek",
   "ar": "وظيفة، مهنة"
  },
+ "join": {
+  "tr": "katılmak",
+  "ar": "ينضمّ، يشارك"
+ },
  "jordanian": {
   "tr": "Ürdünlü",
   "ar": "أردني"
@@ -750,6 +886,10 @@
  "juice": {
   "tr": "meyve suyu",
   "ar": "عصير"
+ },
+ "junk food": {
+  "tr": "abur cubur",
+  "ar": "وجبات سريعة غير صحية"
  },
  "key": {
   "tr": "anahtar",
@@ -763,9 +903,17 @@
   "tr": "mutfak",
   "ar": "مطبخ"
  },
+ "label": {
+  "tr": "etiket",
+  "ar": "مُلصق، بطاقة"
+ },
  "lamp": {
   "tr": "lamba, abajur",
   "ar": "مصباح"
+ },
+ "laptop": {
+  "tr": "dizüstü bilgisayar",
+  "ar": "حاسوب محمول"
  },
  "last night": {
   "tr": "dün gece, dün akşam",
@@ -799,6 +947,10 @@
   "tr": "kütüphane",
   "ar": "مكتبة عامّة"
  },
+ "light": {
+  "tr": "hafif",
+  "ar": "خفيف"
+ },
  "like": {
   "tr": "sevmek, hoşlanmak",
   "ar": "يحبّ، يُعجبه"
@@ -818,6 +970,10 @@
  "living room": {
   "tr": "oturma odası, salon",
   "ar": "غرفة المعيشة"
+ },
+ "lonely": {
+  "tr": "yalnız (hissetmek)",
+  "ar": "وحيد (يشعر بالوحدة)"
  },
  "long": {
   "tr": "uzun",
@@ -859,9 +1015,17 @@
   "tr": "tanışmak",
   "ar": "يتعرّف على، يقابل"
  },
+ "mild": {
+  "tr": "ılıman, yumuşak (hava)",
+  "ar": "معتدل (الطقس)"
+ },
  "milk": {
   "tr": "süt",
   "ar": "حليب"
+ },
+ "million": {
+  "tr": "milyon",
+  "ar": "مليون"
  },
  "minute": {
   "tr": "dakika",
@@ -870,6 +1034,10 @@
  "miss": {
   "tr": "özlemek",
   "ar": "يشتاق إلى"
+ },
+ "modern": {
+  "tr": "modern, yeni tarz",
+  "ar": "حديث، عصري"
  },
  "monday": {
   "tr": "Pazartesi",
@@ -935,6 +1103,10 @@
   "tr": "hoş, güzel",
   "ar": "لطيف، جميل"
  },
+ "noisy": {
+  "tr": "gürültülü",
+  "ar": "صاخب"
+ },
  "noon": {
   "tr": "öğle, saat 12",
   "ar": "الظهر"
@@ -979,6 +1151,10 @@
   "tr": "yılda bir",
   "ar": "مرّة في السنة"
  },
+ "one of the …": {
+  "tr": "… -lerden biri",
+  "ar": "واحد من، من بين"
+ },
  "onion": {
   "tr": "soğan",
   "ar": "بصل"
@@ -999,6 +1175,10 @@
   "tr": "bavul hazırlamak, toplamak",
   "ar": "يحزم (الأمتعة)"
  },
+ "painkiller": {
+  "tr": "ağrı kesici",
+  "ar": "مسكّن للألم"
+ },
  "parents": {
   "tr": "anne baba, ebeveynler",
   "ar": "الوالدان"
@@ -1010,6 +1190,14 @@
  "pay": {
   "tr": "ödemek",
   "ar": "يدفع"
+ },
+ "percent": {
+  "tr": "yüzde",
+  "ar": "بالمئة"
+ },
+ "pharmacist": {
+  "tr": "eczacı",
+  "ar": "صيدلاني، صيدلانية"
  },
  "pharmacy": {
   "tr": "eczane",
@@ -1059,6 +1247,10 @@
   "tr": "cep",
   "ar": "جيب"
  },
+ "popular": {
+  "tr": "popüler, sevilen",
+  "ar": "شائع، محبوب"
+ },
  "post office": {
   "tr": "postane",
   "ar": "مكتب البريد"
@@ -1071,6 +1263,14 @@
   "tr": "patates",
   "ar": "بطاطا، بطاطس"
  },
+ "prefer": {
+  "tr": "tercih etmek, daha çok sevmek",
+  "ar": "يفضّل"
+ },
+ "prescription": {
+  "tr": "reçete",
+  "ar": "وصفة طبية"
+ },
  "price": {
   "tr": "fiyat",
   "ar": "سعر"
@@ -1078,6 +1278,10 @@
  "problem": {
   "tr": "sorun, problem",
   "ar": "مشكلة"
+ },
+ "program": {
+  "tr": "program (bilgisayar)",
+  "ar": "برنامج (حاسوب)"
  },
  "proud": {
   "tr": "gururlu (proud of you: seninle gurur duyuyorum)",
@@ -1123,6 +1327,14 @@
   "tr": "yemek tarifi",
   "ar": "وصفة"
  },
+ "relax": {
+  "tr": "rahatlamak, dinlenmek",
+  "ar": "يسترخي، يرتاح"
+ },
+ "relaxed": {
+  "tr": "sakin, rahat",
+  "ar": "هادئ، مريح"
+ },
  "remember": {
   "tr": "hatırlamak",
   "ar": "يتذكّر"
@@ -1130,6 +1342,14 @@
  "repeat": {
   "tr": "tekrar et",
   "ar": "كرِّر"
+ },
+ "rest": {
+  "tr": "dinlenmek; dinlenme",
+  "ar": "يرتاح؛ راحة"
+ },
+ "result": {
+  "tr": "sonuç",
+  "ar": "نتيجة"
  },
  "rice": {
   "tr": "pirinç, pilav",
@@ -1171,6 +1391,14 @@
   "tr": "okul",
   "ar": "مدرسة"
  },
+ "screen time": {
+  "tr": "ekran süresi",
+  "ar": "وقت الشاشة"
+ },
+ "screen": {
+  "tr": "ekran",
+  "ar": "شاشة"
+ },
  "seat": {
   "tr": "koltuk, oturacak yer",
   "ar": "مقعد"
@@ -1191,6 +1419,10 @@
   "tr": "görüşürüz",
   "ar": "أراك لاحقًا"
  },
+ "service": {
+  "tr": "hizmet, servis",
+  "ar": "خدمة"
+ },
  "shelf": {
   "tr": "raf",
   "ar": "رفّ"
@@ -1206,6 +1438,10 @@
  "short": {
   "tr": "kısa boylu; kısa",
   "ar": "قصير"
+ },
+ "should": {
+  "tr": "-meli, -malı (tavsiye)",
+  "ar": "ينبغي، من الأفضل أن"
  },
  "show": {
   "tr": "gösteri, konser",
@@ -1239,13 +1475,29 @@
   "tr": "beden",
   "ar": "مقاس"
  },
+ "skyscraper": {
+  "tr": "gökdelen",
+  "ar": "ناطحة سحاب"
+ },
  "sleep late": {
   "tr": "geç saate kadar uyumak",
   "ar": "ينام حتى وقت متأخّر"
  },
+ "sleepy": {
+  "tr": "uykulu",
+  "ar": "نعسان"
+ },
+ "slow": {
+  "tr": "yavaş",
+  "ar": "بطيء"
+ },
  "smart": {
   "tr": "zeki, akıllı",
   "ar": "ذكي"
+ },
+ "snack": {
+  "tr": "atıştırmalık",
+  "ar": "وجبة خفيفة"
  },
  "snow": {
   "tr": "kar; kar yağmak",
@@ -1275,6 +1527,10 @@
   "tr": "yakında",
   "ar": "قريبًا"
  },
+ "sore throat": {
+  "tr": "boğaz ağrısı",
+  "ar": "التهاب الحلق"
+ },
  "sorry": {
   "tr": "özür dilerim, pardon",
   "ar": "آسف"
@@ -1287,6 +1543,10 @@
   "tr": "harcamak; (zaman) geçirmek",
   "ar": "ينفق؛ يقضي (وقتًا)"
  },
+ "stairs": {
+  "tr": "merdiven",
+  "ar": "درج، سلالم"
+ },
  "stand": {
   "tr": "ayakta durmak",
   "ar": "يقف"
@@ -1294,6 +1554,10 @@
  "start": {
   "tr": "başlamak",
   "ar": "يبدأ"
+ },
+ "stay in bed": {
+  "tr": "yatakta kalmak",
+  "ar": "يبقى في السرير"
  },
  "stay": {
   "tr": "kalmak",
@@ -1303,6 +1567,10 @@
   "tr": "sokak, cadde",
   "ar": "شارع"
  },
+ "stressed": {
+  "tr": "stresli",
+  "ar": "متوتّر، مضغوط"
+ },
  "student": {
   "tr": "öğrenci",
   "ar": "طالب / طالبة"
@@ -1310,6 +1578,14 @@
  "study": {
   "tr": "okumak, ders çalışmak",
   "ar": "يدرس"
+ },
+ "subway": {
+  "tr": "metro",
+  "ar": "مترو الأنفاق"
+ },
+ "sugar": {
+  "tr": "şeker",
+  "ar": "سكّر"
  },
  "suitcase": {
   "tr": "bavul",
@@ -1322,6 +1598,10 @@
  "sunny": {
   "tr": "güneşli",
   "ar": "مشمس"
+ },
+ "sunset": {
+  "tr": "gün batımı",
+  "ar": "غروب الشمس"
  },
  "supermarket": {
   "tr": "süpermarket",
@@ -1347,6 +1627,14 @@
   "tr": "tişört",
   "ar": "قميص قصير (تي شيرت)"
  },
+ "tablet": {
+  "tr": "tablet, hap",
+  "ar": "قرص، حبّة دواء"
+ },
+ "take a break": {
+  "tr": "mola vermek",
+  "ar": "يأخذ استراحة"
+ },
  "take a shower": {
   "tr": "duş almak",
   "ar": "يستحمّ"
@@ -1371,6 +1659,18 @@
   "tr": "öğretmen",
   "ar": "معلّم / معلّمة"
  },
+ "teaspoon": {
+  "tr": "çay kaşığı",
+  "ar": "ملعقة صغيرة"
+ },
+ "temperature": {
+  "tr": "ateş, vücut ısısı; sıcaklık",
+  "ar": "درجة الحرارة"
+ },
+ "than": {
+  "tr": "-den, -dan (daha … -den)",
+  "ar": "من (في المقارنة)"
+ },
  "thank you": {
   "tr": "teşekkür ederim",
   "ar": "شكرًا لك"
@@ -1383,9 +1683,25 @@
   "tr": "en iyi",
   "ar": "الأفضل، أحسن"
  },
+ "the flu": {
+  "tr": "grip",
+  "ar": "الإنفلونزا"
+ },
+ "the same": {
+  "tr": "aynı",
+  "ar": "نفس، ذات"
+ },
  "the whole family": {
   "tr": "bütün aile",
   "ar": "العائلة كلّها"
+ },
+ "the worst": {
+  "tr": "en kötü",
+  "ar": "الأسوأ"
+ },
+ "theater": {
+  "tr": "tiyatro",
+  "ar": "مسرح"
  },
  "then": {
   "tr": "sonra, ondan sonra",
@@ -1439,6 +1755,10 @@
   "tr": "(giysiyi) denemek",
   "ar": "يجرّب (الملابس)"
  },
+ "try to": {
+  "tr": "…-meye çalışmak",
+  "ar": "يحاول أن"
+ },
  "tuesday": {
   "tr": "Salı",
   "ar": "الثلاثاء"
@@ -1463,6 +1783,10 @@
   "tr": "haftada iki kez",
   "ar": "مرّتين في الأسبوع"
  },
+ "twice": {
+  "tr": "iki kez",
+  "ar": "مرّتين"
+ },
  "umbrella": {
   "tr": "şemsiye",
   "ar": "مظلّة"
@@ -1475,6 +1799,10 @@
   "tr": "anlamak",
   "ar": "يفهم"
  },
+ "unhealthy": {
+  "tr": "sağlıksız",
+  "ar": "غير صحّي"
+ },
  "university": {
   "tr": "üniversite",
   "ar": "جامعة"
@@ -1483,13 +1811,25 @@
   "tr": "baş aşağı, ters",
   "ar": "مقلوب"
  },
+ "used": {
+  "tr": "kullanılmış, ikinci el",
+  "ar": "مستعمل"
+ },
  "usually": {
   "tr": "genellikle",
   "ar": "عادةً"
  },
+ "view": {
+  "tr": "manzara",
+  "ar": "منظر"
+ },
  "visit": {
   "tr": "ziyaret etmek",
   "ar": "يزور"
+ },
+ "vote": {
+  "tr": "oy vermek",
+  "ar": "يصوّت"
  },
  "wait": {
   "tr": "beklemek",
@@ -1575,6 +1915,10 @@
   "tr": "ne zaman",
   "ar": "متى"
  },
+ "which one": {
+  "tr": "hangisi",
+  "ar": "أيّهما، أيّ واحد"
+ },
  "who": {
   "tr": "kim",
   "ar": "مَن"
@@ -1583,9 +1927,17 @@
   "tr": "kimin",
   "ar": "لِمَن"
  },
+ "why don't you …?": {
+  "tr": "Neden … -mıyorsun? (öneri: …-sana)",
+  "ar": "لماذا لا …؟ (اقتراح)"
+ },
  "why": {
   "tr": "neden, niçin",
   "ar": "لماذا"
+ },
+ "wi-fi": {
+  "tr": "kablosuz internet",
+  "ar": "واي فاي، إنترنت لاسلكي"
  },
  "wife": {
   "tr": "karı, eş",
@@ -1599,9 +1951,21 @@
   "tr": "rüzgârlı",
   "ar": "عاصف، فيه رياح"
  },
+ "winner": {
+  "tr": "kazanan",
+  "ar": "الفائز"
+ },
  "winter break": {
   "tr": "kış tatili, yarıyıl tatili",
   "ar": "عطلة الشتاء"
+ },
+ "worry": {
+  "tr": "endişelenmek, kaygılanmak",
+  "ar": "يقلق"
+ },
+ "worse": {
+  "tr": "daha kötü (bad)",
+  "ar": "أسوأ (bad)"
  },
  "would you like to …?": {
   "tr": "…-mek ister misin?",

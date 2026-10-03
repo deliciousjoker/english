@@ -158,8 +158,8 @@
       "type": "exercise",
       "kind": "matching",
       "title": "Who likes what?",
-      "instructions": "Match the person and the hobby.",
-      "support": { "tr": "Kişiyi ve hobisini eşleştir.", "ar": "صِل الشخص بهوايته." },
+      "instructions": "Read again. Match the person and the hobby.",
+      "support": { "tr": "Tekrar oku. Kişiyi ve hobisini eşleştir.", "ar": "اقرأ مرة أخرى. صِل الشخص بهوايته." },
       "pairs": [
         ["Elif", "drawing old buildings"],
         ["Lucas", "playing the guitar and dancing"],
@@ -185,7 +185,7 @@
       "title": "Make sentences",
       "instructions": "Put the words in order.",
       "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
-      "items": ["I love reading books.", "Do you like cooking?", "She hates running.", "What do you do in your free time?"]
+      "items": ["I love reading books.", "Do you like cooking?", "She hates running.", "What do you do in your free time?|In your free time what do you do?"]
     },
     {
       "type": "exercise",

@@ -5,7 +5,8 @@ import { supportPolicy, type ExerciseSection, type Lesson, type Section, type Su
 import { GrammarBody } from '../components/grammar/GrammarSection'
 import { sectionTitle } from '../components/lesson/SectionFrame'
 import { sectionId } from '../components/lesson/LessonContext'
-import { splitSentence } from '../components/exercises/WordOrderExercise'
+import { sentenceForms, splitSentence } from '../components/exercises/sentenceForms'
+import { Pic } from '../components/ui/Pic'
 import { BidiText } from '../components/support/BidiText'
 import { Icon } from '../components/ui/Icon'
 import { LevelCode } from '../components/ui/LevelCode'
@@ -56,7 +57,7 @@ function Head({ n, section, instructions, support, lang }: { n: number; section:
 }
 
 /** Alıştırmanın kâğıt hâli ve cevap anahtarı satırları. */
-function exercise(s: ExerciseSection, seed: string): { body: ReactNode; key: string[] } {
+function exercise(s: ExerciseSection, seed: string, lang: SupportLang): { body: ReactNode; key: string[] } {
   switch (s.kind) {
     case 'mcq':
       return {
@@ -64,7 +65,8 @@ function exercise(s: ExerciseSection, seed: string): { body: ReactNode; key: str
           <ol className="pr__items">
             {s.items.map((it, i) => (
               <li key={i}>
-                {it.audio && <span className="pr__listen">Listen.</span>} {it.prompt}
+                {it.image && <Pic name={it.image} className="pr__pic" />}
+                {it.audio && <span className="pr__listen">Listen.</span>} {it.prompt} <Help support={it.hint} lang={lang} />
                 <span className="pr__options">
                   {it.options.map((o, k) => (
                     <span key={k} className="pr__box">
@@ -133,7 +135,7 @@ function exercise(s: ExerciseSection, seed: string): { body: ReactNode; key: str
             })}
           </ol>
         ),
-        key: s.items.map((it, i) => `${i + 1} ${it}`),
+        key: s.items.map((it, i) => `${i + 1} ${sentenceForms(it).join('  or  ')}`),
       }
     case 'matching': {
       const order = seededShuffle(
@@ -291,7 +293,7 @@ function PrintView({ lesson, lang }: { lesson: Lesson; lang: SupportLang }) {
           </section>
         )
       case 'exercise': {
-        const { body, key } = exercise(s, `${lesson.id}:${id}`)
+        const { body, key } = exercise(s, `${lesson.id}:${id}`, glossLang)
         answers.push({ n, title: sectionTitle(s), lines: key })
         return (
           <section key={id} className="pr__sec">

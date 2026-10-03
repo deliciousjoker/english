@@ -121,6 +121,10 @@ export const McqItem = z.object({
   audio: z.string().optional(),
   voice: z.string().optional(),
   prompt: z.string(),
+  /** Sorunun altında ana dilde ipucu (ör. eksik kelimenin anlamı) */
+  hint: Support.optional(),
+  /** Sorunun üstünde çizim (src/illustrations/pics.ts içindeki ad, ör. "tom-under") */
+  image: z.string().optional(),
   options: z.array(z.string()).min(2),
   answer: z.number().int().min(0),
 })
@@ -149,6 +153,7 @@ export const GapFillExercise = z.object({
 export const WordOrderExercise = z.object({
   ...exerciseBase,
   kind: z.literal('wordorder'),
+  /** Başka doğru sıralar "|" ile eklenir: "I'm flying tomorrow.|Tomorrow I'm flying." İlki gösterilir. */
   items: z.array(z.string()).min(1),
 })
 

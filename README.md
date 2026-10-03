@@ -24,9 +24,10 @@ Tarayıcıda http://localhost:5173 açılır.
 
 - **Sunum modu:** Ders sayfasında **Present** düğmesi. Ok tuşları veya sunum kumandasıyla ilerlenir,
   **Esc** ile çıkılır. Menüler ve öğretmen notları gizlenir; Zoom/Teams'te bu pencereyi paylaş.
-  Alttaki çubukta çizim araçları var: **P** kırmızı kalem, **B** mavi kalem, **H** fosforlu kalem, **E** silgi,
-  **C** temizle. **T** 3 dakikalık geri sayımı başlatır (1 / 3 / 5 düğmeleri de var). Kalem açıkken **Esc** önce
-  kalemi kapatır. Çizimler slayt değişince silinir.
+  Alttaki çubukta çizim araçları var: **P** kırmızı kalem, **B** mavi kalem, **H** fosforlu kalem, **A** yazı,
+  **E** silgi, **C** temizle, **Ctrl+Z** geri al. **T** 3 dakikalık geri sayımı başlatır (1 / 3 / 5 düğmeleri de var).
+  Yazı aracında ekrana tıkla, yaz, **Enter**'a bas; yazı son seçtiğin kalemin renginde olur (kırmızı ya da mavi).
+  Kalem açıkken **Esc** önce kalemi kapatır. Çizimler slayt değişince silinir.
 - **Edge'in doğal sesleri:** Edge'de ayarlarda **Voice: Recorded / Edge natural** çıkar. Derste Edge'den ekran
   paylaşırken "Edge natural" seçersen en doğal sesler duyulur; öğrencilerin telefonunda kayıtlı sesler çalar.
 - **Çalışma kâğıdı:** Ders sayfasında **Print** düğmesi. Ders kâğıda uyarlanır (boşluklar, kutucuklar, yazma
@@ -63,13 +64,17 @@ Tarayıcıda http://localhost:5173 açılır.
 5. Dersi sitede baştan sona dene (TR ve AR desteğiyle).
 6. `npm run audio` ile sesleri üret, sonra yayınla.
 
+**Çizimler:** `src/illustrations/pics.ts` içinde, elle yazılmış SVG (mürekkep çizgi + seviye renginde kaymış baskı rengi).
+Kelime kartında kelimeyle aynı adlı çizim varsa kendiliğinden görünür; çoktan seçmeli soruya `"image": "tom-under"`
+eklenirse soru resimli olur ("Where's Tom?" alıştırması gibi).
+
 **Hikâye eklemek:** `content/stories/<seviye>/<id>.json` (dosya adı = id). Bir hikâye küçük bir ders gibidir:
 kelimeler, okuma metni, sorular (ders bölümleriyle aynı biçim). Örnek: `content/stories/a1/biscuits-secret.json`.
 Sonra `npm run validate` ve `npm run audio`.
 
 İçerik kuralları: `content/spec/a1-spec.md`, `content/spec/a2-spec.md`; karakterler: `content/spec/characters.md`.
 
-**Durum (1 Ekim 2026):** Starter (2 ders) ve A1 (8 ünite, 32 ders) tamam. A2: Ünite 1 (4 ders) hazır, Ünite 2–8
+**Durum (3 Ekim 2026):** Starter (2 ders) ve A1 (8 ünite, 32 ders) tamam. A2: Ünite 1–3 (12 ders) hazır, Ünite 4–8
 planlandı (`content/curriculum.json`, `content/spec/a2-spec.md`). Kütüphanede 6 hikâye (Starter 1, A1 3, A2 2).
 
 ## Ses (Kokoro — ücretsiz, bilgisayarda)

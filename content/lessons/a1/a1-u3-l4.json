@@ -200,7 +200,7 @@
       "title": "Make sentences",
       "instructions": "Put the words in order.",
       "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
-      "items": ["Do you like coffee?", "She doesn't work on Sundays.", "Does he have a dog?", "I don't drink tea."]
+      "items": ["Do you like coffee?", "She doesn't work on Sundays.|On Sundays she doesn't work.", "Does he have a dog?", "I don't drink tea."]
     },
     {
       "type": "exercise",

@@ -144,7 +144,7 @@
       "bank": ["Would you like", "I'd like", "please", "thank you", "some"],
       "items": [
         "{Would you like} some tea?",
-        "Yes, {please}.",
+        "Can I have a cookie, {please}?",
         "{I'd like|I would like} some water, please.",
         "Would you like some more? — No, {thank you}. I'm full.",
         "Would you like {some} cookies?"

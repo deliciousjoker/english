@@ -2,19 +2,14 @@ import { useMemo, useState } from 'react'
 import type { WordOrderExercise } from '../../content/schema'
 import { seededShuffle } from '../../lib/text'
 import { ExerciseShell, useReport } from './ExerciseShell'
-
-/** "Where are you from?" → kelimeler ["Where","are","you","from"] ve son noktalama "?" */
-export function splitSentence(s: string) {
-  const m = s.trim().match(/^(.*?)([.!?]*)$/)!
-  return { words: m[1].split(/\s+/).filter(Boolean), end: m[2] }
-}
+import { capitalize, isRightOrder, splitSentence } from './sentenceForms'
 
 export function WordOrderExerciseView({ section, id, index }: { section: WordOrderExercise; id: string; index: number }) {
   const items = useMemo(
     () =>
       section.items.map((s, i) => {
-        const { words, end } = splitSentence(s)
-        return { words, end, pool: seededShuffle(words.map((_, k) => k), `${id}:${i}:${s}`) }
+        const { words, end, answers } = splitSentence(s)
+        return { words, end, answers, pool: seededShuffle(words.map((_, k) => k), `${id}:${i}:${s}`) }
       }),
     [section.items, id],
   )
@@ -23,7 +18,7 @@ export function WordOrderExerciseView({ section, id, index }: { section: WordOrd
   const report = useReport(id)
 
   const isRight = (i: number) =>
-    picked[i].length === items[i].words.length && picked[i].map((k) => items[i].words[k]).join(' ') === items[i].words.join(' ')
+    picked[i].length === items[i].words.length && isRightOrder(picked[i].map((k) => items[i].words[k]), items[i].answers)
   const correct = items.filter((_, i) => isRight(i)).length
 
   const toggle = (i: number, k: number) => {
@@ -56,9 +51,9 @@ export function WordOrderExerciseView({ section, id, index }: { section: WordOrd
         {items.map((it, i) => (
           <li key={i} className={`order__item ${checked ? (isRight(i) ? 'is-correct' : 'is-wrong') : ''}`}>
             <div className="order__line" aria-label="Your sentence">
-              {picked[i].map((k) => (
+              {picked[i].map((k, at) => (
                 <button key={k} type="button" className="chip chip--placed" onClick={() => toggle(i, k)}>
-                  {it.words[k]}
+                  {at === 0 ? capitalize(it.words[k]) : it.words[k]}
                 </button>
               ))}
               {picked[i].length === it.words.length && <span className="order__end">{it.end}</span>}

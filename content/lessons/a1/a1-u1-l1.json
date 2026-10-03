@@ -146,7 +146,7 @@
       "title": "Make sentences",
       "instructions": "Put the words in order.",
       "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
-      "items": ["My name is Omar.", "I'm from Brazil.", "Where are you from?", "Nice to meet you."]
+      "items": ["My name is Omar.|Omar is my name.", "I'm from Brazil.", "Where are you from?", "Nice to meet you."]
     },
     {
       "type": "exercise",

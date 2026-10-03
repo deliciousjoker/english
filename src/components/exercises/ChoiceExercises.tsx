@@ -1,9 +1,11 @@
 import { useState } from 'react'
-import type { McqExercise, TrueFalseExercise } from '../../content/schema'
+import type { McqExercise, Support, TrueFalseExercise } from '../../content/schema'
+import { SupportText } from '../support/SupportText'
+import { Pic } from '../ui/Pic'
 import { PlayButton } from '../ui/PlayButton'
 import { ExerciseShell, useReport } from './ExerciseShell'
 
-type Choice = { prompt: string; options: string[]; answer: number; audio?: string; voice?: string }
+type Choice = { prompt: string; options: string[]; answer: number; audio?: string; voice?: string; hint?: Support; image?: string }
 
 /** Tıklayınca hemen geri bildirim veren seçmeli sorular (çoktan seçmeli ve doğru/yanlış ortak). */
 function ChoiceList({
@@ -52,7 +54,8 @@ function ChoiceList({
     >
       <ol className={`choices ${inline ? 'choices--inline' : ''}`}>
         {items.map((item, i) => (
-          <li key={i} className="choices__item">
+          <li key={i} className={`choices__item ${item.image ? 'has-pic' : ''}`}>
+            {item.image && <Pic name={item.image} className="choices__pic" />}
             <div className="choices__prompt">
               {item.audio && (
                 <PlayButton
@@ -63,6 +66,7 @@ function ChoiceList({
                 />
               )}
               <span>{item.prompt}</span>
+              <SupportText support={item.hint} as="span" className="choices__hint" />
             </div>
             <div className="choices__options">
               {item.options.map((opt, o) => {

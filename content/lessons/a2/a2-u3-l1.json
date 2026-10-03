@@ -1,0 +1,232 @@
+{
+  "id": "a2-u3-l1",
+  "level": "a2",
+  "unit": 3,
+  "order": 1,
+  "title": "I don't feel well",
+  "subtitle": "Lucas has the flu — should and shouldn't",
+  "canDo": [
+    "I can say how I feel and what's wrong.",
+    "I can give advice with should and shouldn't.",
+    "I can understand simple health advice."
+  ],
+  "teacherNotes": [
+    "should = Türkçede \"-meli/-malı\" (tavsiye), Arapçada \"من الأفضل أن / ينبغي\". should'dan sonra to ve -s gelmez; en sık hata \"should to\".",
+    "Hastalık kelimelerini beden hareketleriyle öğretin (baş, boğaz, öksürük). Öğrenciler birbirine \"What's wrong?\" diye sorsun.",
+    "Kültür: herkesin ailesinin bir \"ev ilacı\" vardır (ıhlamur, limonlu bal, yansun çayı). Öğrenciler kendi ilaçlarını İngilizce anlatsın.",
+    "ABD'de \"the flu\" (grip) ile \"a cold\" (soğuk algınlığı) ayrımı yapılır; Türkçede ikisine de bazen \"grip\" denir."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["What do you do when you have a cold?", "Do you go to the doctor quickly, or do you wait?", "What does your family say you should do when you're sick?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "items": [
+        { "word": "feel", "pos": "verb", "example": "I don't feel well today.", "gloss": { "tr": "hissetmek (I don't feel well: kendimi iyi hissetmiyorum)", "ar": "يشعر (I don't feel well: لا أشعر أنني بخير)" } },
+        { "word": "headache", "pos": "noun", "example": "I have a terrible headache.", "gloss": { "tr": "baş ağrısı", "ar": "صداع" } },
+        { "word": "sore throat", "pos": "noun", "example": "I have a sore throat, so I can't sing.", "gloss": { "tr": "boğaz ağrısı", "ar": "التهاب الحلق" } },
+        { "word": "cough", "pos": "noun / verb", "example": "He's coughing all night.", "gloss": { "tr": "öksürük; öksürmek", "ar": "سعال؛ يسعل" } },
+        { "word": "fever", "pos": "noun", "example": "Do you have a fever?", "gloss": { "tr": "ateş (hastalıkta)", "ar": "حمّى، حرارة" } },
+        { "word": "temperature", "pos": "noun", "example": "You should check your temperature.", "gloss": { "tr": "ateş, vücut ısısı; sıcaklık", "ar": "درجة الحرارة" } },
+        { "word": "the flu", "pos": "noun", "example": "It sounds like the flu.", "gloss": { "tr": "grip", "ar": "الإنفلونزا" } },
+        { "word": "a cold", "pos": "noun", "example": "It's only a cold.", "gloss": { "tr": "soğuk algınlığı, nezle", "ar": "زكام، نزلة برد" } },
+        { "word": "rest", "pos": "verb / noun", "example": "You should stay in bed and rest.", "gloss": { "tr": "dinlenmek; dinlenme", "ar": "يرتاح؛ راحة" } },
+        { "word": "stay in bed", "pos": "phrase", "example": "Stay in bed today.", "gloss": { "tr": "yatakta kalmak", "ar": "يبقى في السرير" } },
+        { "word": "should", "pos": "verb", "example": "You should drink a lot of water.", "gloss": { "tr": "-meli, -malı (tavsiye)", "ar": "ينبغي، من الأفضل أن" } },
+        { "word": "get better", "pos": "phrase", "example": "I hope you get better soon.", "gloss": { "tr": "iyileşmek", "ar": "يتحسّن، يتعافى" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "It sounds like the flu",
+      "scene": "Tuesday, 7:30 in the morning. Omar is walking home from the hospital. His phone rings.",
+      "lines": [
+        { "speaker": "omar", "text": "Hello? Lucas? It's seven thirty. You're never up at seven thirty!" },
+        { "speaker": "lucas", "text": "I'm not up. I'm in bed. I don't feel well, Omar." },
+        { "speaker": "omar", "text": "What's wrong?" },
+        { "speaker": "lucas", "text": "I have a terrible headache and a sore throat. And I'm so cold." },
+        { "speaker": "omar", "text": "Do you have a fever?" },
+        { "speaker": "lucas", "text": "I don't know. I don't have a thermometer." },
+        { "speaker": "omar", "text": "Maybe your roommates have one. You should check your temperature. Are you coughing?" },
+        { "speaker": "lucas", "text": "Yes, all night. My roommates can't sleep." },
+        { "speaker": "omar", "text": "It sounds like the flu. You shouldn't go to class today. You should stay in bed and rest." },
+        { "speaker": "lucas", "text": "But we have a test on Thursday!" },
+        { "speaker": "omar", "text": "Forget the test. You should drink a lot of water and sleep. I'm coming after class with some soup." },
+        { "speaker": "lucas", "text": "Soup? Your grandmother's soup?" },
+        { "speaker": "omar", "text": "My grandmother is in Amman. It's my soup. But it's almost as good." },
+        { "speaker": "lucas", "text": "Thanks, Omar. You're the best nurse in Boston." }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "items": [
+        { "statement": "Lucas usually gets up early.", "answer": false },
+        { "statement": "Lucas has a headache and a sore throat.", "answer": true },
+        { "statement": "Lucas knows his temperature.", "answer": false },
+        { "statement": "Omar says Lucas should go to class.", "answer": false },
+        { "statement": "Omar is going to bring Lucas some soup.", "answer": true }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Cold or flu?",
+      "intro": "A poster on the wall at Omar's hospital.",
+      "voice": "narrator",
+      "paragraphs": [
+        ["In winter, a lot of people get sick. But is it a cold or the flu?"],
+        [
+          "A cold usually starts slowly. You have a sore throat, a runny nose and maybe a cough.",
+          "You feel tired, but you can usually go to work or school. After about a week, you feel better."
+        ],
+        [
+          "The flu starts suddenly. You have a high fever, a headache and pain in your whole body.",
+          "You're often too tired to get out of bed. The flu can last for one or two weeks."
+        ],
+        [
+          "What should you do?",
+          "You should stay at home and rest. Don't go to work or school: you can make other people sick.",
+          "You should drink a lot of water, tea or soup, and you should wash your hands often.",
+          "You shouldn't take antibiotics for a cold or the flu. They don't help."
+        ],
+        ["When should you see a doctor? Call your doctor if you have a very high fever for more than three days, or if you can't breathe well."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "The poster",
+      "instructions": "Read again and choose.",
+      "items": [
+        { "prompt": "How does a cold usually start?", "options": ["suddenly", "slowly"], "answer": 1 },
+        { "prompt": "Which is a sign of the flu?", "options": ["a high fever and pain in your body", "only a runny nose", "a toothache"], "answer": 0 },
+        { "prompt": "How long can the flu last?", "options": ["one day", "one or two weeks", "two months"], "answer": 1 },
+        { "prompt": "Why shouldn't you go to work with the flu?", "options": ["You can make other people sick.", "Antibiotics don't help.", "Work is too far."], "answer": 0 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: should and shouldn't",
+      "look": ["You **should stay** in bed.", "You **shouldn't go** to class.", "**Should** I **call** a doctor?", "You **should drink** a lot of water."],
+      "table": {
+        "head": ["", "Example"],
+        "rows": [
+          ["+", "You **should** rest."],
+          ["–", "You **shouldn't** (should not) go out."],
+          ["?", "**Should** I take some medicine?"],
+          ["Short answers", "Yes, you **should**. / No, you **shouldn't**."]
+        ]
+      },
+      "rules": [
+        "**should** + verb, without *to*: *You should rest* (not *should to rest*).",
+        "**should** is the same for everyone: *I should, he should, they should* (no -s).",
+        "Use **should** to give advice. It means \"it's a good idea\"."
+      ],
+      "examples": ["You should see a doctor.", "He shouldn't drink so much coffee.", "What should I do?", "We should go home now."],
+      "support": {
+        "tr": "should = \"-meli/-malı\" (tavsiye): You should rest = Dinlenmelisin. Olumsuz: shouldn't = \"-memeli/-mamalı\": You shouldn't go out = Dışarı çıkmamalısın. should'dan sonra fiilin yalın hâli gelir: to yok, -s yok (He should rest). Soru: Should I …? = …-meli miyim?",
+        "ar": "should = «من الأفضل أن / ينبغي» للنصيحة: You should rest = من الأفضل أن ترتاح. النفي: shouldn't = «لا ينبغي»: You shouldn't go out = لا ينبغي أن تخرج. بعد should يأتي الفعل بدون to وبدون ‎-s‎ (He should rest). السؤال: Should I …? = هل ينبغي أن …؟"
+      },
+      "watchOut": {
+        "tr": {
+          "note": "should'dan sonra to ve -s gelmez.",
+          "wrong": ["You should to stay in bed.", "He shoulds see a doctor."],
+          "right": ["You should stay in bed.", "He should see a doctor."]
+        },
+        "ar": {
+          "note": "لا نضع to بعد should، والفعل بعدها بدون ‎-s‎.",
+          "wrong": ["You should to drink water.", "She should goes home."],
+          "right": ["You should drink water.", "She should go home."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with should or shouldn't.",
+      "bank": ["should", "shouldn't"],
+      "items": [
+        "You have a fever. You {should} stay in bed.",
+        "You {shouldn't} go to class with the flu. You can make other people sick.",
+        "It's very cold outside. You {should} wear a hat.",
+        "You {shouldn't} drink coffee at night. You can't sleep after it.",
+        "Lucas is coughing a lot. He {should} drink hot tea.",
+        "You {shouldn't} take antibiotics for a cold. They don't help."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Problems and advice",
+      "instructions": "Match the problem and the advice.",
+      "pairs": [
+        ["I have a sore throat.", "You should drink hot tea with honey."],
+        ["I have a toothache.", "You should see a dentist."],
+        ["My eyes hurt.", "You shouldn't look at your phone so much."],
+        ["I can't sleep at night.", "You shouldn't drink coffee after 4 p.m."],
+        ["I have a fever.", "You should check your temperature and rest."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "items": [
+        { "audio": "My head hurts, and I'm very hot. I think I have a fever.", "voice": "lucas", "prompt": "What's wrong with Lucas?", "options": ["He has a toothache.", "He has a headache and a fever.", "He has a sore throat."], "answer": 1 },
+        { "audio": "Biscuit doesn't feel well. He isn't eating, and he's sleeping all day.", "voice": "sam", "prompt": "What's wrong with Biscuit?", "options": ["He isn't eating.", "He's very hungry.", "He's running all day."], "answer": 0 },
+        { "audio": "No, you shouldn't wait. Your fever is very high. You should go to the hospital now.", "voice": "omar", "prompt": "Omar thinks the person should …", "options": ["wait at home", "go to the hospital", "take a shower"], "answer": 1 },
+        { "audio": "Dorothy has a bad cough, so we aren't playing cards this Saturday.", "voice": "rose", "prompt": "Why aren't Rose and Dorothy playing cards?", "options": ["Dorothy is sick.", "Rose is busy.", "It's snowing."], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "items": ["I don't feel well.", "You should stay in bed.", "You shouldn't go to class.", "What should I do?"]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "items": [
+        { "text": "I have a terrible headache.", "voice": "lucas" },
+        { "text": "You should drink a lot of water.", "voice": "omar" },
+        { "text": "You shouldn't go to class today.", "voice": "omar" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: Get well soon",
+      "model": {
+        "heading": "A message for Lucas — Elif",
+        "text": [
+          "Hi Lucas,",
+          "Omar says you have the flu. I'm so sorry!",
+          "You should stay in bed today and tomorrow, and you shouldn't worry about the test. Maya says you can take it next week.",
+          "You should drink a lot of tea with lemon and honey. That's my grandmother's medicine!",
+          "And you shouldn't play the guitar all night. Your roommates need to sleep too.",
+          "Get well soon!",
+          "Elif"
+        ]
+      },
+      "frame": ["Hi ___,", "I'm sorry you're sick.", "You should ___.", "You shouldn't ___.", "My family's medicine for a cold is ___.", "Get well soon!"],
+      "prompt": "A friend is sick. Write a message with advice (6 to 8 sentences).",
+      "minWords": 45,
+      "checklist": ["I use should and shouldn't.", "I give three or more pieces of advice.", "I end with Get well soon!"]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

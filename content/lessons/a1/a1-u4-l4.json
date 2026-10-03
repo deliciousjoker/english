@@ -148,8 +148,8 @@
       "bank": ["Turn", "Don't", "Please", "Give", "Walk"],
       "items": [
         "{Turn} left at the bank.",
-        "{Don't} open the window!",
-        "{Please} water the plants.",
+        "{Don't} give Tom cookies. They aren't good for him.",
+        "{Please} water the plants. They need water.",
         "{Give} Tom fresh water.",
         "{Walk} to the park. The library is next to it."
       ]

@@ -7,13 +7,14 @@ import { SectionView } from '../../components/lesson/SectionView'
 import { sectionTitle } from '../../components/lesson/SectionFrame'
 import { Icon } from '../../components/ui/Icon'
 import { splitSubtitle } from '../../lib/text'
-import { DrawingLayer, type Tool } from './DrawingLayer'
+import { DrawingLayer, type Ink, type Tool } from './DrawingLayer'
 import { PresentTimer } from './PresentTimer'
 
-const TOOLS: { tool: Tool; icon: 'pencil' | 'highlighter' | 'eraser'; label: string; key: string }[] = [
+const TOOLS: { tool: Tool; icon: 'pencil' | 'highlighter' | 'eraser' | 'text'; label: string; key: string }[] = [
   { tool: 'red', icon: 'pencil', label: 'Red pen', key: 'P' },
   { tool: 'blue', icon: 'pencil', label: 'Blue pen', key: 'B' },
   { tool: 'marker', icon: 'highlighter', label: 'Highlighter', key: 'H' },
+  { tool: 'text', icon: 'text', label: 'Text (in the last pen colour)', key: 'A' },
   { tool: 'eraser', icon: 'eraser', label: 'Eraser', key: 'E' },
 ]
 
@@ -25,7 +26,10 @@ const TOOLS: { tool: Tool; icon: 'pencil' | 'highlighter' | 'eraser'; label: str
 export function PresentationView({ lesson, onExit }: { lesson: Lesson; onExit: () => void }) {
   const [slide, setSlide] = useState(0)
   const [tool, setTool] = useState<Tool | null>(null)
+  // Yazının rengi: en son seçilen kalem
+  const [ink, setInk] = useState<Ink>('blue')
   const [cleared, setCleared] = useState(0)
+  const [undo, setUndo] = useState(0)
   const [timerEnd, setTimerEnd] = useState<number | null>(null)
   const stage = useRef<HTMLDivElement>(null)
   const total = lesson.sections.length + 1
@@ -40,6 +44,12 @@ export function PresentationView({ lesson, onExit }: { lesson: Lesson; onExit: (
     [total],
   )
 
+  // Aynı araca tekrar basınca kapanır; kalem seçilince yazı rengi de o olur
+  const pickTool = useCallback((t: Tool) => {
+    if (t === 'red' || t === 'blue') setInk(t)
+    setTool((cur) => (cur === t ? null : t))
+  }, [])
+
   useEffect(() => {
     const root = document.documentElement
     root.classList.add('is-presenting')
@@ -52,24 +62,24 @@ export function PresentationView({ lesson, onExit }: { lesson: Lesson; onExit: (
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.target instanceof Element && e.target.closest('input, textarea, select')) return
-      if (e.key === 'ArrowRight' || e.key === 'PageDown') go(slide + 1)
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'z') setUndo((n) => n + 1)
+      else if (e.key === 'ArrowRight' || e.key === 'PageDown') go(slide + 1)
       else if (e.key === 'ArrowLeft' || e.key === 'PageUp') go(slide - 1)
       else if (e.key === 'Escape' && tool) setTool(null)
       else if (e.key === 'Escape' && !document.fullscreenElement) onExit()
-      else if (!e.ctrlKey && !e.metaKey && !e.altKey && /^[pbhect]$/i.test(e.key)) {
+      else if (!e.ctrlKey && !e.metaKey && !e.altKey && /^[pbheact]$/i.test(e.key)) {
         const k = e.key.toLowerCase()
         if (k === 'c') setCleared((n) => n + 1)
         else if (k === 't') setTimerEnd(Date.now() + 3 * 60000)
         else {
-          const t = TOOLS.find((x) => x.key.toLowerCase() === k)!.tool
-          setTool((cur) => (cur === t ? null : t))
+          pickTool(TOOLS.find((x) => x.key.toLowerCase() === k)!.tool)
         }
       } else return
       e.preventDefault()
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [slide, go, onExit, tool])
+  }, [slide, go, onExit, tool, pickTool])
 
   const toggleFullscreen = () => {
     if (document.fullscreenElement) document.exitFullscreen().catch(() => {})
@@ -116,7 +126,7 @@ export function PresentationView({ lesson, onExit }: { lesson: Lesson; onExit: (
             </div>
           )}
         </div>
-        <DrawingLayer tool={tool} clearKey={`${slide}:${cleared}`} />
+        <DrawingLayer tool={tool} ink={ink} clearKey={`${slide}:${cleared}`} undoKey={undo} />
       </div>
 
       <nav className="present__bar" aria-label="Presentation controls">
@@ -150,8 +160,8 @@ export function PresentationView({ lesson, onExit }: { lesson: Lesson; onExit: (
             <button
               key={t.tool}
               type="button"
-              className={`iconbtn ptool ptool--${t.tool} ${tool === t.tool ? 'is-on' : ''}`}
-              onClick={() => setTool((cur) => (cur === t.tool ? null : t.tool))}
+              className={`iconbtn ptool ptool--${t.tool === 'text' ? ink : t.tool} ${tool === t.tool ? 'is-on' : ''}`}
+              onClick={() => pickTool(t.tool)}
               aria-pressed={tool === t.tool}
               aria-label={t.label}
               title={`${t.label} (${t.key})`}
@@ -159,6 +169,9 @@ export function PresentationView({ lesson, onExit }: { lesson: Lesson; onExit: (
               <Icon name={t.icon} />
             </button>
           ))}
+          <button type="button" className="iconbtn" onClick={() => setUndo((n) => n + 1)} aria-label="Undo" title="Undo (Ctrl+Z)">
+            <Icon name="undo" />
+          </button>
           <button
             type="button"
             className="iconbtn"

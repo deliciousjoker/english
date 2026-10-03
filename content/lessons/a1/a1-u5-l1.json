@@ -185,7 +185,7 @@
       "title": "Make sentences",
       "instructions": "Put the words in order.",
       "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
-      "items": ["I need some eggs.", "Do you have white cheese?", "I buy a loaf of bread.", "There's some milk in the fridge."]
+      "items": ["I need some eggs.", "Do you have white cheese?", "I buy a loaf of bread.", "There's some milk in the fridge.|In the fridge there's some milk."]
     },
     {
       "type": "exercise",

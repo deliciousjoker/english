@@ -143,6 +143,23 @@
     },
     {
       "type": "exercise",
+      "kind": "mcq",
+      "id": "where-is-tom",
+      "title": "Look and choose",
+      "instructions": "Look at the pictures and choose.",
+      "support": { "tr": "Resimlere bak ve seç.", "ar": "انظر إلى الصور واختر." },
+      "items": [
+        { "image": "tom-on", "prompt": "Tom is ___ the box.", "options": ["in", "on", "under"], "answer": 1 },
+        { "image": "tom-under", "prompt": "Tom is ___ the table.", "options": ["on", "behind", "under"], "answer": 2 },
+        { "image": "tom-in", "prompt": "Tom is ___ the box.", "options": ["in", "next to", "on"], "answer": 0 },
+        { "image": "tom-next-to", "prompt": "Tom is ___ the box.", "options": ["between", "next to", "behind"], "answer": 1 },
+        { "image": "tom-behind", "prompt": "Tom is ___ the box.", "options": ["in front of", "under", "behind"], "answer": 2 },
+        { "image": "tom-in-front-of", "prompt": "Tom is ___ the box.", "options": ["in front of", "behind", "on"], "answer": 0 },
+        { "image": "tom-between", "prompt": "Tom is ___ the boxes.", "options": ["under", "between", "on"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
       "kind": "gapfill",
       "title": "Practice",
       "instructions": "Complete with in, on, under, next to, behind, in front of or between.",
@@ -150,25 +167,25 @@
       "bank": ["in", "on", "under", "next to", "behind", "in front of", "between"],
       "items": [
         "The phone is {in} my pocket.",
-        "The keys are {on} the table.",
-        "The shoes are {under} the bed.",
-        "The lamp is {next to} the bed.",
-        "The cat is {in front of} the TV.",
+        "Put the cups {on} the table. Dinner is ready!",
+        "It's raining! Come {under} my umbrella.",
+        "Elif sits {next to} Lucas in class, so they can share a book.",
+        "I can't see the TV! Tom is sitting {in front of} it.",
         "The desk is {between} the bed and the window.",
-        "The bag is {behind} the door."
+        "Omar is very tall, so in photos he always stands {behind} his family."
       ]
     },
     {
       "type": "exercise",
       "kind": "matching",
       "title": "Where is it?",
-      "instructions": "Match the question and the answer.",
-      "support": { "tr": "Soruyu cevabıyla eşleştir.", "ar": "صِل السؤال بالجواب." },
+      "instructions": "Read and listen again. Match the question and the answer.",
+      "support": { "tr": "Tekrar oku ve dinle. Soruyu cevabıyla eşleştir.", "ar": "اقرأ واستمع مرة أخرى. صِل السؤال بالجواب." },
       "pairs": [
-        ["Where's my phone?", "It's in your pocket."],
-        ["Where are the keys?", "They're on the table."],
-        ["Where's Tom?", "He's under the table."],
-        ["Where are my shoes?", "They're behind the door."]
+        ["Where's Lucas's phone?", "It's in his pocket."],
+        ["Where are Lucas's keys?", "They're in his hand."],
+        ["Where's Tom at noon?", "He's under the table in the kitchen."],
+        ["Where are Lucas's shoes?", "They're behind the door."]
       ]
     },
     {

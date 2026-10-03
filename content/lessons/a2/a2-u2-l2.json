@@ -1,0 +1,246 @@
+{
+  "id": "a2-u2-l2",
+  "level": "a2",
+  "unit": 2,
+  "order": 2,
+  "title": "The best café in town",
+  "subtitle": "The newsletter survey — superlatives: the …-est, the most",
+  "canDo": [
+    "I can say which is the best, the cheapest or the most popular.",
+    "I can understand the results of a survey.",
+    "I can give my opinion about places in my town."
+  ],
+  "teacherNotes": [
+    "Türkçedeki \"en\" ve Arapçadaki \"أفعل التفضيل\" (الأكبر) İngilizcede the + -est / the most. Öğrenciler \"the\"yi sık unutur; tahtada the'yi kırmızıyla yuvarlak içine alın.",
+    "Anket sonuçlarını sınıfta gerçek bir ankete çevirin: \"What's the best café / restaurant / park in your town?\" Sonuçları tahtaya yazıp cümle kurdurun.",
+    "Karşılaştırma (-er) ile en üstünlük (-est) arasındaki farkı iki ve üç nesneyle gösterin: iki kalem → longer, üç kalem → the longest.",
+    "Okumadaki oylar: 12 + 11 + 17 = 40. Öğrencilere yüzdeyi hesaplatabilirsiniz (17/40 ≈ %42)."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["What's the best café or restaurant in your town? Why?", "Where do you go when you need a quiet place to study?", "Do you answer surveys? What about?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "items": [
+        { "word": "survey", "pos": "noun", "example": "We asked forty students in our survey.", "gloss": { "tr": "anket", "ar": "استطلاع رأي" } },
+        { "word": "vote", "pos": "verb", "example": "Seventeen students voted for Sam's café.", "gloss": { "tr": "oy vermek", "ar": "يصوّت" } },
+        { "word": "result", "pos": "noun", "example": "Here are the results.", "gloss": { "tr": "sonuç", "ar": "نتيجة" } },
+        { "word": "winner", "pos": "noun", "example": "And the winner is … Sam's café!", "gloss": { "tr": "kazanan", "ar": "الفائز" } },
+        { "word": "percent", "pos": "noun", "example": "Forty percent of the students study at home.", "gloss": { "tr": "yüzde", "ar": "بالمئة" } },
+        { "word": "popular", "pos": "adjective", "example": "Sam's cookies are very popular.", "gloss": { "tr": "popüler, sevilen", "ar": "شائع، محبوب" } },
+        { "word": "cozy", "pos": "adjective", "example": "It's a small, cozy café.", "gloss": { "tr": "sıcak, rahat, samimi (mekân)", "ar": "دافئ ومريح" } },
+        { "word": "comfortable", "pos": "adjective", "example": "These chairs are very comfortable.", "gloss": { "tr": "rahat (koltuk, ayakkabı)", "ar": "مريح" } },
+        { "word": "service", "pos": "noun", "example": "The service is fast and friendly.", "gloss": { "tr": "hizmet, servis", "ar": "خدمة" } },
+        { "word": "Wi-Fi", "pos": "noun", "example": "The Blue Cup has the fastest Wi-Fi.", "gloss": { "tr": "kablosuz internet", "ar": "واي فاي، إنترنت لاسلكي" } },
+        { "word": "the best", "pos": "phrase", "example": "It's the best café in town.", "gloss": { "tr": "en iyi", "ar": "الأفضل" } },
+        { "word": "the worst", "pos": "phrase", "example": "That was the worst coffee of my life!", "gloss": { "tr": "en kötü", "ar": "الأسوأ" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Just a little hint?",
+      "scene": "Thursday afternoon at Sam's café. Elif and Lucas have the survey results.",
+      "lines": [
+        { "speaker": "sam", "text": "So, what are the results? Is my café the best café on Harbor Street?" },
+        { "speaker": "elif", "text": "Sorry, Sam, we can't tell you. The newsletter comes out tomorrow." },
+        { "speaker": "sam", "text": "Oh, come on. Just a little hint?" },
+        { "speaker": "lucas", "text": "OK, a little one. Your cookies are the most popular cookies on the street." },
+        { "speaker": "sam", "text": "Of course they are. I make them with love." },
+        { "speaker": "elif", "text": "And your café is the coziest. People love the small tables. And Biscuit." },
+        { "speaker": "sam", "text": "And the coffee?" },
+        { "speaker": "lucas", "text": "Well … Corner Coffee has the cheapest coffee. And The Blue Cup is the biggest and the quietest. A lot of students study there." },
+        { "speaker": "sam", "text": "The quietest? Hmm. My café isn't very quiet on Fridays, that's true. Your band is the loudest thing in here!" },
+        { "speaker": "elif", "text": "But everyone says your service is the best. You're the friendliest owner on the street." },
+        { "speaker": "sam", "text": "Well, that's the most important thing. So who's the winner?" },
+        { "speaker": "lucas", "text": "Read the newsletter tomorrow!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "items": [
+        { "statement": "The newsletter comes out on Friday.", "answer": true },
+        { "statement": "Sam's cookies are the most popular on the street.", "answer": true },
+        { "statement": "Corner Coffee is the biggest café.", "answer": false },
+        { "statement": "Students study at The Blue Cup because it's quiet.", "answer": true },
+        { "statement": "Lucas tells Sam the name of the winner.", "answer": false }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "The best café on Harbor Street",
+      "intro": "The survey results in the school newsletter, by Elif Kaya and Lucas Silva.",
+      "voice": "elif",
+      "paragraphs": [
+        ["Last month, we asked forty students one question: what's the best café on Harbor Street? Here are the results."],
+        [
+          "Corner Coffee is the cheapest café on the street. A coffee is only $1.75, and it opens the earliest, at six in the morning.",
+          "But it's also the smallest: there are only four tables. Twelve students voted for it."
+        ],
+        [
+          "The Blue Cup is the biggest and the most modern café. It has the fastest Wi-Fi and the most comfortable chairs.",
+          "It's also the quietest, so it's the best place to study. Eleven students voted for it."
+        ],
+        [
+          "And the winner is … Sam's café! Seventeen students voted for Sam's: that's more than forty percent.",
+          "It isn't the cheapest or the biggest café, but it's the coziest, and the service is the friendliest.",
+          "And the cookies? \"The best cookies in Boston,\" one student wrote. \"The worst thing about Sam's café? It's closed on Sundays!\""
+        ],
+        ["Congratulations, Sam, and Biscuit!"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "The results",
+      "instructions": "Read again and choose.",
+      "items": [
+        { "prompt": "How many students answered the survey?", "options": ["twelve", "seventeen", "forty"], "answer": 2 },
+        { "prompt": "Which café is the cheapest?", "options": ["Corner Coffee", "The Blue Cup", "Sam's café"], "answer": 0 },
+        { "prompt": "Why is The Blue Cup the best place to study?", "options": ["It's the cheapest.", "It's the quietest.", "It opens the earliest."], "answer": 1 },
+        { "prompt": "What is the worst thing about Sam's café?", "options": ["the coffee", "It's closed on Sundays.", "the Wi-Fi"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: superlatives",
+      "look": ["Sam's café is **the coziest**.", "Corner Coffee is **the cheapest** café.", "The Blue Cup has **the most comfortable** chairs.", "Your service is **the best**."],
+      "table": {
+        "head": ["Adjective", "Comparative", "Superlative"],
+        "rows": [
+          ["cheap", "cheaper", "**the** cheap**est**"],
+          ["big", "bigger", "**the** big**gest**"],
+          ["cozy", "cozier", "**the** coz**iest**"],
+          ["modern", "more modern", "**the most** modern"],
+          ["good", "better", "**the best**"],
+          ["bad", "worse", "**the worst**"]
+        ]
+      },
+      "rules": [
+        "Use **the** before a superlative: *the biggest*, *the most popular*.",
+        "After a superlative, we often use **in** + a place: *the best café **in** Boston*.",
+        "Long adjectives: **the most** + adjective (not *the popularest*)."
+      ],
+      "examples": ["January is the coldest month in Boston.", "Mount Everest is the highest mountain in the world.", "What's the most beautiful city in your country?", "This is the worst coffee in town!"],
+      "support": {
+        "tr": "En üstünlük (en): kısa sıfatlar the + -est alır (cheap → the cheapest = en ucuz), uzun sıfatlar the most alır (the most popular = en popüler). Türkçedeki \"en\"in karşılığı the …-est veya the most'tur; the unutulmaz. Düzensizler: good → the best, bad → the worst. \"…'deki en …\" için çoğunlukla in kullanılır: the best café in Boston = Boston'daki en iyi kafe.",
+        "ar": "التفضيل: الصفات القصيرة تأخذ the + ‎-est‎ (cheap → the cheapest = الأرخص)، والطويلة تأخذ the most (the most popular = الأكثر شعبية). يشبه «الأفعل» في العربية (الأكبر، الأرخص)، ولا ننسى the. الشاذة: good → the best، bad → the worst. وبعدها نستخدم in مع المكان: the best café in Boston = أفضل مقهى في بوسطن."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "the unutulmaz; uzun sıfatlar -est almaz.",
+          "wrong": ["Sam's café is best café in town.", "It's the popularest café."],
+          "right": ["Sam's café is the best café in town.", "It's the most popular café."]
+        },
+        "ar": {
+          "note": "لا نجمع most مع ‎-est‎، ونستخدم in مع الأماكن.",
+          "wrong": ["It's the most biggest café.", "He's the best student of our class."],
+          "right": ["It's the biggest café.", "He's the best student in our class."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Write the superlative.",
+      "items": [
+        "Corner Coffee is {the cheapest} café on Harbor Street. (cheap)",
+        "The Blue Cup has {the fastest} Wi-Fi. (fast)",
+        "Sam's café is {the coziest} place in town. (cozy)",
+        "January is {the coldest} month in Boston. (cold)",
+        "This is {the most comfortable} chair in the café. (comfortable)",
+        "That was {the worst} pizza of my life! (bad)",
+        "What's {the most popular} sport in your country? (popular)"
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "-er or -est?",
+      "instructions": "Choose the correct word.",
+      "items": [
+        { "prompt": "Boston is ___ than New York.", "options": ["smaller", "the smallest"], "answer": 0 },
+        { "prompt": "Sam's café is ___ café on the street.", "options": ["cozier", "the coziest"], "answer": 1 },
+        { "prompt": "Is Amman ___ than Izmir?", "options": ["hotter", "the hottest"], "answer": 0 },
+        { "prompt": "Today is ___ day of the year!", "options": ["colder", "the coldest"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "Questions and answers",
+      "instructions": "Read again. Match the question and the answer.",
+      "pairs": [
+        ["Which café is the cheapest?", "Corner Coffee. A coffee is only $1.75."],
+        ["Which café is the quietest?", "The Blue Cup. Students study there."],
+        ["When does Corner Coffee open?", "At six. It's the earliest on the street."],
+        ["How many students voted for Sam's café?", "Seventeen."],
+        ["What does Sam's café have?", "The friendliest service and the best cookies."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "items": [
+        { "audio": "For me, the best place in Boston is the public library. It's the quietest and the most beautiful building in the city.", "voice": "maya", "prompt": "Maya's favorite place is …", "options": ["a café", "the public library", "a park"], "answer": 1 },
+        { "audio": "The hospital café is the worst café in Boston. The coffee is cold, and it's the most expensive coffee I know!", "voice": "omar", "prompt": "What does Omar think of the hospital café?", "options": ["It's the best.", "It's the worst.", "It's the cheapest."], "answer": 1 },
+        { "audio": "Dorothy makes the best apple pie in the world. I'm not joking!", "voice": "rose", "prompt": "Who makes the best apple pie?", "options": ["Rose", "Emma", "Dorothy"], "answer": 2 },
+        { "audio": "Tuesday is the worst day of the week. I'm always the last student to arrive!", "voice": "lucas", "prompt": "Why doesn't Lucas like Tuesdays?", "options": ["He's always late.", "He has a test.", "The café is closed."], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "items": [
+        "What's the best café in town?",
+        "Corner Coffee opens the earliest.",
+        "Who makes the best cookies?",
+        "The Blue Cup is the quietest café.|The quietest café is The Blue Cup."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "items": [
+        { "text": "Sam's café is the coziest.", "voice": "lucas" },
+        { "text": "It's the best place to study.", "voice": "elif" },
+        { "text": "Who's the winner?", "voice": "sam" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: The best place in my town",
+      "model": {
+        "heading": "The best falafel in Amman — Omar",
+        "text": [
+          "The best place to eat in Amman? For me, it's a small falafel shop near my old school.",
+          "It isn't the biggest or the most modern restaurant in the city. There are only three tables.",
+          "But the falafel is the freshest and the cheapest in town: a sandwich is less than one dollar.",
+          "The owner is the friendliest man in our neighborhood. He knows everybody's name.",
+          "My favorite time to go there is Friday morning, before the shop gets crowded."
+        ]
+      },
+      "frame": ["The best ___ in my town is ___.", "It's the ___est / the most ___ ___ in ___.", "It isn't the ___, but ___.", "My favorite thing there is ___."],
+      "prompt": "Write about the best café, restaurant or shop in your town (6 to 8 sentences). Why is it the best?",
+      "minWords": 50,
+      "checklist": ["I use the …-est and the most.", "I use in + a place.", "I say why it's the best."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

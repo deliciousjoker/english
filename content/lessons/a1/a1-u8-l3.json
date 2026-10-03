@@ -161,16 +161,16 @@
       "type": "exercise",
       "kind": "gapfill",
       "title": "Practice",
-      "instructions": "Complete with the words.",
-      "support": { "tr": "Kelimelerle tamamla.", "ar": "أكمل بالكلمات." },
+      "instructions": "Complete with the past of the verbs.",
+      "support": { "tr": "Fiillerin geçmiş hâliyle tamamla.", "ar": "أكمل بصيغة الماضي للأفعال." },
       "bank": ["went", "bought", "took", "ate", "had", "didn't"],
       "items": [
-        "Yesterday Lucas {went} to the music store.",
-        "Lucas and Jake {bought} a new drum.",
-        "They {took} the bus to the café.",
-        "Biscuit {ate} Lucas's sandwich!",
-        "Lucas {had} a coffee in the morning.",
-        "Lucas {didn't} have lunch."
+        "Yesterday Lucas {went} to the music store. (go)",
+        "Lucas and Jake {bought} a new drum. (buy)",
+        "They {took} the bus to the café. (take)",
+        "Biscuit {ate} Lucas's sandwich! (eat)",
+        "Lucas {had} a coffee in the morning. (have)",
+        "Lucas {didn't} have lunch. (not)"
       ]
     },
     {
@@ -192,7 +192,7 @@
       "title": "Make sentences",
       "instructions": "Put the words in order.",
       "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
-      "items": ["I didn't have my guitar.", "We took the bus to the café.", "Biscuit ate my sandwich!", "I left the hospital at seven."]
+      "items": ["I didn't have my guitar.", "We took the bus to the café.", "Biscuit ate my sandwich!", "I left the hospital at seven.|At seven I left the hospital."]
     },
     {
       "type": "exercise",

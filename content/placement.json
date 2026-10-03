@@ -45,7 +45,7 @@
       "items": [
         { "prompt": "If I ___ more time, I would learn Japanese.", "options": ["have", "had", "will have"], "answer": 1 },
         { "prompt": "The museum ___ in 1890.", "options": ["built", "was built", "has built"], "answer": 1 },
-        { "prompt": "She told me that she ___ tired.", "options": ["is", "was", "be"], "answer": 1 },
+        { "prompt": "She told me that she ___ tired.", "options": ["were", "was", "be"], "answer": 1 },
         { "prompt": "I ___ in Boston since 2024.", "options": ["live", "am living", "have lived"], "answer": 2 },
         { "prompt": "When I was a child, I used to ___ in Izmir.", "options": ["live", "living", "lived"], "answer": 0 },
         { "prompt": "You ___ wear a uniform at our school. It's your choice.", "options": ["mustn't", "don't have to", "can't"], "answer": 1 },

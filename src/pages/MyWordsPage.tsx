@@ -4,7 +4,7 @@ import { audio } from '../audio/AudioService'
 import { BidiText } from '../components/support/BidiText'
 import { Icon } from '../components/ui/Icon'
 import { PlayButton } from '../components/ui/PlayButton'
-import { normalizeAnswer, seededShuffle } from '../lib/text'
+import { glossOverlap, normalizeAnswer, seededShuffle } from '../lib/text'
 import { useSettings } from '../state/settings'
 import { dueWords, MAX_BOX, useWordbook, wordbook, type SavedWord } from '../state/words'
 import { loadAllWords, type WordEntry } from './WordsPage'
@@ -48,12 +48,14 @@ function Practice({ words, pool, onDone }: { words: SavedWord[]; pool: WordEntry
   // Şıklar: doğru cevap + aynı seviyeden 3 çeldirici (her zaman aynı sırada)
   const options = useMemo(() => {
     if (!w || kind === 'listen') return []
-    const others = pool.filter((p) => p.key !== w.key && (kind === 'word' || p.gloss[lang]) && p.level)
+    // Eş anlamlılar ve aynı kelime çeldirici olmaz (yoksa iki şık da doğru olurdu)
+    const others = pool.filter(
+      (p) => p.key !== w.key && p.word.toLowerCase() !== w.word.toLowerCase() && (kind === 'word' || p.gloss[lang]) && p.level && !glossOverlap(p.gloss, w.gloss),
+    )
     const sameLevel = others.filter((p) => p.level === w.level)
-    const picks = seededShuffle(sameLevel.length >= 3 ? sameLevel : others, w.key + i).slice(0, 3)
-    const texts = kind === 'meaning' ? picks.map((p) => p.gloss[lang]!) : picks.map((p) => p.word)
     const right = kind === 'meaning' ? w.gloss[lang]! : w.word
-    return seededShuffle([right, ...texts.filter((t) => t !== right)], w.key)
+    const texts = [...new Set(seededShuffle(sameLevel.length >= 6 ? sameLevel : others, w.key + i).map((p) => (kind === 'meaning' ? p.gloss[lang]! : p.word)))]
+    return seededShuffle([right, ...texts.filter((t) => t !== right).slice(0, 3)], w.key)
   }, [w, kind, pool, lang, i])
 
   useEffect(() => {

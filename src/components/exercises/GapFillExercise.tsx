@@ -6,6 +6,7 @@ import { ExerciseShell, useReport } from './ExerciseShell'
 export function GapFillExerciseView({ section, id, index }: { section: GapFillExercise; id: string; index: number }) {
   const parsed = useMemo(() => section.items.map(parseGaps), [section.items])
   const gaps = parsed.map((parts) => parts.filter((p) => p.kind === 'gap'))
+  const bankLongest = Math.max(0, ...(section.bank ?? []).map((w) => w.length))
   const empty = () => gaps.map((g) => g.map(() => ''))
 
   const [values, setValues] = useState<string[][]>(empty)
@@ -76,7 +77,8 @@ export function GapFillExerciseView({ section, id, index }: { section: GapFillEx
           <li key={i} className="gaps__item">
             {parts.map((p, k) => {
               if (p.kind === 'text') return <span key={k}>{p.text}</span>
-              const longest = Math.max(...p.answers.map((a) => a.length), 3)
+              // Bankalı alıştırmada kutu genişliği cevabı ele vermesin: hepsi en uzun kelime kadar
+              const longest = Math.max(...p.answers.map((a) => a.length), bankLongest, 3)
               const state = checked ? (isRight(i, p.index) ? 'is-correct' : 'is-wrong') : ''
               return (
                 <input

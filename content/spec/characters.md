@@ -12,6 +12,8 @@ AI'a ders ürettirirken bu dosya da verilir. Yeni karakter eklerken `content/cha
 **Yazım:** Amerikan İngilizcesi (color, neighbor, apartment, mom). Sam İngiliz; konuşmasında
 ara sıra İngiliz ifadeleri olabilir ("lovely", "cheers"), ama metinlerde yazım yine Amerikan.
 
+Güncel sesler `content/characters.json` içindedir (aşağıdaki tablodaki ses sütunu ilk denemelerden kalmadır).
+
 | Kimlik | Ad | Kim | Ses (Kokoro) |
 |---|---|---|---|
 | `elif` | Elif Kaya | 20 yaşında, İzmirli. Harbor English School'da öğrenci, ileride mimar olmak istiyor. Meraklı, biraz utangaç, çizim yapmayı ve kahveyi seviyor (günde 3 fincan). Sabah 8'de kalkar, büyük Türk kahvaltısı yapar. Ünite 3'ten itibaren hafta sonları Sam's café'de çalışıyor. Hikâyenin ana karakteri. | af_bella |
@@ -73,6 +75,28 @@ ara sıra İngiliz ifadeleri olabilir ("lovely", "cheers"), ama metinlerde yazı
   kütüphanede 40 yıl çalıştı. Dorothy'yle kütüphanedeki söyleşilere gider.
 - **Sam:** Soğukta bile tişörtle dolaşır ("I'm from London!"). Emma bir Cumartesi 200 kurabiye yaptı.
 - **Mahalle:** Green Street'te bir giyim mağazası var (caminin olduğu sokak).
+
+## A2 Ünite 1–3'ten eklenen ayrıntılar
+
+- **Zaman çizelgesi:** Kasım: Thanksgiving (Rose'un evinde). Omar 20 Aralık'ta Amman'a uçtu, 3 Ocak'ta döndü. Elif, Lucas,
+  Jake ve grup 22 Aralık Salı Jake'in arabasıyla New York'a gitti (Lucas'ın kuzeni Rafael'in 5. kattaki dairesi, asansör
+  yok); Noel'de kuzenin evinde öğle yemeği, Elif yılbaşında ailesini aradı. Okul 4 Ocak Pazartesi yeniden başladı.
+  Ocak'ta Boston −3 / −5 °C, Amman 15 °C civarı, İzmir 12–14 °C.
+- **Harbor Street'teki üç kafe:** Sam's café (en samimi, en iyi kurabiye; ankette 40 öğrenciden 17 oy), Corner Coffee
+  (en ucuz: kahve $1.75, en erken açılır: 6.00, sadece 4 masa; 12 oy), The Blue Cup (en büyük, en modern, en hızlı Wi-Fi,
+  en sessiz, öğrenciler ders çalışır; 11 oy). Anketi Elif ve Lucas okul bülteni için yaptı.
+- **Elif:** Halk kütüphanesinde ücretsiz "Drawing for Architecture" kursuna başladı (Salı ve Perşembe akşamları,
+  12 Ocak'tan itibaren). Green Street'teki bilgisayar dükkânından Lucas'la ikinci el siyah bir laptop aldı ($450, bir yıl
+  garanti, kafe parasıyla; eski laptopu babasının 6 yıl önceki hediyesiydi). Yaz için bilet parası biriktiriyor.
+  Günde 3–4 fincan kahve, fincan başına 2 kaşık şeker (Ocak sonunda "günde 2 fincan" kararı aldı).
+- **Omar:** Hastaneye her gün yürüyerek gider, hep merdiven kullanır. Bültende "Dear Omar" tavsiye köşesini yazıyor
+  (adını Elif koydu, Omar "Ask the nurse" istiyordu). İlk yılında çok sıla hasreti çekmiş. Bülten için "My city: Amman"
+  yazısını yazdı: yedi tepe, Roma tiyatrosu, mansaf, gün batımında Kale (Citadel).
+- **Lucas:** Ocak'ta grip oldu (Salı sabahı Omar'ı aradı; Omar çorba götürdü). Gece 2'ye kadar gitar çalar, 5 saat uyur.
+  Elif ona eczaneden ilaç aldı: ateş için tablet (6 saatte bir 2, günde en fazla 8) ve öksürük şurubu (günde 3 kez 2 çay kaşığı).
+- **Sam:** Kafede artık meyve de var. Eşi Emma'nın fındık-fıstık alerjisi var; kurabiyelerde kuruyemiş yok.
+- **Eczacı** (`pharmacist`, ses af_nicole): Harbor Street'teki eczanede (bankanın yanında).
+- **Zeynep:** Pazar günleri Elif'le görüntülü konuşur (İzmir'de akşam, Boston'da öğleden sonra).
 
 ## Kurallar
 

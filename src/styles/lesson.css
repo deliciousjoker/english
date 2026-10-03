@@ -1089,3 +1089,31 @@
 .reading__para .rec {
   margin-top: 6px;
 }
+
+/* ---------- Çizimler: mürekkep çizgi + seviye renginde kaymış baskı rengi ---------- */
+.pic {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+.pic__paper {
+  fill: var(--pic-paper, var(--surface));
+}
+.pic__spot {
+  fill: color-mix(in srgb, var(--lv) 62%, var(--pic-paper, var(--surface)));
+}
+.pic__ink {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 2.3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.pic__dots {
+  fill: var(--ink);
+}
+.vocab__pic {
+  width: 92px;
+  margin: 0 auto 4px;
+}

@@ -168,7 +168,7 @@
       "kind": "wordorder",
       "title": "Make sentences",
       "instructions": "Put the words in order.",
-      "items": ["What are you going to do?", "I'm not going to cook for two weeks.", "Are you going to go home?", "Jake is going to drive."]
+      "items": ["What are you going to do?", "I'm not going to cook for two weeks.|For two weeks I'm not going to cook.", "Are you going to go home?", "Jake is going to drive."]
     },
     {
       "type": "exercise",

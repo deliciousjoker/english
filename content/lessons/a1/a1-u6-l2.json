@@ -145,19 +145,19 @@
       "support": { "tr": "can veya can't ile tamamla.", "ar": "أكمل بـ can أو can't." },
       "bank": ["can", "can't", "Can"],
       "items": [
-        "Lucas {can} play the guitar.",
-        "Lucas {can't|cannot} sing.",
+        "Lucas {can} play the guitar. He's in a band.",
+        "Lucas {can't|cannot} sing, so the band needs a singer.",
         "{Can} you swim? — Yes, I {can}.",
-        "Omar {can} sing, but he {can't|cannot} dance.",
-        "Adam is four. He {can} ride a bike."
+        "Omar {can} sing, but he {can't|cannot} dance. He always says no to dancing!",
+        "Adam is four. He {can} ride a bike, but he can't read."
       ]
     },
     {
       "type": "exercise",
       "kind": "matching",
       "title": "Who can do it?",
-      "instructions": "Match the person and the sentence.",
-      "support": { "tr": "Kişiyi ve cümleyi eşleştir.", "ar": "صِل الشخص بالجملة." },
+      "instructions": "Read again. Match the person and the sentence.",
+      "support": { "tr": "Tekrar oku. Kişiyi ve cümleyi eşleştir.", "ar": "اقرأ مرة أخرى. صِل الشخص بالجملة." },
       "pairs": [
         ["Omar", "can sing, but he can't dance."],
         ["Lucas", "can play the guitar and dance."],

@@ -1,0 +1,237 @@
+{
+  "id": "a2-u3-l3",
+  "level": "a2",
+  "unit": 3,
+  "order": 3,
+  "title": "Healthy habits",
+  "subtitle": "Maya's lesson on healthy living — too much, too many, (not) enough",
+  "canDo": [
+    "I can talk about my habits: sleep, food, drinks and exercise.",
+    "I can use too much, too many and (not) enough.",
+    "I can understand a short article with health tips."
+  ],
+  "teacherNotes": [
+    "too much (sayılamayan) / too many (sayılabilen) ayrımı bir önceki dersteki How much / How many ile aynı mantıkta. İkisini yan yana yazın.",
+    "enough isimden önce (enough water), fiilden sonra gelir (You don't sleep enough). Türk öğrenciler \"water enough\" diyebilir.",
+    "Sınıf anketi: How many hours do you sleep? How much water do you drink? How many cups of coffee? Sonuçları \"too much / not enough\" ile yorumlatın.",
+    "Konuyu yargılayıcı değil, esprili tutun: Maya da \"Nobody's perfect!\" diyor."
+  ],
+  "sections": [
+    {
+      "type": "warmup",
+      "title": "Warm-up",
+      "prompts": ["How many hours do you sleep at night?", "How much water do you drink every day?", "What's one healthy habit you have? What's one bad habit?"]
+    },
+    {
+      "type": "vocabulary",
+      "title": "Words",
+      "instructions": "Listen and repeat.",
+      "items": [
+        { "word": "habit", "pos": "noun", "example": "Walking every day is a good habit.", "gloss": { "tr": "alışkanlık", "ar": "عادة" } },
+        { "word": "healthy", "pos": "adjective", "example": "Fruit is a healthy snack.", "gloss": { "tr": "sağlıklı", "ar": "صحّي" } },
+        { "word": "unhealthy", "pos": "adjective", "example": "Too much sugar is unhealthy.", "gloss": { "tr": "sağlıksız", "ar": "غير صحّي" } },
+        { "word": "exercise", "pos": "noun / verb", "example": "You should get thirty minutes of exercise a day.", "gloss": { "tr": "egzersiz, spor; egzersiz yapmak", "ar": "تمرين، رياضة؛ يتمرّن" } },
+        { "word": "sugar", "pos": "noun", "example": "Do you take sugar in your coffee?", "gloss": { "tr": "şeker", "ar": "سكّر" } },
+        { "word": "snack", "pos": "noun", "example": "I eat too many snacks.", "gloss": { "tr": "atıştırmalık", "ar": "وجبة خفيفة" } },
+        { "word": "junk food", "pos": "noun", "example": "Chips and candy are junk food.", "gloss": { "tr": "abur cubur", "ar": "وجبات سريعة غير صحية" } },
+        { "word": "energy", "pos": "noun", "example": "Good sleep gives you energy.", "gloss": { "tr": "enerji", "ar": "طاقة" } },
+        { "word": "stairs", "pos": "noun", "example": "I always take the stairs.", "gloss": { "tr": "merdiven", "ar": "درج، سلالم" } },
+        { "word": "screen time", "pos": "noun", "example": "Too much screen time is bad for your sleep.", "gloss": { "tr": "ekran süresi", "ar": "وقت الشاشة" } },
+        { "word": "at least", "pos": "phrase", "example": "You should sleep at least seven hours.", "gloss": { "tr": "en az", "ar": "على الأقل" } },
+        { "word": "glass", "pos": "noun", "example": "Drink six to eight glasses of water a day.", "gloss": { "tr": "bardak", "ar": "كوب، كأس" } }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "title": "Listen and read",
+      "heading": "Nobody's perfect",
+      "scene": "Monday morning. Lucas is back at school.",
+      "lines": [
+        { "speaker": "maya", "text": "Welcome back, Lucas! How are you feeling?" },
+        { "speaker": "lucas", "text": "Much better, thanks. Omar's soup saved me." },
+        { "speaker": "maya", "text": "Good. Today we're talking about healthy habits. Let's start with sleep. How many hours do you sleep, Lucas?" },
+        { "speaker": "lucas", "text": "Um … five? I play the guitar until two in the morning." },
+        { "speaker": "maya", "text": "Five? That's not enough sleep! You should sleep at least seven hours." },
+        { "speaker": "lucas", "text": "I know, I know." },
+        { "speaker": "maya", "text": "And Elif, how much coffee do you drink?" },
+        { "speaker": "elif", "text": "Three cups a day. Sometimes four." },
+        { "speaker": "omar", "text": "That's too much coffee, Elif. And you put three spoons of sugar in every cup!" },
+        { "speaker": "elif", "text": "Two spoons! And you drink too much coffee too, Omar." },
+        { "speaker": "omar", "text": "That's true. But I walk to the hospital every day, and I always take the stairs. That's forty minutes of exercise." },
+        { "speaker": "maya", "text": "Very good. And me? I eat too many snacks when I check your homework. Nobody's perfect!" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "truefalse",
+      "title": "Check",
+      "instructions": "Read again. True or false?",
+      "items": [
+        { "statement": "Lucas gets enough sleep.", "answer": false },
+        { "statement": "Elif drinks three or four cups of coffee a day.", "answer": true },
+        { "statement": "Omar takes the elevator at the hospital.", "answer": false },
+        { "statement": "Omar walks to the hospital.", "answer": true },
+        { "statement": "Maya says she has perfect habits.", "answer": false }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "Read",
+      "heading": "Five small habits for a healthier life",
+      "intro": "Maya's page in the school newsletter.",
+      "voice": "maya",
+      "paragraphs": [
+        ["You don't need to run a marathon. Small changes are often the best changes."],
+        [
+          "1. Drink more water. A lot of people don't drink enough water in winter because they aren't thirsty. Try to drink six to eight glasses a day."
+        ],
+        [
+          "2. Move every day. You should get at least thirty minutes of exercise a day, and walking is exercise too! Take the stairs, not the elevator, and get off the bus one stop early."
+        ],
+        ["3. Sleep more. Adults need seven to nine hours of sleep, but too many people sleep only five or six."],
+        [
+          "4. Eat less sugar. There's too much sugar in a lot of drinks and snacks. One can of soda has about nine teaspoons of sugar! Eat fruit or nuts as a snack instead."
+        ],
+        ["5. Turn off your screen. Too much screen time before bed is bad for your sleep. Put your phone away an hour before bed."],
+        ["Start with one habit this week. Next week, add another one. Your body is going to thank you!"]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "The article",
+      "instructions": "Read again and choose.",
+      "items": [
+        { "prompt": "How much water should you drink a day?", "options": ["two or three glasses", "six to eight glasses", "twelve glasses"], "answer": 1 },
+        { "prompt": "How much exercise should you get?", "options": ["at least thirty minutes a day", "one hour a week", "a marathon every month"], "answer": 0 },
+        { "prompt": "How much sugar is in one can of soda?", "options": ["about two teaspoons", "about nine teaspoons", "no sugar"], "answer": 1 },
+        { "prompt": "What should you do an hour before bed?", "options": ["drink a coffee", "put your phone away", "eat a snack"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "grammar",
+      "title": "Grammar: too much, too many, (not) enough",
+      "look": ["That's **too much coffee**.", "I eat **too many snacks**.", "That's **not enough sleep**!", "A lot of people **don't drink enough water**."],
+      "table": {
+        "head": ["", "Countable (plural)", "Uncountable"],
+        "rows": [
+          ["more than is good", "**too many** snacks", "**too much** sugar"],
+          ["less than you need", "**not enough** vegetables", "**not enough** sleep"],
+          ["the right amount", "**enough** vegetables", "**enough** water"]
+        ]
+      },
+      "rules": [
+        "**too many** + plural nouns: *too many cookies*. **too much** + uncountable nouns: *too much coffee*.",
+        "**enough** goes before a noun: *enough sleep* (not *sleep enough*). After a verb: *You don't sleep enough.*",
+        "**too much** can also come after a verb: *He works too much.*"
+      ],
+      "examples": ["I eat too many cookies.", "There's too much salt in this soup.", "We don't have enough time.", "You don't drink enough water."],
+      "support": {
+        "tr": "too many = çok fazla (sayılabilen, çoğul isimlerle: too many snacks), too much = çok fazla (sayılamayan isimlerle: too much sugar). not enough = yeterli değil: not enough sleep. enough isimden önce gelir (enough water), fiilden sonra gelir (You don't sleep enough). Hatırla: too = bir sorun var.",
+        "ar": "too many = كثير جدًّا (مع المعدود الجمع: too many snacks)، too much = كثير جدًّا (مع غير المعدود: too much sugar). not enough = غير كافٍ: not enough sleep. تأتي enough قبل الاسم (enough water) وبعد الفعل (You don't sleep enough). تذكّر: too = توجد مشكلة."
+      },
+      "watchOut": {
+        "tr": {
+          "note": "much / many karıştırılmaz; enough isimden önce gelir.",
+          "wrong": ["I eat too much cookies.", "I don't have time enough."],
+          "right": ["I eat too many cookies.", "I don't have enough time."]
+        },
+        "ar": {
+          "note": "sugar و coffee غير معدودة: too much.",
+          "wrong": ["There are too many sugar in this tea.", "He drinks too many coffee."],
+          "right": ["There's too much sugar in this tea.", "He drinks too much coffee."]
+        }
+      }
+    },
+    {
+      "type": "exercise",
+      "kind": "gapfill",
+      "title": "Practice",
+      "instructions": "Complete with too much, too many or enough.",
+      "bank": ["too much", "too many", "enough"],
+      "items": [
+        "I drink five cups of coffee a day. That's {too much} coffee.",
+        "Lucas eats {too many} cookies. Ten a day!",
+        "I sleep only five hours. I don't sleep {enough}.",
+        "There's {too much} sugar in this drink. Nine teaspoons!",
+        "There are {too many} people on the bus. I can't get on!",
+        "We have only ten minutes. That isn't {enough} time for lunch."
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Choose",
+      "instructions": "Choose the correct word.",
+      "items": [
+        { "prompt": "How ___ hours do you sleep?", "options": ["much", "many"], "answer": 1 },
+        { "prompt": "There aren't ___ chairs for everyone.", "options": ["enough", "too much"], "answer": 0 },
+        { "prompt": "You work ___. You should rest.", "options": ["too much", "too many"], "answer": 0 },
+        { "prompt": "Is there ___ milk for my tea?", "options": ["enough", "many"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "matching",
+      "title": "What's the problem?",
+      "instructions": "Match the habit and the problem.",
+      "pairs": [
+        ["I sleep five hours a night.", "That's not enough sleep."],
+        ["I drink six cups of coffee a day.", "That's too much coffee."],
+        ["I eat three bags of chips a day.", "That's too many snacks."],
+        ["I walk ten minutes a week.", "That isn't enough exercise."],
+        ["I look at my phone for nine hours a day.", "That's too much screen time."]
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "mcq",
+      "title": "Listen and choose",
+      "instructions": "Listen and choose the answer.",
+      "items": [
+        { "audio": "OK, from Monday, only two cups of coffee a day. And only one spoon of sugar!", "voice": "elif", "prompt": "Elif is going to …", "options": ["drink more coffee", "drink less coffee", "stop drinking coffee"], "answer": 1 },
+        { "audio": "I'm going to stop playing the guitar at eleven. Then I can sleep eight hours.", "voice": "lucas", "prompt": "Lucas wants to …", "options": ["sleep more", "play more", "get up earlier"], "answer": 0 },
+        { "audio": "Too many cookies? In my café? Impossible! But, well, we have fruit now too.", "voice": "sam", "prompt": "What's new at Sam's café?", "options": ["fruit", "soda", "bigger cookies"], "answer": 0 },
+        { "audio": "On Monday nights I work and I don't sleep at all, so on Tuesday I go to bed at eight.", "voice": "omar", "prompt": "When does Omar go to bed early?", "options": ["on Monday", "on Tuesday", "on Sunday"], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "kind": "wordorder",
+      "title": "Make sentences",
+      "instructions": "Put the words in order.",
+      "items": ["That's too much coffee.", "I don't sleep enough.", "You should drink more water.", "There's too much sugar in it."]
+    },
+    {
+      "type": "exercise",
+      "kind": "dictation",
+      "title": "Listen and write",
+      "instructions": "Listen and write the sentence.",
+      "items": [
+        { "text": "That's not enough sleep!", "voice": "maya" },
+        { "text": "I eat too many snacks.", "voice": "maya" },
+        { "text": "I always take the stairs.", "voice": "omar" }
+      ]
+    },
+    {
+      "type": "writing",
+      "title": "Write: My habits",
+      "model": {
+        "heading": "The good and the bad — Omar",
+        "text": [
+          "My good habits: I walk to the hospital every day, and I always take the stairs.",
+          "I eat a lot of vegetables, and I never drink soda.",
+          "My bad habits: I drink too much coffee, especially at work.",
+          "On Monday nights, I don't get enough sleep. And I eat too many dates!",
+          "My plan: from next week, only two coffees a day.",
+          "And I'm going to go to bed earlier on Sundays."
+        ]
+      },
+      "frame": ["My good habits: I ___ every day.", "My bad habits: I ___ too much / too many ___.", "I don't ___ enough.", "My plan: I'm going to ___."],
+      "prompt": "Write about your habits (6 to 8 sentences): sleep, food, drinks, exercise, screen time. What do you want to change?",
+      "minWords": 50,
+      "checklist": ["I use too much or too many.", "I use (not) enough.", "I write one plan with going to."]
+    },
+    { "type": "wrapup", "title": "Can you do it?" }
+  ]
+}

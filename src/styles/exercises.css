@@ -59,6 +59,13 @@
   font-family: var(--font-read);
   font-size: 1.12rem;
 }
+.choices__hint {
+  flex-basis: 100%;
+  padding-left: calc(1.4em + 10px);
+  margin-top: -6px;
+  color: var(--pen);
+  font-size: 0.95rem;
+}
 .choices__prompt::before {
   content: counter(q) '.';
   font-family: var(--font-num);
@@ -371,4 +378,22 @@
   font-weight: 700;
   text-decoration: underline wavy;
   text-underline-offset: 0.25em;
+}
+
+/* Resimli sorular: resim solda, soru ve şıklar sağında */
+.choices__item.has-pic {
+  grid-template-columns: 112px 1fr;
+  column-gap: 16px;
+  align-items: center;
+}
+.choices__item.has-pic .choices__pic {
+  grid-row: span 3;
+  --pic-paper: var(--bg);
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  background: var(--bg);
+}
+.choices__item.has-pic .choices__options {
+  padding-left: 0;
 }

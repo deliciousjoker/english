@@ -166,7 +166,7 @@
       "kind": "wordorder",
       "title": "Make sentences",
       "instructions": "Put the words in order.",
-      "items": ["When are you leaving for New York?", "I'm flying to Amman tomorrow.", "Have a good trip!", "What are you doing this weekend?"]
+      "items": ["When are you leaving for New York?", "I'm flying to Amman tomorrow.|Tomorrow I'm flying to Amman.", "Have a good trip!", "What are you doing this weekend?"]
     },
     {
       "type": "exercise",

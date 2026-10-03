@@ -160,3 +160,19 @@ html.is-presenting .sitefoot {
   color: #fff;
   animation: pulse 1s ease-in-out infinite;
 }
+
+/* Sunumda yazı: tıklanan yere açılan kutu; Enter ile tuvale geçer */
+.drawlayer--text.is-on {
+  cursor: text;
+}
+.drawtext {
+  position: absolute;
+  z-index: 6;
+  min-width: 0;
+  border-style: dashed;
+  border-color: currentColor;
+  border-radius: 2px;
+  background: color-mix(in srgb, var(--bg) 70%, transparent);
+  outline: none;
+  line-height: 1;
+}

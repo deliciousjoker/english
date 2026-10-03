@@ -187,7 +187,7 @@
       "title": "Make sentences",
       "instructions": "Put the words in order.",
       "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
-      "items": ["I'm writing an email to my friend.", "I'm very busy these days.", "Please write back soon!"]
+      "items": ["I'm writing an email to my friend.", "I'm very busy these days.|These days I'm very busy.", "Please write back soon!"]
     },
     {
       "type": "exercise",

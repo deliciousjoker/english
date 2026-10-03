@@ -166,12 +166,12 @@
       "support": { "tr": "Kelimelerle tamamla.", "ar": "أكمل بالكلمات." },
       "bank": ["boots", "coat", "size", "scarf", "jeans", "sweater"],
       "items": [
-        "It's snowing. Wear your {boots}.",
-        "Elif's new {coat} is blue and very warm.",
+        "It's snowing, and my feet are cold. Where are my {boots}?",
+        "Elif's new {coat} is long and warm, and it has two big pockets.",
         "What {size} are you? — Small.",
-        "Maya is wearing a red dress and a big {scarf}.",
+        "Maya is wearing a red dress and a big {scarf} around her neck.",
         "I usually wear a T-shirt and {jeans}.",
-        "It's cold in the house, so I'm wearing a {sweater}."
+        "It's cold in the house, so I'm wearing a {sweater} over my T-shirt."
       ]
     },
     {

@@ -178,7 +178,7 @@
       "title": "Make sentences",
       "instructions": "Put the words in order.",
       "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
-      "items": ["She runs in the park.", "He goes to the mosque on Fridays.", "Omar has a busy week.", "Sam works on Saturdays."]
+      "items": ["She runs in the park.", "He goes to the mosque on Fridays.|On Fridays he goes to the mosque.", "Omar has a busy week.", "Sam works on Saturdays.|On Saturdays Sam works."]
     },
     {
       "type": "exercise",

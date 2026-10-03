@@ -8,6 +8,8 @@ import { SaveWordButton } from '../ui/SaveWordButton'
 import { Icon } from '../ui/Icon'
 import { wordKey } from '../../lib/text'
 import { useWordbook, wordbook } from '../../state/words'
+import { picForWord } from '../../illustrations/pics'
+import { Pic } from '../ui/Pic'
 
 /** Örnek cümlede kelimenin geçtiği yeri kalın gösterir. */
 function Highlight({ text, word }: { text: string; word: string }) {
@@ -55,6 +57,7 @@ export function VocabularySection({ section, id, index }: { section: VocabData; 
       <ul className="vocab">
         {section.items.map((v, i) => (
           <li key={v.word} className="vocab__item">
+            {picForWord(v.word) && <Pic name={picForWord(v.word)!} className="vocab__pic" decorative />}
             <div className="vocab__top">
               <span className="vocab__word">{v.word}</span>
               <span className="vocab__buttons">

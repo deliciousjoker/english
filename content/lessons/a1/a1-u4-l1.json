@@ -191,7 +191,7 @@
       "title": "Make sentences",
       "instructions": "Put the words in order.",
       "support": { "tr": "Kelimeleri doğru sıraya koy.", "ar": "رتّب الكلمات." },
-      "items": ["There's a lamp on the desk.", "Are there any plants?", "There isn't a TV.", "There are two big windows."]
+      "items": ["There's a lamp on the desk.|On the desk there's a lamp.", "Are there any plants?", "There isn't a TV.", "There are two big windows."]
     },
     {
       "type": "exercise",

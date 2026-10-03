@@ -36,6 +36,8 @@ const PATHS = {
   eraser: 'M8.5 19.5h11M4.5 15l9-9 5 5-8.5 8.5H9zM9 10.5l5 5',
   bookmarkOn: 'M6.5 3.5h11v17l-5.5-4-5.5 4z',
   trash: 'M4.5 6.5h15M9.5 6.5V4h5v2.5M6.5 6.5l1 13.5h9l1-13.5',
+  text: 'M5 6.5V4.5h14v2M12 4.5v15M9 19.5h6',
+  undo: 'M9 5.5L4.5 10 9 14.5M4.5 10h10a5 5 0 0 1 0 10H11',
 } as const
 
 export type IconName = keyof typeof PATHS
